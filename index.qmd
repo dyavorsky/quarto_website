@@ -1,6 +1,6 @@
 ---
 title: "Dan Yavorsky"
-image: images/UCLA_2022_profile_pic.jpg
+image: profile_pic.jpg
 about:
   template: trestles
   image-shape: round
