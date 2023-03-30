@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Dan Yavorsky",
+    "section": "",
+    "text": "SVP, Analytics | GBK Collective\nLecturer | UCLA Anderson\nLecturer | UCSD Rady"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#work-history",
+    "href": "index.html#work-history",
+    "title": "Dan Yavorsky",
+    "section": "Work History",
+    "text": "Work History\n\nGBK Collective | 2021 - Present\nBain & Co | 2020 - 2021\nCornerstone Research | 2006 - 2014"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Dan Yavorsky",
+    "section": "Education",
+    "text": "Education\n\nPhD Quant. Marketing | UCLA Anderson 2020\nMBA Management | UCLA Anderson 2014\nBA Economics & Mathematics | CMC 2006"
+  }
+]

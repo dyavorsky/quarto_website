@@ -1,0 +1,43 @@
+---
+title: "Dan Yavorsky"
+image: "https://www.anderson.ucla.edu/sites/default/files/styles/max_1300x1300/public/image/2022-10/dan-yavorsky-sq.jpg?itok=uuQFwYfP"
+about:
+  template: trestles
+  image-shape: round
+  links:
+    - icon: envelope
+      href: mailto:dyavorsky@gmail.com
+    - icon: linkedin
+      href: https://www.linkedin.com/in/dyavorsky/
+    - icon: twitter
+      href: https://twitter.com/dyavorsky
+    - icon: github
+      href: https://github.com/dyavorsky
+    - icon: stack-overflow
+      href: https://stackoverflow.com/users/4573108/dany
+    - icon: mortarboard-fill
+      href: https://scholar.google.com/citations?user=E2qzlUYAAAAJ&hl=en
+---
+
+## Currently
+
+ - SVP, Analytics | GBK Collective
+ - Lecturer | UCLA Anderson
+ - Lecturer | UCSD Rady
+
+## Work History
+
+ - GBK Collective | 2021 - Present
+ - Bain & Co | 2020 - 2021
+ - Cornerstone Research | 2006 - 2014 
+
+## Education
+
+ - PhD Quant. Marketing | UCLA Anderson 2020
+ - MBA Management | UCLA Anderson 2014
+ - BA Economics & Mathematics | CMC 2006
+
+
+
+
+
