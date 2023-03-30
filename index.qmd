@@ -1,6 +1,6 @@
 ---
 title: "Dan Yavorsky"
-image: "https://www.anderson.ucla.edu/sites/default/files/styles/max_1300x1300/public/image/2022-10/dan-yavorsky-sq.jpg?itok=uuQFwYfP"
+image: images/UCLA_2022_profile_pic.jpg
 about:
   template: trestles
   image-shape: round
@@ -17,6 +17,8 @@ about:
       href: https://stackoverflow.com/users/4573108/dany
     - icon: mortarboard-fill
       href: https://scholar.google.com/citations?user=E2qzlUYAAAAJ&hl=en
+    - icon: person-check-fill
+      href: https://orcid.org/0000-0003-4095-6405
 ---
 
 ## Currently
