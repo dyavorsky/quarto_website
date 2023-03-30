@@ -1,7 +1,11 @@
 project:
   type: website
   output-dir: docs
+<<<<<<< HEAD
   resources: images/
+=======
+  resources: images
+>>>>>>> 2a5bafee03a9f8123b274791567eb6968e38a810
 
 website:
   title: "DanYav"
