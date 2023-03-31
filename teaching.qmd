@@ -7,24 +7,24 @@ title: "Teaching"
 ### 2023
 
 UCSD MGT 100: Customer Analytics  
-`r fontawesome::fa("globe")` [Winter 2023](https://canvas.ucsd.edu/courses/42901)  
-`r fontawesome::fa("globe")` [Summer 2023]()
+Winter 2023: [`r fontawesome::fa("globe")` Bruinlearn](https://canvas.ucsd.edu/courses/42901)  
+Summer 2023: [`r fontawesome::fa("globe")` Bruinlearn]()
 
 UCLA MFE 402: Econometrics  
-`r fontawesome::fa("globe")` [Fall 2023]()
+Fall 2023: [`r fontawesome::fa("globe")` Canvas]() [`r fontawesome::fa("person-chalkboard")` Slides]()
 
 -----
 
 ### 2022
 
 UCSD MGT 100: Customer Analytics  
-`r fontawesome::fa("globe")` [Winter 2022](https://canvas.ucsd.edu/courses/34511)
+Winter 2022: [`r fontawesome::fa("globe")` Canvas](https://canvas.ucsd.edu/courses/34511)
 
 UCLA EMBA 411: Marketing Strategy and Policy  
-`r fontawesome::fa("globe")` [Spring 2022](https://bruinlearn.ucla.edu/courses/132017)
+Spring 2022: [`r fontawesome::fa("globe")` Bruinlearn](https://bruinlearn.ucla.edu/courses/132017)
 
 UCSD MGT 153: Business Analytics  
-`r fontawesome::fa("globe")` [Summer 2022](https://canvas.ucsd.edu/courses/38313)
+Summer 2022: [`r fontawesome::fa("globe")` Canvas](https://canvas.ucsd.edu/courses/38313)
 
 UCLA MFE 402: Econometrics  
-`r fontawesome::fa("globe")` [Fall 2022](https://bruinlearn.ucla.edu/courses/142381)
+Fall 2022: [`r fontawesome::fa("globe")` Bruinlearn](https://bruinlearn.ucla.edu/courses/142381)
