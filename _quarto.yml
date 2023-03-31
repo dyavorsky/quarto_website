@@ -8,10 +8,11 @@ website:
     background: "#536878"
     left:
       - href: index.qmd
-        text: Home
+        text: About
       - teaching.qmd
-      - research.qmd
-      - blog.qmd
+      - publications.qmd
+      - href: mrci.qmd
+        text: MR & CI
 
 format:
   html:

@@ -18,21 +18,21 @@
     "href": "index.html#education",
     "title": "Dan Yavorsky",
     "section": "Education",
-    "text": "Education\n\nPhD Quant. Marketing | UCLA Anderson 2020\nMBA Management | UCLA Anderson 2014\nBA Economics & Mathematics | CMC 2006"
+    "text": "Education\n\nPhD Quant. Marketing | UCLA Anderson 2020\nMBA Management | UCLA Anderson 2014\nCFA Charterholder (inactive) | CFA Institute 2012\nBA Economics & Mathematics | CMC 2006"
   },
   {
     "objectID": "teaching.html",
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "2023\nUCSD MGT 100: Customer Analytics\n Winter 2023\n Summer 2023\nUCLA MFE 402: Econometrics\n Fall 2023\n\n\n\n2022\nUCSD MGT 100: Customer Analytics\n Winter 2022\nUCLA EMBA 411: Marketing Strategy and Policy\n Spring 2022\nUCSD MGT 153: Business Analytics\n Summer 2022\nUCLA MFE 402: Econometrics\n Fall 2022"
   },
   {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Co-Author\n\nConsumer Search in the U.S. Auto Industry: The Role of Dealership Visits\nDan Yavorsky, Elisabeth Honka, and Keith Chen\nQuantitative Marketing and Economics (2021)\n\n\n\n\nContributor\n\nThe Sequential Search Model:A Framework for Empirical Research\nRaluca Ursu, Stephan Seiler, and Elisabeth Honka\nWorking Paper (2023)\n\n\nThe Value of Flexible Work: Evidence from Uber Drivers\nKeith Chen, Judy Chevalier, Peter Rossi, and Emily Oehlsen\nJournal of Political Economy (2019)"
   },
   {
     "objectID": "blog.html",
@@ -40,5 +40,54 @@
     "title": "Blog",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "My Blog",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Co-Author\n\nConsumer Search in the U.S. Auto Industry: The Role of Dealership Visits\nDan Yavorsky, Elisabeth Honka, and Keith Chen\nQuantitative Marketing and Economics (2021)\n\n\n\n\nContributor\n\nThe Sequential Search Model:A Framework for Empirical Research\nRaluca Ursu, Stephan Seiler, and Elisabeth Honka\nWorking Paper (2023)\n\n\nThe Value of Flexible Work: Evidence from Uber Drivers\nKeith Chen, Judy Chevalier, Peter Rossi, and Emily Oehlsen\nJournal of Political Economy (2019)\n\n\nggplot2: Elegant Graphics for Data Analysis\nHadley Wickham, Danielle Navarro, and Thomas Lin Pedersen\nSpringer"
+  },
+  {
+    "objectID": "train_dcm.html",
+    "href": "train_dcm.html",
+    "title": "R Companion",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "train_dcm/ch1-introduction/index.html",
+    "href": "train_dcm/ch1-introduction/index.html",
+    "title": "Chapter 1",
+    "section": "",
+    "text": "CitationBibTeX citation:@online{yavorsky2023,\n  author = {Dan Yavorsky},\n  title = {Chapter 1},\n  date = {2023-03-31},\n  url = {https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nDan Yavorsky. 2023. “Chapter 1.” March 31, 2023. https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/."
+  },
+  {
+    "objectID": "mrci.html",
+    "href": "mrci.html",
+    "title": "Marketing Research and Consumer Insights",
+    "section": "",
+    "text": "Topic 2\n\n\ndescription\n\n\n\nDan Yavorsky\n\n\nApr 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTopic 1\n\n\ndescription\n\n\n\nDan Yavorsky\n\n\nMar 31, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications.html#co-author",
+    "href": "publications.html#co-author",
+    "title": "Publications",
+    "section": "Co-Author",
+    "text": "Co-Author\n\nConsumer Search in the U.S. Auto Industry: The Role of Dealership Visits\nDan Yavorsky, Elisabeth Honka, and Keith Chen\nQuantitative Marketing and Economics (2021)"
+  },
+  {
+    "objectID": "publications.html#contributor",
+    "href": "publications.html#contributor",
+    "title": "Publications",
+    "section": "Contributor",
+    "text": "Contributor\n\nThe Sequential Search Model:A Framework for Empirical Research\nRaluca Ursu, Stephan Seiler, and Elisabeth Honka\nWorking Paper (2023)\n\n\nThe Value of Flexible Work: Evidence from Uber Drivers\nKeith Chen, Judy Chevalier, Peter Rossi, and Emily Oehlsen\nJournal of Political Economy (2019)\n\n\nggplot2: Elegant Graphics for Data Analysis\nHadley Wickham, Danielle Navarro, and Thomas Lin Pedersen\nSpringer"
   }
 ]

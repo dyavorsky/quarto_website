@@ -7,6 +7,8 @@ about:
   links:
     - icon: envelope
       href: mailto:dyavorsky@gmail.com
+    - icon: building
+      href: https://www.gbkcollective.com/team-profiles/danyavorsky
     - icon: linkedin
       href: https://www.linkedin.com/in/dyavorsky/
     - icon: twitter
@@ -19,13 +21,18 @@ about:
       href: https://scholar.google.com/citations?user=E2qzlUYAAAAJ&hl=en
     - icon: person-check-fill
       href: https://orcid.org/0000-0003-4095-6405
+format:
+    html:
+        page-layout: full
 ---
 
-## Currently
+## Current
 
  - SVP, Analytics | GBK Collective
  - Lecturer | UCLA Anderson
  - Lecturer | UCSD Rady
+
+-----
 
 ## Work History
 
@@ -33,11 +40,15 @@ about:
  - Bain & Co | 2020 - 2021
  - Cornerstone Research | 2006 - 2014 
 
+-----
+
 ## Education
 
  - PhD Quant. Marketing | UCLA Anderson 2020
  - MBA Management | UCLA Anderson 2014
+ - CFA Charterholder (inactive) | CFA Institute 2012
  - BA Economics & Mathematics | CMC 2006
+
 
 
 

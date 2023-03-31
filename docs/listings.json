@@ -1,0 +1,17 @@
+[
+  {
+    "listing": "/posts.html",
+    "items": []
+  },
+  {
+    "listing": "/train_dcm.html",
+    "items": []
+  },
+  {
+    "listing": "/mrci.html",
+    "items": [
+      "/mrci/2023-04-01-topic2/index.html",
+      "/mrci/2023-03-31-topic1/index.html"
+    ]
+  }
+]

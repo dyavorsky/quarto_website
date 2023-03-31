@@ -10,5 +10,29 @@
   },
   "blog.qmd": {
     "blog.html": "39526746"
+  },
+  "posts.qmd": {
+    "posts.html": "a0a2397d"
+  },
+  "publications.qmd": {
+    "publications.html": "fa6861e1"
+  },
+  "train_dcm.qmd": {
+    "train_dcm.html": "ebae5ad5"
+  },
+  "train_dcm/ch1-introduction/index.qmd": {
+    "index.html": "590a8b22"
+  },
+  "mrci/ch1-introduction/index.qmd": {
+    "index.html": "ae0124c9"
+  },
+  "mrci.qmd": {
+    "mrci.html": "c4fe8bcf"
+  },
+  "mrci/2023-03-31-topic1/index.qmd": {
+    "index.html": "c3f9cbcc"
+  },
+  "mrci/2023-04-01-topic2/index.qmd": {
+    "index.html": "cc07cedd"
   }
 }

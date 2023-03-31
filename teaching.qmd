@@ -2,10 +2,29 @@
 title: "Teaching"
 ---
 
-This is a Quarto website.
+-----
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+### 2023
 
-```{r}
-1 + 1
-```
+UCSD MGT 100: Customer Analytics  
+`r fontawesome::fa("globe")` [Winter 2023](https://canvas.ucsd.edu/courses/42901)  
+`r fontawesome::fa("globe")` [Summer 2023]()
+
+UCLA MFE 402: Econometrics  
+`r fontawesome::fa("globe")` [Fall 2023]()
+
+-----
+
+### 2022
+
+UCSD MGT 100: Customer Analytics  
+`r fontawesome::fa("globe")` [Winter 2022](https://canvas.ucsd.edu/courses/34511)
+
+UCLA EMBA 411: Marketing Strategy and Policy  
+`r fontawesome::fa("globe")` [Spring 2022](https://bruinlearn.ucla.edu/courses/132017)
+
+UCSD MGT 153: Business Analytics  
+`r fontawesome::fa("globe")` [Summer 2022](https://canvas.ucsd.edu/courses/38313)
+
+UCLA MFE 402: Econometrics  
+`r fontawesome::fa("globe")` [Fall 2022](https://bruinlearn.ucla.edu/courses/142381)
