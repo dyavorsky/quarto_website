@@ -13,6 +13,8 @@ website:
       - publications.qmd
       - href: mrci.qmd
         text: MR & CI
+      - href: dcms.qmd
+        text: R-DCMS
 
 format:
   html:

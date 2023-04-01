@@ -89,5 +89,26 @@
     "title": "Publications",
     "section": "Contributor",
     "text": "Contributor\n\nThe Sequential Search Model:A Framework for Empirical Research\nRaluca Ursu, Stephan Seiler, and Elisabeth Honka\nWorking Paper (2023)\n\n\nThe Value of Flexible Work: Evidence from Uber Drivers\nKeith Chen, Judy Chevalier, Peter Rossi, and Emily Oehlsen\nJournal of Political Economy (2019)\n\n\nggplot2: Elegant Graphics for Data Analysis\nHadley Wickham, Danielle Navarro, and Thomas Lin Pedersen\nSpringer"
+  },
+  {
+    "objectID": "dcms/intro.html",
+    "href": "dcms/intro.html",
+    "title": "DanYav",
+    "section": "",
+    "text": "this is the intro"
+  },
+  {
+    "objectID": "dcms/index.html",
+    "href": "dcms/index.html",
+    "title": "DanYav",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "dcms/logit.html",
+    "href": "dcms/logit.html",
+    "title": "DanYav",
+    "section": "",
+    "text": "let’s learn about logit"
   }
 ]

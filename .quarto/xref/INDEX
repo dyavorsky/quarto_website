@@ -34,5 +34,17 @@
   },
   "mrci/2023-04-01-topic2/index.qmd": {
     "index.html": "cc07cedd"
+  },
+  "dcms.qmd": {
+    "dcms.html": "2e353f48"
+  },
+  "dcms/intro.qmd": {
+    "intro.html": "63e77228"
+  },
+  "dcms/index.qmd": {
+    "index.html": "092f5271"
+  },
+  "dcms/logit.qmd": {
+    "logit.html": "71f21646"
   }
 }

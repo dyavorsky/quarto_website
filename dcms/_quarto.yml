@@ -1,0 +1,16 @@
+project:
+  type: book
+
+book:
+  title: "R Companion"
+  subtitle: "*Discrete Choice Methods with Simulation*"
+  author: "Dan Yavorsky"
+  date: "3/31/2023"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - logit.qmd
+
+format:
+  html:
+    theme: cosmo
