@@ -46,5 +46,26 @@
   },
   "dcms/logit.qmd": {
     "logit.html": "71f21646"
+  },
+  "mrci/2023-03-31-key-drivers/index.qmd": {
+    "index.html": "dfa42004"
+  },
+  "mrci/2023-04-02-conjoint/index.qmd": {
+    "index.html": "6f8f6347"
+  },
+  "mrci/2023-04-06-pca-efa/index.qmd": {
+    "index.html": "3aa8c4ad"
+  },
+  "mrci/2023-04-03-clustering/index.qmd": {
+    "index.html": "728d638f"
+  },
+  "mrci/2023-04-05-sem/index.qmd": {
+    "index.html": "3c122862"
+  },
+  "mrci/2023-04-01-maxdiff/index.qmd": {
+    "index.html": "0908c04b"
+  },
+  "mrci/2023-04-04-mmm/index.qmd": {
+    "index.html": "b1127b11"
   }
 }
