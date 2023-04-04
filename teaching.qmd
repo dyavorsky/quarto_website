@@ -8,10 +8,10 @@ title: "Teaching"
 
 UCSD MGT 100: Customer Analytics  
 Winter 2023: [`r fontawesome::fa("globe")` Bruinlearn](https://canvas.ucsd.edu/courses/42901)  
-Summer 2023: [`r fontawesome::fa("globe")` Bruinlearn](https://www.dropbox.com/sh/jeihncmy3429bmr/AAC0F3LCOmF8njJTpKWgnCXIa?dl=0)
+Summer 2023: [`r fontawesome::fa("globe")` Bruinlearn]()
 
 UCLA MFE 402: Econometrics  
-Fall 2023: [`r fontawesome::fa("globe")` Canvas]() [`r fontawesome::fa("person-chalkboard")` Slides]()
+Fall 2023: [`r fontawesome::fa("globe")` Canvas]() [`r fontawesome::fa("person-chalkboard")` Slides](https://www.dropbox.com/sh/jeihncmy3429bmr/AAC0F3LCOmF8njJTpKWgnCXIa?dl=0)
 
 -----
 
