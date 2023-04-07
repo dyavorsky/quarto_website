@@ -1,5 +1,5 @@
 ---
-title: "Marketing Research and Consumer Insights"
+title: "Market Research and Consumer Insights"
 subtitle: "subtitle"
 listing: 
   contents: mrci # all Quarto docs in the `posts` directory will be included on your listing page
