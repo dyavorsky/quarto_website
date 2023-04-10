@@ -19,7 +19,7 @@ Dan Yavorsky,
 
 ## Contributor
 
-#### [The Sequential Search Model:A Framework for Empirical Research](https://www.anderson.ucla.edu/sites/default/files/document/2023-01/UrsuSeilerHonka_Jan2023.pdf)
+#### [The Sequential Search Model: A Framework for Empirical Research](https://www.anderson.ucla.edu/sites/default/files/document/2023-01/UrsuSeilerHonka_Jan2023.pdf)
 
 [Raluca Ursu](https://sites.google.com/a/stern.nyu.edu/rursu/),
 [Stephan Seiler](https://www.seilerstephan.com/), and
