@@ -1,11 +1,18 @@
-
-
 /*-- scss:defaults --*/
-$theme-gray: #01364C;
+$gray-text:#bdbdbd;
+$ucla-blue: #2774AE;
+$ucla-gold: #FFD100;
+$ucsd-blue: #182B49;
+$ucsd-gold: #FFCD00;
+$gbk-darkblue: #3B4954;
+$gbk-blue: #789FC0; 
+$gbk-lightblue: #C7D8E4;
+$gbk-pink: #F76362;
+$gbk-lightpink: #F9BDBC;
+
 
 /*-- scss:rules --*/
-
-.gray {
-  color: $theme-gray;
+.gray{
+  color: $gray-text;
 }
 

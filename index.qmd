@@ -36,18 +36,18 @@ format:
 
 ## Work History
 
- - GBK Collective | 2021 - Present
- - Bain & Co | 2020 - 2021
- - Cornerstone Research | 2006 - 2014 
+ - GBK Collective [| 2021 - Present]{.gray}
+ - Bain & Co [| 2020 - 2021]{.gray}
+ - Cornerstone Research [| 2006 - 2014 ]{.gray}
 
 -----
 
 ## Education
 
- - PhD Quant. Marketing | [UCLA Anderson 2020]{.gray}
- - MBA Management | UCLA Anderson 2014
- - CFA Charterholder (inactive) | CFA Institute 2012
- - BA Economics & Mathematics | CMC 2006
+ - PhD Quant. Marketing [| UCLA Anderson 2020]{.gray}
+ - MBA Management [| UCLA Anderson 2014]{.gray}
+ - CFA Charterholder (inactive) [| CFA Institute 2012]{.gray}
+ - BA Economics & Mathematics [| CMC 2006]{.gray}
 
 
 
