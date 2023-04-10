@@ -1,6 +1,6 @@
 ---
 title: "Dan Yavorsky"
-image: profile_pic.jpg
+image: images/profile_pic.jpg
 about:
   template: trestles
   image-shape: round
@@ -44,7 +44,7 @@ format:
 
 ## Education
 
- - PhD Quant. Marketing | UCLA Anderson 2020
+ - PhD Quant. Marketing | [UCLA Anderson 2020]{.gray}
  - MBA Management | UCLA Anderson 2014
  - CFA Charterholder (inactive) | CFA Institute 2012
  - BA Economics & Mathematics | CMC 2006

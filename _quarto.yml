@@ -1,9 +1,12 @@
 project:
   type: website
   output-dir: docs
+  resources: 
+    - images/
 
 website:
-  title: "DanYav"
+  title: "Dan Yavorsky"
+  favicon: /images/favicon.ico
   navbar:
     background: "#536878"
     left:
@@ -18,7 +21,9 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      - cosmo
+      - custom.scss
     css: styles.css
     toc: true
 
