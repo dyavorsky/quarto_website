@@ -9,14 +9,7 @@
   },
   {
     "listing": "/mrci.html",
-    "items": [
-      "/mrci/2023-04-06-pca-efa/index.html",
-      "/mrci/2023-04-05-sem/index.html",
-      "/mrci/2023-04-04-mmm/index.html",
-      "/mrci/2023-04-03-clustering/index.html",
-      "/mrci/2023-04-02-conjoint/index.html",
-      "/mrci/2023-04-01-maxdiff/index.html"
-    ]
+    "items": []
   },
   {
     "listing": "/teaching.html",

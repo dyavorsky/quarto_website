@@ -1,6 +1,6 @@
 ---
 title: "Market Research and Consumer Insights"
-subtitle: "subtitle"
+subtitle: "Coming Soon"
 listing: 
   contents: mrci # all Quarto docs in the `mrci` directory will be included on your listing page
   type: grid # or `default` or `table` or `grid'; each type has its own set of yaml options to include
