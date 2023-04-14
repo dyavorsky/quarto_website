@@ -2,7 +2,7 @@
 title: "Market Research and Consumer Insights"
 subtitle: "subtitle"
 listing: 
-  contents: mrci # all Quarto docs in the `posts` directory will be included on your listing page
+  contents: mrci # all Quarto docs in the `mrci` directory will be included on your listing page
   type: grid # or `default` or `table` or `grid'; each type has its own set of yaml options to include
   sort: "date desc" # can also sort on more than one field
   categories: false # allows you to sort posts by assigned categories 

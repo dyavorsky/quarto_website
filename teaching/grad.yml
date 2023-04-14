@@ -1,0 +1,17 @@
+- title: Econometrics
+  description: "A broad introduction to major classes of statistical methods used by economists with implementation in R"
+  university: UCLA
+  number: MFE 402
+  logo: teaching/logos/Econometrics.png
+  semester:
+  - name: Fall 2022
+    url: https://bruinlearn.ucla.edu/courses/142381
+    
+- title: Marketing Strategy and Policy
+  description: "A solid foundation for strategic marketing thinking; an introduction to a series of frameworks and tools that may be used to solve marketing problems"
+  university: UCLA
+  number: EMBA 411
+  logo: teaching/logos/MarketingStrategyandPolicy.png
+  semester:
+  - name: Winter 2022
+    url: https://bruinlearn.ucla.edu/courses/132017

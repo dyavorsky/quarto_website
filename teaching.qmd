@@ -1,30 +1,32 @@
 ---
 title: "Teaching"
+listing:
+  - id: grad
+    contents: grad.yml
+    sort: "date desc"
+    template: teaching/formatting_template/listing.ejs
+  - id: undergrad
+    contents: undergrad.yml
+    sort: "date desc"
+    template: teaching/formatting_template/listing.ejs
+title-block-banner: "#35444E"
+page-layout: full
+toc: true
+toc-location: right
+toc-title: Academic year
 ---
 
------
 
-### 2023
+## Graduate
 
-UCSD MGT 100: Customer Analytics  
-Winter 2023: [`r fontawesome::fa("globe")` Bruinlearn](https://canvas.ucsd.edu/courses/42901)  
-Summer 2023: [`r fontawesome::fa("globe")` Bruinlearn]()
+:::{#grad}
+:::
 
-UCLA MFE 402: Econometrics  
-Fall 2023: [`r fontawesome::fa("globe")` Canvas]() [`r fontawesome::fa("person-chalkboard")` Slides](https://www.dropbox.com/sh/jeihncmy3429bmr/AAC0F3LCOmF8njJTpKWgnCXIa?dl=0)
 
------
+## Undergraduate
 
-### 2022
+:::{#undergrad}
+:::
 
-UCSD MGT 100: Customer Analytics  
-Winter 2022: [`r fontawesome::fa("globe")` Canvas](https://canvas.ucsd.edu/courses/34511)
 
-UCLA EMBA 411: Marketing Strategy and Policy  
-Spring 2022: [`r fontawesome::fa("globe")` Bruinlearn](https://bruinlearn.ucla.edu/courses/132017)
 
-UCSD MGT 153: Business Analytics  
-Summer 2022: [`r fontawesome::fa("globe")` Canvas](https://canvas.ucsd.edu/courses/38313)
-
-UCLA MFE 402: Econometrics  
-Fall 2022: [`r fontawesome::fa("globe")` Bruinlearn](https://bruinlearn.ucla.edu/courses/142381)

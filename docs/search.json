@@ -25,7 +25,7 @@
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "2023\nUCSD MGT 100: Customer Analytics\nWinter 2023:  Bruinlearn\nSummer 2023:  Bruinlearn\nUCLA MFE 402: Econometrics\nFall 2023:  Canvas  Slides\n\n\n\n2022\nUCSD MGT 100: Customer Analytics\nWinter 2022:  Canvas\nUCLA EMBA 411: Marketing Strategy and Policy\nSpring 2022:  Bruinlearn\nUCSD MGT 153: Business Analytics\nSummer 2022:  Canvas\nUCLA MFE 402: Econometrics\nFall 2022:  Bruinlearn"
+    "text": "Econometrics \n            \n            \n                MFE 402 | \n                UCLA\n            \n            A broad introduction to major classes of statistical methods used by economists with implementation in R\n            \n                 Fall 2022\n            \n        \n    \n    \n        \n            \n        \n        \n            \n                Marketing Strategy and Policy \n            \n            \n                EMBA 411 | \n                UCLA\n            \n            A solid foundation for strategic marketing thinking; an introduction to a series of frameworks and tools that may be used to solve marketing problems\n            \n                 Winter 2022\n            \n        \n    \n\n\nNo matching items"
   },
   {
     "objectID": "research.html",
@@ -110,5 +110,19 @@
     "title": "DanYav",
     "section": "",
     "text": "let’s learn about logit"
+  },
+  {
+    "objectID": "teaching.html#graduate",
+    "href": "teaching.html#graduate",
+    "title": "Teaching",
+    "section": "Graduate",
+    "text": "Graduate\n\n\n    \n        \n            \n        \n        \n            \n                Econometrics \n            \n            \n                MFE 402 | \n                UCLA\n            \n            A broad introduction to major classes of statistical methods used by economists with implementation in R\n            \n                 Fall 2022\n            \n        \n    \n    \n        \n            \n        \n        \n            \n                Marketing Strategy and Policy \n            \n            \n                EMBA 411 | \n                UCLA\n            \n            A solid foundation for strategic marketing thinking; an introduction to a series of frameworks and tools that may be used to solve marketing problems\n            \n                 Winter 2022\n            \n        \n    \n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching.html#undergraduate",
+    "href": "teaching.html#undergraduate",
+    "title": "Teaching",
+    "section": "Undergraduate",
+    "text": "Undergraduate\n\n\n\n    \n        \n            \n        \n        \n            \n                Customer Analytics \n            \n            \n                MGT 100 | \n                UCSD\n            \n            Combine customer data, economic theory, and statistical modeling to improve business decision-making; implementation in R\n            \n                 Winter 2023\n                 Winter 2022\n            \n        \n    \n    \n        \n            \n        \n        \n            \n                Business Analytics \n            \n            \n                MGT 153 | \n                UCSD\n            \n            Develope proficiency with popular software to execute analytic techniques; Excel, Tableau, SQL, R, Python\n            \n                 Winter 2023\n            \n        \n    \n\n\nNo matching items"
   }
 ]

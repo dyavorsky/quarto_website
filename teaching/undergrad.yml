@@ -1,0 +1,19 @@
+- title: Customer Analytics
+  description: "Combine customer data, economic theory, and statistical modeling to improve business decision-making; implementation in R"
+  university: UCSD
+  number: MGT 100
+  logo: teaching/logos/CustomerAnalytics.png
+  semester:
+  - name: Winter 2023
+    url: https://canvas.ucsd.edu/courses/42901
+  - name: Winter 2022
+    url: https://canvas.ucsd.edu/courses/34511
+    
+- title: Business Analytics
+  description: "Develope proficiency with popular software to execute analytic techniques; Excel, Tableau, SQL, R, Python"
+  university: UCSD
+  number: MGT 153
+  logo: teaching/logos/BusinessAnalytics.png
+  semester:
+  - name: Winter 2023
+    url: https://canvas.ucsd.edu/courses/38313
