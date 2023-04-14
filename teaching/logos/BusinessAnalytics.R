@@ -16,7 +16,7 @@ sticker(
     h_fill = "#182B49",
     h_color = "#FFCD00",
     h_size = 1.25,
-    url = "     UCLA EMBA 411",
+    url = "     UCSD MGT 153",
     u_size = 8,
     u_color = "white",
     u_x = 1
