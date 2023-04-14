@@ -16,7 +16,7 @@ website:
       - publications.qmd
       - href: mrci.qmd
         text: MR & CI
-      - href: dcms.qmd
+      - href: dcms-r.danyavorsky.com
         text: R-DCMS
 
 format:
