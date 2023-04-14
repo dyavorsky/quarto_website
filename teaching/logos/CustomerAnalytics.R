@@ -3,21 +3,24 @@ library(magick)
 library(sysfonts)
 library(tidyverse)
 
-img <- image_read("under_development.png")
+img <- image_read("_customer.png")
 
 sticker(
     subplot = img,
-    package = "Customer\nAnalytics",
-    s_width = 0.5,
-    s_height = 0.5,
+    package = "Customer Analytics",
+    filename = "CustomerAnalytics.png",
+    s_width = 0.75,
+    s_height = 0.75,
     s_x = 1,
-    s_y = 0.75,
-    p_size = 17,
+    s_y = 0.85,
+    p_size = 14.5,
     h_fill = "#182B49",
     h_color = "#FFCD00",
     h_size = 1.25,
     url = "     UCSD MGT 100",
     u_size = 8,
     u_color = "white",
-    u_x = 1
+    u_x = 1,
+    u_y = 0.1,
+    dpi = 300
 ) |> print()
