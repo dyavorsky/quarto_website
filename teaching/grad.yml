@@ -4,8 +4,10 @@
   number: MFE 402
   logo: teaching/logos/Econometrics.png
   semester:
-  - name: Fall 2022
-    url: https://bruinlearn.ucla.edu/courses/142381
+  - name: Fall 2022.1
+    url: teaching/evals/ucla_mfe402_f22_1.pdf
+  - name: Fall 2022.2
+    url: teaching/evals/ucla_mfe402_f22_2.pdf
     
 - title: Marketing Strategy and Policy
   description: "A solid foundation for strategic marketing thinking; an introduction to a series of frameworks and tools that may be used to solve marketing problems"
