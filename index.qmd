@@ -36,7 +36,7 @@ format:
 
 ## Work History
 
- - GBK Collective [| 2021 - Present]{.gray}
+ - GBK Collective [| 2022 - Present]{.gray}
  - Bain & Co [| 2020 - 2021]{.gray}
  - Cornerstone Research [| 2006 - 2014 ]{.gray}
 
