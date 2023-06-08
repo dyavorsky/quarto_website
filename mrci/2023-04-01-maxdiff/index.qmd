@@ -1,5 +1,5 @@
 ---
-title: "MaxDiff"
+title: Best-Worst Scaling ("MaxDiff")
 description: "description"
 author:
   - name: Dan Yavorsky
@@ -8,3 +8,14 @@ author:
 date: 2023-04-01
 draft: true
 ---
+
+The term "MaxDiff" is short-hand for Maximum Difference Scaling, which is a particular implementation of Best-Worst scaling (BWS). The technique's inventor, Jordan Louviere, recommends use of the term BWS, but I will follow the colloquial use of the term "MaxDiff" here. 
+
+MaxDiff is a technique to acquire and assess stated preferences. This article will review the technique organized as five-step procedure. The researcher:
+
+1. prepares the set of items to be evaluated,
+2. constructs a design for how respondents will evaluate the items,
+3. asks respondents evaluate items by completing multiple choice tasks,
+4. analyzes the stated preference data, and 
+5. summarizes and presents insights from the analysis.
+
