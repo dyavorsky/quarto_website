@@ -9,5 +9,11 @@ date: 2023-03-01
 draft: true
 ---
 
-The term "stat testing"
+References:
+
+My GBK Training on t-test for two groups
+
+https://www.andrewheiss.com/blog/2019/01/29/diff-means-half-dozen-ways/
+
+https://vuorre.netlify.app/posts/2017-01-02-how-to-compare-two-groups-with-robust-bayesian-estimation-using-r-stan-and-brms/ 
 
