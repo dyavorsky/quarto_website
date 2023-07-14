@@ -4,9 +4,11 @@
   number: MGT 100
   logo: teaching/logos/CustomerAnalytics.png
   semester:
-  - name: Winter 2023
+  - name: Syllabus
+    url: teaching/syllabi/UCSD_MGT100_Syllabus_20230111.pdf
+  - name: Evals Winter 2023
     url: teaching/evals/ucsd_mgt100_w23.pdf
-  - name: Winter 2022
+  - name: Evals Winter 2022
     url: teaching/evals/ucsd_mgt100_w22.pdf
     
 - title: Business Analytics
@@ -15,5 +17,7 @@
   number: MGT 153
   logo: teaching/logos/BusinessAnalytics.png
   semester:
-  - name: Winter 2023
+  - name: Syllabus
+    url: teaching/syllabi/UCSD_MGT153_Syllabus_20220628.pdf
+  - name: Evals Winter 2023
     url: teaching/evals/ucsd_mgt153_u22.pdf
