@@ -1,5 +1,5 @@
 ---
-title: "A Few Things Worth Reading"
+title: "To Read"
 ---
 
 -----
@@ -8,14 +8,14 @@ title: "A Few Things Worth Reading"
 
  - [This is Water](https://web.ics.purdue.edu/~drkelly/DFWKenyonAddress2005.pdf) by David Foster Wallace
  - [A Mathematician's Lament](https://www.maa.org/external_archive/devlin/LockhartsLament.pdf) by Paul Lockhart
+ - [How to Send and Reply to email](https://matt.might.net/articles/how-to-email/) by Matt Might
 
 -----
 
 
 ## On Getting a PhD (in Econ or Marketing)
 
- - Ken Wilbur: [Reasons to Get (or Not) a PhD](https://kennethcwilbur.github.io/website//#:~:text=Reasons%20to%20get%20or%20not%20get%20a%20Ph.D.)
- - Ken Wilbur: [Choosing a field, Subfield, and PhD Program](https://kennethcwilbur.github.io/website//#:~:text=Choosing%20a%20field%2C%20subfield%20and%20Ph.D.%20program)
+ - Ken Wilbur: [Reasons to Get (or Not) a PhD](https://kennethcwilbur.github.io/website//#:~:text=Reasons%20to%20get%20or%20not%20get%20a%20Ph.D.) and [Choosing a field, Subfield, and PhD Program](https://kennethcwilbur.github.io/website//#:~:text=Choosing%20a%20field%2C%20subfield%20and%20Ph.D.%20program)
  - Susan Athey: [Professional Advice](https://gsb-faculty.stanford.edu/susan-athey/professional-advice/)
  - Jesse Shapiro: [Notes on Applying for a PhD in Economics](https://scholar.harvard.edu/files/shapiro/files/phdnotes.pdf)
 

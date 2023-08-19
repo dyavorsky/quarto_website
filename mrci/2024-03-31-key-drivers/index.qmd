@@ -1,0 +1,100 @@
+---
+title: "Key Drivers Analysis"
+description: "description"
+author:
+  - name: Dan Yavorsky
+    url: danyavorsky.com
+    orcid: 0000-0003-4095-6405
+date: 2023-03-31
+draft: true
+---
+
+
+Key drivers analysis is an umbrella term used to describe methods that calculate relative importance scores for a group of predictors that are associated with an outcome variable.
+
+Let's use the Boston dataset from the MASS package which provides the following information:
+
+ - `medv`: median value of owner-occupied homes in $1000s.
+ - `crim`: per capita crime rate by town.
+ - `zn`: proportion of residential land zoned for lots over 25,000 sq.ft.
+ - `indus`: proportion of non-retail business acres per town.
+ - `chas`: Charles River dummy variable (= 1 if tract bounds river; 0 otherwise).
+ - `nox`: nitrogen oxides concentration (parts per 10 million).
+ - `rm`: average number of rooms per dwelling.
+ - `age`: proportion of owner-occupied units built prior to 1940.
+ - `dis`: weighted mean of distances to five Boston employment centres.
+ - `rad`: index of accessibility to radial highways.
+ - `tax`: full-value property-tax rate per $10,000.
+ - `ptratio`: pupil-teacher ratio by town.
+ - `black`: 1000(Bk - 0.63)^2 where BkBk is the proportion of blacks by town.
+ - `lstat`: lower status of the population (percent).
+
+
+
+
+> TODO: 
+> review Belsley D.A., Kuh, E. and Welsch, R.E. (1980) Regression Diagnostics. Identifying Influential Data and Sources of Collinearity. New York: Wiley. 
+> online here: https://onlinelibrary.wiley.com/doi/abs/10.1002/jae.3950040108
+> review Harrison, D. and Rubinfeld, D.L. (1978) Hedonic prices and the demand for clean air. J. Environ. Economics and Management 5, 81–102.
+> oneline here: https://www.law.berkeley.edu/files/Hedonic.PDF
+
+
+```{r}
+data(Boston, package="MASS")
+```
+
+### Pearson Correlations
+
+```{r}
+
+```
+
+
+### Standardized Coefficients
+
+```{r}
+
+```
+
+
+### Permutation-Based
+
+```{r}
+
+```
+
+
+### LMG/Shapley Values for Linear Regression
+
+```{r}
+
+```
+
+
+### Johnson's Relative Weights
+
+```{r}
+
+```
+
+
+### Random Forest: Mean Decrease in Gini Coefficient
+
+```{r}
+
+```
+
+
+### XGBoost: --describe--
+
+```{r}
+
+```
+
+
+
+> To review:
+>  - https://www.surveymonkey.com/market-research/resources/key-driver-analysis-with-survey-data/
+>  - https://ema.drwhy.ai/featureImportance.html
+>  - Shapley values
+
