@@ -152,5 +152,40 @@
     "title": "Curriculum vitæ",
     "section": "",
     "text": "Download current CV"
+  },
+  {
+    "objectID": "lit.html#on-life",
+    "href": "lit.html#on-life",
+    "title": "A Few Things Worth Reading",
+    "section": "On Life",
+    "text": "On Life\n\nThis is Water by David Foster Wallace\nA Mathematician’s Lament by Paul Lockhart"
+  },
+  {
+    "objectID": "lit.html#on-getting-a-phd",
+    "href": "lit.html#on-getting-a-phd",
+    "title": "Things Worth Readings",
+    "section": "On Getting a PhD",
+    "text": "On Getting a PhD\n\nKen Wilbur: Reasons to Get (or Not) a PhD\nKen Wilbur: Choosing a field, Subfield, and PhD Program\nSusan Athey: Professional Advice"
+  },
+  {
+    "objectID": "lit.html#on-quantitative-marketing",
+    "href": "lit.html#on-quantitative-marketing",
+    "title": "Things Worth Readings",
+    "section": "On Quantitative Marketing",
+    "text": "On Quantitative Marketing"
+  },
+  {
+    "objectID": "lit.html#on-getting-a-phd-in-econ-or-marketing",
+    "href": "lit.html#on-getting-a-phd-in-econ-or-marketing",
+    "title": "A Few Things Worth Reading",
+    "section": "On Getting a PhD (in Econ or Marketing)",
+    "text": "On Getting a PhD (in Econ or Marketing)\n\nKen Wilbur: Reasons to Get (or Not) a PhD\nKen Wilbur: Choosing a field, Subfield, and PhD Program\nSusan Athey: Professional Advice\nJesse Shapiro: Notes on Applying for a PhD in Economics"
+  },
+  {
+    "objectID": "lit.html#on-quant-marketing-io-or-econometrics",
+    "href": "lit.html#on-quant-marketing-io-or-econometrics",
+    "title": "A Few Things Worth Reading",
+    "section": "On Quant Marketing, IO, or Econometrics",
+    "text": "On Quant Marketing, IO, or Econometrics\n\nDemand Estimation\n\nBerry (1994) Estimating Discrete Choice Models of Product Differentiation [link]\nNevo (2000) A Practitioner’s Guide to Estimation of Random-Coefcients Logit Models of Demand [link]\nChintagunta & Nair (2011) Discrete Choice Models of Consumer Demand in Marketing [link]\nBerry and Haile (2021) Foundations of Demand Estimation [link]\nGandhi & Nevo (2021) Empirical Models of Demand and Supply in Differentiated Products Industries [link]\nUrsu, Seiler, & Honka (Draft) The Sequential Search Model: A Framework for Empirical Research [link]\n\n\n\nCausal Inference\n\nRossi (2014) Even the Rich Can Make Themselves Poor: A Critical Examination of IV Methods in Marketing Applications [link]\nAngrist (2022) Empirical Strategies in Economics: Illuminating the Path From Cause to Effect [link]\nHeckman and Pinto (Draft) Causality and Econometrics [link]"
   }
 ]
