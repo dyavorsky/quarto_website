@@ -82,5 +82,35 @@
   },
   "lit.qmd": {
     "lit.html": "520dec5a"
+  },
+  "mrci/2023-08-19-gumble/index.qmd": {
+    "index.html": "0f5d1862"
+  },
+  "mrci/2024-03-01-stat-testing/index.qmd": {
+    "index.html": "dcb33189"
+  },
+  "mrci/2024-04-02-conjoint/index.qmd": {
+    "index.html": "2c22c92b"
+  },
+  "mrci/2024-04-06-pca-efa/index.qmd": {
+    "index.html": "c7649bd8"
+  },
+  "mrci/2024-03-31-key-drivers/index.qmd": {
+    "index.html": "87194a5f"
+  },
+  "mrci/2024-09-01-abramovich-ritov/index.qmd": {
+    "index.html": "b211505f"
+  },
+  "mrci/2024-04-04-mmm/index.qmd": {
+    "index.html": "de839b4a"
+  },
+  "mrci/2024-04-05-sem/index.qmd": {
+    "index.html": "6f751932"
+  },
+  "mrci/2024-04-01-maxdiff/index.qmd": {
+    "index.html": "7df75407"
+  },
+  "mrci/2024-04-03-clustering/index.qmd": {
+    "index.html": "1b73e4cb"
   }
 }
