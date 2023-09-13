@@ -10,6 +10,9 @@
     url: teaching/evals/ucsd_mgt100_w23.pdf
   - name: Evals Winter 2022
     url: teaching/evals/ucsd_mgt100_w22.pdf
+  - name: Evals Summer 2023
+    url: teaching/evals/ucsd_mgt100_u23.pdf
+  
     
 - title: Business Analytics
   description: "Develope proficiency with popular software to execute analytic techniques; Excel, Tableau, SQL, R, Python"
