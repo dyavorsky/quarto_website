@@ -6,12 +6,13 @@
   semester:
   - name: Syllabus
     url: teaching/syllabi/UCSD_MGT100_Syllabus_20230111.pdf
+  - name: Evals Summer 2023
+    url: teaching/evals/ucsd_mgt100_u23.pdf
   - name: Evals Winter 2023
     url: teaching/evals/ucsd_mgt100_w23.pdf
   - name: Evals Winter 2022
     url: teaching/evals/ucsd_mgt100_w22.pdf
-  - name: Evals Summer 2023
-    url: teaching/evals/ucsd_mgt100_u23.pdf
+
   
     
 - title: Business Analytics
