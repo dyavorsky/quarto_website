@@ -32,8 +32,8 @@ format:
 ## Current
 
  - SVP, Analytics | GBK Collective
- - Lecturer | UCLA Anderson
- - Lecturer | UCSD Rady
+ - Lecturer, Econometrics | UCLA Anderson
+ - Lecturer, Customer Analytics | UCSD Rady
 
 -----
 

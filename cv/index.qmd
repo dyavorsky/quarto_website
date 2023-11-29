@@ -2,12 +2,12 @@
 ---
 title: Curriculum vitæ
 description-meta: Dan Yavorsky's CV"
-date: 2023-11-08
+date: 2023-11-29
 published-title: CV last updated
 title-block-banner: "#35444E"
 engine: knitr
 cv:
-  pdf: "yavorsky_dan_cv_20231108.pdf"
+  pdf: "yavorsky_dan_cv_20231129.pdf"
 ---
 
 ```{css echo=FALSE}
@@ -44,12 +44,12 @@ cv:
 ---
 title: Curriculum vitæ
 description-meta: Dan Yavorsky's CV"
-date: 2023-04-21
+date: 2023-11-29
 published-title: CV last updated
 title-block-banner: "#35444E"
 engine: knitr
 cv:
-  pdf: "yavorsky_dan_cv_20231108.pdf"
+  pdf: "yavorsky_dan_cv_20231129.pdf"
 ---
 
 ```{css echo=FALSE}
