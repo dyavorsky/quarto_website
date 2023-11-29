@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Dan Yavorsky",
     "section": "",
-    "text": "SVP, Analytics | GBK Collective\nLecturer | UCLA Anderson\nLecturer | UCSD Rady\n\n\n\n\n\n\nGBK Collective | 2022 - Present\nBain & Co | 2020 - 2021\nCornerstone Research | 2006 - 2014\n\n\n\n\n\n\nPhD Quant. Marketing | UCLA Anderson 2020\nMBA Management | UCLA Anderson 2014\nCFA Charterholder (inactive) | CFA Institute 2012\nBA Economics & Mathematics | CMC 2006"
+    "text": "SVP, Analytics | GBK Collective\nLecturer, Econometrics | UCLA Anderson\nLecturer, Customer Analytics | UCSD Rady\n\n\n\n\n\n\nGBK Collective | 2022 - Present\nBain & Co | 2020 - 2021\nCornerstone Research | 2006 - 2014\n\n\n\n\n\n\nPhD Quant. Marketing | UCLA Anderson 2020\nMBA Management | UCLA Anderson 2014\nCFA Charterholder (inactive) | CFA Institute 2012\nBA Economics & Mathematics | CMC 2006"
   },
   {
     "objectID": "index.html#work-history",
@@ -130,7 +130,7 @@
     "href": "index.html#current",
     "title": "Dan Yavorsky",
     "section": "",
-    "text": "SVP, Analytics | GBK Collective\nLecturer | UCLA Anderson\nLecturer | UCSD Rady"
+    "text": "SVP, Analytics | GBK Collective\nLecturer, Econometrics | UCLA Anderson\nLecturer, Customer Analytics | UCSD Rady"
   },
   {
     "objectID": "publications.html#short-form",
@@ -144,7 +144,7 @@
     "href": "cv/index.html",
     "title": "Curriculum vitæ",
     "section": "",
-    "text": "Download CV"
+    "text": "&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD\n```{css echo=FALSE} .embed-container { position: relative; padding-bottom: 129%; height: 0; overflow: hidden; max-width: 100%; }\n.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }\n\n```{=html}\n&lt;p class=\"text-center\"&gt;\n  &lt;a class=\"btn btn-primary btn-lg cv-download\" href=\"`r rmarkdown::metadata$cv$pdf`\" target=\"_blank\"&gt;\n    &lt;i class=\"fa-solid fa-file-arrow-down\"&gt;&lt;/i&gt;&ensp;Download CV\n  &lt;/a&gt;\n&lt;/p&gt;\n\n&lt;div class=\"embed-container\"&gt;\n  &lt;iframe src=\"`r rmarkdown::metadata$cv$pdf`\" style=\"border: 0.5px\"&gt;&lt;/iframe&gt;\n&lt;/div&gt;\n=======\n---\ntitle: Curriculum vitæ\ndescription-meta: Dan Yavorsky's CV\"\ndate: 2023-11-29\npublished-title: CV last updated\ntitle-block-banner: \"#35444E\"\nengine: knitr\ncv:\n  pdf: \"yavorsky_dan_cv_20231129.pdf\"\n---\n\n```{css echo=FALSE}\n.embed-container {\n    position: relative;\n    padding-bottom: 129%;\n    height: 0;\n    overflow: hidden;\n    max-width: 100%;\n}\n\n.embed-container iframe,\n.embed-container object,\n.embed-container embed {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n}\n\n  \n     Download CV\n  \n\n\n\n  \n\n&gt;&gt;&gt;&gt;&gt;&gt;&gt; 1204a92c65eecf7e7879c525c309d5dfe8372e4f"
   },
   {
     "objectID": "cv.html",
@@ -187,5 +187,19 @@
     "title": "To Read",
     "section": "On Quant Marketing, IO, or Econometrics",
     "text": "On Quant Marketing, IO, or Econometrics\n\nDemand Estimation\n\nBerry (1994) Estimating Discrete Choice Models of Product Differentiation [link]\nNevo (2000) A Practitioner’s Guide to Estimation of Random-Coefcients Logit Models of Demand [link]\nChintagunta & Nair (2011) Discrete Choice Models of Consumer Demand in Marketing [link]\nBerry and Haile (2021) Foundations of Demand Estimation [link]\nGandhi & Nevo (2021) Empirical Models of Demand and Supply in Differentiated Products Industries [link]\nUrsu, Seiler, & Honka (Draft) The Sequential Search Model: A Framework for Empirical Research [link]\n\n\n\nCausal Inference\n\nRossi (2014) Even the Rich Can Make Themselves Poor: A Critical Examination of IV Methods in Marketing Applications [link]\nAngrist (2022) Empirical Strategies in Economics: Illuminating the Path From Cause to Effect [link]\nHeckman and Pinto (Draft) Causality and Econometrics [link]"
+  },
+  {
+    "objectID": "teaching.html#graduate-courses",
+    "href": "teaching.html#graduate-courses",
+    "title": "Teaching",
+    "section": "",
+    "text": "Econometrics \n            \n            \n                MFE 402 | \n                UCLA\n            \n            A broad introduction to major classes of statistical methods used by economists; implementation in R\n            \n                 Syllabus\n                 Slides\n                 Evals Fall 2022.1\n                 Evals Fall 2022.2\n            \n        \n    \n    \n        \n            \n        \n        \n            \n                Marketing Strategy and Policy \n            \n            \n                EMBA 411 | \n                UCLA\n            \n            A solid foundation for strategic marketing thinking; an introduction to a series of frameworks and tools that may be used to solve marketing problems\n            \n                 Syllabus\n                 Evals Winter 2022.1\n                 Evals Winter 2022.2\n            \n        \n    \n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching.html#undergraduate-courses",
+    "href": "teaching.html#undergraduate-courses",
+    "title": "Teaching",
+    "section": "Undergraduate Courses",
+    "text": "Undergraduate Courses\n\n\n\n    \n        \n            \n        \n        \n            \n                Customer Analytics \n            \n            \n                MGT 100 | \n                UCSD\n            \n            Combine customer data, economic theory, and statistical modeling to improve business decision-making; implementation in R\n            \n                 Syllabus\n                 Evals Summer 2023\n                 Evals Winter 2023\n                 Evals Winter 2022\n            \n        \n    \n    \n        \n            \n        \n        \n            \n                Business Analytics \n            \n            \n                MGT 153 | \n                UCSD\n            \n            Develope proficiency with popular software to execute analytic techniques; Excel, Tableau, SQL, R, Python\n            \n                 Syllabus\n                 Evals Winter 2023\n            \n        \n    \n\n\nNo matching items"
   }
 ]
