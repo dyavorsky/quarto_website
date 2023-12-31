@@ -201,5 +201,19 @@
     "title": "Teaching",
     "section": "Undergraduate Courses",
     "text": "Undergraduate Courses\n\n\n\n    \n        \n            \n        \n        \n            \n                Customer Analytics \n            \n            \n                MGT 100 | \n                UCSD\n            \n            Combine customer data, economic theory, and statistical modeling to improve business decision-making; implementation in R\n            \n                 Syllabus\n                 Evals Summer 2023\n                 Evals Winter 2023\n                 Evals Winter 2022\n            \n        \n    \n    \n        \n            \n        \n        \n            \n                Business Analytics \n            \n            \n                MGT 153 | \n                UCSD\n            \n            Develope proficiency with popular software to execute analytic techniques; Excel, Tableau, SQL, R, Python\n            \n                 Syllabus\n                 Evals Winter 2023\n            \n        \n    \n\n\nNo matching items"
+  },
+  {
+    "objectID": "lit.html#less-academic",
+    "href": "lit.html#less-academic",
+    "title": "To Read",
+    "section": "Less Academic",
+    "text": "Less Academic\n\nOn Life\n\nThis is Water by David Foster Wallace\nA Mathematician’s Lament by Paul Lockhart\nTeaching Smart People How to Learn by Chris Argyris\n\n\n\nOn Writing\n\nHow to Send and Reply to email by Matt Might\nPublication, Publication by Gary King\n\n\n\nOn Getting a PhD (in Econ or Marketing)\n\nKen Wilbur: Reasons to Get (or Not) a PhD and Choosing a field, Subfield, and PhD Program\nSusan Athey: Professional Advice\nJesse Shapiro: Notes on Applying for a PhD in Economics"
+  },
+  {
+    "objectID": "lit.html#more-academic",
+    "href": "lit.html#more-academic",
+    "title": "To Read",
+    "section": "More Academic",
+    "text": "More Academic\n\nDemand Estimation\n\nBerry (1994) Estimating Discrete Choice Models of Product Differentiation [link]\nNevo (2000) A Practitioner’s Guide to Estimation of Random-Coefcients Logit Models of Demand [link]\nChintagunta & Nair (2011) Discrete Choice Models of Consumer Demand in Marketing [link]\nBerry and Haile (2021) Foundations of Demand Estimation [link]\nGandhi & Nevo (2021) Empirical Models of Demand and Supply in Differentiated Products Industries [link]\nUrsu, Seiler, & Honka (Draft) The Sequential Search Model: A Framework for Empirical Research [link]\n\n\n\nCausal Inference\n\nRossi (2014) Even the Rich Can Make Themselves Poor: A Critical Examination of IV Methods in Marketing Applications [link]\nAngrist (2022) Empirical Strategies in Economics: Illuminating the Path From Cause to Effect [link]\nHeckman and Pinto (Draft) Causality and Econometrics [link]"
   }
 ]
