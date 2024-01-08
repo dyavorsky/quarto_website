@@ -8,6 +8,7 @@ author:
 number-sections: true
 date: 2023-08-19
 draft: true
+
 ---
 
 The utility that decision maker $i$ obtains from alternative $j$ is $U_{ij}$, for $j = 1, \ldots, J$. 
@@ -27,3 +28,91 @@ The probability that decision maker $i$ chooses alternative $k$ is:
 \end{align*}
 
 where $I(\cdot)$ is the indicator function equaling one when the expression in parentheses is true and zero otherwise.
+
+
+
+Prachi's Draft---
+
+
+The Type-I extreme value distribution, also known as the Gumbel distribution, plays an important role in modeling individual choice behavior within a population. This article aims to delve into the foundational concepts of individual choice behavior and interpret how the Gumbel distribution is used to represent the stochastic nature of decision-making processes.
+
+A holistic model of individual choice behavior encompasses three fundamental factors: the set of alternatives available to decision-makers, the observed attributes of decision-makers, and the model of individual choice and behavior, with distribution of behavior patterns in the population. The primary objective is to comprehend the behavioral process that leads to an individual's choice.
+
+The mathematical representation of individual choice behavior can be represented as:
+
+$Y=\beta\text{X} + \varepsilon$
+
+
+Here, $Y$ represents the choice, $\beta$ denotes coefficients, $X$ represents observed factors, and $\varepsilon$ signifies unobserved factors. When an individual $q$ is presented with a set of alternatives, the chosen option $(i)$ is determined by the usefulness of that alternative for the individual (called utility $(U_{iq})$). This utility can be further partitioned into a systematic component $(V_{iq})$ observable by researchers, and a random component $\varepsilon_{iq}$ capturing unobserved individual idiosyncrasies of tastes:
+
+$U_{iq} = V_{iq} + \varepsilon_{iq}$
+
+Partitioning the utility function is crucial for modeling populations - it allows for the assumption that some components are common across individuals, while others are random. It may seem like individuals make choices randomly, but in reality, individuals maximize utility deterministically. The randomness arises from the fact that a researcher cannot take a peek into the decision maker’s mind to identify other influencing factors.
+
+Since individuals strive to maximize utility in decision-making, an individual $q$ will select alternative $i$ from a set of $J$ alternatives, if and only if $U_{iq} > U_{jq}$ for all $j \neq i$. This can be represented as:
+
+
+$V_{iq} - V_{jq} > \varepsilon_{jq} - \varepsilon_{iq}$
+
+
+
+Since $\varepsilon_{jq} - \varepsilon_{iq}$ cannot be observed, the researcher needs to calculate probability of $\varepsilon_{jq} - \varepsilon_{iq} < V_{iq} - V_{jq}$. This can be expressed as:
+
+
+$P_{iq} = P((\varepsilon_{jq} - \varepsilon_{iq}) < (V_{iq} - V_{jq}))$.
+
+
+
+The researcher unaware of the distribution of $\varepsilon$ across the population, assumes its relation to choice probability follows a particular distribution (which we will discuss shortly). They also posit that random elements in utility are independent and identically distributed, based on Independence of Irrelevant Alternatives (IIA) property. This leads to the incorporation of the Gumbel distribution in choice probability equations.
+
+The Gumbel/ Extreme Value type 1 (EV1) distribution serves as a statistical tool(?) to translate unobserved randomness associated with each alternative into a component of the probability expression.
+
+The structural solution for the basic choice model involves defining the EV1 distribution in terms of cumulative probabilities:
+
+$P(\varepsilon_j \leq \varepsilon) = \exp(-\exp(-\varepsilon)) = e^{-e^{-\varepsilon}}$
+
+If we simplify the choice probability equation $P_{iq} = P((\varepsilon_{jq} - \varepsilon_{iq}) < (V_{iq} - V_{jq}))$, we can rewrite it as:
+
+
+$P_i = P(\varepsilon_j < (\varepsilon_i + V_i - V_j)) \quad  U_j \neq U_i$
+
+
+Since $\varepsilon_j$ is assumed to be independently distributed, the probability of choosing alternative $i$ ($P_i$) can be expressed as:
+
+$P_i$ = $P(\varepsilon_j < (\varepsilon_i + V_i - V_j))$
+
+= $\Pi^J_{j=1} \space exp(-exp(-(\varepsilon_i + V_i - V_j)))$  
+
+Substituing $\varepsilon_i$ with some value (say b), we get:
+
+= $exp(-b)*exp[-\Sigma^J_{j=1} exp -(b+V_i-V_j)]$
+
+To simplify the expression, we can substitute $exp(-b)$ with $z$. 
+
+Thus, $b= -ln(z)$ and $db = -dz/z$. 
+
+Replacing these in the above $P_i$ equation:
+
+
+= $\int_{b=-\infty}^{\infty} (z \space exp[-za]) \space db$ where $a = \Sigma^J_{j=1} exp(V_j-V_i)$
+
+= $\int_{\infty}^{0} (z \space exp[-za]) \space (-1/z)dz$
+
+Taking reverse order of integration:
+
+= $\int_{0}^{\infty} (z \space exp[-za]) \space (1/z)dz$
+
+= $-[1/a * (0-1)]$ = $1/a$
+
+Plugging in value of $a$, we get:
+
+$P_i$ = $1/\Sigma^J_{j=1} exp(V_j-V_i)$
+
+The equation we just derived is the basic choice model consistent with the assumptions outlined above, including the distribution of unobserved utility $\varepsilon$, and is called the conditional logit choice or multinomial logit (MNL) model.
+
+
+To summarize, the Type-I extreme value/Gumbel distribution, explored in the context of individual choice behavior, proves crucial in modeling the stochastic aspects of decision-making. When integrated into choice probability equations, it serves as a robust statistical tool. The derived multinomial logit model unveils the intricate relationship between observed and unobserved utility components, offering a systematic approach to understanding and predicting choice behavior within diverse populations. The Gumbel distribution stands as a key element enhancing the accuracy of choice models in the complex landscape of decision theory.
+
+
+References:
+?
