@@ -10,7 +10,11 @@
   {
     "listing": "/mrci.html",
     "items": [
+<<<<<<< HEAD
       "/mrci/2024-01-07-gumble/index.html"
+=======
+      "/mrci/2023-08-19-gumble/index.html"
+>>>>>>> a51bc19a7d28b88734139cc858137e6a5ddaf5b2
     ]
   },
   {
