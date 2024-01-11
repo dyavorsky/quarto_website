@@ -1,5 +1,5 @@
 - title: Econometrics
-  description: "A broad introduction to major classes of statistical methods used by economists; implementation in R"
+  description: "A broad introduction to major classes of econometric methods including linear regression, maximum likelihood, and Bayesian inference; implementation in R"
   university: UCLA
   number: MFE 402
   logo: teaching/logos/Econometrics.png
@@ -8,9 +8,13 @@
     url: teaching/syllabi/UCLA_MFE402_Syllabus_20231130.pdf
   - name: Slides
     url: https://www.dropbox.com/scl/fo/lj7ymvt046pxir6uuj65i/h?rlkey=4harwpz0jnc0vkvxc7l6ut44l&dl=0
-  - name: Evals Fall 2022.1
+  - name: Evals 2023.1
+    url: teaching/evals/ucla_mfe402_f23_1.pdf
+  - name: Evals 2023.2
+    url: teaching/evals/ucla_mfe402_f23_2.pdf
+  - name: Evals 2022.1
     url: teaching/evals/ucla_mfe402_f22_1.pdf
-  - name: Evals Fall 2022.2
+  - name: Evals 2022.2
     url: teaching/evals/ucla_mfe402_f22_2.pdf
     
 - title: Marketing Strategy and Policy
@@ -21,7 +25,7 @@
   semester:
   - name: Syllabus
     url: teaching/syllabi/UCLA_MGMTEX411_Syllabus_20220406.pdf
-  - name: Evals Winter 2022.1
+  - name: Evals 2022.1
     url: teaching/evals/ucla_emba411_s22_1.pdf
-  - name: Evals Winter 2022.2
+  - name: Evals 2022.2
     url: teaching/evals/ucla_emba411_s22_2.pdf

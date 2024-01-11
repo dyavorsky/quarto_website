@@ -33,14 +33,14 @@ $$
 $$
 
 Because each $\varepsilon_{ij}$ is assumed to be independently distributed, the probability of decision maker $i$ choosing alternative $k$ for a given value of $\varepsilon_{ik}$ can be written as the product of the $J-1$ conditional distributions:
-$$
+
 \begin{align*}
-P_{ik} | \varepsilon_{ik}
-&= \prod_{j \ne k} \exp(-\exp(-\varepsilon_{ik})) &\\
-&= \exp \left( -\sum_{j \ne k} \exp \left( - ( \varepsilon_{ik} + V_{ik} - V_{ij}) \right) \right) &\\
-&= \exp \left( - \exp(\varepsilon_{ik}) \times \sum_{j \ne k} \exp \left( V_{ij} - V_{ik}) \right) \right) 
+    P_{ik} | \varepsilon_{ik}
+    &= \prod_{j \ne k} \exp(-\exp(-\varepsilon_{ik})) &\\
+    &= \exp \left( -\sum_{j \ne k} \exp \left( - ( \varepsilon_{ik} + V_{ik} - V_{ij}) \right) \right) &\\
+    &= \exp \left( - \exp(\varepsilon_{ik}) \times \sum_{j \ne k} \exp \left( V_{ij} - V_{ik}) \right) \right) 
 \end{align*}
-$$
+
 
 To obtain the desired probability $P_{ik}$, we must multiply the above conditional distribution by the marginal distribution of $\varepsilon_{ik}$ to find the joint $\varepsilon_i$ distribution, and then integrate over all possible values of $\varepsilon_{ik}$:
 $$ 
