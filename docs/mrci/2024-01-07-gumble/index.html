@@ -179,14 +179,13 @@ ul.task-list li input[type="checkbox"] {
 <p>A standard assumption about the joint distribution of vector <span class="math inline">\(\mathbf{\varepsilon}_i\)</span> is that the components are independent and identically distributed as Gumbel random variables. Specifically, the cumulative distribution function for each <span class="math inline">\(\varepsilon_{ij}\)</span> is: <span class="math display">\[
 \text{Prob}(\varepsilon_{ij} \leq x) = \exp(-\exp(-x)) = e^{-e^{-x}}
 \]</span></p>
-<p>Because each <span class="math inline">\(\varepsilon_{ij}\)</span> is assumed to be independently distributed, the probability of decision maker <span class="math inline">\(i\)</span> choosing alternative <span class="math inline">\(k\)</span> for a given value of <span class="math inline">\(\varepsilon_{ik}\)</span> can be written as the product of the <span class="math inline">\(J-1\)</span> conditional distributions: <span class="math display">\[
-\begin{align*}
-P_{ik} | \varepsilon_{ik}
-&amp;= \prod_{j \ne k} \exp(-\exp(-\varepsilon_{ik})) &amp;\\
-&amp;= \exp \left( -\sum_{j \ne k} \exp \left( - ( \varepsilon_{ik} + V_{ik} - V_{ij}) \right) \right) &amp;\\
-&amp;= \exp \left( - \exp(\varepsilon_{ik}) \times \sum_{j \ne k} \exp \left( V_{ij} - V_{ik}) \right) \right)
-\end{align*}
-\]</span></p>
+<p>Because each <span class="math inline">\(\varepsilon_{ij}\)</span> is assumed to be independently distributed, the probability of decision maker <span class="math inline">\(i\)</span> choosing alternative <span class="math inline">\(k\)</span> for a given value of <span class="math inline">\(\varepsilon_{ik}\)</span> can be written as the product of the <span class="math inline">\(J-1\)</span> conditional distributions:</p>
+<p><span class="math display">\[\begin{align*}
+    P_{ik} | \varepsilon_{ik}
+    &amp;= \prod_{j \ne k} \exp(-\exp(-\varepsilon_{ik})) &amp;\\
+    &amp;= \exp \left( -\sum_{j \ne k} \exp \left( - ( \varepsilon_{ik} + V_{ik} - V_{ij}) \right) \right) &amp;\\
+    &amp;= \exp \left( - \exp(\varepsilon_{ik}) \times \sum_{j \ne k} \exp \left( V_{ij} - V_{ik}) \right) \right)
+\end{align*}\]</span></p>
 <p>To obtain the desired probability <span class="math inline">\(P_{ik}\)</span>, we must multiply the above conditional distribution by the marginal distribution of <span class="math inline">\(\varepsilon_{ik}\)</span> to find the joint <span class="math inline">\(\varepsilon_i\)</span> distribution, and then integrate over all possible values of <span class="math inline">\(\varepsilon_{ik}\)</span>: <span class="math display">\[
 P_{ik} = \int_{-\infty}^{\infty} \exp(-\varepsilon_{ik}) \times \exp \left( - \exp(\varepsilon_{ik}) \times \sum_{j=1}^J \exp \left( V_{ij} - V_{ik}) \right) \right) \, d \varepsilon_{ik}
 \]</span></p>
