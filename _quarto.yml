@@ -20,7 +20,8 @@ website:
         text: MR & CI
       - href: dcms-r.danyavorsky.com
         text: R-DCMS
-      - lit.qmd
+      - href: lit.qmd
+        text: Good Reads
 
 format:
   html:
