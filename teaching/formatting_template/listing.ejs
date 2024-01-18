@@ -25,12 +25,13 @@
                 <% } %>
             </p>
             <p class="course-description"><%= course.description %></p>
+
             <ul class="course-semesters">
                 <% for (const semester of course.semester) { %>
                 <% if (semester.url) { %>
-                <li><a href="<%= semester.url %>"><i class="fa-solid fa-building-columns"></i> <%= semester.name %></a></li>
+                <li><a href="<%= semester.url %>"><%= semester.name %></a></li>
                 <% } else { %> 
-                <li class="no-link"><i class="fa-solid fa-building-columns"></i> <%= semester.name %></li>
+                <li class="no-link"><%= semester.name %></li>
                 <% } %>
                 <% } %>
             </ul>

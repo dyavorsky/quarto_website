@@ -1,9 +1,5 @@
 - title: Econometrics
-<<<<<<< HEAD
-  description: "A broad introduction to major classes of econometric models (linear and generalized linear regression), methods of estimation (least-squares, maximum likelihood, Bayesian), and inference (hypothesis tests, confidence and credible intervals); implementation in R"
-=======
-  description: "A broad introduction to major classes of econometric methods including linear regression, maximum likelihood, and Bayesian inference; implementation in R"
->>>>>>> 54e5bb8d59ab95a784ce9e9d416c24f3d1bb1ea5
+  description: "A broad introduction to fundamental econometric models, methods of estimation, and approaches to statistical inference; implementation in R"
   university: UCLA
   number: MFE 402
   logo: teaching/logos/Econometrics.png
@@ -33,3 +29,13 @@
     url: teaching/evals/ucla_emba411_s22_1.pdf
   - name: Evals 2022.2
     url: teaching/evals/ucla_emba411_s22_2.pdf
+    
+- title: Marketing Analytics
+  description: "A survey of analytic applications that support marketing decisions; implementation in R"
+  university: UCSD
+  number: MGTA 4xx
+  logo: teaching/logos/MarketingAnalytics.png
+  semester:
+  - name: Under Development
+
+  
