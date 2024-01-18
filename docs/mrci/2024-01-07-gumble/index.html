@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2024-01-07">
-<meta name="description" content="description">
+<meta name="description" content="Derivation of Choice Probabilities">
 
 <title>Dan Yavorsky - Gumble Distribution in Discrete Choice Models</title>
 <style>
@@ -127,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
       <h1 class="title">Gumble Distribution in Discrete Choice Models</h1>
                   <div>
         <div class="description">
-          description
+          Derivation of Choice Probabilities
         </div>
       </div>
                 </div>
@@ -160,7 +160,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>This article seeks to describe the Gumbel (or Type-1 Generalized Extreme Value) distribution and it’s use in probabilistic discrete choice models.</p>
+<p>This short article seeks to describe the Gumbel (or Type-1 Generalized Extreme Value) distribution and how it’s use in probabilistic discrete choice models leads to a closed-form expression for choice probabilities.</p>
 <p>A standard framework for a probabilistic discrete choice model (DCM) reflecting a random utility theory (RUT) is as follows:</p>
 <ul>
 <li>The utility that decision maker <span class="math inline">\(i\)</span> obtains from alternative <span class="math inline">\(j\)</span> is <span class="math inline">\(U_{ij}\)</span>, for <span class="math inline">\(j = 1, \ldots, J\)</span>.</li>
@@ -178,7 +178,17 @@ ul.task-list li input[type="checkbox"] {
 <p>where <span class="math inline">\(I(\cdot)\)</span> is the indicator function equaling one when the expression in parentheses is true and zero otherwise.</p>
 <p>A standard assumption about the joint distribution of vector <span class="math inline">\(\mathbf{\varepsilon}_i\)</span> is that the components are independent and identically distributed as Gumbel random variables. Specifically, the cumulative distribution function for each <span class="math inline">\(\varepsilon_{ij}\)</span> is: <span class="math display">\[
 \text{Prob}(\varepsilon_{ij} \leq x) = \exp(-\exp(-x)) = e^{-e^{-x}}
-\]</span></p>
+\]</span> The Gumbel density and distribution are plotted below alongside the Normal for comparison.</p>
+<div class="cell quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="cell-output-display quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
+</div>
+<div class="cell-output-display quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="index_files/figure-html/unnamed-chunk-1-2.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</div>
 <p>Because each <span class="math inline">\(\varepsilon_{ij}\)</span> is assumed to be independently distributed, the probability of decision maker <span class="math inline">\(i\)</span> choosing alternative <span class="math inline">\(k\)</span> for a given value of <span class="math inline">\(\varepsilon_{ik}\)</span> can be written as the product of the <span class="math inline">\(J-1\)</span> conditional distributions:</p>
 <p><span class="math display">\[\begin{align*}
     P_{ik} | \varepsilon_{ik}

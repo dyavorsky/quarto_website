@@ -1,13 +1,13 @@
 ---
 title: "Gumble Distribution in Discrete Choice Models"
-description: "description"
+description: "Derivation of Choice Probabilities"
 number-sections: true
 date: 2024-01-07
 draft: false
 
 ---
 
-This article seeks to describe the Gumbel (or Type-1 Generalized Extreme Value) distribution and it's use in probabilistic discrete choice models.
+This short article seeks to describe the Gumbel (or Type-1 Generalized Extreme Value) distribution and how it's use in probabilistic discrete choice models leads to a closed-form expression for choice probabilities.
 
 A standard framework for a probabilistic discrete choice model (DCM) reflecting a random utility theory (RUT) is as follows: 
 
@@ -31,6 +31,50 @@ A standard assumption about the joint distribution of vector $\mathbf{\varepsilo
 $$ 
 \text{Prob}(\varepsilon_{ij} \leq x) = \exp(-\exp(-x)) = e^{-e^{-x}} 
 $$
+The Gumbel density and distribution are plotted below alongside the Normal for comparison.
+
+```{r}
+#| error: false
+#| warning: false
+#| message: false
+#| layout-ncol: 2
+#| echo: false
+
+library(tidyverse)
+
+pdf_dat <- tibble(
+  x = seq(-5, 5, by = 0.01),
+  g = exp(-x - exp(-x)),
+  n = dnorm(x)
+)
+
+ggplot(pdf_dat, aes(x = x)) +
+  geom_line(aes(y = g, color = "Gumbel")) +
+  geom_line(aes(y = n, color = "Normal"), linetype = "dashed") +
+  scale_color_manual(name = "", values = c("Gumbel" = "black", "Normal" = "firebrick"),
+                     guide = guide_legend(override.aes = list(linetype = 1:2))) +
+  labs(x = "", y = "", title = "PDF of Gumbel and Normal Distributions") +
+  theme_minimal()
+
+cdf_dat <- tibble(x = seq(-5, 5, by = 0.01), 
+                  g = exp(-exp(-x)),
+                  n = pnorm(x)
+)
+
+ggplot(cdf_dat, aes(x = x)) +
+  geom_line(aes(y = g, color = "Gumbel")) +
+  geom_line(aes(y = n, color = "Normal"), linetype = "dashed") +
+  scale_color_manual(name = "", values = c("Gumbel" = "black", "Normal" = "firebrick"),
+                     guide = guide_legend(override.aes = list(linetype = 1:2))) +
+  labs(x = "", y = "", title = "CDF of Gumbel and Normal Distributions") +
+  theme_minimal()
+
+
+
+```
+
+
+
 
 Because each $\varepsilon_{ij}$ is assumed to be independently distributed, the probability of decision maker $i$ choosing alternative $k$ for a given value of $\varepsilon_{ik}$ can be written as the product of the $J-1$ conditional distributions:
 
