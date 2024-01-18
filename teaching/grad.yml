@@ -1,5 +1,9 @@
 - title: Econometrics
+<<<<<<< HEAD
   description: "A broad introduction to major classes of econometric models (linear and generalized linear regression), methods of estimation (least-squares, maximum likelihood, Bayesian), and inference (hypothesis tests, confidence and credible intervals); implementation in R"
+=======
+  description: "A broad introduction to major classes of econometric methods including linear regression, maximum likelihood, and Bayesian inference; implementation in R"
+>>>>>>> 54e5bb8d59ab95a784ce9e9d416c24f3d1bb1ea5
   university: UCLA
   number: MFE 402
   logo: teaching/logos/Econometrics.png
