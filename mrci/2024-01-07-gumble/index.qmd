@@ -86,7 +86,7 @@ Because each $\varepsilon_{ij}$ is assumed to be independently distributed, the 
 \end{align*}
 
 
-To obtain the desired probability $P_{ik}$, we must multiply the above conditional distribution by the marginal distribution of $\varepsilon_{ik}$ to find the joint $\varepsilon_i$ distribution, and then integrate over all possible values of $\varepsilon_{ik}$:
+Bur of course $\varepsilon_{ik}$ is not given, so to obtain the desired probability $P_{ik}$, we must integrate over all possible values of $\varepsilon_{ik}$, weighted by its marginal density $f_{\varepsilon_{ik}}(\varepsilon_{ik}) = \exp(-\varepsilon_{ik}) \times \exp ( -\exp(\varepsilon_{ik})$:
 $$ 
 P_{ik} = \int_{-\infty}^{\infty} \exp(-\varepsilon_{ik}) \times \exp \left( - \exp(\varepsilon_{ik}) \times \sum_{j=1}^J \exp \left( V_{ij} - V_{ik}) \right) \right) \, d \varepsilon_{ik} 
 $$
