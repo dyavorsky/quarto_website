@@ -1,0 +1,236 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Dan Yavorsky",
+    "section": "",
+    "text": "SVP, Analytics | GBK Collective\nLecturer, Econometrics | UCLA Anderson\nLecturer, Customer Analytics | UCSD Rady\n\n\n\n\n\n\nGBK Collective | 2022 - Present\nBain & Co | 2020 - 2021\nCornerstone Research | 2006 - 2014\n\n\n\n\n\n\nPhD Quant. Marketing | UCLA Anderson 2020\nMBA Management | UCLA Anderson 2014\nCFA Charterholder (inactive) | CFA Institute 2012\nBA Economics & Mathematics | CMC 2006"
+  },
+  {
+    "objectID": "index.html#work-history",
+    "href": "index.html#work-history",
+    "title": "Dan Yavorsky",
+    "section": "",
+    "text": "GBK Collective | 2022 - Present\nBain & Co | 2020 - 2021\nCornerstone Research | 2006 - 2014"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Dan Yavorsky",
+    "section": "",
+    "text": "PhD Quant. Marketing | UCLA Anderson 2020\nMBA Management | UCLA Anderson 2014\nCFA Charterholder (inactive) | CFA Institute 2012\nBA Economics & Mathematics | CMC 2006"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Econometrics \n            \n            \n                MFE 402 | \n                UCLA\n            \n            A broad introduction to major classes of statistical methods used by economists; implementation in R\n            \n                 Syllabus\n                 Slides\n                 Evals Fall 2022.1\n                 Evals Fall 2022.2\n            \n        \n    \n    \n        \n            \n        \n        \n            \n                Marketing Strategy and Policy \n            \n            \n                EMBA 411 | \n                UCLA\n            \n            A solid foundation for strategic marketing thinking; an introduction to a series of frameworks and tools that may be used to solve marketing problems\n            \n                 Syllabus\n                 Evals Winter 2022.1\n                 Evals Winter 2022.2\n            \n        \n    \n\n\nNo matching items"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Co-Author\n\nConsumer Search in the U.S. Auto Industry: The Role of Dealership Visits\nDan Yavorsky, Elisabeth Honka, and Keith Chen\nQuantitative Marketing and Economics (2021)\n\n\n\n\nContributor\n\nThe Sequential Search Model:A Framework for Empirical Research\nRaluca Ursu, Stephan Seiler, and Elisabeth Honka\nWorking Paper (2023)\n\n\nThe Value of Flexible Work: Evidence from Uber Drivers\nKeith Chen, Judy Chevalier, Peter Rossi, and Emily Oehlsen\nJournal of Political Economy (2019)"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "My Blog",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Co-Author\n\nConsumer Search in the U.S. Auto Industry: The Role of Dealership Visits\nDan Yavorsky, Elisabeth Honka, and Keith Chen\nQuantitative Marketing and Economics (2021)\n\n\n\n\nContributor\n\nThe Sequential Search Model:A Framework for Empirical Research\nRaluca Ursu, Stephan Seiler, and Elisabeth Honka\nWorking Paper (2023)\n\n\nThe Value of Flexible Work: Evidence from Uber Drivers\nKeith Chen, Judy Chevalier, Peter Rossi, and Emily Oehlsen\nJournal of Political Economy (2019)\n\n\nggplot2: Elegant Graphics for Data Analysis\nHadley Wickham, Danielle Navarro, and Thomas Lin Pedersen\nSpringer"
+  },
+  {
+    "objectID": "train_dcm.html",
+    "href": "train_dcm.html",
+    "title": "R Companion",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "train_dcm/ch1-introduction/index.html",
+    "href": "train_dcm/ch1-introduction/index.html",
+    "title": "Chapter 1",
+    "section": "",
+    "text": "CitationBibTeX citation:@online{yavorsky2023,\n  author = {Dan Yavorsky},\n  title = {Chapter 1},\n  date = {2023-03-31},\n  url = {https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nDan Yavorsky. 2023. “Chapter 1.” March 31, 2023. https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/."
+  },
+  {
+    "objectID": "mrci.html",
+    "href": "mrci.html",
+    "title": "Market Research and Consumer Insights",
+    "section": "",
+    "text": "Gumble Distribution in Discrete Choice Models\n\n\ndescription\n\n\n\n\n\n\nJan 7, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications.html#co-author",
+    "href": "publications.html#co-author",
+    "title": "Publications",
+    "section": "Co-Author",
+    "text": "Co-Author\n\nConsumer Search in the U.S. Auto Industry: The Role of Dealership Visits\nDan Yavorsky, Elisabeth Honka, and Keith Chen\nQuantitative Marketing and Economics (2021)"
+  },
+  {
+    "objectID": "publications.html#contributor",
+    "href": "publications.html#contributor",
+    "title": "Publications",
+    "section": "Contributor",
+    "text": "Contributor\n\nThe Sequential Search Model: A Framework for Empirical Research\nRaluca Ursu, Stephan Seiler, and Elisabeth Honka\nWorking Paper (2023)\n\n\nThe Value of Flexible Work: Evidence from Uber Drivers\nKeith Chen, Judy Chevalier, Peter Rossi, and Emily Oehlsen\nJournal of Political Economy (2019)\n\n\nggplot2: Elegant Graphics for Data Analysis\nHadley Wickham, Danielle Navarro, and Thomas Lin Pedersen\nSpringer"
+  },
+  {
+    "objectID": "dcms/intro.html",
+    "href": "dcms/intro.html",
+    "title": "DanYav",
+    "section": "",
+    "text": "this is the intro"
+  },
+  {
+    "objectID": "dcms/index.html",
+    "href": "dcms/index.html",
+    "title": "DanYav",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "dcms/logit.html",
+    "href": "dcms/logit.html",
+    "title": "DanYav",
+    "section": "",
+    "text": "let’s learn about logit"
+  },
+  {
+    "objectID": "teaching.html#graduate",
+    "href": "teaching.html#graduate",
+    "title": "Teaching",
+    "section": "",
+    "text": "Econometrics \n            \n            \n                MFE 402 | \n                UCLA\n            \n            A broad introduction to major classes of statistical methods used by economists; implementation in R\n            \n                 Syllabus\n                 Slides\n                 Evals Fall 2022.1\n                 Evals Fall 2022.2\n            \n        \n    \n    \n        \n            \n        \n        \n            \n                Marketing Strategy and Policy \n            \n            \n                EMBA 411 | \n                UCLA\n            \n            A solid foundation for strategic marketing thinking; an introduction to a series of frameworks and tools that may be used to solve marketing problems\n            \n                 Syllabus\n                 Evals Winter 2022.1\n                 Evals Winter 2022.2\n            \n        \n    \n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching.html#undergraduate",
+    "href": "teaching.html#undergraduate",
+    "title": "Teaching",
+    "section": "Undergraduate",
+    "text": "Undergraduate\n\n\n\n    \n        \n            \n        \n        \n            \n                Customer Analytics \n            \n            \n                MGT 100 | \n                UCSD\n            \n            Combine customer data, economic theory, and statistical modeling to improve business decision-making; implementation in R\n            \n                 Syllabus\n                 Evals Summer 2023\n                 Evals Winter 2023\n                 Evals Winter 2022\n            \n        \n    \n    \n        \n            \n        \n        \n            \n                Business Analytics \n            \n            \n                MGT 153 | \n                UCSD\n            \n            Develope proficiency with popular software to execute analytic techniques; Excel, Tableau, SQL, R, Python\n            \n                 Syllabus\n                 Evals Winter 2023\n            \n        \n    \n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#current",
+    "href": "index.html#current",
+    "title": "Dan Yavorsky",
+    "section": "",
+    "text": "SVP, Analytics | GBK Collective\nLecturer, Econometrics | UCLA Anderson\nLecturer, Customer Analytics | UCSD Rady"
+  },
+  {
+    "objectID": "publications.html#short-form",
+    "href": "publications.html#short-form",
+    "title": "Publications",
+    "section": "Short Form",
+    "text": "Short Form\n\nGBK Employee Spotlight\nGBK Thought Leadership Blog\n\n\nSawtooth A&I Summit 2023\nGBK Thought Leadership Blog"
+  },
+  {
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "Curriculum vitæ",
+    "section": "",
+    "text": "Download current CV"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum vitæ",
+    "section": "",
+    "text": "Download current CV"
+  },
+  {
+    "objectID": "lit.html#on-life",
+    "href": "lit.html#on-life",
+    "title": "To Read",
+    "section": "On Life",
+    "text": "On Life\n\nThis is Water by David Foster Wallace\nA Mathematician’s Lament by Paul Lockhart\nHow to Send and Reply to email by Matt Might"
+  },
+  {
+    "objectID": "lit.html#on-getting-a-phd",
+    "href": "lit.html#on-getting-a-phd",
+    "title": "Things Worth Readings",
+    "section": "On Getting a PhD",
+    "text": "On Getting a PhD\n\nKen Wilbur: Reasons to Get (or Not) a PhD\nKen Wilbur: Choosing a field, Subfield, and PhD Program\nSusan Athey: Professional Advice"
+  },
+  {
+    "objectID": "lit.html#on-quantitative-marketing",
+    "href": "lit.html#on-quantitative-marketing",
+    "title": "Things Worth Readings",
+    "section": "On Quantitative Marketing",
+    "text": "On Quantitative Marketing"
+  },
+  {
+    "objectID": "lit.html#on-getting-a-phd-in-econ-or-marketing",
+    "href": "lit.html#on-getting-a-phd-in-econ-or-marketing",
+    "title": "To Read",
+    "section": "On Getting a PhD (in Econ or Marketing)",
+    "text": "On Getting a PhD (in Econ or Marketing)\n\nKen Wilbur: Reasons to Get (or Not) a PhD and Choosing a field, Subfield, and PhD Program\nSusan Athey: Professional Advice\nJesse Shapiro: Notes on Applying for a PhD in Economics"
+  },
+  {
+    "objectID": "lit.html#on-quant-marketing-io-or-econometrics",
+    "href": "lit.html#on-quant-marketing-io-or-econometrics",
+    "title": "To Read",
+    "section": "On Quant Marketing, IO, or Econometrics",
+    "text": "On Quant Marketing, IO, or Econometrics\n\nDemand Estimation\n\nBerry (1994) Estimating Discrete Choice Models of Product Differentiation [link]\nNevo (2000) A Practitioner’s Guide to Estimation of Random-Coefcients Logit Models of Demand [link]\nChintagunta & Nair (2011) Discrete Choice Models of Consumer Demand in Marketing [link]\nBerry and Haile (2021) Foundations of Demand Estimation [link]\nGandhi & Nevo (2021) Empirical Models of Demand and Supply in Differentiated Products Industries [link]\nUrsu, Seiler, & Honka (Draft) The Sequential Search Model: A Framework for Empirical Research [link]\n\n\n\nCausal Inference\n\nRossi (2014) Even the Rich Can Make Themselves Poor: A Critical Examination of IV Methods in Marketing Applications [link]\nAngrist (2022) Empirical Strategies in Economics: Illuminating the Path From Cause to Effect [link]\nHeckman and Pinto (Draft) Causality and Econometrics [link]"
+  },
+  {
+    "objectID": "teaching.html#graduate-courses",
+    "href": "teaching.html#graduate-courses",
+    "title": "Teaching",
+    "section": "",
+    "text": "Econometrics \n            \n            \n                MFE 402 | \n                UCLA\n            \n            A broad introduction to major classes of statistical methods used by economists; implementation in R\n            \n                 Syllabus\n                 Slides\n                 Evals Fall 2022.1\n                 Evals Fall 2022.2\n            \n        \n    \n    \n        \n            \n        \n        \n            \n                Marketing Strategy and Policy \n            \n            \n                EMBA 411 | \n                UCLA\n            \n            A solid foundation for strategic marketing thinking; an introduction to a series of frameworks and tools that may be used to solve marketing problems\n            \n                 Syllabus\n                 Evals Winter 2022.1\n                 Evals Winter 2022.2\n            \n        \n    \n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching.html#undergraduate-courses",
+    "href": "teaching.html#undergraduate-courses",
+    "title": "Teaching",
+    "section": "Undergraduate Courses",
+    "text": "Undergraduate Courses\n\n\n\n    \n        \n            \n        \n        \n            \n                Customer Analytics \n            \n            \n                MGT 100 | \n                UCSD\n            \n            Combine customer data, economic theory, and statistical modeling to improve business decision-making; implementation in R\n            \n                 Syllabus\n                 Evals Summer 2023\n                 Evals Winter 2023\n                 Evals Winter 2022\n            \n        \n    \n    \n        \n            \n        \n        \n            \n                Business Analytics \n            \n            \n                MGT 153 | \n                UCSD\n            \n            Develope proficiency with popular software to execute analytic techniques; Excel, Tableau, SQL, R, Python\n            \n                 Syllabus\n                 Evals Winter 2023\n            \n        \n    \n\n\nNo matching items"
+  },
+  {
+    "objectID": "lit.html#less-academic",
+    "href": "lit.html#less-academic",
+    "title": "To Read",
+    "section": "Less Academic",
+    "text": "Less Academic\n\nOn Life\n\nThis is Water by David Foster Wallace\nA Mathematician’s Lament by Paul Lockhart\nTeaching Smart People How to Learn by Chris Argyris\n\n\n\nOn Writing\n\nHow to Send and Reply to email by Matt Might\nPublication, Publication by Gary King\n\n\n\nOn Getting a PhD (in Econ or Marketing)\n\nKen Wilbur: Reasons to Get (or Not) a PhD and Choosing a field, Subfield, and PhD Program\nSusan Athey: Professional Advice\nJesse Shapiro: Notes on Applying for a PhD in Economics"
+  },
+  {
+    "objectID": "lit.html#more-academic",
+    "href": "lit.html#more-academic",
+    "title": "To Read",
+    "section": "More Academic",
+    "text": "More Academic\n\nDemand Estimation\n\nBerry (1994) Estimating Discrete Choice Models of Product Differentiation [link]\nNevo (2000) A Practitioner’s Guide to Estimation of Random-Coefcients Logit Models of Demand [link]\nChintagunta & Nair (2011) Discrete Choice Models of Consumer Demand in Marketing [link]\nBerry and Haile (2021) Foundations of Demand Estimation [link]\nGandhi & Nevo (2021) Empirical Models of Demand and Supply in Differentiated Products Industries [link]\nUrsu, Seiler, & Honka (Draft) The Sequential Search Model: A Framework for Empirical Research [link]\n\n\n\nCausal Inference\n\nRossi (2014) Even the Rich Can Make Themselves Poor: A Critical Examination of IV Methods in Marketing Applications [link]\nAngrist (2022) Empirical Strategies in Economics: Illuminating the Path From Cause to Effect [link]\nHeckman and Pinto (Draft) Causality and Econometrics [link]"
+  },
+  {
+    "objectID": "mrci/2023-08-19-gumble/index.html",
+    "href": "mrci/2023-08-19-gumble/index.html",
+    "title": "Gumble Distribution in Discrete Choice Models",
+    "section": "",
+    "text": "This article seeks to describe the Gumbel (or Type-1 Generalized Extreme Value) distribution and it’s use in probabilistic discrete choice models.\nA standard framework for a probabilistic discrete choice model (DCM) reflecting a random utility theory (RUT) is as follows:\n\nThe utility that decision maker \\(i\\) obtains from alternative \\(j\\) is \\(U_{ij}\\), for \\(j = 1, \\ldots, J\\).\nThe decision maker chooses the alternative that provides the greatest utility: choose alternative \\(k\\) if and only if \\(U_{ik} &gt; U_{ij} \\hspace{1ex} \\forall j \\ne k\\).\nUtility is decomposed to reflect the researcher’s inability to understand or observe all factors that impact choices: \\(U_{ij} = V_{ij} + \\varepsilon_{ij}\\) where the joint density of the random vector \\(\\mathbf{\\varepsilon}_i = (\\varepsilon_{i1}, \\ldots, \\varepsilon_{iJ})\\) for decision maker \\(i\\) is \\(f_{\\mathbf{\\varepsilon}_i}(\\mathbf{\\varepsilon}_i)\\).\n\nThe probability that decision maker \\(i\\) chooses alternative \\(k\\) is:\n\\[\\begin{align*}\n    P_{ik}\n    &= \\text{Prob}\\left( U_{ik} &gt; U_{ij} \\; \\forall j \\ne k \\right)  &\\\\\n    &= \\text{Prob}\\left( V_{ik} + \\varepsilon_{ik} &gt; V_{ij} + \\varepsilon_{ij} \\; \\forall j \\ne k \\right)  &\\\\\n    &= \\text{Prob}\\left( \\varepsilon_{ij} &lt; \\varepsilon_{ik} + V_{ik} - V_{ij} \\; \\forall j \\ne k \\right)  &\\\\\n    &= \\int_{\\varepsilon_i} I\\left( \\varepsilon_{ij} &lt; \\varepsilon_{ik} + V_{ik} - V_{ij} \\; \\forall j \\ne k \\right) \\, f_{\\mathbf{\\varepsilon}_i}(\\mathbf{\\varepsilon}_i) \\, d \\mathbf{\\varepsilon}_i &\n\\end{align*}\\]\nwhere \\(I(\\cdot)\\) is the indicator function equaling one when the expression in parentheses is true and zero otherwise.\nA standard assumption about the joint distribution of vector \\(\\mathbf{\\varepsilon}_i\\) is that the components are independent and identically distributed as Gumbel random variables. Specifically, the cumulative distribution function for each \\(\\varepsilon_{ij}\\) is: \\[\n\\text{Prob}(\\varepsilon_{ij} \\leq x) = \\exp(-\\exp(-x)) = e^{-e^{-x}}\n\\]\nBecause each \\(\\varepsilon_{ij}\\) is assumed to be independently distributed, the probability of decision maker \\(i\\) choosing alternative \\(k\\) for a given value of \\(varepsilon_{ik}\\) can be written as the product of the \\(J-1\\) conditional distributions: \\[\n\\begin{align*}\nP_{ik} | \\varepsilon_{ik}\n&= \\prod_{j \\ne k} \\exp(-\\exp(-\\varepsilon_{ik})) &\\\\\n&= \\exp \\left( -\\sum_{j \\ne k} \\exp \\left( - ( \\varepsilon_{ik} + V_{ik} - V_{ij}) \\right) \\right) &\\\\\n&= \\exp \\left( - \\exp(\\varepsilon_{ik}) \\times \\sum_{j \\ne k} \\exp \\left( V_{ij} - V_{ik}) \\right) \\right)\n\\end{align*}\n\\]\nTo obtain the desired probability \\(P_{ik}\\), we must multiply the above conditional distribution by the marginal distribution of \\(\\varepsilon_{ik}\\) to find the joint \\(\\varepsilon_i\\) distribution, and then we integrate over all possible values of \\(\\varepsilon_{ik}\\): \\[\nP_{ik} = \\int_{-\\infty}^{\\infty} \\exp(-\\varepsilon_{ik}) \\times \\exp \\left( - \\exp(\\varepsilon_{ik}) \\times \\sum_{j=1}^J \\exp \\left( V_{ij} - V_{ik}) \\right) \\right) \\, d \\varepsilon_{ik}\n\\]\nFor notational simplicity, denote \\(a = \\sum_{j=1}^J \\exp ( V_{ij} - V_{ik})\\) and define the transformation of variables \\(z = \\exp(-\\varepsilon_{ik})\\). Then \\(dz = -\\exp(-\\varepsilon_{ik}) \\, d \\varepsilon_{ik} = -z \\, d \\varepsilon_{ik}\\) and the integral becomes: \\[\nP_{ik} = \\int_{\\infty}^{0} z \\times \\exp ( - z \\times a ) / (-z) \\, dz = \\int_{0}^{\\infty} \\exp (-z \\times a ) \\, dz\n\\]\nEvaluating the integral yields: \\[\nP_{ik} = - \\left[ \\frac{1}{a} \\times \\left( 0 - 1 \\right) \\right] = \\frac{1}{a} = \\frac{1}{\\sum_{j=1}^J \\exp ( V_{ij} - V_{ik})} = \\frac{\\exp ( V_{ik} )}{\\sum_{j = 1}^{J} \\exp ( V_{ij} )}\n\\]\nThis is the standard multinomial logit (MNL) choice probability."
+<<<<<<< HEAD
+  },
+  {
+    "objectID": "mrci/2024-01-07-gumble/index.html",
+    "href": "mrci/2024-01-07-gumble/index.html",
+    "title": "Gumble Distribution in Discrete Choice Models",
+    "section": "",
+    "text": "This article seeks to describe the Gumbel (or Type-1 Generalized Extreme Value) distribution and it’s use in probabilistic discrete choice models.\nA standard framework for a probabilistic discrete choice model (DCM) reflecting a random utility theory (RUT) is as follows:\n\nThe utility that decision maker \\(i\\) obtains from alternative \\(j\\) is \\(U_{ij}\\), for \\(j = 1, \\ldots, J\\).\nThe decision maker chooses the alternative that provides the greatest utility: choose alternative \\(k\\) if and only if \\(U_{ik} &gt; U_{ij} \\hspace{1ex} \\forall j \\ne k\\).\nUtility is decomposed to reflect the researcher’s inability to understand or observe all factors that impact choices: \\(U_{ij} = V_{ij} + \\varepsilon_{ij}\\) where the joint density of the random vector \\(\\mathbf{\\varepsilon}_i = (\\varepsilon_{i1}, \\ldots, \\varepsilon_{iJ})\\) for decision maker \\(i\\) is \\(f_{\\mathbf{\\varepsilon}_i}(\\mathbf{\\varepsilon}_i)\\).\n\nThe probability that decision maker \\(i\\) chooses alternative \\(k\\) is:\n\\[\\begin{align*}\n    P_{ik}\n    &= \\text{Prob}\\left( U_{ik} &gt; U_{ij} \\; \\forall j \\ne k \\right)  &\\\\\n    &= \\text{Prob}\\left( V_{ik} + \\varepsilon_{ik} &gt; V_{ij} + \\varepsilon_{ij} \\; \\forall j \\ne k \\right)  &\\\\\n    &= \\text{Prob}\\left( \\varepsilon_{ij} &lt; \\varepsilon_{ik} + V_{ik} - V_{ij} \\; \\forall j \\ne k \\right)  &\\\\\n    &= \\int_{\\varepsilon_i} I\\left( \\varepsilon_{ij} &lt; \\varepsilon_{ik} + V_{ik} - V_{ij} \\; \\forall j \\ne k \\right) \\, f_{\\mathbf{\\varepsilon}_i}(\\mathbf{\\varepsilon}_i) \\, d \\mathbf{\\varepsilon}_i &\n\\end{align*}\\]\nwhere \\(I(\\cdot)\\) is the indicator function equaling one when the expression in parentheses is true and zero otherwise.\nA standard assumption about the joint distribution of vector \\(\\mathbf{\\varepsilon}_i\\) is that the components are independent and identically distributed as Gumbel random variables. Specifically, the cumulative distribution function for each \\(\\varepsilon_{ij}\\) is: \\[\n\\text{Prob}(\\varepsilon_{ij} \\leq x) = \\exp(-\\exp(-x)) = e^{-e^{-x}}\n\\]\nBecause each \\(\\varepsilon_{ij}\\) is assumed to be independently distributed, the probability of decision maker \\(i\\) choosing alternative \\(k\\) for a given value of \\(\\varepsilon_{ik}\\) can be written as the product of the \\(J-1\\) conditional distributions: \\[\n\\begin{align*}\nP_{ik} | \\varepsilon_{ik}\n&= \\prod_{j \\ne k} \\exp(-\\exp(-\\varepsilon_{ik})) &\\\\\n&= \\exp \\left( -\\sum_{j \\ne k} \\exp \\left( - ( \\varepsilon_{ik} + V_{ik} - V_{ij}) \\right) \\right) &\\\\\n&= \\exp \\left( - \\exp(\\varepsilon_{ik}) \\times \\sum_{j \\ne k} \\exp \\left( V_{ij} - V_{ik}) \\right) \\right)\n\\end{align*}\n\\]\nTo obtain the desired probability \\(P_{ik}\\), we must multiply the above conditional distribution by the marginal distribution of \\(\\varepsilon_{ik}\\) to find the joint \\(\\varepsilon_i\\) distribution, and then integrate over all possible values of \\(\\varepsilon_{ik}\\): \\[\nP_{ik} = \\int_{-\\infty}^{\\infty} \\exp(-\\varepsilon_{ik}) \\times \\exp \\left( - \\exp(\\varepsilon_{ik}) \\times \\sum_{j=1}^J \\exp \\left( V_{ij} - V_{ik}) \\right) \\right) \\, d \\varepsilon_{ik}\n\\]\nFor notational simplicity, denote \\(a = \\sum_{j=1}^J \\exp ( V_{ij} - V_{ik})\\) and define the transformation of variables \\(z = \\exp(-\\varepsilon_{ik})\\). Then \\(dz = -\\exp(-\\varepsilon_{ik}) \\, d \\varepsilon_{ik} = -z \\, d \\varepsilon_{ik}\\) and the integral becomes: \\[\nP_{ik} = \\int_{\\infty}^{0} z \\times \\exp ( - z \\times a ) / (-z) \\, dz = \\int_{0}^{\\infty} \\exp (-z \\times a ) \\, dz\n\\]\nEvaluating the integral yields: \\[\nP_{ik} = - \\left[ \\frac{1}{a} \\times \\left( 0 - 1 \\right) \\right] = \\frac{1}{a} = \\frac{1}{\\sum_{j=1}^J \\exp ( V_{ij} - V_{ik})} = \\frac{\\exp ( V_{ik} )}{\\sum_{j = 1}^{J} \\exp ( V_{ij} )}\n\\]\nThis is the standard multinomial logit (MNL) choice probability."
+=======
+>>>>>>> a51bc19a7d28b88734139cc858137e6a5ddaf5b2
+  }
+]
