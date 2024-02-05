@@ -25,7 +25,7 @@
     "href": "posts.html",
     "title": "Content for You or Future Me",
     "section": "",
-    "text": "My Computing Environment Preferences\n\n\nHow I Like Things on My Computers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGumble Distribution in Discrete Choice Models\n\n\nDerivation of Choice Probabilities\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Gumble Distribution in Discrete Choice Models\n\n\nDerivation of Choice Probabilities\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Computing Environment Preferences\n\n\nHow I Like Things on My Computers\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/100-gumble/index.html",
@@ -96,20 +96,6 @@
     "title": "My Computing Environment Preferences",
     "section": "",
     "text": "RStudio\n\nVisual Look\nFor the visual look of RStudio, I use the RStudio theme Darkstudio and my own version of Atom’s One Dark editor theme, along with the Fira Code font. They can be installed as follows:\n\ndevtools::install_github(\"https://github.com/rileytwo/darkstudio\")\npath_to_index &lt;- \"/Applications/RStudio.app/Contents/Resources/app/www/index.htm\"\ndarkstudio::activate(path_to_index)\n\nurl &lt;- \"https://github.com/dyavorsky/atom-inspired-rstudio-theme/blob/main/atom_inspired.rstheme\"\nrstudioapi::addTheme(url, apply = TRUE, force = TRUE)\n\n\n\nGlobal Options\nWhen installing RStudio on a new machine, ensure the following global options are set:\n\nUncheck Restore most recently opened project at startup\nUncheck Restore previously open source documents at startup\nUncheck Restore .RData into workspace at startup\nSet Save workspace to .RData on exit to “Never”\n\n\n\nMost-used shortcuts\nNavigation\n\nCtrl + 1 moves focus to the script editor\nCtrl + 2 moves focus to the console\nCtrl + Tab moves focus to the next script tab\nAlt + Shift + M moves focus to the terminal\n\nEditing\n\nAlt + Shift + Arrow starts multi-cursor editing\nAlt + Arrow moves the current line up or down\nAlt + Shift + Arrow duplicates the current line up or down\n\nRunning\n\nCtrl + Alt + B runs an R script from beginning to current line\nCtrl + Shift + K renders a Quarto document"
-  },
-  {
-    "objectID": "posts/000-my-setup/index.html#global-options",
-    "href": "posts/000-my-setup/index.html#global-options",
-    "title": "My Computing Environment Preferences",
-    "section": "",
-    "text": "When installing RStudio on a new machine, ensure the following global options are set:\n\nUncheck Restore most recently opened project at startup\nUncheck Restore previously open source documents at startup\nUncheck Restore .RData into workspace at startup\nSet Save workspace to .RData on exit to “Never”"
-  },
-  {
-    "objectID": "posts/000-my-setup/index.html#most-used-shortcuts",
-    "href": "posts/000-my-setup/index.html#most-used-shortcuts",
-    "title": "My Computing Environment Preferences",
-    "section": "",
-    "text": "Navigation\n\nCtrl + 1 moves focus to the script editor\nCtrl + 2 moves focus to the console\nCtrl + Tab moves focus to the next script tab\nAlt + Shift + M moves focus to the terminal\n\nEditing\n\nAlt + Shift + Arrow starts multi-cursor editing\nAlt + Arrow moves the current line up or down\nAlt + Shift + Arrow duplicates the current line up or down\n\nRunning\n\nCtrl + Alt + B runs an R script from beginning to current line\nCtrl + Shift + K renders a Quarto document"
   },
   {
     "objectID": "publications.html#co-author",
