@@ -1,6 +1,26 @@
 ---
-title: "Good Reads"
+title: "Things I've Read"
 ---
+
+-----
+
+## R & Friends
+
+#### R Programming
+
+ - [Big Book of R](https://www.bigbookofr.com/) compiled by Oscar Baruffa
+ - [R for Data Science](https://r4ds.hadley.nz/) by Hadley Wickham and Garrett Grolemund
+ - [Advanced R](https://adv-r.hadley.nz/) by Hadley Wickham
+ - [Adavned R Solutions](https://advanced-r-solutions.rbind.io/) by Malte Grosser and Henning Bumann
+ - [ggplot2](https://ggplot2-book.org/) by Hadley Wickham
+ - [R Packages](https://r-pkgs.org/) by Hadley Wickham and Jenny Bryan
+ 
+#### Tools
+
+ - [Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub
+ - [Happy Git and GitHub for the UserR](https://happygitwithr.com/) by Jenny Bryan
+ - [OpenVim](https://www.openvim.com/) by Henrik Huttunen
+
 
 -----
 
