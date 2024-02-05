@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Derivation of Choice Probabilities">
 
-<title>Dan Yavorsky – dcms</title>
+<title>Dan Yavorsky - Gumble Distribution in Discrete Choice Models</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +24,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href=".//images/favicon.ico" rel="icon">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../..//images/favicon.ico" rel="icon">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -60,6 +61,8 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -71,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Dan Yavorsky</span>
     </a>
   </div>
@@ -82,31 +85,31 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
+    <a class="nav-link" href="../../index.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv/index.html" rel="" target="">
+    <a class="nav-link" href="../../cv/index.html" rel="" target="">
  <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html" rel="" target="">
+    <a class="nav-link" href="../../teaching.html" rel="" target="">
  <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html" rel="" target="">
+    <a class="nav-link" href="../../publications.html" rel="" target="">
  <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./mrci.html" rel="" target="">
+    <a class="nav-link" href="../../mrci.html" rel="" target="">
  <span class="menu-text">MR &amp; CI</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./dcms-r.danyavorsky.com" rel="" target="">
+    <a class="nav-link" href="../../dcms-r.danyavorsky.com" rel="" target="">
  <span class="menu-text">R-DCMS</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./lit.html" rel="" target="">
+    <a class="nav-link" href="../../lit.html" rel="" target="">
  <span class="menu-text">Good Reads</span></a>
   </li>  
 </ul>
@@ -117,17 +120,85 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Gumble Distribution in Discrete Choice Models</h1>
+                  <div>
+        <div class="description">
+          Derivation of Choice Probabilities
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
+
+<p>This short article seeks to describe the Gumbel (or Type-1 Generalized Extreme Value) distribution and how it’s use in probabilistic discrete choice models leads to a closed-form expression for choice probabilities.</p>
+<p>A standard framework for a probabilistic discrete choice model (DCM) reflecting a random utility theory (RUT) is as follows:</p>
+<ul>
+<li>The utility that decision maker <span class="math inline">\(i\)</span> obtains from alternative <span class="math inline">\(j\)</span> is <span class="math inline">\(U_{ij}\)</span>, for <span class="math inline">\(j = 1, \ldots, J\)</span>.</li>
+<li>The decision maker chooses the alternative that provides the greatest utility: choose alternative <span class="math inline">\(k\)</span> if and only if <span class="math inline">\(U_{ik} &gt; U_{ij} \hspace{1ex} \forall j \ne k\)</span>.</li>
+<li>Utility is decomposed to reflect the researcher’s inability to understand or observe all factors that impact choices: <span class="math inline">\(U_{ij} = V_{ij} + \varepsilon_{ij}\)</span> where the joint density of the random vector <span class="math inline">\(\mathbf{\varepsilon}_i = (\varepsilon_{i1}, \ldots, \varepsilon_{iJ})\)</span> for decision maker <span class="math inline">\(i\)</span> is <span class="math inline">\(f_{\mathbf{\varepsilon}_i}(\mathbf{\varepsilon}_i)\)</span>.</li>
+</ul>
+<p>The probability that decision maker <span class="math inline">\(i\)</span> chooses alternative <span class="math inline">\(k\)</span> is:</p>
+<p><span class="math display">\[\begin{align*}
+    P_{ik}
+    &amp;= \text{Prob}\left( U_{ik} &gt; U_{ij} \; \forall j \ne k \right)  &amp;\\
+    &amp;= \text{Prob}\left( V_{ik} + \varepsilon_{ik} &gt; V_{ij} + \varepsilon_{ij} \; \forall j \ne k \right)  &amp;\\
+    &amp;= \text{Prob}\left( \varepsilon_{ij} &lt; \varepsilon_{ik} + V_{ik} - V_{ij} \; \forall j \ne k \right)  &amp;\\
+    &amp;= \int_{\varepsilon_i} I\left( \varepsilon_{ij} &lt; \varepsilon_{ik} + V_{ik} - V_{ij} \; \forall j \ne k \right) \, f_{\mathbf{\varepsilon}_i}(\mathbf{\varepsilon}_i) \, d \mathbf{\varepsilon}_i &amp;
+\end{align*}\]</span></p>
+<p>where <span class="math inline">\(I(\cdot)\)</span> is the indicator function equaling one when the expression in parentheses is true and zero otherwise.</p>
+<p>A standard assumption about the joint distribution of vector <span class="math inline">\(\mathbf{\varepsilon}_i\)</span> is that the components are independent and identically distributed as Gumbel random variables. Specifically, the cumulative distribution function for each <span class="math inline">\(\varepsilon_{ij}\)</span> is: <span class="math display">\[
+\text{Prob}(\varepsilon_{ij} \leq x) = \exp(-\exp(-x)) = e^{-e^{-x}}
+\]</span> The Gumbel density and distribution are plotted below alongside the Normal for comparison.</p>
+<div class="cell quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="cell-output-display quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
+</div>
+<div class="cell-output-display quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="index_files/figure-html/unnamed-chunk-1-2.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</div>
+<p>Because each <span class="math inline">\(\varepsilon_{ij}\)</span> is assumed to be independently distributed, the probability of decision maker <span class="math inline">\(i\)</span> choosing alternative <span class="math inline">\(k\)</span> for a given value of <span class="math inline">\(\varepsilon_{ik}\)</span> can be written as the product of the <span class="math inline">\(J-1\)</span> conditional distributions:</p>
+<p><span class="math display">\[\begin{align*}
+    P_{ik} | \varepsilon_{ik}
+    &amp;= \prod_{j \ne k} \exp(-\exp(-\varepsilon_{ik})) &amp;\\
+    &amp;= \exp \left( -\sum_{j \ne k} \exp \left( - ( \varepsilon_{ik} + V_{ik} - V_{ij}) \right) \right) &amp;\\
+    &amp;= \exp \left( - \exp(\varepsilon_{ik}) \times \sum_{j \ne k} \exp \left( V_{ij} - V_{ik}) \right) \right)
+\end{align*}\]</span></p>
+<p>Bur of course <span class="math inline">\(\varepsilon_{ik}\)</span> is not given, so to obtain the desired probability <span class="math inline">\(P_{ik}\)</span>, we must integrate over all possible values of <span class="math inline">\(\varepsilon_{ik}\)</span>, weighted by its marginal density <span class="math inline">\(f_{\varepsilon_{ik}}(\varepsilon_{ik}) = \exp(-\varepsilon_{ik}) \times \exp ( -\exp(\varepsilon_{ik})\)</span>: <span class="math display">\[
+P_{ik} = \int_{-\infty}^{\infty} \exp(-\varepsilon_{ik}) \times \exp \left( - \exp(\varepsilon_{ik}) \times \sum_{j=1}^J \exp \left( V_{ij} - V_{ik}) \right) \right) \, d \varepsilon_{ik}
+\]</span></p>
+<p>For notational simplicity, denote <span class="math inline">\(a = \sum_{j=1}^J \exp ( V_{ij} - V_{ik})\)</span> and define the transformation of variables <span class="math inline">\(z = \exp(-\varepsilon_{ik})\)</span>. Then <span class="math inline">\(dz = -\exp(-\varepsilon_{ik}) \, d \varepsilon_{ik} = -z \, d \varepsilon_{ik}\)</span> and the integral becomes: <span class="math display">\[
+P_{ik} = \int_{\infty}^{0} z \times \exp ( - z \times a ) / (-z) \, dz = \int_{0}^{\infty} \exp (-z \times a ) \, dz
+\]</span></p>
+<p>Evaluating the integral yields: <span class="math display">\[
+P_{ik} = - \left[ \frac{1}{a} \times \left( 0 - 1 \right) \right] = \frac{1}{a} = \frac{1}{\sum_{j=1}^J \exp ( V_{ij} - V_{ik})} = \frac{\exp ( V_{ik} )}{\sum_{j = 1}^{J} \exp ( V_{ij} )}
+\]</span></p>
+<p>This is the standard multinomial logit (MNL) choice probability.</p>
 
 
 

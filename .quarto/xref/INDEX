@@ -118,5 +118,38 @@
   },
   "mrci/2024-12-31-my-setup/index.qmd": {
     "index.html": "c7a04530"
+  },
+  "mrci/207-pca-efa/index.qmd": {
+    "index.html": "9f666c43"
+  },
+  "mrci/000-my-setup/index.qmd": {
+    "index.html": "b44d1d9f"
+  },
+  "mrci/100-gumble/index.qmd": {
+    "index.html": "3904f6a7"
+  },
+  "mrci/201-key-drivers/index.qmd": {
+    "index.html": "175aa378"
+  },
+  "mrci/203-conjoint/index.qmd": {
+    "index.html": "20846957"
+  },
+  "mrci/202-maxdiff/index.qmd": {
+    "index.html": "4ae7e8d6"
+  },
+  "mrci/205-mmm/index.qmd": {
+    "index.html": "b9e5251d"
+  },
+  "mrci/200-stat-testing/index.qmd": {
+    "index.html": "22611650"
+  },
+  "mrci/204-clustering/index.qmd": {
+    "index.html": "eb2bc1f6"
+  },
+  "mrci/300-abramovich-ritov/index.qmd": {
+    "index.html": "27f9b606"
+  },
+  "mrci/206-sem/index.qmd": {
+    "index.html": "b604ca9e"
   }
 }

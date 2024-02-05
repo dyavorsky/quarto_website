@@ -41,6 +41,11 @@ Emily Oehlsen
 [Thomas Lin Pedersen](https://www.data-imaginist.com/)  
 *Springer*
 
+#### [R Packages: Organize, Test, Document, and Share Your Code](https://r-pkgs.org/)
+
+[Hadley Wickham](https://hadley.nz/) and
+[Jennifer Bryan](https://jennybryan.org/)  
+*Springer*
 
 -----
 

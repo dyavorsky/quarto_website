@@ -1,0 +1,109 @@
+---
+title: "Gumble Distribution in Discrete Choice Models"
+description: "Derivation of Choice Probabilities"
+number-sections: true
+draft: false
+
+---
+
+This short article seeks to describe the Gumbel (or Type-1 Generalized Extreme Value) distribution and how it's use in probabilistic discrete choice models leads to a closed-form expression for choice probabilities.
+
+A standard framework for a probabilistic discrete choice model (DCM) reflecting a random utility theory (RUT) is as follows: 
+
+ - The utility that decision maker $i$ obtains from alternative $j$ is $U_{ij}$, for $j = 1, \ldots, J$. 
+ - The decision maker chooses the alternative that provides the greatest utility: choose alternative $k$ if and only if $U_{ik} > U_{ij} \hspace{1ex} \forall j \ne k$. 
+ - Utility is decomposed to reflect the researcher's inability to understand or observe all factors that impact choices: $U_{ij} = V_{ij} + \varepsilon_{ij}$ where the joint density of the random vector $\mathbf{\varepsilon}_i = (\varepsilon_{i1}, \ldots, \varepsilon_{iJ})$ for decision maker $i$ is $f_{\mathbf{\varepsilon}_i}(\mathbf{\varepsilon}_i)$. 
+
+The probability that decision maker $i$ chooses alternative $k$ is:
+
+\begin{align*}
+    P_{ik} 
+    &= \text{Prob}\left( U_{ik} > U_{ij} \; \forall j \ne k \right)  &\\
+    &= \text{Prob}\left( V_{ik} + \varepsilon_{ik} > V_{ij} + \varepsilon_{ij} \; \forall j \ne k \right)  &\\
+    &= \text{Prob}\left( \varepsilon_{ij} < \varepsilon_{ik} + V_{ik} - V_{ij} \; \forall j \ne k \right)  &\\
+    &= \int_{\varepsilon_i} I\left( \varepsilon_{ij} < \varepsilon_{ik} + V_{ik} - V_{ij} \; \forall j \ne k \right) \, f_{\mathbf{\varepsilon}_i}(\mathbf{\varepsilon}_i) \, d \mathbf{\varepsilon}_i &
+\end{align*}
+
+where $I(\cdot)$ is the indicator function equaling one when the expression in parentheses is true and zero otherwise.
+
+A standard assumption about the joint distribution of vector $\mathbf{\varepsilon}_i$ is that the components are independent and identically distributed as Gumbel random variables. Specifically, the cumulative distribution function for each $\varepsilon_{ij}$ is:
+$$ 
+\text{Prob}(\varepsilon_{ij} \leq x) = \exp(-\exp(-x)) = e^{-e^{-x}} 
+$$
+The Gumbel density and distribution are plotted below alongside the Normal for comparison.
+
+```{r}
+#| error: false
+#| warning: false
+#| message: false
+#| layout-ncol: 2
+#| echo: false
+
+library(tidyverse)
+
+pdf_dat <- tibble(
+  x = seq(-5, 5, by = 0.01),
+  g = exp(-x - exp(-x)),
+  n = dnorm(x)
+)
+
+ggplot(pdf_dat, aes(x = x)) +
+  geom_line(aes(y = g, color = "Gumbel")) +
+  geom_line(aes(y = n, color = "Normal"), linetype = "dashed") +
+  scale_color_manual(name = "", values = c("Gumbel" = "black", "Normal" = "firebrick"),
+                     guide = guide_legend(override.aes = list(linetype = 1:2))) +
+  labs(x = "", y = "", title = "PDF of Gumbel and Normal Distributions") +
+  theme_minimal()
+
+cdf_dat <- tibble(x = seq(-5, 5, by = 0.01), 
+                  g = exp(-exp(-x)),
+                  n = pnorm(x)
+)
+
+ggplot(cdf_dat, aes(x = x)) +
+  geom_line(aes(y = g, color = "Gumbel")) +
+  geom_line(aes(y = n, color = "Normal"), linetype = "dashed") +
+  scale_color_manual(name = "", values = c("Gumbel" = "black", "Normal" = "firebrick"),
+                     guide = guide_legend(override.aes = list(linetype = 1:2))) +
+  labs(x = "", y = "", title = "CDF of Gumbel and Normal Distributions") +
+  theme_minimal()
+
+
+
+```
+
+
+
+
+Because each $\varepsilon_{ij}$ is assumed to be independently distributed, the probability of decision maker $i$ choosing alternative $k$ for a given value of $\varepsilon_{ik}$ can be written as the product of the $J-1$ conditional distributions:
+
+\begin{align*}
+    P_{ik} | \varepsilon_{ik}
+    &= \prod_{j \ne k} \exp(-\exp(-\varepsilon_{ik})) &\\
+    &= \exp \left( -\sum_{j \ne k} \exp \left( - ( \varepsilon_{ik} + V_{ik} - V_{ij}) \right) \right) &\\
+    &= \exp \left( - \exp(\varepsilon_{ik}) \times \sum_{j \ne k} \exp \left( V_{ij} - V_{ik}) \right) \right) 
+\end{align*}
+
+
+Bur of course $\varepsilon_{ik}$ is not given, so to obtain the desired probability $P_{ik}$, we must integrate over all possible values of $\varepsilon_{ik}$, weighted by its marginal density $f_{\varepsilon_{ik}}(\varepsilon_{ik}) = \exp(-\varepsilon_{ik}) \times \exp ( -\exp(\varepsilon_{ik})$:
+$$ 
+P_{ik} = \int_{-\infty}^{\infty} \exp(-\varepsilon_{ik}) \times \exp \left( - \exp(\varepsilon_{ik}) \times \sum_{j=1}^J \exp \left( V_{ij} - V_{ik}) \right) \right) \, d \varepsilon_{ik} 
+$$
+
+For notational simplicity, denote $a = \sum_{j=1}^J \exp ( V_{ij} - V_{ik})$ and define the transformation of variables $z = \exp(-\varepsilon_{ik})$. Then $dz = -\exp(-\varepsilon_{ik}) \, d \varepsilon_{ik} = -z \, d \varepsilon_{ik}$ and the integral becomes:
+$$
+P_{ik} = \int_{\infty}^{0} z \times \exp ( - z \times a ) / (-z) \, dz = \int_{0}^{\infty} \exp (-z \times a ) \, dz
+$$
+
+Evaluating the integral yields:
+$$
+P_{ik} = - \left[ \frac{1}{a} \times \left( 0 - 1 \right) \right] = \frac{1}{a} = \frac{1}{\sum_{j=1}^J \exp ( V_{ij} - V_{ik})} = \frac{\exp ( V_{ik} )}{\sum_{j = 1}^{J} \exp ( V_{ij} )}
+$$
+
+This is the standard multinomial logit (MNL) choice probability.
+
+
+
+
+
+

@@ -41,7 +41,7 @@ format:
 
  - GBK Collective [| 2022 - Present]{.gray}
  - Bain & Co [| 2020 - 2021]{.gray}
- - Cornerstone Research [| 2006 - 2014 ]{.gray}
+ - Cornerstone Research [| 2006 - 2014]{.gray}
 
 -----
 
@@ -56,7 +56,7 @@ format:
 
 ::: {style="font-size: small"}
 
-Built with Quarto and generous online resources made available by [Albert Rapp](https://albert-rapp.de/),  [Andrew Heiss](https://www.andrewheiss.com/), [Emil Hvitfeldt](https://www.emilhvitfeldt.com/), [Megan Hall](https://meghan.rbind.io/), [Mine Dogucu](https://www.minedogucu.com/), and [Tom Mock](https://themockup.blog/about.html)
+Built with Quarto and generous online resources made available by [Albert Rapp](https://albert-rapp.de/),  [Andrew Heiss](https://www.andrewheiss.com/), [Emil Hvitfeldt](https://www.emilhvitfeldt.com/), [Megan Hall](https://meghan.rbind.io/), [Mine Dogucu](https://www.minedogucu.com/), [Samantha Csik](https://samanthacsik.github.io/), and [Tom Mock](https://themockup.blog/about.html)
 
 :::
 
