@@ -21,32 +21,46 @@
     "text": "Undergraduate Courses\n\n\n\n    \n        \n            \n        \n        \n            \n                Customer Analytics \n            \n            \n                MGT 100 | \n                UCSD\n            \n            Combine customer data, economic theory, and statistical modeling to improve business decision-making related to segmentation, demand estimation, pricing, branding, and customer aquisition and retention; implementation in R\n            \n                Syllabus\n                Evals 2023.1\n                Evals 2023.2\n                Evals 2022\n            \n        \n    \n    \n        \n            \n        \n        \n            \n                Business Analytics \n            \n            \n                MGT 153 | \n                UCSD\n            \n            Develope proficiency with popular software to execute common analytic techniques; Excel, Tableau, SQL, R, Python\n            \n                Syllabus\n                Evals 2023\n            \n        \n    \n\n\nNo matching items"
   },
   {
-    "objectID": "mrci/000-my-setup/index.html",
-    "href": "mrci/000-my-setup/index.html",
-    "title": "My Computing Environment Preferences",
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Content for You or Future Me",
     "section": "",
-    "text": "For the visual look of RStudio, I use the RStudio theme Darkstudio and my own version of Atom’s One Dark editor theme. They can be installed as follows:\n\ndevtools::install_github(\"https://github.com/rileytwo/darkstudio\")\npath_to_index &lt;- \"/Applications/RStudio.app/Contents/Resources/app/www/index.htm\"\ndarkstudio::activate(path_to_index)\n\nurl &lt;- \"https://github.com/dyavorsky/atom-inspired-rstudio-theme/blob/main/atom_inspired.rstheme\"\nrstudioapi::addTheme(url, apply = TRUE, force = TRUE)\n\n\n\n\nWhen installing RStudio on a new machine, ensure the following global options are set:\n\nUncheck Restore most recently opened project at startup\nUncheck Restore previously open source documents at startup\nUncheck Restore .RData into workspace at startup\nSet Save workspace to .RData on exit to “Never”\n\n\n\n\nNavigation\n\nCtrl + 1 moves focus to the script editor\nCtrl + 2 moves focus to the console\nCtrl + Tab moves focus to the next script tab\nAlt + Shift + M moves focus to the terminal\n\nEditing\n\nAlt + Shift + Arrow starts multi-cursor editing\nAlt + Arrow moves the current line up or down\nAlt + Shift + Arrow duplicates the current line up or down\n\nRunning\n\nCtrl + Alt + B runs an R script from beginning to current line\nCtrl + Shift + K renders a Quarto document"
+    "text": "My Computing Environment Preferences\n\n\nHow I Like Things on My Computers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGumble Distribution in Discrete Choice Models\n\n\nDerivation of Choice Probabilities\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "mrci/000-my-setup/index.html#global-options",
-    "href": "mrci/000-my-setup/index.html#global-options",
-    "title": "My Computing Environment Preferences",
-    "section": "",
-    "text": "When installing RStudio on a new machine, ensure the following global options are set:\n\nUncheck Restore most recently opened project at startup\nUncheck Restore previously open source documents at startup\nUncheck Restore .RData into workspace at startup\nSet Save workspace to .RData on exit to “Never”"
-  },
-  {
-    "objectID": "mrci/000-my-setup/index.html#most-used-shortcuts",
-    "href": "mrci/000-my-setup/index.html#most-used-shortcuts",
-    "title": "My Computing Environment Preferences",
-    "section": "",
-    "text": "Navigation\n\nCtrl + 1 moves focus to the script editor\nCtrl + 2 moves focus to the console\nCtrl + Tab moves focus to the next script tab\nAlt + Shift + M moves focus to the terminal\n\nEditing\n\nAlt + Shift + Arrow starts multi-cursor editing\nAlt + Arrow moves the current line up or down\nAlt + Shift + Arrow duplicates the current line up or down\n\nRunning\n\nCtrl + Alt + B runs an R script from beginning to current line\nCtrl + Shift + K renders a Quarto document"
-  },
-  {
-    "objectID": "mrci/100-gumble/index.html",
-    "href": "mrci/100-gumble/index.html",
+    "objectID": "posts/100-gumble/index.html",
+    "href": "posts/100-gumble/index.html",
     "title": "Gumble Distribution in Discrete Choice Models",
     "section": "",
     "text": "This short article seeks to describe the Gumbel (or Type-1 Generalized Extreme Value) distribution and how it’s use in probabilistic discrete choice models leads to a closed-form expression for choice probabilities.\nA standard framework for a probabilistic discrete choice model (DCM) reflecting a random utility theory (RUT) is as follows:\n\nThe utility that decision maker \\(i\\) obtains from alternative \\(j\\) is \\(U_{ij}\\), for \\(j = 1, \\ldots, J\\).\nThe decision maker chooses the alternative that provides the greatest utility: choose alternative \\(k\\) if and only if \\(U_{ik} &gt; U_{ij} \\hspace{1ex} \\forall j \\ne k\\).\nUtility is decomposed to reflect the researcher’s inability to understand or observe all factors that impact choices: \\(U_{ij} = V_{ij} + \\varepsilon_{ij}\\) where the joint density of the random vector \\(\\mathbf{\\varepsilon}_i = (\\varepsilon_{i1}, \\ldots, \\varepsilon_{iJ})\\) for decision maker \\(i\\) is \\(f_{\\mathbf{\\varepsilon}_i}(\\mathbf{\\varepsilon}_i)\\).\n\nThe probability that decision maker \\(i\\) chooses alternative \\(k\\) is:\n\\[\\begin{align*}\n    P_{ik}\n    &= \\text{Prob}\\left( U_{ik} &gt; U_{ij} \\; \\forall j \\ne k \\right)  &\\\\\n    &= \\text{Prob}\\left( V_{ik} + \\varepsilon_{ik} &gt; V_{ij} + \\varepsilon_{ij} \\; \\forall j \\ne k \\right)  &\\\\\n    &= \\text{Prob}\\left( \\varepsilon_{ij} &lt; \\varepsilon_{ik} + V_{ik} - V_{ij} \\; \\forall j \\ne k \\right)  &\\\\\n    &= \\int_{\\varepsilon_i} I\\left( \\varepsilon_{ij} &lt; \\varepsilon_{ik} + V_{ik} - V_{ij} \\; \\forall j \\ne k \\right) \\, f_{\\mathbf{\\varepsilon}_i}(\\mathbf{\\varepsilon}_i) \\, d \\mathbf{\\varepsilon}_i &\n\\end{align*}\\]\nwhere \\(I(\\cdot)\\) is the indicator function equaling one when the expression in parentheses is true and zero otherwise.\nA standard assumption about the joint distribution of vector \\(\\mathbf{\\varepsilon}_i\\) is that the components are independent and identically distributed as Gumbel random variables. Specifically, the cumulative distribution function for each \\(\\varepsilon_{ij}\\) is: \\[\n\\text{Prob}(\\varepsilon_{ij} \\leq x) = \\exp(-\\exp(-x)) = e^{-e^{-x}}\n\\] The Gumbel density and distribution are plotted below alongside the Normal for comparison.\n\n\n\n\n\n\n\n\n\n\nBecause each \\(\\varepsilon_{ij}\\) is assumed to be independently distributed, the probability of decision maker \\(i\\) choosing alternative \\(k\\) for a given value of \\(\\varepsilon_{ik}\\) can be written as the product of the \\(J-1\\) conditional distributions:\n\\[\\begin{align*}\n    P_{ik} | \\varepsilon_{ik}\n    &= \\prod_{j \\ne k} \\exp(-\\exp(-\\varepsilon_{ik})) &\\\\\n    &= \\exp \\left( -\\sum_{j \\ne k} \\exp \\left( - ( \\varepsilon_{ik} + V_{ik} - V_{ij}) \\right) \\right) &\\\\\n    &= \\exp \\left( - \\exp(\\varepsilon_{ik}) \\times \\sum_{j \\ne k} \\exp \\left( V_{ij} - V_{ik}) \\right) \\right)\n\\end{align*}\\]\nBur of course \\(\\varepsilon_{ik}\\) is not given, so to obtain the desired probability \\(P_{ik}\\), we must integrate over all possible values of \\(\\varepsilon_{ik}\\), weighted by its marginal density \\(f_{\\varepsilon_{ik}}(\\varepsilon_{ik}) = \\exp(-\\varepsilon_{ik}) \\times \\exp ( -\\exp(\\varepsilon_{ik})\\): \\[\nP_{ik} = \\int_{-\\infty}^{\\infty} \\exp(-\\varepsilon_{ik}) \\times \\exp \\left( - \\exp(\\varepsilon_{ik}) \\times \\sum_{j=1}^J \\exp \\left( V_{ij} - V_{ik}) \\right) \\right) \\, d \\varepsilon_{ik}\n\\]\nFor notational simplicity, denote \\(a = \\sum_{j=1}^J \\exp ( V_{ij} - V_{ik})\\) and define the transformation of variables \\(z = \\exp(-\\varepsilon_{ik})\\). Then \\(dz = -\\exp(-\\varepsilon_{ik}) \\, d \\varepsilon_{ik} = -z \\, d \\varepsilon_{ik}\\) and the integral becomes: \\[\nP_{ik} = \\int_{\\infty}^{0} z \\times \\exp ( - z \\times a ) / (-z) \\, dz = \\int_{0}^{\\infty} \\exp (-z \\times a ) \\, dz\n\\]\nEvaluating the integral yields: \\[\nP_{ik} = - \\left[ \\frac{1}{a} \\times \\left( 0 - 1 \\right) \\right] = \\frac{1}{a} = \\frac{1}{\\sum_{j=1}^J \\exp ( V_{ij} - V_{ik})} = \\frac{\\exp ( V_{ik} )}{\\sum_{j = 1}^{J} \\exp ( V_{ij} )}\n\\]\nThis is the standard multinomial logit (MNL) choice probability."
+  },
+  {
+    "objectID": "lit.html#r-friends",
+    "href": "lit.html#r-friends",
+    "title": "Things I’ve Read",
+    "section": "R & Friends",
+    "text": "R & Friends\n\nR Programming\n\nBig Book of R compiled by Oscar Baruffa\nR for Data Science by Hadley Wickham and Garrett Grolemund\nAdvanced R by Hadley Wickham\nAdavned R Solutions by Malte Grosser and Henning Bumann\nggplot2 by Hadley Wickham\nR Packages by Hadley Wickham and Jenny Bryan\n\n\n\nTools\n\nPro Git by Scott Chacon and Ben Straub\nHappy Git and GitHub for the UserR by Jenny Bryan\nOpenVim by Henrik Huttunen"
+  },
+  {
+    "objectID": "lit.html#less-academic",
+    "href": "lit.html#less-academic",
+    "title": "Things I’ve Read",
+    "section": "Less Academic",
+    "text": "Less Academic\n\nOn Life\n\nThis is Water by David Foster Wallace\nA Mathematician’s Lament by Paul Lockhart\nTeaching Smart People How to Learn by Chris Argyris\n\n\n\nOn Writing\n\nHow to Send and Reply to email by Matt Might\nPublication, Publication by Gary King\n\n\n\nOn Getting a PhD (in Econ or Marketing)\n\nKen Wilbur: Reasons to Get (or Not) a PhD and Choosing a field, Subfield, and PhD Program\nSusan Athey: Professional Advice\nJesse Shapiro: Notes on Applying for a PhD in Economics"
+  },
+  {
+    "objectID": "lit.html#more-academic",
+    "href": "lit.html#more-academic",
+    "title": "Things I’ve Read",
+    "section": "More Academic",
+    "text": "More Academic\n\nDemand Estimation\n\nBerry (1994) Estimating Discrete Choice Models of Product Differentiation [link]\nNevo (2000) A Practitioner’s Guide to Estimation of Random-Coefcients Logit Models of Demand [link]\nChintagunta & Nair (2011) Discrete Choice Models of Consumer Demand in Marketing [link]\nBerry and Haile (2021) Foundations of Demand Estimation [link]\nGandhi & Nevo (2021) Empirical Models of Demand and Supply in Differentiated Products Industries [link]\nUrsu, Seiler, & Honka (Draft) The Sequential Search Model: A Framework for Empirical Research [link]\n\n\n\nCausal Inference\n\nRossi (2014) Even the Rich Can Make Themselves Poor: A Critical Examination of IV Methods in Marketing Applications [link]\nAngrist (2022) Empirical Strategies in Economics: Illuminating the Path From Cause to Effect [link]\nHeckman and Pinto (Draft) Causality and Econometrics [link]"
+  },
+  {
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "Curriculum vitæ",
+    "section": "",
+    "text": "Download current CV"
   },
   {
     "objectID": "index.html",
@@ -77,6 +91,27 @@
     "text": "PhD Quant. Marketing | UCLA Anderson 2020\nMBA Management | UCLA Anderson 2014\nCFA Charterholder (inactive) | CFA Institute 2012\nBA Economics & Mathematics | CMC 2006"
   },
   {
+    "objectID": "posts/000-my-setup/index.html",
+    "href": "posts/000-my-setup/index.html",
+    "title": "My Computing Environment Preferences",
+    "section": "",
+    "text": "RStudio\n\nVisual Look\nFor the visual look of RStudio, I use the RStudio theme Darkstudio and my own version of Atom’s One Dark editor theme, along with the Fira Code font. They can be installed as follows:\n\ndevtools::install_github(\"https://github.com/rileytwo/darkstudio\")\npath_to_index &lt;- \"/Applications/RStudio.app/Contents/Resources/app/www/index.htm\"\ndarkstudio::activate(path_to_index)\n\nurl &lt;- \"https://github.com/dyavorsky/atom-inspired-rstudio-theme/blob/main/atom_inspired.rstheme\"\nrstudioapi::addTheme(url, apply = TRUE, force = TRUE)\n\n\n\nGlobal Options\nWhen installing RStudio on a new machine, ensure the following global options are set:\n\nUncheck Restore most recently opened project at startup\nUncheck Restore previously open source documents at startup\nUncheck Restore .RData into workspace at startup\nSet Save workspace to .RData on exit to “Never”\n\n\n\nMost-used shortcuts\nNavigation\n\nCtrl + 1 moves focus to the script editor\nCtrl + 2 moves focus to the console\nCtrl + Tab moves focus to the next script tab\nAlt + Shift + M moves focus to the terminal\n\nEditing\n\nAlt + Shift + Arrow starts multi-cursor editing\nAlt + Arrow moves the current line up or down\nAlt + Shift + Arrow duplicates the current line up or down\n\nRunning\n\nCtrl + Alt + B runs an R script from beginning to current line\nCtrl + Shift + K renders a Quarto document"
+  },
+  {
+    "objectID": "posts/000-my-setup/index.html#global-options",
+    "href": "posts/000-my-setup/index.html#global-options",
+    "title": "My Computing Environment Preferences",
+    "section": "",
+    "text": "When installing RStudio on a new machine, ensure the following global options are set:\n\nUncheck Restore most recently opened project at startup\nUncheck Restore previously open source documents at startup\nUncheck Restore .RData into workspace at startup\nSet Save workspace to .RData on exit to “Never”"
+  },
+  {
+    "objectID": "posts/000-my-setup/index.html#most-used-shortcuts",
+    "href": "posts/000-my-setup/index.html#most-used-shortcuts",
+    "title": "My Computing Environment Preferences",
+    "section": "",
+    "text": "Navigation\n\nCtrl + 1 moves focus to the script editor\nCtrl + 2 moves focus to the console\nCtrl + Tab moves focus to the next script tab\nAlt + Shift + M moves focus to the terminal\n\nEditing\n\nAlt + Shift + Arrow starts multi-cursor editing\nAlt + Arrow moves the current line up or down\nAlt + Shift + Arrow duplicates the current line up or down\n\nRunning\n\nCtrl + Alt + B runs an R script from beginning to current line\nCtrl + Shift + K renders a Quarto document"
+  },
+  {
     "objectID": "publications.html#co-author",
     "href": "publications.html#co-author",
     "title": "Publications",
@@ -96,33 +131,5 @@
     "title": "Publications",
     "section": "Short Form",
     "text": "Short Form\n\nGBK Employee Spotlight\nGBK Thought Leadership Blog\n\n\nSawtooth A&I Summit 2023\nGBK Thought Leadership Blog"
-  },
-  {
-    "objectID": "mrci.html",
-    "href": "mrci.html",
-    "title": "Market Research and Consumer Insights",
-    "section": "",
-    "text": "My Computing Environment Preferences\n\n\nHow I Like Things on My Computers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGumble Distribution in Discrete Choice Models\n\n\nDerivation of Choice Probabilities\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "cv/index.html",
-    "href": "cv/index.html",
-    "title": "Curriculum vitæ",
-    "section": "",
-    "text": "Download current CV"
-  },
-  {
-    "objectID": "lit.html#less-academic",
-    "href": "lit.html#less-academic",
-    "title": "Good Reads",
-    "section": "Less Academic",
-    "text": "Less Academic\n\nOn Life\n\nThis is Water by David Foster Wallace\nA Mathematician’s Lament by Paul Lockhart\nTeaching Smart People How to Learn by Chris Argyris\n\n\n\nOn Writing\n\nHow to Send and Reply to email by Matt Might\nPublication, Publication by Gary King\n\n\n\nOn Getting a PhD (in Econ or Marketing)\n\nKen Wilbur: Reasons to Get (or Not) a PhD and Choosing a field, Subfield, and PhD Program\nSusan Athey: Professional Advice\nJesse Shapiro: Notes on Applying for a PhD in Economics"
-  },
-  {
-    "objectID": "lit.html#more-academic",
-    "href": "lit.html#more-academic",
-    "title": "Good Reads",
-    "section": "More Academic",
-    "text": "More Academic\n\nDemand Estimation\n\nBerry (1994) Estimating Discrete Choice Models of Product Differentiation [link]\nNevo (2000) A Practitioner’s Guide to Estimation of Random-Coefcients Logit Models of Demand [link]\nChintagunta & Nair (2011) Discrete Choice Models of Consumer Demand in Marketing [link]\nBerry and Haile (2021) Foundations of Demand Estimation [link]\nGandhi & Nevo (2021) Empirical Models of Demand and Supply in Differentiated Products Industries [link]\nUrsu, Seiler, & Honka (Draft) The Sequential Search Model: A Framework for Empirical Research [link]\n\n\n\nCausal Inference\n\nRossi (2014) Even the Rich Can Make Themselves Poor: A Critical Examination of IV Methods in Marketing Applications [link]\nAngrist (2022) Empirical Strategies in Economics: Illuminating the Path From Cause to Effect [link]\nHeckman and Pinto (Draft) Causality and Econometrics [link]"
   }
 ]

@@ -1,0 +1,8 @@
+---
+title: "Content for You or Future Me"
+listing: 
+  contents: posts   # all Quarto docs in this` directory will be included on your listing page
+  type: grid        # or `default` or `table` or `grid'; each type has its own set of yaml options to include
+  sort: "date desc" # can also sort on more than one field
+  categories: false # allows you to sort posts by assigned categories 
+---

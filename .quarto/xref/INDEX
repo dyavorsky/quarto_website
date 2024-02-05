@@ -151,5 +151,38 @@
   },
   "mrci/206-sem/index.qmd": {
     "index.html": "b604ca9e"
+  },
+  "posts/000-my-setup/index.qmd": {
+    "index.html": "450a52ca"
+  },
+  "posts/100-gumble/index.qmd": {
+    "index.html": "03f7d6f0"
+  },
+  "posts/200-stat-testing/index.qmd": {
+    "index.html": "8220ede5"
+  },
+  "posts/201-key-drivers/index.qmd": {
+    "index.html": "160fc9b0"
+  },
+  "posts/202-maxdiff/index.qmd": {
+    "index.html": "7d237743"
+  },
+  "posts/203-conjoint/index.qmd": {
+    "index.html": "312b7097"
+  },
+  "posts/204-clustering/index.qmd": {
+    "index.html": "7ef91fa2"
+  },
+  "posts/205-mmm/index.qmd": {
+    "index.html": "0c91850e"
+  },
+  "posts/206-sem/index.qmd": {
+    "index.html": "ed334e89"
+  },
+  "posts/207-pca-efa/index.qmd": {
+    "index.html": "40b9aa38"
+  },
+  "posts/300-abramovich-ritov/index.qmd": {
+    "index.html": "97b25333"
   }
 }

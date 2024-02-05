@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Dan Yavorsky">
+<meta name="dcterms.date" content="2023-03-31">
+<meta name="description" content="description">
 
-<title>Dan Yavorsky - Things I’ve Read</title>
+<title>Dan Yavorsky - Key Drivers Analysis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,26 +23,60 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href=".//images/favicon.ico" rel="icon">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../..//images/favicon.ico" rel="icon">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,7 +109,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Dan Yavorsky</span>
     </a>
   </div>
@@ -83,31 +120,31 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
+    <a class="nav-link" href="../../index.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv/index.html" rel="" target="">
+    <a class="nav-link" href="../../cv/index.html" rel="" target="">
  <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html" rel="" target="">
+    <a class="nav-link" href="../../teaching.html" rel="" target="">
  <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html" rel="" target="">
+    <a class="nav-link" href="../../publications.html" rel="" target="">
  <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html" rel="" target="">
+    <a class="nav-link" href="../../posts.html" rel="" target="">
  <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./dcms-r.danyavorsky.com" rel="" target="">
+    <a class="nav-link" href="../../dcms-r.danyavorsky.com" rel="" target="">
  <span class="menu-text">R-DCMS</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./lit.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../../lit.html" rel="" target="">
  <span class="menu-text">Links</span></a>
   </li>  
 </ul>
@@ -118,7 +155,40 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Key Drivers Analysis</h1>
+                  <div>
+        <div class="description">
+          description
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p><a href="danyavorsky.com">Dan Yavorsky</a> <a href="https://orcid.org/0000-0003-4095-6405" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">March 31, 2023</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -126,106 +196,71 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#r-friends" id="toc-r-friends" class="nav-link active" data-scroll-target="#r-friends">R &amp; Friends</a></li>
-  <li><a href="#less-academic" id="toc-less-academic" class="nav-link" data-scroll-target="#less-academic">Less Academic</a></li>
-  <li><a href="#more-academic" id="toc-more-academic" class="nav-link" data-scroll-target="#more-academic">More Academic</a></li>
+  <li><a href="#pearson-correlations" id="toc-pearson-correlations" class="nav-link active" data-scroll-target="#pearson-correlations">Pearson Correlations</a></li>
+  <li><a href="#standardized-coefficients" id="toc-standardized-coefficients" class="nav-link" data-scroll-target="#standardized-coefficients">Standardized Coefficients</a></li>
+  <li><a href="#permutation-based" id="toc-permutation-based" class="nav-link" data-scroll-target="#permutation-based">Permutation-Based</a></li>
+  <li><a href="#lmgshapley-values-for-linear-regression" id="toc-lmgshapley-values-for-linear-regression" class="nav-link" data-scroll-target="#lmgshapley-values-for-linear-regression">LMG/Shapley Values for Linear Regression</a></li>
+  <li><a href="#johnsons-relative-weights" id="toc-johnsons-relative-weights" class="nav-link" data-scroll-target="#johnsons-relative-weights">Johnson’s Relative Weights</a></li>
+  <li><a href="#random-forest-mean-decrease-in-gini-coefficient" id="toc-random-forest-mean-decrease-in-gini-coefficient" class="nav-link" data-scroll-target="#random-forest-mean-decrease-in-gini-coefficient">Random Forest: Mean Decrease in Gini Coefficient</a></li>
+  <li><a href="#xgboost-describe" id="toc-xgboost-describe" class="nav-link" data-scroll-target="#xgboost-describe">XGBoost: –describe–</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Things I’ve Read</h1>
+
+
+
+<p>Key drivers analysis is an umbrella term used to describe methods that calculate relative importance scores for a group of predictors that are associated with an outcome variable.</p>
+<p>Let’s use the Boston dataset from the MASS package which provides the following information:</p>
+<ul>
+<li><code>medv</code>: median value of owner-occupied homes in $1000s.</li>
+<li><code>crim</code>: per capita crime rate by town.</li>
+<li><code>zn</code>: proportion of residential land zoned for lots over 25,000 sq.ft.</li>
+<li><code>indus</code>: proportion of non-retail business acres per town.</li>
+<li><code>chas</code>: Charles River dummy variable (= 1 if tract bounds river; 0 otherwise).</li>
+<li><code>nox</code>: nitrogen oxides concentration (parts per 10 million).</li>
+<li><code>rm</code>: average number of rooms per dwelling.</li>
+<li><code>age</code>: proportion of owner-occupied units built prior to 1940.</li>
+<li><code>dis</code>: weighted mean of distances to five Boston employment centres.</li>
+<li><code>rad</code>: index of accessibility to radial highways.</li>
+<li><code>tax</code>: full-value property-tax rate per $10,000.</li>
+<li><code>ptratio</code>: pupil-teacher ratio by town.</li>
+<li><code>black</code>: 1000(Bk - 0.63)^2 where BkBk is the proportion of blacks by town.</li>
+<li><code>lstat</code>: lower status of the population (percent).</li>
+</ul>
+<blockquote class="blockquote">
+<p>TODO: review Belsley D.A., Kuh, E. and Welsch, R.E. (1980) Regression Diagnostics. Identifying Influential Data and Sources of Collinearity. New York: Wiley. online here: https://onlinelibrary.wiley.com/doi/abs/10.1002/jae.3950040108 review Harrison, D. and Rubinfeld, D.L. (1978) Hedonic prices and the demand for clean air. J. Environ. Economics and Management 5, 81–102. oneline here: https://www.law.berkeley.edu/files/Hedonic.PDF</p>
+</blockquote>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(Boston, <span class="at">package=</span><span class="st">"MASS"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<section id="pearson-correlations" class="level3">
+<h3 class="anchored" data-anchor-id="pearson-correlations">Pearson Correlations</h3>
+</section>
+<section id="standardized-coefficients" class="level3">
+<h3 class="anchored" data-anchor-id="standardized-coefficients">Standardized Coefficients</h3>
+</section>
+<section id="permutation-based" class="level3">
+<h3 class="anchored" data-anchor-id="permutation-based">Permutation-Based</h3>
+</section>
+<section id="lmgshapley-values-for-linear-regression" class="level3">
+<h3 class="anchored" data-anchor-id="lmgshapley-values-for-linear-regression">LMG/Shapley Values for Linear Regression</h3>
+</section>
+<section id="johnsons-relative-weights" class="level3">
+<h3 class="anchored" data-anchor-id="johnsons-relative-weights">Johnson’s Relative Weights</h3>
+</section>
+<section id="random-forest-mean-decrease-in-gini-coefficient" class="level3">
+<h3 class="anchored" data-anchor-id="random-forest-mean-decrease-in-gini-coefficient">Random Forest: Mean Decrease in Gini Coefficient</h3>
+</section>
+<section id="xgboost-describe" class="level3">
+<h3 class="anchored" data-anchor-id="xgboost-describe">XGBoost: –describe–</h3>
+<blockquote class="blockquote">
+<p>To review: - https://www.surveymonkey.com/market-research/resources/key-driver-analysis-with-survey-data/ - https://ema.drwhy.ai/featureImportance.html - Shapley values</p>
+</blockquote>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
-
-<hr>
-<section id="r-friends" class="level2">
-<h2 class="anchored" data-anchor-id="r-friends">R &amp; Friends</h2>
-<section id="r-programming" class="level4">
-<h4 class="anchored" data-anchor-id="r-programming">R Programming</h4>
-<ul>
-<li><a href="https://www.bigbookofr.com/">Big Book of R</a> compiled by Oscar Baruffa</li>
-<li><a href="https://r4ds.hadley.nz/">R for Data Science</a> by Hadley Wickham and Garrett Grolemund</li>
-<li><a href="https://adv-r.hadley.nz/">Advanced R</a> by Hadley Wickham</li>
-<li><a href="https://advanced-r-solutions.rbind.io/">Adavned R Solutions</a> by Malte Grosser and Henning Bumann</li>
-<li><a href="https://ggplot2-book.org/">ggplot2</a> by Hadley Wickham</li>
-<li><a href="https://r-pkgs.org/">R Packages</a> by Hadley Wickham and Jenny Bryan</li>
-</ul>
-</section>
-<section id="tools" class="level4">
-<h4 class="anchored" data-anchor-id="tools">Tools</h4>
-<ul>
-<li><a href="https://git-scm.com/book/en/v2">Pro Git</a> by Scott Chacon and Ben Straub</li>
-<li><a href="https://happygitwithr.com/">Happy Git and GitHub for the UserR</a> by Jenny Bryan</li>
-<li><a href="https://www.openvim.com/">OpenVim</a> by Henrik Huttunen</li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="less-academic" class="level2">
-<h2 class="anchored" data-anchor-id="less-academic">Less Academic</h2>
-<section id="on-life" class="level4">
-<h4 class="anchored" data-anchor-id="on-life">On Life</h4>
-<ul>
-<li><a href="https://web.ics.purdue.edu/~drkelly/DFWKenyonAddress2005.pdf">This is Water</a> by David Foster Wallace</li>
-<li><a href="http://worrydream.com/refs/Lockhart-MathematiciansLament.pdf">A Mathematician’s Lament</a> by Paul Lockhart</li>
-<li><a href="https://hbr.org/1991/05/teaching-smart-people-how-to-learn">Teaching Smart People How to Learn</a> by Chris Argyris</li>
-</ul>
-</section>
-<section id="on-writing" class="level4">
-<h4 class="anchored" data-anchor-id="on-writing">On Writing</h4>
-<ul>
-<li><a href="https://matt.might.net/articles/how-to-email/">How to Send and Reply to email</a> by Matt Might</li>
-<li><a href="https://gking.harvard.edu/sites/scholar.harvard.edu/files/gking/files/paperspub.pdf">Publication, Publication</a> by Gary King</li>
-</ul>
-</section>
-<section id="on-getting-a-phd-in-econ-or-marketing" class="level4">
-<h4 class="anchored" data-anchor-id="on-getting-a-phd-in-econ-or-marketing">On Getting a PhD (in Econ or Marketing)</h4>
-<ul>
-<li>Ken Wilbur: <a href="https://kennethcwilbur.github.io/website//#:~:text=Reasons%20to%20get%20or%20not%20get%20a%20Ph.D.">Reasons to Get (or Not) a PhD</a> and <a href="https://kennethcwilbur.github.io/website//#:~:text=Choosing%20a%20field%2C%20subfield%20and%20Ph.D.%20program">Choosing a field, Subfield, and PhD Program</a></li>
-<li>Susan Athey: <a href="https://gsb-faculty.stanford.edu/susan-athey/professional-advice/">Professional Advice</a></li>
-<li>Jesse Shapiro: <a href="https://scholar.harvard.edu/files/shapiro/files/phdnotes.pdf">Notes on Applying for a PhD in Economics</a></li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="more-academic" class="level2">
-<h2 class="anchored" data-anchor-id="more-academic">More Academic</h2>
-<section id="demand-estimation" class="level4">
-<h4 class="anchored" data-anchor-id="demand-estimation">Demand Estimation</h4>
-<ul>
-<li>Berry (1994) Estimating Discrete Choice Models of Product Differentiation [<a href="https://www.jstor.org/stable/2555829">link</a>]</li>
-<li>Nevo (2000) A Practitioner’s Guide to Estimation of Random-Coefcients Logit Models of Demand [<a href="https://bpb-us-w2.wpmucdn.com/web.sas.upenn.edu/dist/3/499/files/2018/09/RAs_guide-1cnwy2p.pdf">link</a>]</li>
-<li>Chintagunta &amp; Nair (2011) Discrete Choice Models of Consumer Demand in Marketing [<a href="https://pubsonline.informs.org/doi/10.1287/mksc.1110.0674">link</a>]</li>
-<li>Berry and Haile (2021) Foundations of Demand Estimation [<a href="https://www.sciencedirect.com/science/article/abs/pii/S1573448X21000017">link</a>]</li>
-<li>Gandhi &amp; Nevo (2021) Empirical Models of Demand and Supply in Differentiated Products Industries [<a href="https://www.sciencedirect.com/science/article/abs/pii/S1573448X21000029">link</a>]</li>
-<li>Ursu, Seiler, &amp; Honka (Draft) The Sequential Search Model: A Framework for Empirical Research [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4357557">link</a>]</li>
-</ul>
-</section>
-<section id="causal-inference" class="level4">
-<h4 class="anchored" data-anchor-id="causal-inference">Causal Inference</h4>
-<ul>
-<li>Rossi (2014) Even the Rich Can Make Themselves Poor: A Critical Examination of IV Methods in Marketing Applications [<a href="https://pubsonline.informs.org/doi/10.1287/mksc.2014.0860">link</a>]</li>
-<li>Angrist (2022) Empirical Strategies in Economics: Illuminating the Path From Cause to Effect [<a href="https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA20640">link</a>]</li>
-<li>Heckman and Pinto (Draft) Causality and Econometrics [<a href="https://www.nber.org/papers/w29787">link</a>]</li>
-</ul>
-
-
-</section>
 </section>
 
 </main> <!-- /main -->
