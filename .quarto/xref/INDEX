@@ -184,5 +184,11 @@
   },
   "posts/300-abramovich-ritov/index.qmd": {
     "index.html": "97b25333"
+  },
+  "posts/900-git-basics/index.qmd": {
+    "index.html": "f302d3ef"
+  },
+  "posts/990-my-setup/index.qmd": {
+    "index.html": "5d9263d1"
   }
 }
