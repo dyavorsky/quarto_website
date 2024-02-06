@@ -50,6 +50,7 @@ Editing
  - **Alt + Shift + Arrow** starts multi-cursor editing
  - **Alt + Arrow** moves the current line up or down
  - **Alt + Shift + Arrow** duplicates the current line up or down
+ - **Ctrl + Space** brings up RStudio's path auto-completion menu (useful to avoid Co-pilot path auto-completion)
  
 Running
  
