@@ -8,7 +8,7 @@
 
 <meta name="description" content="Fundamentals of Version Control">
 
-<title>Dan Yavorsky - Git Basics</title>
+<title>Dan Yavorsky - Getting Going with Git</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -122,7 +122,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Git Basics</h1>
+      <h1 class="title">Getting Going with Git</h1>
                   <div>
         <div class="description">
           Fundamentals of Version Control
@@ -144,7 +144,19 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#whats-git" id="toc-whats-git" class="nav-link active" data-scroll-target="#whats-git">What’s Git</a></li>
+  <li><a href="#getting-going" id="toc-getting-going" class="nav-link" data-scroll-target="#getting-going">Getting Going</a></li>
+  <li><a href="#git-commands" id="toc-git-commands" class="nav-link" data-scroll-target="#git-commands">Git Commands</a>
+  <ul class="collapse">
+  <li><a href="#the-basics" id="toc-the-basics" class="nav-link" data-scroll-target="#the-basics">The basics</a></li>
+  <li><a href="#intermediate" id="toc-intermediate" class="nav-link" data-scroll-target="#intermediate">Intermediate</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -152,9 +164,118 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>add content here</p>
+<section id="whats-git" class="level2">
+<h2 class="anchored" data-anchor-id="whats-git">What’s Git</h2>
+<p>Git is a free and open source distributed version control system.</p>
+<p>This post serves as a set of notes to quickly refer to. For detailed explanations, see these excellent free resources:</p>
+<ul>
+<li><a href="https://git-scm.com/book/en/v2">Pro Git</a> by Scott Chacon and Ben Straub</li>
+<li><a href="https://happygitwithr.com/">Happy Git and GitHub for the UserR</a> by Jenny Bryan</li>
+</ul>
+</section>
+<section id="getting-going" class="level2">
+<h2 class="anchored" data-anchor-id="getting-going">Getting Going</h2>
+<section id="check-to-see-if-you-have-git-installed-already" class="level4">
+<h4 class="anchored" data-anchor-id="check-to-see-if-you-have-git-installed-already">Check to see if you have Git installed already:</h4>
+<ul>
+<li>On Windows, open the command prompt and type <code>git --version</code> or search for the application Git Bash.
+<ul>
+<li>If you see <code>git version 2.43.0.windows.1</code> or something similar, you’re good to go.<br>
+</li>
+<li>If you see <code>git is not recognized as an internal or external command</code>, you need to install Git.</li>
+</ul></li>
+<li>On Mac, open the terminal and type <code>which git</code> or <code>git --version</code>.
+<ul>
+<li>If you see something like <code>/usr/local/bin/git</code> or <code>git version 2.39.3 (Apple Git-145)</code>, you’re good to go.<br>
+</li>
+<li>If you see <code>command not found</code>, you need to install Git.</li>
+</ul></li>
+</ul>
+</section>
+<section id="to-download-or-update-git" class="level4">
+<h4 class="anchored" data-anchor-id="to-download-or-update-git">To download or update Git</h4>
+<ul>
+<li>go to <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a> and install like any other software</li>
+<li>to update on Mac: <code>brew upgrade git</code></li>
+<li>to update on Windows: <code>git update git-for-windows</code></li>
+</ul>
+</section>
+<section id="tell-git-who-you-are" class="level4">
+<h4 class="anchored" data-anchor-id="tell-git-who-you-are">Tell Git who you are</h4>
+<ul>
+<li>at the terminal (mac) or command prompt or git bash (Windows)
+<ul>
+<li>type <code>git config --global user.name "your name"</code> (can be your full name or github username)</li>
+<li>type <code>git config --global user.email "your email"</code> (must be the email you use with GitHub)</li>
+<li>check the result with <code>git config --list</code></li>
+</ul></li>
+</ul>
+</section>
+<section id="register-a-free-github-account" class="level4">
+<h4 class="anchored" data-anchor-id="register-a-free-github-account">Register a free <a href="https://github.com">GitHub</a> account</h4>
+<ul>
+<li>pick a username that is short, timeless, professional, and (preferably) all lowercase</li>
+</ul>
+</section>
+<section id="link-your-github-account-and-your-local-git" class="level4">
+<h4 class="anchored" data-anchor-id="link-your-github-account-and-your-local-git">Link your GitHub account and your local Git</h4>
+<ul>
+<li>Git Credential Manager is the best way to store your GitHub credentials
+<ul>
+<li>on Windows, GCM is included with Git for Windows</li>
+<li>on Mac, you can install GCM with <code>brew install --cask git-credential-manager</code></li>
+</ul></li>
+<li>Create a new repository on GitHub</li>
+<li>Clone the repository to your local machine by running <code>git clone URL</code> where URL is the https web url of the repository you just created</li>
+<li>Follow the prompts to authenticate with your GitHub credentials</li>
+</ul>
+</section>
+</section>
+<section id="git-commands" class="level2">
+<h2 class="anchored" data-anchor-id="git-commands">Git Commands</h2>
+<section id="the-basics" class="level3">
+<h3 class="anchored" data-anchor-id="the-basics">The basics</h3>
+<p>To copy down a GitHub repository to your local machine</p>
+<ul>
+<li><code>git clone https://github.com/your-username/your-repo.git</code> to copy down a repository from GitHub to your local machine</li>
+<li><code>git remote --verbose</code> to check the remote was cloned successfully</li>
+</ul>
+<p>To add a remote to an existing local repository</p>
+<ul>
+<li><code>git remote add origin https://github.com/your-username/your-repo.git</code> to add a remote to an existing local repository with nickname origin</li>
+<li><code>git remote --verbose</code> to check the remote was added successfully</li>
+<li><code>git remote show origin</code> to see more details about the remote</li>
+</ul>
+<p>Most common workflow commands</p>
+<ul>
+<li><code>git add newdoc.txt</code> to stage a file for a commit</li>
+<li><code>git commit -m "a commit message"</code> to commit the staged file</li>
+<li><code>git push origin main</code> to push local commits (on branch main) up to the remote repository (origin)</li>
+<li><code>git push -u origin main</code> to push local commits up to the remote repository and have local main track remote main</li>
+<li><code>git pull origin main</code> to pull down the latest changes (on branch main) from the remote repository (origin)</li>
+</ul>
+<p>Checking status</p>
+<ul>
+<li><code>git status</code> to check on the state of your repository</li>
+<li><code>git log --oneline</code> to see a list of commits</li>
+<li><code>git diff</code> to see the changes you’ve made since the last commit</li>
+</ul>
+<p>Branching</p>
+<ul>
+<li><code>git branch [branch-name]</code> to create a new branch</li>
+<li><code>git checkout [branch-name]</code> to switch to the branch</li>
+<li><code>git checkout -b [branch-name]</code> to create a new branch and switch to it in one command</li>
+<li><code>git checkout main</code> to switch back to the main branch</li>
+<li><code>git merge [branch-name]</code> (when on main) to merge the branch into the main branch</li>
+</ul>
+</section>
+<section id="intermediate" class="level3">
+<h3 class="anchored" data-anchor-id="intermediate">Intermediate</h3>
+<p><em>Coming Soon</em></p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

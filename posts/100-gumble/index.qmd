@@ -30,7 +30,7 @@ A standard assumption about the joint distribution of vector $\mathbf{\varepsilo
 $$ 
 \text{Prob}(\varepsilon_{ij} \leq x) = \exp(-\exp(-x)) = e^{-e^{-x}} 
 $$
-The Gumbel density and distribution are plotted below alongside the Normal for comparison.
+The Gumbel density and distribution are plotted below (in black) alongside the Normal (in dashed red) for comparison.
 
 ```{r}
 #| error: false
@@ -68,8 +68,6 @@ ggplot(cdf_dat, aes(x = x)) +
   labs(x = "", y = "", title = "CDF of Gumbel and Normal Distributions") +
   theme_minimal()
 
-
-
 ```
 
 
@@ -85,7 +83,7 @@ Because each $\varepsilon_{ij}$ is assumed to be independently distributed, the 
 \end{align*}
 
 
-Bur of course $\varepsilon_{ik}$ is not given, so to obtain the desired probability $P_{ik}$, we must integrate over all possible values of $\varepsilon_{ik}$, weighted by its marginal density $f_{\varepsilon_{ik}}(\varepsilon_{ik}) = \exp(-\varepsilon_{ik}) \times \exp ( -\exp(\varepsilon_{ik})$:
+But of course $\varepsilon_{ik}$ is not given, so to obtain the desired probability $P_{ik}$, we must integrate over all possible values of $\varepsilon_{ik}$, weighted by its marginal density $f_{\varepsilon_{ik}}(\varepsilon_{ik}) = \exp(-\varepsilon_{ik}) \times \exp ( -\exp(\varepsilon_{ik})$:
 $$ 
 P_{ik} = \int_{-\infty}^{\infty} \exp(-\varepsilon_{ik}) \times \exp \left( - \exp(\varepsilon_{ik}) \times \sum_{j=1}^J \exp \left( V_{ij} - V_{ik}) \right) \right) \, d \varepsilon_{ik} 
 $$
