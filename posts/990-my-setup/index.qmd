@@ -17,10 +17,14 @@ For the visual look of RStudio, I use the RStudio theme *Darkstudio* and my own 
 ```{r}
 #| eval: false
 
+# rstudio theme
 devtools::install_github("https://github.com/rileytwo/darkstudio")
-path_to_index <- "/Applications/RStudio.app/Contents/Resources/app/www/index.htm"
-darkstudio::activate(path_to_index)
 
+path_to_index <- "/Applications/RStudio.app/Contents/Resources/app/www/index.htm"
+darkstudio::activate(path_to_index) # on mac
+darkstudio::activate() # on windows (open rstudio with "run as admin")
+
+# editor theme
 url <- "https://github.com/dyavorsky/atom-inspired-rstudio-theme/blob/main/atom_inspired.rstheme"
 rstudioapi::addTheme(url, apply = TRUE, force = TRUE)
 ```
