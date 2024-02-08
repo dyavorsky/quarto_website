@@ -2,7 +2,7 @@
 title: "Getting Going with Git"
 description: "Fundamentals of Version Control"
 number-sections: false
-draft: true
+draft: false
 
 ---
 

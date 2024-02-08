@@ -25,7 +25,35 @@
     "href": "posts.html",
     "title": "Content for You or Future Me",
     "section": "",
-    "text": "Gumble Distribution in Discrete Choice Models\n\n\nDerivation of Choice Probabilities\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Computing Environment Preferences\n\n\nHow I Like Things on My Computers\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Gumble Distribution in Discrete Choice Models\n\n\nDerivation of Choice Probabilities\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGetting Going with Git\n\n\nFundamentals of Version Control\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Computing Environment Preferences\n\n\nHow I Like Things on My Computers\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/900-git-basics/index.html",
+    "href": "posts/900-git-basics/index.html",
+    "title": "Getting Going with Git",
+    "section": "",
+    "text": "Git is a free and open source distributed version control system.\nThis post serves as a set of notes to quickly refer to. For detailed explanations, see these excellent free resources:\n\nPro Git by Scott Chacon and Ben Straub\nHappy Git and GitHub for the UserR by Jenny Bryan"
+  },
+  {
+    "objectID": "posts/900-git-basics/index.html#whats-git",
+    "href": "posts/900-git-basics/index.html#whats-git",
+    "title": "Getting Going with Git",
+    "section": "",
+    "text": "Git is a free and open source distributed version control system.\nThis post serves as a set of notes to quickly refer to. For detailed explanations, see these excellent free resources:\n\nPro Git by Scott Chacon and Ben Straub\nHappy Git and GitHub for the UserR by Jenny Bryan"
+  },
+  {
+    "objectID": "posts/900-git-basics/index.html#getting-going",
+    "href": "posts/900-git-basics/index.html#getting-going",
+    "title": "Getting Going with Git",
+    "section": "Getting Going",
+    "text": "Getting Going\n\nCheck to see if you have Git installed already:\n\nOn Windows, open the command prompt and type git --version or search for the application Git Bash.\n\nIf you see git version 2.43.0.windows.1 or something similar, you’re good to go.\n\nIf you see git is not recognized as an internal or external command, you need to install Git.\n\nOn Mac, open the terminal and type which git or git --version.\n\nIf you see something like /usr/local/bin/git or git version 2.39.3 (Apple Git-145), you’re good to go.\n\nIf you see command not found, you need to install Git.\n\n\n\n\nTo download or update Git\n\ngo to https://git-scm.com/downloads and install like any other software\nto update on Mac: brew upgrade git\nto update on Windows: git update git-for-windows\n\n\n\nTell Git who you are\n\nat the terminal (mac) or command prompt or git bash (Windows)\n\ntype git config --global user.name \"your name\" (can be your full name or github username)\ntype git config --global user.email \"your email\" (must be the email you use with GitHub)\ncheck the result with git config --list\n\n\n\n\nRegister a free GitHub account\n\npick a username that is short, timeless, professional, and (preferably) all lowercase\n\n\n\nLink your GitHub account and your local Git\n\nGit Credential Manager is the best way to store your GitHub credentials\n\non Windows, GCM is included with Git for Windows\non Mac, you can install GCM with brew install --cask git-credential-manager\n\nCreate a new repository on GitHub\nClone the repository to your local machine by running git clone URL where URL is the https web url of the repository you just created\nFollow the prompts to authenticate with your GitHub credentials"
+  },
+  {
+    "objectID": "posts/900-git-basics/index.html#git-commands",
+    "href": "posts/900-git-basics/index.html#git-commands",
+    "title": "Getting Going with Git",
+    "section": "Git Commands",
+    "text": "Git Commands\n\nThe basics\nTo copy down a GitHub repository to your local machine\n\ngit clone https://github.com/your-username/your-repo.git to copy down a repository from GitHub to your local machine\ngit remote --verbose to check the remote was cloned successfully\n\nTo add a remote to an existing local repository\n\ngit remote add origin https://github.com/your-username/your-repo.git to add a remote to an existing local repository with nickname origin\ngit remote --verbose to check the remote was added successfully\ngit remote show origin to see more details about the remote\n\nMost common workflow commands\n\ngit add newdoc.txt to stage a file for a commit\ngit commit -m \"a commit message\" to commit the staged file\ngit push origin main to push local commits (on branch main) up to the remote repository (origin)\ngit push -u origin main to push local commits up to the remote repository and have local main track remote main\ngit pull origin main to pull down the latest changes (on branch main) from the remote repository (origin)\n\nChecking status\n\ngit status to check on the state of your repository\ngit log --oneline to see a list of commits\ngit diff to see the changes you’ve made since the last commit\n\nBranching\n\ngit branch [branch-name] to create a new branch\ngit checkout [branch-name] to switch to the branch\ngit checkout -b [branch-name] to create a new branch and switch to it in one command\ngit checkout main to switch back to the main branch\ngit merge [branch-name] (when on main) to merge the branch into the main branch\n\n\n\nIntermediate\nComing Soon"
   },
   {
     "objectID": "posts/100-gumble/index.html",
@@ -74,7 +102,7 @@
     "href": "lit.html#r-friends",
     "title": "Things I’ve Read",
     "section": "R & Friends",
-    "text": "R & Friends\n\nR Programming\n\nBig Book of R compiled by Oscar Baruffa\nR for Data Science by Hadley Wickham and Garrett Grolemund\nAdvanced R by Hadley Wickham\nAdavned R Solutions by Malte Grosser and Henning Bumann\nggplot2 by Hadley Wickham\nR Packages by Hadley Wickham and Jenny Bryan\n\n\n\nTools\n\nPro Git by Scott Chacon and Ben Straub\nHappy Git and GitHub for the UserR by Jenny Bryan\nOpenVim by Henrik Huttunen"
+    "text": "R & Friends\n\nR Programming\n\nBig Book of R compiled by Oscar Baruffa\nR for Data Science by Hadley Wickham and Garrett Grolemund\nAdvanced R by Hadley Wickham\nAdavned R Solutions by Malte Grosser and Henning Bumann\nggplot2 by Hadley Wickham\nR Packages by Hadley Wickham and Jenny Bryan\n\n\n\nGit\n\nPro Git by Scott Chacon and Ben Straub\nHappy Git and GitHub for the UserR by Jenny Bryan\nGit in Practice by Mike McQuaid\n\n\n\nVim\n\nOpenVim by Henrik Huttunen\nMastering the Vim Language recorded presentation by Chris Toomey\nVim as Your Editor a 6-part playist by ThePrimeagen"
   },
   {
     "objectID": "lit.html#less-academic",
@@ -95,7 +123,7 @@
     "href": "posts/990-my-setup/index.html",
     "title": "My Computing Environment Preferences",
     "section": "",
-    "text": "RStudio\n\nVisual Look\nFor the visual look of RStudio, I use the RStudio theme Darkstudio and my own version of Atom’s One Dark editor theme, along with the Fira Code font. They can be installed as follows:\n\ndevtools::install_github(\"https://github.com/rileytwo/darkstudio\")\npath_to_index &lt;- \"/Applications/RStudio.app/Contents/Resources/app/www/index.htm\"\ndarkstudio::activate(path_to_index)\n\nurl &lt;- \"https://github.com/dyavorsky/atom-inspired-rstudio-theme/blob/main/atom_inspired.rstheme\"\nrstudioapi::addTheme(url, apply = TRUE, force = TRUE)\n\n\n\nGlobal Options\nWhen installing RStudio on a new machine, ensure the following global options are set:\n\nUncheck Restore most recently opened project at startup\nUncheck Restore previously open source documents at startup\nUncheck Restore .RData into workspace at startup\nSet Save workspace to .RData on exit to “Never”\n\n\n\nMost-used shortcuts\nNavigation\n\nCtrl + 1 moves focus to the script editor\nCtrl + 2 moves focus to the console\nCtrl + Tab moves focus to the next script tab\nAlt + Shift + M moves focus to the terminal\n\nEditing\n\nAlt + Shift + Arrow starts multi-cursor editing\nAlt + Arrow moves the current line up or down\nAlt + Shift + Arrow duplicates the current line up or down\nCtrl + Space brings up RStudio’s path auto-completion menu (useful to avoid Co-pilot path auto-completion)\n\nRunning\n\nCtrl + Alt + B runs an R script from beginning to current line\nCtrl + Shift + K renders a Quarto document"
+    "text": "RStudio\n\nVisual Look\nFor the visual look of RStudio, I use the RStudio theme Darkstudio and my own version of Atom’s One Dark editor theme, along with the Fira Code font. They can be installed as follows:\n\n# rstudio theme\ndevtools::install_github(\"https://github.com/rileytwo/darkstudio\")\n\npath_to_index &lt;- \"/Applications/RStudio.app/Contents/Resources/app/www/index.htm\"\ndarkstudio::activate(path_to_index) # on mac\ndarkstudio::activate() # on windows (open rstudio with \"run as admin\")\n\n# editor theme\nurl &lt;- \"https://github.com/dyavorsky/atom-inspired-rstudio-theme/blob/main/atom_inspired.rstheme\"\nrstudioapi::addTheme(url, apply = TRUE, force = TRUE)\n\n\n\nGlobal Options\nWhen installing RStudio on a new machine, ensure the following global options are set:\n\nUncheck Restore most recently opened project at startup\nUncheck Restore previously open source documents at startup\nUncheck Restore .RData into workspace at startup\nSet Save workspace to .RData on exit to “Never”\n\n\n\nMost-used shortcuts\nNavigation\n\nCtrl + 1 moves focus to the script editor\nCtrl + 2 moves focus to the console\nCtrl + Tab moves focus to the next script tab\nAlt + Shift + M moves focus to the terminal\n\nEditing\n\nAlt + Shift + Arrow starts multi-cursor editing\nAlt + Arrow moves the current line up or down\nAlt + Shift + Arrow duplicates the current line up or down\nCtrl + Space brings up RStudio’s path auto-completion menu (useful to avoid Co-pilot path auto-completion)\n\nRunning\n\nCtrl + Alt + B runs an R script from beginning to current line\nCtrl + Shift + K renders a Quarto document"
   },
   {
     "objectID": "publications.html#co-author",
