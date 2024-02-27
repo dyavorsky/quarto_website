@@ -4,10 +4,11 @@
     "items": []
   },
   {
-    "listing": "/mrci.html",
+    "listing": "/posts.html",
     "items": [
-      "/mrci/000-my-setup/index.html",
-      "/mrci/100-gumble/index.html"
+      "/posts/100-gumble/index.html",
+      "/posts/900-git-basics/index.html",
+      "/posts/990-my-setup/index.html"
     ]
   }
 ]

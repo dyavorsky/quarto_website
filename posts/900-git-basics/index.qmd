@@ -1,0 +1,106 @@
+---
+title: "Getting Going with Git"
+description: "Fundamentals of Version Control"
+number-sections: false
+image: git-logo-2color.png
+draft: false
+
+---
+
+## What's Git
+
+Git is a free and open source distributed version control system.
+
+This post serves as a set of notes to quickly refer to. For detailed explanations, see these excellent free resources:
+
+ - [Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub
+ - [Happy Git and GitHub for the UserR](https://happygitwithr.com/) by Jenny Bryan
+
+
+## Getting Going
+
+#### Check to see if you have Git installed already:
+
+ - On Windows, open the command prompt and type `git --version` or search for the application Git Bash.  
+     - If you see `git version 2.43.0.windows.1` or something similar, you're good to go.  
+     - If you see `git is not recognized as an internal or external command`, you need to install Git.
+ - On Mac, open the terminal and type `which git` or `git --version`.  
+     - If you see something like `/usr/local/bin/git` or `git version 2.39.3 (Apple Git-145)`, you're good to go.  
+     - If you see `command not found`, you need to install Git.
+ 
+#### To download or update Git
+
+ - go to [https://git-scm.com/downloads](https://git-scm.com/downloads) and install like any other software
+ - to update on Mac: `brew upgrade git`
+ - to update on Windows: `git update git-for-windows`
+ 
+#### Tell Git who you are
+
+ - at the terminal (mac) or command prompt or git bash (Windows) 
+     - type `git config --global user.name "your name"` (can be your full name or github username)
+     - type `git config --global user.email "your email"` (must be the email you use with GitHub)
+     - check the result with `git config --list`
+ 
+#### Register a free [GitHub](https://github.com) account
+
+ - pick a username that is short, timeless, professional, and (preferably) all lowercase
+
+#### Link your GitHub account and your local Git
+
+ - Git Credential Manager is the best way to store your GitHub credentials
+    - on Windows, GCM is included with Git for Windows
+    - on Mac, you can install GCM with `brew install --cask git-credential-manager`
+ - Create a new repository on GitHub
+ - Clone the repository to your local machine by running `git clone URL` where URL is the https web url of the repository you just created
+ - Follow the prompts to authenticate with your GitHub credentials
+
+
+## Git Commands
+
+### The basics
+
+To copy down a GitHub repository to your local machine
+
+ - `git clone https://github.com/your-username/your-repo.git` to copy down a repository from GitHub to your local machine
+ - `git remote --verbose` to check the remote was cloned successfully
+ 
+To add a remote to an existing local repository
+ 
+ - `git remote add origin https://github.com/your-username/your-repo.git` to add a remote to an existing local repository with nickname origin
+ - `git remote --verbose` to check the remote was added successfully
+ - `git remote show origin` to see more details about the remote
+ 
+Most common workflow commands
+ 
+ - `git add newdoc.txt` to stage a file for a commit
+ - `git commit -m "a commit message"` to commit the staged file
+ - `git push origin main` to push local commits (on branch main) up to the remote repository (origin)
+ - `git push -u origin main` to push local commits up to the remote repository and have local main track remote main
+ - `git pull origin main` to pull down the latest changes (on branch main) from the remote repository (origin)
+
+Checking status
+
+ - `git status` to check on the state of your repository
+ - `git log --oneline` to see a list of commits
+ - `git diff` to see the changes you've made since the last commit
+
+Branching
+
+ - `git branch [branch-name]` to create a new branch
+ - `git checkout [branch-name]` to switch to the branch
+ - `git checkout -b [branch-name]` to create a new branch and switch to it in one command
+ - `git checkout main` to switch back to the main branch
+ - `git merge [branch-name]` (when on main) to merge the branch into the main branch
+
+
+### Intermediate
+
+_Coming Soon_ 
+
+
+
+
+
+
+
+

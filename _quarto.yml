@@ -16,12 +16,12 @@ website:
         text: CV
       - teaching.qmd
       - publications.qmd
-      - href: mrci.qmd
-        text: MR & CI
+      - href: posts.qmd
+        text: Posts
       - href: dcms-r.danyavorsky.com
         text: R-DCMS
       - href: lit.qmd
-        text: Good Reads
+        text: Links
 
 format:
   html:

@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="How I Like Things on My Computers">
 
-<title>Dan Yavorsky</title>
+<title>Dan Yavorsky - My Computing Environment Preferences</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,25 +21,60 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href=".//images/favicon.ico" rel="icon">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../..//images/favicon.ico" rel="icon">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,7 +107,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Dan Yavorsky</span>
     </a>
   </div>
@@ -82,31 +118,31 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../../index.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv/index.html" rel="" target="">
+    <a class="nav-link" href="../../cv/index.html" rel="" target="">
  <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html" rel="" target="">
+    <a class="nav-link" href="../../teaching.html" rel="" target="">
  <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html" rel="" target="">
+    <a class="nav-link" href="../../publications.html" rel="" target="">
  <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html" rel="" target="">
+    <a class="nav-link" href="../../posts.html" rel="" target="">
  <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./dcms-r.danyavorsky.com" rel="" target="">
+    <a class="nav-link" href="../../dcms-r.danyavorsky.com" rel="" target="">
  <span class="menu-text">R-DCMS</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./lit.html" rel="" target="">
+    <a class="nav-link" href="../../lit.html" rel="" target="">
  <span class="menu-text">Links</span></a>
   </li>  
 </ul>
@@ -117,98 +153,98 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">My Computing Environment Preferences</h1>
+                  <div>
+        <div class="description">
+          How I Like Things on My Computers
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#rstudio" id="toc-rstudio" class="nav-link active" data-scroll-target="#rstudio">RStudio</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
-<div class="quarto-about-trestles column-page">
-  <div class="about-entity">
-    <img src="images/profile_pic.jpg" class="about-image
-  round " style="height: 20em; width: 20em;">
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Dan Yavorsky</h1>
+
+<section id="rstudio" class="level1">
+<h1>RStudio</h1>
+<section id="visual-look" class="level4">
+<h4 class="anchored" data-anchor-id="visual-look">Visual Look</h4>
+<p>For the visual look of RStudio, I use the RStudio theme <em>Darkstudio</em> and my own version of Atom’s <em>One Dark</em> editor theme, along with the <a href="https://sourceforge.net/projects/fira-code.mirror/">Fira Code</a> font. They can be installed as follows:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># rstudio theme</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"https://github.com/rileytwo/darkstudio"</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>path_to_index <span class="ot">&lt;-</span> <span class="st">"/Applications/RStudio.app/Contents/Resources/app/www/index.htm"</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>darkstudio<span class="sc">::</span><span class="fu">activate</span>(path_to_index) <span class="co"># on mac</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>darkstudio<span class="sc">::</span><span class="fu">activate</span>() <span class="co"># on windows (open rstudio with "run as admin")</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co"># editor theme</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>url <span class="ot">&lt;-</span> <span class="st">"https://github.com/dyavorsky/atom-inspired-rstudio-theme/blob/main/atom_inspired.rstheme"</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>rstudioapi<span class="sc">::</span><span class="fu">addTheme</span>(url, <span class="at">apply =</span> <span class="cn">TRUE</span>, <span class="at">force =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="quarto-title-meta">
-  </div>
-</header>
-    <div class="about-links">
-  <a href="mailto:dyavorsky@gmail.com" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://www.gbkcollective.com/team-profiles/danyavorsky" class="about-link" rel="" target="">
-    <i class="bi bi-building"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://www.linkedin.com/in/dyavorsky/" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://twitter.com/dyavorsky" class="about-link" rel="" target="">
-    <i class="bi bi-twitter"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://github.com/dyavorsky" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://stackoverflow.com/users/4573108/dany" class="about-link" rel="" target="">
-    <i class="bi bi-stack-overflow"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://scholar.google.com/citations?user=E2qzlUYAAAAJ&amp;hl=en" class="about-link" rel="" target="">
-    <i class="bi bi-mortarboard-fill"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://orcid.org/0000-0003-4095-6405" class="about-link" rel="" target="">
-    <i class="bi bi-person-check-fill"></i>
-     <span class="about-link-text"></span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><div id="main-content">
-<section id="current" class="level2">
-<h2 data-anchor-id="current">Current</h2>
-<ul>
-<li>SVP, Analytics | GBK Collective</li>
-<li>Lecturer, Econometrics | UCLA Anderson</li>
-<li>Lecturer, Customer Analytics | UCSD Rady</li>
-</ul>
-<hr>
 </section>
-<section id="work-history" class="level2">
-<h2 data-anchor-id="work-history">Work History</h2>
+<section id="global-options" class="level4">
+<h4 class="anchored" data-anchor-id="global-options">Global Options</h4>
+<p>When installing RStudio on a new machine, ensure the following global options are set:</p>
 <ul>
-<li>GBK Collective <span class="gray">| 2022 - Present</span></li>
-<li>Bain &amp; Co <span class="gray">| 2020 - 2021</span></li>
-<li>Cornerstone Research <span class="gray">| 2006 - 2014</span></li>
-</ul>
-<hr>
-</section>
-<section id="education" class="level2">
-<h2 data-anchor-id="education">Education</h2>
-<ul>
-<li>PhD Quant. Marketing <span class="gray">| UCLA Anderson 2020</span></li>
-<li>MBA Management <span class="gray">| UCLA Anderson 2014</span></li>
-<li>CFA Charterholder (inactive) <span class="gray">| CFA Institute 2012</span></li>
-<li>BA Economics &amp; Mathematics <span class="gray">| CMC 2006</span></li>
+<li>Uncheck <em>Restore most recently opened project at startup</em></li>
+<li>Uncheck <em>Restore previously open source documents at startup</em></li>
+<li>Uncheck <em>Restore .RData into workspace at startup</em></li>
+<li>Set <em>Save workspace to .RData on exit</em> to “Never”</li>
 </ul>
 </section>
-</div></div>
-</div>
+<section id="most-used-shortcuts" class="level4">
+<h4 class="anchored" data-anchor-id="most-used-shortcuts">Most-used shortcuts</h4>
+<p>Navigation</p>
+<ul>
+<li><strong>Ctrl + 1</strong> moves focus to the script editor</li>
+<li><strong>Ctrl + 2</strong> moves focus to the console</li>
+<li><strong>Ctrl + Tab</strong> moves focus to the next script tab</li>
+<li><strong>Alt + Shift + M</strong> moves focus to the terminal</li>
+</ul>
+<p>Editing</p>
+<ul>
+<li><strong>Alt + Shift + Arrow</strong> starts multi-cursor editing</li>
+<li><strong>Alt + Arrow</strong> moves the current line up or down</li>
+<li><strong>Alt + Shift + Arrow</strong> duplicates the current line up or down</li>
+<li><strong>Ctrl + Space</strong> brings up RStudio’s path auto-completion menu (useful to avoid Co-pilot path auto-completion)</li>
+</ul>
+<p>Running</p>
+<ul>
+<li><strong>Ctrl + Alt + B</strong> runs an R script from beginning to current line</li>
+<li><strong>Ctrl + Shift + K</strong> renders a Quarto document</li>
+</ul>
 
-<div style="font-size: small">
-<p>Built with Quarto and generous online resources made available by <a href="https://albert-rapp.de/">Albert Rapp</a>, <a href="https://www.andrewheiss.com/">Andrew Heiss</a>, <a href="https://www.emilhvitfeldt.com/">Emil Hvitfeldt</a>, <a href="https://meghan.rbind.io/">Megan Hall</a>, <a href="https://www.minedogucu.com/">Mine Dogucu</a>, <a href="https://samanthacsik.github.io/">Samantha Csik</a>, and <a href="https://themockup.blog/about.html">Tom Mock</a></p>
-</div>
 
-
-
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -231,6 +267,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
