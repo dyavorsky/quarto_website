@@ -17,10 +17,11 @@ sticker(
     h_fill = "#182B49",
     h_color = "#FFCD00",
     h_size = 1.25,
-    url = "UCSD MGTA 4XX",
+    url = "UCSD MGTA 495",
     u_size = 8,
     u_color = "white",
     u_x = 1.11,
     u_y = 0.16,
     dpi = 300
 ) |> print()
+

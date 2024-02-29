@@ -8,6 +8,42 @@ draft: false
 ---
 
 
+# Terminal & Shell
+
+### On Mac
+
+The *Terminal* is an application on your Mac. A *Shell* is a program that runs in the Terminal. It has a *command-line interface* (CLI) instead of the ubiquitous graphical-user interface (GUI) familiar to most computer users. To run commands in the Terminal via the Shell (or, equivalently, to execute programs on the command line) you type commands at the *prompt* and hit enter. I use **iTerm2** terminal application with the default **zsh** shell on Mac, configured using **Oh My Zsh**.  
+
+A nice installation guide is provided by [Josean Martinez](https://www.josean.com/posts/terminal-setup). It walks through installation of the **homebrew** package manager, the **iTerm2** terminal application, **Git** version control software, the **Oh My Zsh** framework for managing the Zsh configuration, the **PowerLevel10k** Oh My Zsh theme, and Josean's iTerm2 **coolnight** color scheme.
+
+My PowerLevel10k theme preferences are the following:
+
+ - (y) Yes, install the Meslo Nerd Font
+ - (2) Classic prompt style
+ - (1) Unicode character set
+ - (2) Light prompt color
+ - (1) 12-hour format for current time
+ - (1) Angled prompt separator
+ - (1) Sharp prompt heads
+ - (1) Flat prompt tails
+ - (2) 2-line prompt height
+ - (3) Solid prompt connection
+ - (1) No prompt frame
+ - (2) Sparse prompt spacing
+ - (2) Many icons
+ - (1) Concise prompt flow
+ - (y) Enable transient prompt
+ - (1) Verbose instant prompt mode
+
+I also use the **zsh-autosuggestions** and **zsh-syntax-highlighting** plugins. A 3-step procedure downloads, installs, and enables most Zsh plug-ins:
+
+ 1. download the plug-in: `git clone <url> $ZSH_CUSTOM/plugins/<plugin-name>`
+ 1. add the plugin name to the array in the `~/.zshrc` file: `plugins=(<plugin-name> <plugin-name> ...)`
+ 1. reload the Zsh configuration file via `source ~/.zshrc` to enable the plugins
+
+
+-----
+
 # RStudio
 
 #### Visual Look
@@ -62,10 +98,31 @@ Running
  - **Ctrl + Shift + K** renders a Quarto document
  
  
+-----
 
+# VS Code
  
- 
- 
- 
+#### Extensions
+
+Themes:
+
+- **Atom One Dark** by Mahmoud Ali
+- **Material** by Equinusocio 
+- **Material Icons** by Equinusocio
+
+Languages:
+
+- **R** by REditorSupport
+- **Quarto** by quarto.org
+- **Python** by Microsoft
+- **Jupyter** by Microsoft
+- **Julia** by julialang
+- **LaTeX Workshop** by James Yu
+
+
+Other:
+
+- **GitHub Copilot** by GitHub
+- **Error Lens** by Alexander
 
 

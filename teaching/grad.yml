@@ -33,7 +33,7 @@
 - title: Marketing Analytics
   description: "A survey of analytic applications that support marketing decisions; implementation in R"
   university: UCSD
-  number: MGTA 4xx
+  number: MGTA 495
   logo: teaching/logos/MarketingAnalytics.png
   semester:
   - name: Under Development
