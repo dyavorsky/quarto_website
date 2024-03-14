@@ -6,9 +6,9 @@
   {
     "listing": "/posts.html",
     "items": [
-      "/posts/990-my-setup/index.html",
       "/posts/100-gumble/index.html",
-      "/posts/900-git-basics/index.html"
+      "/posts/900-git-basics/index.html",
+      "/posts/990-my-setup/index.html"
     ]
   }
 ]
