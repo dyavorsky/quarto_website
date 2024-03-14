@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.3.330">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -91,8 +91,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-submit-button-title": "Submit"
   }
 }</script>
 
@@ -182,7 +181,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#rstudio" id="toc-rstudio" class="nav-link active" data-scroll-target="#rstudio">RStudio</a></li>
+  <li><a href="#terminal-shell" id="toc-terminal-shell" class="nav-link active" data-scroll-target="#terminal-shell">Terminal &amp; Shell</a>
+  <ul class="collapse">
+  <li><a href="#on-mac" id="toc-on-mac" class="nav-link" data-scroll-target="#on-mac">On Mac</a></li>
+  </ul></li>
+  <li><a href="#rstudio" id="toc-rstudio" class="nav-link" data-scroll-target="#rstudio">RStudio</a></li>
+  <li><a href="#vs-code" id="toc-vs-code" class="nav-link" data-scroll-target="#vs-code">VS Code</a></li>
   </ul>
 </nav>
     </div>
@@ -192,6 +196,72 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
+<section id="terminal-shell" class="level1">
+<h1>Terminal &amp; Shell</h1>
+<section id="on-mac" class="level3">
+<h3 class="anchored" data-anchor-id="on-mac">On Mac</h3>
+<p>The <em>Terminal</em> is an application on your Mac. A <em>Shell</em> is a program that runs in the Terminal. It has a <em>command-line interface</em> (CLI) instead of the ubiquitous graphical-user interface (GUI) familiar to most computer users. To run commands in the Terminal via the Shell (or, equivalently, to execute programs on the command line) you type commands at the <em>prompt</em> and hit enter. I use <strong>iTerm2</strong> terminal application with the default <strong>zsh</strong> shell on Mac, configured using <strong>Oh My Zsh</strong>.</p>
+<p>A nice installation guide is provided by <a href="https://www.josean.com/posts/terminal-setup">Josean Martinez</a>. It walks through installation of the <strong>homebrew</strong> package manager, the <strong>iTerm2</strong> terminal application, <strong>Git</strong> version control software, the <strong>Oh My Zsh</strong> framework for managing the Zsh configuration, the <strong>PowerLevel10k</strong> Oh My Zsh theme, and Josean’s iTerm2 <strong>coolnight</strong> color scheme.</p>
+<p>My PowerLevel10k theme preferences are the following:</p>
+<ul>
+<li><ol start="25" type="a">
+<li>Yes, install the Meslo Nerd Font</li>
+</ol></li>
+<li><ol start="2" type="1">
+<li>Classic prompt style</li>
+</ol></li>
+<li><ol type="1">
+<li>Unicode character set</li>
+</ol></li>
+<li><ol start="2" type="1">
+<li>Light prompt color</li>
+</ol></li>
+<li><ol type="1">
+<li>12-hour format for current time</li>
+</ol></li>
+<li><ol type="1">
+<li>Angled prompt separator</li>
+</ol></li>
+<li><ol type="1">
+<li>Sharp prompt heads</li>
+</ol></li>
+<li><ol type="1">
+<li>Flat prompt tails</li>
+</ol></li>
+<li><ol start="2" type="1">
+<li>2-line prompt height</li>
+</ol></li>
+<li><ol start="3" type="1">
+<li>Solid prompt connection</li>
+</ol></li>
+<li><ol type="1">
+<li>No prompt frame</li>
+</ol></li>
+<li><ol start="2" type="1">
+<li>Sparse prompt spacing</li>
+</ol></li>
+<li><ol start="2" type="1">
+<li>Many icons</li>
+</ol></li>
+<li><ol type="1">
+<li>Concise prompt flow</li>
+</ol></li>
+<li><ol start="25" type="a">
+<li>Enable transient prompt</li>
+</ol></li>
+<li><ol type="1">
+<li>Verbose instant prompt mode</li>
+</ol></li>
+</ul>
+<p>I also use the <strong>zsh-autosuggestions</strong> and <strong>zsh-syntax-highlighting</strong> plugins. A 3-step procedure downloads, installs, and enables most Zsh plug-ins:</p>
+<ol type="1">
+<li>download the plug-in: <code>git clone &lt;url&gt; $ZSH_CUSTOM/plugins/&lt;plugin-name&gt;</code></li>
+<li>add the plugin name to the array in the <code>~/.zshrc</code> file: <code>plugins=(&lt;plugin-name&gt; &lt;plugin-name&gt; ...)</code></li>
+<li>reload the Zsh configuration file via <code>source ~/.zshrc</code> to enable the plugins</li>
+</ol>
+<hr>
+</section>
+</section>
 <section id="rstudio" class="level1">
 <h1>RStudio</h1>
 <section id="visual-look" class="level4">
@@ -240,6 +310,33 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ul>
 <li><strong>Ctrl + Alt + B</strong> runs an R script from beginning to current line</li>
 <li><strong>Ctrl + Shift + K</strong> renders a Quarto document</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="vs-code" class="level1">
+<h1>VS Code</h1>
+<section id="extensions" class="level4">
+<h4 class="anchored" data-anchor-id="extensions">Extensions</h4>
+<p>Themes:</p>
+<ul>
+<li><strong>Atom One Dark</strong> by Mahmoud Ali</li>
+<li><strong>Material</strong> by Equinusocio</li>
+<li><strong>Material Icons</strong> by Equinusocio</li>
+</ul>
+<p>Languages:</p>
+<ul>
+<li><strong>R</strong> by REditorSupport</li>
+<li><strong>Quarto</strong> by quarto.org</li>
+<li><strong>Python</strong> by Microsoft</li>
+<li><strong>Jupyter</strong> by Microsoft</li>
+<li><strong>Julia</strong> by julialang</li>
+<li><strong>LaTeX Workshop</strong> by James Yu</li>
+</ul>
+<p>Other:</p>
+<ul>
+<li><strong>GitHub Copilot</strong> by GitHub</li>
+<li><strong>Error Lens</strong> by Alexander</li>
 </ul>
 
 
