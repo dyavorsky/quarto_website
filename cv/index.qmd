@@ -1,12 +1,12 @@
 ---
 title: Curriculum vitæ
 description: "Dan Yavorsky's CV"
-date: 2023-11-29
+date: 2024-03-13
 title-block-banner: "#35444E"
 published-title: CV last updated
 engine: knitr 
 cv:
-  pdf: "yavorsky_dan_cv_20231129.pdf"
+  pdf: "yavorsky_dan_cv_20240313.pdf"
 ---
 
 ```{css, echo=FALSE}
