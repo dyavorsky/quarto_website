@@ -190,5 +190,68 @@
   },
   "posts/990-my-setup/index.qmd": {
     "index.html": "5d9263d1"
+  },
+  "posts/901-quarto-websites/index.qmd": {
+    "index.html": "e8c7c419"
+  },
+  "posts/999-test-slides/index.qmd": {
+    "index.html": "3d64cce4"
+  },
+  "posts/901-quarto-websites/archive_index.qmd": {
+    "archive_index.html": "9e6dd977"
+  },
+  "posts/901-quarto-websites/slides/mac_rstudio/index.qmd": {
+    "index.html": "923a413f"
+  },
+  "posts/901-quarto-websites/slides/mac_terminal/index.qmd": {
+    "index.html": "f68c0fd1"
+  },
+  "posts/901-quarto-websites/slides/windows_rstudio/index.qmd": {
+    "index.html": "298d3b67"
+  },
+  "posts/901-quarto-websites/slides/windows_terminal/index.qmd": {
+    "index.html": "52d8eb79"
+  },
+  "posts/index.qmd": {
+    "index.html": "70c213f9"
+  },
+  "links/index.qmd": {
+    "index.html": "985374cc"
+  },
+  "posts/001-my-setup/index.qmd": {
+    "index.html": "0438757d"
+  },
+  "posts/010-git-basics/index.qmd": {
+    "index.html": "052d5c3b"
+  },
+  "posts/020-quarto-websites/archive_index.qmd": {
+    "archive_index.html": "977bd241"
+  },
+  "posts/020-quarto-websites/index.qmd": {
+    "index.html": "85e6f4b5"
+  },
+  "posts/020-quarto-websites/slides/mac_rstudio/index.qmd": {
+    "index.html": "0b06975f"
+  },
+  "posts/020-quarto-websites/slides/mac_terminal/index.qmd": {
+    "index.html": "f80482d9"
+  },
+  "posts/020-quarto-websites/slides/windows_rstudio/index.qmd": {
+    "index.html": "465850d2"
+  },
+  "posts/020-quarto-websites/slides/windows_terminal/index.qmd": {
+    "index.html": "bb1455b5"
+  },
+  "posts/101-gumble/index.qmd": {
+    "index.html": "92e586bb"
+  },
+  "posts/801-abramovich-ritov/index.qmd": {
+    "index.html": "45656cda"
+  },
+  "pubs/index.qmd": {
+    "index.html": "30abd390"
+  },
+  "teaching/index.qmd": {
+    "index.html": "59dd59a7"
   }
 }

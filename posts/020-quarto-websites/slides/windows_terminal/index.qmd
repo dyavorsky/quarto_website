@@ -1,0 +1,14 @@
+---
+title: "Windows + Terminal"
+format: revealjs
+image: thumbnail.png
+---
+
+# Slide 1
+
+This is a slide.
+
+# Slide 2
+
+This is another slide.
+

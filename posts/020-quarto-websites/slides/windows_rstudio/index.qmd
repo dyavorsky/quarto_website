@@ -1,0 +1,82 @@
+---
+title: Create a Website with Quarto
+author: Windows + RStudio
+image: thumbnail.png
+format: 
+  revealjs: 
+    slide-number: true
+    footer: "[www.danyavorsky.com](https://www.danyavorsky.com/posts)"
+    theme: [default, ../styles.scss]
+---
+
+## Get Quarto
+
+Quarto comes bundled with RStudio (v2022.07.1 and later). So if you are using RStudio, you should already have Quarto installed. You can check your version of RStudio by going to the RStudio menu item [Help \> About RStudio]{.red}
+
+If you are using an older version of RStudio, you can download and install Quarto:
+
+-   <https://quarto.org/docs/get-started>
+
+You can confirm that Quarto is installed by either:
+
+1.  In the terminal, running `quarto --version` and checking that a version number is returned
+
+2.  In RStudio, creating a new Quarto document by going to [File \> New File \> Quarto Document]{.red} and rendering that document via [Ctrl+Shift+K]{.red} or by clicking the "Render" button (it has a blue arrow and is located just above the editor pane). This will create an HTML file in the same directory as the Quarto document, and open that file in RStudio's Viewer tab or a new browser tab.
+
+::: columns
+::: {.column width="40%"}
+![](images/terminal_quarto_version.png){width="300"}
+
+(Alt+Click to zoom in)
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="55%"}
+![](images/rstudio_template_quarto_doc.png){width="450"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Create Website Directory with Template
+
+-   Create a new project in RStudio by going to [File \> New Project]{.red} or by using the dropdown at the top-right of RStudio
+-   Choose "New Directory" and then "Quarto Website"
+-   Choose a name for the directory that will hold the website files and where you'll store that directory on your computer
+-   Uncheck the Git, renv, and Visual Editor options
+-   Click "Create Project"
+
+![](images/rstudio_newproject_1.png){width="330"} 
+![](images/rstudio_newproject_2.png){width="330"} 
+![](images/rstudio_newproject_3.png){width="330"}
+
+------------------------------------------------------------------------
+
+## Inspect the Template Files
+
+The template directory contains:
+
+-   a [quarto.yml]{.red} file, which is the configuration file for the website
+-   two files that will generate the content on two tabs of the website: [index.qmd]{.red} and [about.qmd]{.red}
+-   a [styles.scss]{.red} file, which is the stylesheet for the website
+-   and likely also your [.Rproj]{.red} RStudio project file and a related [.Rproj.user]{.red} directory
+
+![](images/rstudio_template_website.png){width="550" fig-align="center"}
+
+------------------------------------------------------------------------
+
+## Render the Template Website
+
+Let's not worry about content yet, and instead just ensure that the template website renders correctly.
+
+Render the website by clicking the "Render Website" button in RStudio's [Build]{.red} tab
+
+![](images/rstudio_render_button.png){width="350" fig-align="center"}
+
+------------------------------------------------------------------------
+
+## Inspect the Rendered Template Website
+
+![](images/rstudio_template_website_rendered.png){width="550" fig-align="center"}

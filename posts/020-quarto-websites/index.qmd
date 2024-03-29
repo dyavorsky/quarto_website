@@ -1,0 +1,12 @@
+---
+title: "Build and Host a Quarto Website"
+listing: 
+  contents: slides
+  type: grid
+  categories: false
+toc: false
+image: quartologo.png
+---
+
+## Choose your preferred set of instructions
+

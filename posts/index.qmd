@@ -1,0 +1,29 @@
+---
+title: "Content for You or Future Me"
+listing: 
+  - id: blogposts
+    contents: 
+      - "001-my-setup/index.qmd" 
+      - "010-git-basics/index.qmd" 
+      - "020-quarto-websites/index.qmd" 
+      - "101-gumble/index.qmd"
+    type: grid 
+    sort: "date-desc"
+    categories: false
+  - id: summaries
+    contents:
+      - "801-abramovich-ritov/index.qmd" 
+    type: grid 
+    sort: "date-desc"
+    categories: false
+---
+
+# Posts
+
+:::{#blogposts}
+:::
+
+# Summaries
+
+:::{#summaries}
+:::
