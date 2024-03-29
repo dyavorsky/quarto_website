@@ -4,11 +4,11 @@ listing:
   - id: grad
     contents: grad.yml
     sort: "date desc"
-    template: teaching/formatting_template/listing.ejs
+    template: formatting_template/listing.ejs
   - id: undergrad
     contents: undergrad.yml
     sort: "date desc"
-    template: teaching/formatting_template/listing.ejs
+    template: formatting_template/listing.ejs
 title-block-banner: "#35444E"
 page-layout: full
 toc: true

@@ -4,6 +4,7 @@ $darkblue: #35444e;
 $lightblue: #778fa1;
 
 $gray-text:#bdbdbd;
+$red-text: #990033;
 
 $ucla-blue: #2774AE;
 $ucla-gold: #FFD100;
@@ -22,6 +23,10 @@ $gbk-lightpink: #F9BDBC;
   color: $gray-text;
 }
 
+.red{
+  color: $red-text;
+}
+
 .defaultblue{
     color: $defaultblue;
 }
@@ -30,8 +35,43 @@ $gbk-lightpink: #F9BDBC;
     color: $darkblue;
 }
 
+.ucla-blue{
+    color: $ucla-blue;
+}
+
+.ucla-gold{
+    color: $ucla-gold;
+}
+
+.ucsd-blue{
+    color: $ucsd-blue;
+}
+
+.ucsd-gold{
+    color: $ucsd-gold;
+}
+
 .lightblue{
     color: $lightblue;
+}
+.gbk-darkblue{
+    color: $gbk-darkblue;
+}
+
+.gbk-blue{
+    color: $gbk-blue;
+}
+
+.gbk-lightblue{
+    color: $gbk-lightblue;
+}
+
+.gbk-pink{
+    color: $gbk-pink;
+}
+
+.gbk-lightpink{
+    color: $gbk-lightpink;
 }
 
 .teaching {

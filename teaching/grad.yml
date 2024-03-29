@@ -2,41 +2,41 @@
   description: "A broad introduction to fundamental econometric models, methods of estimation, and approaches to statistical inference; implementation in R"
   university: UCLA
   number: MFE 402
-  logo: teaching/logos/Econometrics.png
+  logo: logos/Econometrics.png
   semester:
   - name: Syllabus
-    url: teaching/syllabi/UCLA_MFE402_Syllabus_20231130.pdf
+    url: syllabi/UCLA_MFE402_Syllabus_20231130.pdf
   - name: Slides
     url: https://www.dropbox.com/scl/fo/lj7ymvt046pxir6uuj65i/h?rlkey=4harwpz0jnc0vkvxc7l6ut44l&dl=0
   - name: Evals 2023.1
-    url: teaching/evals/ucla_mfe402_f23_1.pdf
+    url: evals/ucla_mfe402_f23_1.pdf
   - name: Evals 2023.2
-    url: teaching/evals/ucla_mfe402_f23_2.pdf
+    url: evals/ucla_mfe402_f23_2.pdf
   - name: Evals 2022.1
-    url: teaching/evals/ucla_mfe402_f22_1.pdf
+    url: evals/ucla_mfe402_f22_1.pdf
   - name: Evals 2022.2
-    url: teaching/evals/ucla_mfe402_f22_2.pdf
+    url: evals/ucla_mfe402_f22_2.pdf
     
 - title: Marketing Strategy and Policy
   description: "A solid foundation for strategic marketing thinking; an introduction to a series of frameworks and tools that may be used to solve marketing problems"
   university: UCLA
   number: EMBA 411
-  logo: teaching/logos/MarketingStrategyPolicy.png
+  logo: logos/MarketingStrategyPolicy.png
   semester:
   - name: Syllabus
-    url: teaching/syllabi/UCLA_MGMTEX411_Syllabus_20220406.pdf
+    url: syllabi/UCLA_MGMTEX411_Syllabus_20220406.pdf
   - name: Evals 2022.1
-    url: teaching/evals/ucla_emba411_s22_1.pdf
+    url: evals/ucla_emba411_s22_1.pdf
   - name: Evals 2022.2
-    url: teaching/evals/ucla_emba411_s22_2.pdf
+    url: evals/ucla_emba411_s22_2.pdf
     
 - title: Marketing Analytics
   description: "A survey of analytically-based consumer insights methods that inform marketing strategy"
   university: UCSD
   number: MGTA 495
-  logo: teaching/logos/MarketingAnalytics.png
+  logo: logos/MarketingAnalytics.png
   semester:
   - name: Syllabus
-    url: teaching/syllabi/UCSD_MGTA495_Syllabus_20240323.pdf
+    url: syllabi/UCSD_MGTA495_Syllabus_20240323.pdf
 
   

@@ -6,23 +6,32 @@ project:
 
 website:
   title: "Dan Yavorsky"
+  description: "Quantitative Marketing Research Scientist"
+  
+  site-url: "https://www.danyavorsky.com"
   favicon: /images/favicon.ico
+  
   navbar:
     background: "#536878"
     left:
       - href: index.qmd
-        text: About
+        text: "About"
       - href: cv/index.qmd
         text: CV
-      - teaching.qmd
-      - publications.qmd
-      - href: posts.qmd
+      - href: teaching/index.qmd
+        text: Teaching
+      - href: pubs/index.qmd
+        text: Pubs
+      - href: posts/index.qmd
         text: Posts
       - href: dcms-r.danyavorsky.com
         text: R-DCMS
-      - href: lit.qmd
+      - href: links/index.qmd
         text: Links
-
+  
+  repo-branch: main
+  repo-url: "https://github.com/dyavorsky/quarto_website"
+  
 format:
   html:
     theme: [cosmo, custom.scss]
