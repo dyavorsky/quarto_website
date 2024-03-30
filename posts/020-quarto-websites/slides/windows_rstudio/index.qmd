@@ -7,10 +7,7 @@ format:
     slide-number: true
     smaller: true
     scrollable: true
-<<<<<<< HEAD
     height: 1000
-=======
->>>>>>> 0103f3c300fa38203882f25d8f7d6ffe6e3ae157
     footer: "[www.danyavorsky.com](https://www.danyavorsky.com/posts)"
     theme: ["../styles.scss"]
 ---
