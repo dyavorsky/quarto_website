@@ -25,7 +25,21 @@
     "href": "posts/index.html",
     "title": "Content for You or Future Me",
     "section": "",
-    "text": "Posts\n\n\n\n\n\n\n\n\n\n\nMy Computing Environment Preferences\n\n\nHow I Like Things on My Computers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGet Going with Git\n\n\nFundamentals of Version Control\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuild and Host a Quarto Website\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGumble Distribution in Discrete Choice Models\n\n\nDerivation of Choice Probabilities\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nSummaries\n\n\n\n\n\n\n\n\n\n\nQuotes and Notes from Statistical Theory: A Concise Introduction (2ed)\n\n\nby Felix Abramovich and Ya’acov Ritov\n\n\n\nDan Yavorsky\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "How I Like Things on My Computers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFundamentals of Version Control\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDerivation of Choice Probabilities\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/index.html#posts",
+    "href": "posts/index.html#posts",
+    "title": "Content for You or Future Me",
+    "section": "",
+    "text": "How I Like Things on My Computers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFundamentals of Version Control\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDerivation of Choice Probabilities\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/index.html#summaries",
+    "href": "posts/index.html#summaries",
+    "title": "Content for You or Future Me",
+    "section": "Summaries",
+    "text": "Summaries\n\n\n\n\n\n\n\n\n\n\nQuotes and Notes from Statistical Theory: A Concise Introduction (2ed)\n\n\nby Felix Abramovich and Ya’acov Ritov\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/101-gumble/index.html",
@@ -42,32 +56,123 @@
     "text": "Get Quarto\nQuarto comes bundled with RStudio (v2022.07.1 and later). So if you are using RStudio, you should already have Quarto installed. You can check your version of RStudio by going to the RStudio menu item Help &gt; About RStudio\nIf you are using an older version of RStudio, you can download and install Quarto:\n\nhttps://quarto.org/docs/get-started\n\nYou can confirm that Quarto is installed by either:\n\nIn the terminal, running quarto --version and checking that a version number is returned\nIn RStudio, creating a new Quarto document by going to File &gt; New File &gt; Quarto Document and rendering that document via Ctrl+Shift+K or by clicking the “Render” button (it has a blue arrow and is located just above the editor pane). This will create an HTML file in the same directory as the Quarto document, and open that file in RStudio’s Viewer tab or a new browser tab.\n\n\n\n\n(Alt+Click to zoom in)"
   },
   {
-    "objectID": "posts/020-quarto-websites/slides/windows_rstudio/index.html#create-website-directory-with-template",
-    "href": "posts/020-quarto-websites/slides/windows_rstudio/index.html#create-website-directory-with-template",
+    "objectID": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-1-create-website-directory-with-template",
+    "href": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-1-create-website-directory-with-template",
     "title": "Create a Website with Quarto",
-    "section": "Create Website Directory with Template",
-    "text": "Create Website Directory with Template\n\nCreate a new project in RStudio by going to File &gt; New Project or by using the dropdown at the top-right of RStudio\nChoose “New Directory” and then “Quarto Website”\nChoose a name for the directory that will hold the website files and where you’ll store that directory on your computer\nUncheck the Git, renv, and Visual Editor options\nClick “Create Project”"
+    "section": "Step 1: Create Website Directory with Template",
+    "text": "Step 1: Create Website Directory with Template\n\nCreate a new project in RStudio by going to File &gt; New Project or by using the dropdown at the top-right of RStudio\nChoose “New Directory” and then “Quarto Website”\nChoose a name for the directory that will hold the website files (I use quarto_website in this tutorial) and where you’ll store that directory on your computer\nUncheck the Git, renv, and Visual Editor options – you can enable those later if you wish\nClick “Create Project”"
   },
   {
-    "objectID": "posts/020-quarto-websites/slides/windows_rstudio/index.html#inspect-the-template-files",
-    "href": "posts/020-quarto-websites/slides/windows_rstudio/index.html#inspect-the-template-files",
+    "objectID": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-2a-inspect-the-template-directory",
+    "href": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-2a-inspect-the-template-directory",
     "title": "Create a Website with Quarto",
-    "section": "Inspect the Template Files",
-    "text": "Inspect the Template Files\nThe template directory contains:\n\na quarto.yml file, which is the configuration file for the website\ntwo files that will generate the content on two tabs of the website: index.qmd and about.qmd\na styles.scss file, which is the stylesheet for the website\nand likely also your .Rproj RStudio project file and a related .Rproj.user directory"
+    "section": "Step 2a: Inspect the Template Directory",
+    "text": "Step 2a: Inspect the Template Directory\nThe template directory contains:\n\na quarto.yml file, which is the configuration file for the website\ntwo files that will generate the content on two tabs of the website: index.qmd and about.qmd\na styles.scss file, which is a stylesheet to customize html elements of the website\nand likely also your .Rproj RStudio project file and a related .Rproj.user directory"
   },
   {
-    "objectID": "posts/020-quarto-websites/slides/windows_rstudio/index.html#render-the-template-website",
-    "href": "posts/020-quarto-websites/slides/windows_rstudio/index.html#render-the-template-website",
+    "objectID": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-2b-inspect-the-template-files",
+    "href": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-2b-inspect-the-template-files",
     "title": "Create a Website with Quarto",
-    "section": "Render the Template Website",
-    "text": "Render the Template Website\nLet’s not worry about content yet, and instead just ensure that the template website renders correctly.\nRender the website by clicking the “Render Website” button in RStudio’s Build tab"
+    "section": "Step 2b: Inspect the Template Files",
+    "text": "Step 2b: Inspect the Template Files\nThe _quarto.yml config file controls the website options\n\nadd line 3 in the image below: output-dir: docs to change the directory from the defualt _site to the GitHub-friendly docs so we don’t have to do this later\n\nThe index.qmd quarto file contains the content of the landing page for the website\n\n\n\n_quarto.yml\n\n\n\n\n\n\n\n\nindex.qmd"
   },
   {
-    "objectID": "posts/020-quarto-websites/slides/windows_rstudio/index.html#inspect-the-rendered-template-website",
-    "href": "posts/020-quarto-websites/slides/windows_rstudio/index.html#inspect-the-rendered-template-website",
+    "objectID": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-3-render-the-template-website",
+    "href": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-3-render-the-template-website",
     "title": "Create a Website with Quarto",
-    "section": "Inspect the Rendered Template Website",
-    "text": "Inspect the Rendered Template Website\n\n\n\nwww.danyavorsky.com"
+    "section": "Step 3: Render the Template Website",
+    "text": "Step 3: Render the Template Website\nOther than the setting the output directory to be docs, let’s not worry about content and configuration just yet, and instead let’s ensure that the template renders correctly\nRender the website by clicking the “Render Website” button in RStudio’s Build tab\nYou should see the rendered HTML in either the Viewer tab or a new browser tab. The template has two pages (Home and About) and you can navigate to them via the links at the top (possibly hidden in hamburger menu, depending on your screen size)."
+  },
+  {
+    "objectID": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-4a-customize-the-landing-page",
+    "href": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-4a-customize-the-landing-page",
+    "title": "Create a Website with Quarto",
+    "section": "Step 4a: Customize the Landing Page",
+    "text": "Step 4a: Customize the Landing Page\nWe’ll change the landing page to be an “about you” page.\nQuarto contains an about option that uses a built-in template to layout the content of that section of the page (more info here)\n\nadd image: files/profile_pic.png and we’ll create that directory and add the image file soon\nspecify the about structure and select a template (jolla, trestles, solana, marquee, or broadside)\nadd links using the bootstrap5 icon, href, and possible text options\nadd some descriptive information about yourself"
+  },
+  {
+    "objectID": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-4b-update-navigation-to-the-landing-page",
+    "href": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-4b-update-navigation-to-the-landing-page",
+    "title": "Create a Website with Quarto",
+    "section": "Step 4b: Update Navigation to the Landing Page",
+    "text": "Step 4b: Update Navigation to the Landing Page\nIn the _quarto.yml file, update the text on line 9, which controls the text displayed in the navigation bar for the landing page\nChange it from “Home” to “About”"
+  },
+  {
+    "objectID": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-4c-add-your-profile-pic",
+    "href": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-4c-add-your-profile-pic",
+    "title": "Create a Website with Quarto",
+    "section": "Step 4c: Add Your Profile Pic",
+    "text": "Step 4c: Add Your Profile Pic\nCreate the subdirectory Files\nAdd your profile pic to the Files directory with the filename profile_pic.png (if you use a different filename, be sure to update the reference to it in the index.qmd header)"
+  },
+  {
+    "objectID": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-5a-change-the-templates-about-page-to-a-resume-page",
+    "href": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-5a-change-the-templates-about-page-to-a-resume-page",
+    "title": "Create a Website with Quarto",
+    "section": "Step 5a: Change the Template’s About Page to a Resume Page",
+    "text": "Step 5a: Change the Template’s About Page to a Resume Page\nChange the filename from about.qmd to resume.qmd\nEdit the title to say “Resume”, “Curriculum Vitae”, or something similar\nAdd the line {{&lt; pdf files/resume.pdf &gt;}} possibly with the height and width options shown in the image below"
+  },
+  {
+    "objectID": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-5b-update-the-config-file",
+    "href": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-5b-update-the-config-file",
+    "title": "Create a Website with Quarto",
+    "section": "Step 5b: Update the Config File",
+    "text": "Step 5b: Update the Config File\nUpdate the _quarto.yml config file to reflect the changed filename (resume.qmd instead of about.qmd)"
+  },
+  {
+    "objectID": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-5c-add-your-resume-pdf",
+    "href": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-5c-add-your-resume-pdf",
+    "title": "Create a Website with Quarto",
+    "section": "Step 5c: Add Your Resume PDF",
+    "text": "Step 5c: Add Your Resume PDF\nAdd your resume to the files subdirectory\nCall the file resume.pdf (if you use a different filename, update the reference to it in the resume.qmd file)"
+  },
+  {
+    "objectID": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-6-render-your-website",
+    "href": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-6-render-your-website",
+    "title": "Create a Website with Quarto",
+    "section": "Step 6: Render Your Website",
+    "text": "Step 6: Render Your Website\nOn the Build tab in RStudio, click the “Render Website” button"
+  },
+  {
+    "objectID": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-7a-add-a-blog-to-showcase-your-projects",
+    "href": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-7a-add-a-blog-to-showcase-your-projects",
+    "title": "Create a Website with Quarto",
+    "section": "Step 7a: Add a “Blog” to Showcase Your Projects",
+    "text": "Step 7a: Add a “Blog” to Showcase Your Projects\nCreate a projects.qmd file in the quarto_website directory\nUse the special listing option to indicate a “listing” page with one thumbnail and link to each blog post\nIndicate that the contents of the blog will reside in a subdirectory named projects"
+  },
+  {
+    "objectID": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-7b-add-a-link-to-the-blog-in-navigation-bar",
+    "href": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-7b-add-a-link-to-the-blog-in-navigation-bar",
+    "title": "Create a Website with Quarto",
+    "section": "Step 7b: Add a Link to the “Blog” in Navigation Bar",
+    "text": "Step 7b: Add a Link to the “Blog” in Navigation Bar\nIn the _quarto.yml config file, add a link to the “blog” via\n\n- href: projects.qmd to specify the file\ntext: Projects to specify the text in the Navbar"
+  },
+  {
+    "objectID": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-7c-create-the-blog-sub-directory-structure",
+    "href": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-7c-create-the-blog-sub-directory-structure",
+    "title": "Create a Website with Quarto",
+    "section": "Step 7c: Create the “Blog” Sub-directory Structure",
+    "text": "Step 7c: Create the “Blog” Sub-directory Structure\nIn the quarto_website directory, create the sub-directory projects\nWithin the projects sub-directory, create sub-directories for your first two blog posts, which I’ve named project1 and project2\nIn each blog post directory, add an index.qmd file (they can be empty for now)"
+  },
+  {
+    "objectID": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-7d-add-content-to-first-blog-post",
+    "href": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-7d-add-content-to-first-blog-post",
+    "title": "Create a Website with Quarto",
+    "section": "Step 7d: Add Content to First Blog Post",
+    "text": "Step 7d: Add Content to First Blog Post\nIn the quarto_website/projects/project1/index.qmd file, add some content using markdown syntax"
+  },
+  {
+    "objectID": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-7e-render-your-website-and-view-your-blog-post",
+    "href": "posts/020-quarto-websites/slides/windows_rstudio/index.html#step-7e-render-your-website-and-view-your-blog-post",
+    "title": "Create a Website with Quarto",
+    "section": "Step 7e: Render Your Website and View Your Blog Post",
+    "text": "Step 7e: Render Your Website and View Your Blog Post\nRender the website and view the listing page for the blog as well as your first blog post."
+  },
+  {
+    "objectID": "posts/020-quarto-websites/slides/windows_rstudio/index.html#congrats---youve-got-a-website",
+    "href": "posts/020-quarto-websites/slides/windows_rstudio/index.html#congrats---youve-got-a-website",
+    "title": "Create a Website with Quarto",
+    "section": "Congrats - You’ve Got A Website!",
+    "text": "Congrats - You’ve Got A Website!\nTo learn more, definitely check out the quarto.org website on making websites: https://quarto.org/docs/websites/\nIf you found anything confusing in my tutorial, here are other excellent tutorials on developing Quarto websites and blogs that may help you troubleshoot:\n\n\n\nAuthor\nLink\n\n\n\n\nUCSB Med\nhttps://ucsb-meds.github.io/creating-quarto-websites/\n\n\nMarvin Schmitt\nhttps://www.marvinschmitt.com/blog/website-tutorial-quarto/\n\n\nAlbert Rapp\nhttps://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html\n\n\nSam Csik\nhttps://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/\n\n\n\nWhen in doubt, visit the GitHub page of someone else’s Quarto website to see how they did it!\n\nIn particular Andrew Heiss and Marvin Schmitt have fully-featured Quarto-based websites\nThe website by Emil Hvitfeldt, Meghan Hall, Mine Dogucu, and Thom Mock offer inspiration too\n\n\n\nwww.danyavorsky.com"
   },
   {
     "objectID": "posts/001-my-setup/index.html",

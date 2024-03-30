@@ -18,12 +18,12 @@ listing:
     categories: false
 ---
 
-# Posts
+## Posts
 
 :::{#blogposts}
 :::
 
-# Summaries
+## Summaries
 
 :::{#summaries}
 :::

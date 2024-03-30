@@ -1,9 +1,9 @@
 ---
 title: "Dan Yavorsky"
-image: images/profile_pic.jpg
 about:
   id: main-content
   template: trestles
+  image: images/profile_pic.jpg
   image-shape: round
   links:
     - icon: envelope
