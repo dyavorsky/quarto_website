@@ -5,6 +5,8 @@ image: thumbnail.png
 format: 
   revealjs: 
     slide-number: true
+    smaller: true
+    scrollable: true
     footer: "[www.danyavorsky.com](https://www.danyavorsky.com/posts)"
     theme: ["../styles.scss"]
 ---
