@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.danyavorsky.com/teaching/index.html</loc>
+<<<<<<< HEAD
     <lastmod>2024-03-30T06:53:58.151Z</lastmod>
   </url>
   <url>
@@ -59,5 +60,64 @@
   <url>
     <loc>https://www.danyavorsky.com/pubs/index.html</loc>
     <lastmod>2024-03-30T06:53:57.803Z</lastmod>
+=======
+    <lastmod>2024-03-30T06:49:50.578Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/posts/index.html</loc>
+    <lastmod>2024-03-30T06:49:49.934Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/posts/101-gumble/index.html</loc>
+    <lastmod>2024-03-30T06:49:48.777Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/posts/020-quarto-websites/slides/windows_rstudio/index.html</loc>
+    <lastmod>2024-03-30T06:49:46.027Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/posts/020-quarto-websites/slides/mac_rstudio/index.html</loc>
+    <lastmod>2024-03-30T06:49:45.268Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/posts/010-git-basics/index.html</loc>
+    <lastmod>2024-03-30T06:49:43.930Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/links/index.html</loc>
+    <lastmod>2024-03-30T06:49:42.247Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/cv/index.html</loc>
+    <lastmod>2024-03-30T06:49:41.536Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/index.html</loc>
+    <lastmod>2024-03-30T06:49:41.874Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/posts/001-my-setup/index.html</loc>
+    <lastmod>2024-03-30T06:49:43.551Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/posts/020-quarto-websites/index.html</loc>
+    <lastmod>2024-03-30T06:49:44.390Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/posts/020-quarto-websites/slides/mac_terminal/index.html</loc>
+    <lastmod>2024-03-30T06:49:45.525Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/posts/020-quarto-websites/slides/windows_terminal/index.html</loc>
+    <lastmod>2024-03-30T06:49:46.363Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/posts/801-abramovich-ritov/index.html</loc>
+    <lastmod>2024-03-30T06:49:49.457Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/pubs/index.html</loc>
+    <lastmod>2024-03-30T06:49:50.245Z</lastmod>
+>>>>>>> a47b0652b9cd8076b784f08357e1fec34c02dc9f
   </url>
 </urlset>
