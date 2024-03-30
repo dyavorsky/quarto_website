@@ -6,9 +6,8 @@ format:
   revealjs: 
     slide-number: true
     footer: "[www.danyavorsky.com](https://www.danyavorsky.com/posts)"
-    theme: [default, ../styles.scss]
+    theme: ["../styles.scss"]
 ---
-
 
 ## Get Quarto
 
