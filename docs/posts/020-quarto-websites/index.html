@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.3.330">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -58,14 +58,13 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-submit-button-title": "Submit"
   }
 }</script>
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-build .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -78,7 +77,35 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-build'] = new List('listing-build', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-host .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-host'] = new List('listing-host', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -177,16 +204,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="choose-your-preferred-set-of-instructions" class="level2">
-<h2 class="anchored" data-anchor-id="choose-your-preferred-set-of-instructions">Choose your preferred set of instructions</h2>
-
-
-
-</section>
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<section id="how-to-build-a-quarto-website-on-your-computer" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-build-a-quarto-website-on-your-computer">How to build a Quarto website on your computer</h2>
+<p>(Choose your preferred set of instructions)</p>
+<div id="listing-build" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1711781372630" data-listing-reading-time-sort="7">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1711920768080" data-listing-reading-time-sort="7">
 <a href="../../posts/020-quarto-websites/slides/windows_rstudio/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -208,7 +231,7 @@ Windows + RStudio
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1711750596330" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1711923465785" data-listing-reading-time-sort="7">
 <a href="../../posts/020-quarto-websites/slides/mac_rstudio/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -216,21 +239,21 @@ Windows + RStudio
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Mac + RStudio
+Create a Website with Quarto
 </h5>
 <div class="card-text listing-description">
 
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
-
+Mac + RStudio
 </div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1711750588233" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1711908390231" data-listing-reading-time-sort="1">
 <a href="../../posts/020-quarto-websites/slides/mac_terminal/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -252,7 +275,7 @@ Mac + Terminal
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1711750580384" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1711908390260" data-listing-reading-time-sort="1">
 <a href="../../posts/020-quarto-websites/slides/windows_terminal/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -278,7 +301,38 @@ Windows + Terminal
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+</div>
+</section>
+<section id="how-to-host-a-quarto-website-on-github" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-host-a-quarto-website-on-github">How to host a Quarto website on GitHub</h2>
+<div id="listing-host" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1711909087260" data-listing-reading-time-sort="0">
+<div class="thumbnail">
+<p><a href="../../posts/020-quarto-websites/slides/host_on_github/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="../../posts/020-quarto-websites/slides/host_on_github/index.html">
+<div class="listing-description">
+
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../../posts/020-quarto-websites/slides/host_on_github/index.html"> </a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

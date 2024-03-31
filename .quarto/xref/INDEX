@@ -253,5 +253,8 @@
   },
   "teaching/index.qmd": {
     "index.html": "59dd59a7"
+  },
+  "posts/020-quarto-websites/slides/host_on_github/index.qmd": {
+    "index.html": "e93f7d6a"
   }
 }

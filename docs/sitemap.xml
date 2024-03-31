@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.danyavorsky.com/teaching/index.html</loc>
-    <lastmod>2024-03-30T07:00:58.613Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/posts/index.html</loc>
-    <lastmod>2024-03-30T07:00:57.977Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/posts/101-gumble/index.html</loc>
-    <lastmod>2024-03-30T07:00:56.830Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/posts/020-quarto-websites/slides/windows_rstudio/index.html</loc>
-    <lastmod>2024-03-30T07:00:54.065Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/posts/020-quarto-websites/slides/mac_rstudio/index.html</loc>
-    <lastmod>2024-03-30T07:00:53.289Z</lastmod>
+    <loc>https://www.danyavorsky.com/posts/001-my-setup/index.html</loc>
+    <lastmod>2024-03-31T22:17:56.882Z</lastmod>
   </url>
   <url>
     <loc>https://www.danyavorsky.com/posts/010-git-basics/index.html</loc>
-    <lastmod>2024-03-30T07:00:52.021Z</lastmod>
+    <lastmod>2024-03-31T22:17:58.317Z</lastmod>
   </url>
   <url>
-    <loc>https://www.danyavorsky.com/links/index.html</loc>
-    <lastmod>2024-03-30T07:00:50.372Z</lastmod>
+    <loc>https://www.danyavorsky.com/posts/index.html</loc>
+    <lastmod>2024-03-31T22:17:59.958Z</lastmod>
   </url>
   <url>
-    <loc>https://www.danyavorsky.com/cv/index.html</loc>
-    <lastmod>2024-03-30T07:00:49.658Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/index.html</loc>
-    <lastmod>2024-03-30T07:00:49.991Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/posts/001-my-setup/index.html</loc>
-    <lastmod>2024-03-30T07:00:51.648Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/posts/020-quarto-websites/index.html</loc>
-    <lastmod>2024-03-30T07:00:52.491Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/posts/020-quarto-websites/slides/mac_terminal/index.html</loc>
-    <lastmod>2024-03-30T07:00:53.554Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/posts/020-quarto-websites/slides/windows_terminal/index.html</loc>
-    <lastmod>2024-03-30T07:00:54.387Z</lastmod>
+    <loc>https://www.danyavorsky.com/posts/101-gumble/index.html</loc>
+    <lastmod>2024-03-31T22:18:05.412Z</lastmod>
   </url>
   <url>
     <loc>https://www.danyavorsky.com/posts/801-abramovich-ritov/index.html</loc>
-    <lastmod>2024-03-30T07:00:57.496Z</lastmod>
+    <lastmod>2024-03-31T22:18:07.882Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/posts/020-quarto-websites/index.html</loc>
+    <lastmod>2024-03-31T22:18:09.546Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/posts/020-quarto-websites/slides/mac_terminal/index.html</loc>
+    <lastmod>2024-03-31T22:18:12.227Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/posts/020-quarto-websites/slides/mac_rstudio/index.html</loc>
+    <lastmod>2024-03-31T22:18:14.289Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/posts/020-quarto-websites/slides/windows_terminal/index.html</loc>
+    <lastmod>2024-03-31T22:18:16.646Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/posts/020-quarto-websites/slides/windows_rstudio/index.html</loc>
+    <lastmod>2024-03-31T22:18:21.015Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/index.html</loc>
+    <lastmod>2024-03-31T22:18:22.075Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/links/index.html</loc>
+    <lastmod>2024-03-31T22:18:23.575Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/teaching/index.html</loc>
+    <lastmod>2024-03-31T22:18:24.611Z</lastmod>
   </url>
   <url>
     <loc>https://www.danyavorsky.com/pubs/index.html</loc>
-    <lastmod>2024-03-30T07:00:58.293Z</lastmod>
+    <lastmod>2024-03-31T22:18:25.619Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/cv/index.html</loc>
+    <lastmod>2024-03-31T22:18:28.201Z</lastmod>
   </url>
 </urlset>

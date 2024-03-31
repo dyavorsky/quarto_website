@@ -1,12 +1,34 @@
 ---
 title: "Build and Host a Quarto Website"
-listing: 
-  contents: slides
-  type: grid
-  categories: false
 toc: false
 image: quartologo.png
+listing: 
+  - id: build
+    contents: 
+      - "slides/windows_rstudio/index.qmd"
+      - "slides/windows_terminal/index.qmd"
+      - "slides/mac_rstudio/index.qmd"
+      - "slides/mac_terminal/index.qmd"
+    type: grid
+    categories: false
+  - id: host
+    contents: 
+      - "slides/host_on_github/index.qmd"
 ---
 
-## Choose your preferred set of instructions
+
+## How to build a Quarto website on your computer
+
+(Choose your preferred set of instructions)
+
+:::{#build}
+:::
+
+## How to host a Quarto website on GitHub
+
+:::{#host}
+:::
+
+
+
 
