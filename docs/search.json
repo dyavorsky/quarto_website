@@ -210,11 +210,11 @@
     "text": "Step 7e: Render Your Website and View Your Blog Post\nRender the website and view the listing page for the blog as well as your first blog post."
   },
   {
-    "objectID": "posts/020-quarto-websites/slides/mac_rstudio/index.html#congrats---youve-got-a-website",
-    "href": "posts/020-quarto-websites/slides/mac_rstudio/index.html#congrats---youve-got-a-website",
+    "objectID": "posts/020-quarto-websites/slides/mac_rstudio/index.html#congrats---youve-got-a-local-website",
+    "href": "posts/020-quarto-websites/slides/mac_rstudio/index.html#congrats---youve-got-a-local-website",
     "title": "Create a Website with Quarto",
-    "section": "Congrats - You’ve Got A Website!",
-    "text": "Congrats - You’ve Got A Website!\nTo learn more, definitely check out the quarto.org website on making websites: https://quarto.org/docs/websites/\nIf you found anything confusing in my tutorial, here are other excellent tutorials on developing Quarto websites and blogs that may help you troubleshoot:\n\n\n\nAuthor\nLink\n\n\n\n\nUCSB Med\nhttps://ucsb-meds.github.io/creating-quarto-websites/\n\n\nBeatriz Milz.\nhttps://beamilz.com/posts/2022-06-05-creating-a-blog-with-quarto/en/\n\n\nMarvin Schmitt\nhttps://www.marvinschmitt.com/blog/website-tutorial-quarto/\n\n\nAlbert Rapp\nhttps://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html\n\n\nSam Csik\nhttps://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/\n\n\n\nWhen in doubt, visit the GitHub page of someone else’s Quarto website to see how they did it!\n\nIn particular Andrew Heiss and Marvin Schmitt have fully-featured Quarto-based websites\nThe websites by Emil Hvitfeldt, Meghan Hall, Mine Dogucu, Thom Mock, and Beatriz ZMilz offer inspiration too\n\n\n\nwww.danyavorsky.com"
+    "section": "Congrats - You’ve Got A (local) Website!",
+    "text": "Congrats - You’ve Got A (local) Website!\nNext, see this post on how to host your website on GitHub.\nTo learn more, definitely check out the quarto.org website on making websites: https://quarto.org/docs/websites/\nIf you found anything confusing in my tutorial, here are other excellent tutorials on developing Quarto websites and blogs that may help you troubleshoot:\n\n\n\nAuthor\nLink\n\n\n\n\nUCSB Med\nhttps://ucsb-meds.github.io/creating-quarto-websites/\n\n\nBeatriz Milz.\nhttps://beamilz.com/posts/2022-06-05-creating-a-blog-with-quarto/en/\n\n\nMarvin Schmitt\nhttps://www.marvinschmitt.com/blog/website-tutorial-quarto/\n\n\nAlbert Rapp\nhttps://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html\n\n\nSam Csik\nhttps://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/\n\n\n\nWhen in doubt, visit the GitHub page of someone else’s Quarto website to see how they did it!\n\nIn particular Andrew Heiss and Marvin Schmitt have fully-featured Quarto-based websites\nThe websites by Emil Hvitfeldt, Meghan Hall, Mine Dogucu, Thom Mock, and Beatriz ZMilz offer inspiration too\n\n\n\nwww.danyavorsky.com"
   },
   {
     "objectID": "posts/020-quarto-websites/slides/windows_rstudio/index.html#get-quarto",
@@ -336,11 +336,11 @@
     "text": "Step 7e: Render Your Website and View Your Blog Post\nRender the website and view the listing page for the blog as well as your first blog post."
   },
   {
-    "objectID": "posts/020-quarto-websites/slides/windows_rstudio/index.html#congrats---youve-got-a-website",
-    "href": "posts/020-quarto-websites/slides/windows_rstudio/index.html#congrats---youve-got-a-website",
+    "objectID": "posts/020-quarto-websites/slides/windows_rstudio/index.html#congrats---youve-got-a-local-website",
+    "href": "posts/020-quarto-websites/slides/windows_rstudio/index.html#congrats---youve-got-a-local-website",
     "title": "Create a Website with Quarto",
-    "section": "Congrats - You’ve Got A Website!",
-    "text": "Congrats - You’ve Got A Website!\nTo learn more, definitely check out the quarto.org website on making websites: https://quarto.org/docs/websites/\nIf you found anything confusing in my tutorial, here are other excellent tutorials on developing Quarto websites and blogs that may help you troubleshoot:\n\n\n\nAuthor\nLink\n\n\n\n\nUCSB Med\nhttps://ucsb-meds.github.io/creating-quarto-websites/\n\n\nBeatriz Milz.\nhttps://beamilz.com/posts/2022-06-05-creating-a-blog-with-quarto/en/\n\n\nMarvin Schmitt\nhttps://www.marvinschmitt.com/blog/website-tutorial-quarto/\n\n\nAlbert Rapp\nhttps://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html\n\n\nSam Csik\nhttps://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/\n\n\n\nWhen in doubt, visit the GitHub page of someone else’s Quarto website to see how they did it!\n\nIn particular Andrew Heiss and Marvin Schmitt have fully-featured Quarto-based websites\nThe websites by Emil Hvitfeldt, Meghan Hall, Mine Dogucu, Thom Mock, and Beatriz ZMilz offer inspiration too\n\n\n\nwww.danyavorsky.com"
+    "section": "Congrats - You’ve Got A (local) Website!",
+    "text": "Congrats - You’ve Got A (local) Website!\nNext, see this post on how to host your website on GitHub.\nTo learn more, definitely check out the quarto.org website on making websites: https://quarto.org/docs/websites/\nIf you found anything confusing in my tutorial, here are other excellent tutorials on developing Quarto websites and blogs that may help you troubleshoot:\n\n\n\nAuthor\nLink\n\n\n\n\nUCSB Med\nhttps://ucsb-meds.github.io/creating-quarto-websites/\n\n\nBeatriz Milz.\nhttps://beamilz.com/posts/2022-06-05-creating-a-blog-with-quarto/en/\n\n\nMarvin Schmitt\nhttps://www.marvinschmitt.com/blog/website-tutorial-quarto/\n\n\nAlbert Rapp\nhttps://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html\n\n\nSam Csik\nhttps://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/\n\n\n\nWhen in doubt, visit the GitHub page of someone else’s Quarto website to see how they did it!\n\nIn particular Andrew Heiss and Marvin Schmitt have fully-featured Quarto-based websites\nThe websites by Emil Hvitfeldt, Meghan Hall, Mine Dogucu, Thom Mock, and Beatriz ZMilz offer inspiration too\n\n\n\nwww.danyavorsky.com"
   },
   {
     "objectID": "index.html",
