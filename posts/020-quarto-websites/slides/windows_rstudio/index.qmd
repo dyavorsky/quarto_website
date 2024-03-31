@@ -5,11 +5,9 @@ image: thumbnail.png
 format: 
   revealjs: 
     slide-number: true
-    smaller: true
     scrollable: true
-    height: 1000
     footer: "[www.danyavorsky.com](https://www.danyavorsky.com/posts)"
-    theme: ["../styles.scss"]
+    theme: ["../styles.scss", default]
 ---
 
 ## Get Quarto

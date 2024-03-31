@@ -1,7 +1,13 @@
 ---
-title: "Mac + Terminal"
-format: revealjs
+title: Create a Website with Quarto
+author: Mac + Terminal
 image: thumbnail.png
+format: 
+  revealjs: 
+    slide-number: true
+    scrollable: true
+    footer: "[www.danyavorsky.com](https://www.danyavorsky.com/posts)"
+    theme: ["../styles.scss", default]
 ---
 
 # Slide 1
