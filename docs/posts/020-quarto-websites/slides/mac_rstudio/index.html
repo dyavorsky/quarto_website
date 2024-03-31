@@ -338,14 +338,273 @@ Mac + RStudio
 </div>
 
 </section>
-<section id="slide-1" class="title-slide slide level1 center">
-<h1>Slide 1</h1>
-<p>This is a slide.</p>
-</section>
+<section id="get-quarto" class="slide level2">
+<h2>Get Quarto</h2>
+<p>Quarto comes bundled with RStudio (v2022.07.1 and later). So if you are using RStudio, you should already have Quarto installed. You can check your version of RStudio by going to the RStudio menu item <span class="red">Help &gt; About RStudio</span></p>
+<p>If you are using an older version of RStudio, you can download and install Quarto:</p>
+<ul>
+<li><a href="https://quarto.org/docs/get-started" class="uri">https://quarto.org/docs/get-started</a></li>
+</ul>
+<p>You can confirm that Quarto is installed by either:</p>
+<ol type="1">
+<li><p>In the terminal, running <code>quarto --version</code> and checking that a version number is returned</p></li>
+<li><p>In RStudio, creating a new Quarto document by going to <span class="red">File &gt; New File &gt; Quarto Document</span> and rendering that document via <span class="red">Cmd+Shift+K</span> or by clicking the “Render” button (it has a blue arrow and is located just above the editor pane). This will create an HTML file in the same directory as the Quarto document, and open that file in RStudio’s Viewer tab or a new browser tab.</p></li>
+</ol>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img data-src="images/0a_terminal_quarto_version.png" width="300"></p>
+<p>(Alt+Click to zoom in)</p>
+</div><div class="column" style="width:5%;">
 
-<section id="slide-2" class="title-slide slide level1 center">
-<h1>Slide 2</h1>
-<p>This is another slide.</p>
+</div><div class="column" style="width:55%;">
+<p><img data-src="images/0b_rstudio_template_quarto_doc.png" width="450"></p>
+</div>
+</div>
+</section>
+<section id="step-1-create-website-directory-with-template" class="slide level2">
+<h2>Step 1: Create Website Directory with Template</h2>
+<ul>
+<li>Create a new project in RStudio by going to <span class="red">File &gt; New Project</span> or by using the dropdown at the top-right of RStudio</li>
+<li>Choose “New Directory” and then “Quarto Website”</li>
+<li>Choose a name for the directory that will hold the website files (I use <span class="red">quarto_website</span> in this tutorial) and where you’ll store that directory on your computer</li>
+<li>Uncheck the Git, renv, and Visual Editor options – you can enable those later if you wish</li>
+<li>Click “Create Project”</li>
+</ul>
+<p><img data-src="images/1a_rstudio_newproject_1.png" width="330"> <img data-src="images/1b_rstudio_newproject_2.png" width="330"> <img data-src="images/1c_rstudio_newproject_3.png" width="330"></p>
+</section>
+<section id="step-2a-inspect-the-template-directory" class="slide level2">
+<h2>Step 2a: Inspect the Template Directory</h2>
+<p>The template directory contains:</p>
+<ul>
+<li>a <span class="red">quarto.yml</span> file, which is the configuration file for the website</li>
+<li>two files that will generate the content on two tabs of the website: <span class="red">index.qmd</span> and <span class="red">about.qmd</span></li>
+<li>a <span class="red">styles.scss</span> file, which is a stylesheet to customize html elements of the website</li>
+<li>and likely also your <span class="red">.Rproj</span> RStudio project file and a related <span class="red">.Rproj.user</span> directory</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/2b_rstudio_template_website_files.png" height="300"></p>
+</figure>
+</div>
+</section>
+<section id="step-2b-inspect-the-template-files" class="slide level2">
+<h2>Step 2b: Inspect the Template Files</h2>
+<p>The <span class="red">_quarto.yml</span> config file controls the website options</p>
+<ul>
+<li>add line 3 in the image below: <code>output-dir: docs</code> to change the directory from the defualt <span class="red">_site</span> to the GitHub-friendly <span class="red">docs</span> so we don’t have to do this later</li>
+</ul>
+<p>The <span class="red">index.qmd</span> quarto file contains the content of the landing page for the website</p>
+<div class="columns">
+<div class="column">
+<div style="text-align: center">
+<p>_quarto.yml</p>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/2e_rstudio_template_website_yaml_docs.png" width="400"></p>
+</figure>
+</div>
+</div><div class="column">
+<div style="text-align: center">
+<p>index.qmd</p>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/2c_rstudio_template_website_index.png" width="400"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="step-3-render-the-template-website" class="slide level2">
+<h2>Step 3: Render the Template Website</h2>
+<p>Other than the setting the output directory to be <span class="red">docs</span>, let’s not worry about content and configuration just yet, and instead let’s ensure that the template renders correctly</p>
+<p>Render the website by clicking the “Render Website” button in RStudio’s <span class="red">Build</span> tab</p>
+<p>You should see the rendered HTML in either the <span class="red">Viewer</span> tab or a new browser tab. The template has two pages (Home and About) and you can navigate to them via the links at the top (possibly hidden in hamburger menu, depending on your screen size).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/3b_rstudio_template_website_rendered_showmenu.png" height="500"></p>
+</figure>
+</div>
+</section>
+<section id="step-4a-customize-the-landing-page" class="slide level2">
+<h2>Step 4a: Customize the Landing Page</h2>
+<p>We’ll change the landing page to be an “about you” page.</p>
+<p>Quarto contains an <span class="red">about</span> option that uses a built-in template to layout the content of that section of the page (more info <a href="https://quarto.org/docs/websites/website-about.html">here</a>)</p>
+<ul>
+<li>add <code>image: files/profile_pic.png</code> and we’ll create that directory and add the image file soon</li>
+<li>specify the <span class="red">about</span> structure and select a template (jolla, trestles, solana, marquee, or broadside)</li>
+<li>add links using the <a href="https://icons.getbootstrap.com/">bootstrap5</a> <code>icon</code>, <code>href</code>, and possible <code>text</code> options</li>
+<li>add some descriptive information about yourself</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/4a_rstudio_about_qmd.png" height="400"></p>
+</figure>
+</div>
+</section>
+<section id="step-4b-update-navigation-to-the-landing-page" class="slide level2">
+<h2>Step 4b: Update Navigation to the Landing Page</h2>
+<p>In the <span class="red">_quarto.yml</span> file, update the text on line 9, which controls the text displayed in the navigation bar for the landing page</p>
+<p>Change it from “Home” to “About”</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/4b_rstudio_about_yaml.png" height="400"></p>
+</figure>
+</div>
+</section>
+<section id="step-4c-add-your-profile-pic" class="slide level2">
+<h2>Step 4c: Add Your Profile Pic</h2>
+<p>Create the subdirectory <span class="red">Files</span></p>
+<p>Add your profile pic to the <span class="red">Files</span> directory with the filename <span class="red">profile_pic.png</span> (if you use a different filename, be sure to update the reference to it in the <span class="red">index.qmd</span> header)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/4c_rstudio_about_files.png" height="200"></p>
+</figure>
+</div>
+</section>
+<section id="step-5a-change-the-templates-about-page-to-a-resume-page" class="slide level2">
+<h2>Step 5a: Change the Template’s About Page to a Resume Page</h2>
+<p>Change the filename from <span class="red">about.qmd</span> to <span class="red">resume.qmd</span></p>
+<p>Edit the title to say “Resume”, “Curriculum Vitae”, or something similar</p>
+<p>Add the line <code>{{&lt; pdf files/resume.pdf &gt;}}</code> possibly with the height and width options shown in the image below</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/5a_rstudio_resume_qmd.png" height="400"></p>
+</figure>
+</div>
+</section>
+<section id="step-5b-update-the-config-file" class="slide level2">
+<h2>Step 5b: Update the Config File</h2>
+<p>Update the <span class="red">_quarto.yml</span> config file to reflect the changed filename (<span class="red">resume.qmd</span> instead of <span class="red">about.qmd</span>)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/5b_rstudio_resume_yaml.png" height="400"></p>
+</figure>
+</div>
+</section>
+<section id="step-5c-add-your-resume-pdf" class="slide level2">
+<h2>Step 5c: Add Your Resume PDF</h2>
+<p>Add your resume to the <span class="red">files</span> subdirectory</p>
+<p>Call the file <span class="red">resume.pdf</span> (if you use a different filename, update the reference to it in the <span class="red">resume.qmd</span> file)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/5c_rstudio_resume_files.png" height="200"></p>
+</figure>
+</div>
+</section>
+<section id="step-6-render-your-website" class="slide level2">
+<h2>Step 6: Render Your Website</h2>
+<p>On the <span class="red">Build</span> tab in RStudio, click the “Render Website” button</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/6_website_rendered.png" height="450"></p>
+</figure>
+</div>
+</section>
+<section id="step-7a-add-a-blog-to-showcase-your-projects" class="slide level2">
+<h2>Step 7a: Add a “Blog” to Showcase Your Projects</h2>
+<p>Create a <span class="red">projects.qmd</span> file in the <span class="red">quarto_website</span> directory</p>
+<p>Use the special <code>listing</code> option to indicate a “listing” page with one thumbnail and link to each blog post</p>
+<p>Indicate that the contents of the blog will reside in a subdirectory named <span class="red">projects</span></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/7a_rstudio_blog_qmd.png" height="450"></p>
+</figure>
+</div>
+</section>
+<section id="step-7b-add-a-link-to-the-blog-in-navigation-bar" class="slide level2">
+<h2>Step 7b: Add a Link to the “Blog” in Navigation Bar</h2>
+<p>In the <span class="red">_quarto.yml</span> config file, add a link to the “blog” via</p>
+<ul>
+<li><code>- href: projects.qmd</code> to specify the file</li>
+<li><code>text: Projects</code> to specify the text in the Navbar</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/7b_rstudio_blog_yaml.png" height="450"></p>
+</figure>
+</div>
+</section>
+<section id="step-7c-create-the-blog-sub-directory-structure" class="slide level2">
+<h2>Step 7c: Create the “Blog” Sub-directory Structure</h2>
+<p>In the <span class="red">quarto_website</span> directory, create the sub-directory <span class="red">projects</span></p>
+<p>Within the <span class="red">projects</span> sub-directory, create sub-directories for your first two blog posts, which I’ve named <span class="red">project1</span> and <span class="red">project2</span></p>
+<p>In each blog post directory, add an <span class="red">index.qmd</span> file (they can be empty for now)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/7c_rstudio_blog_folders_and_files.png" height="300"></p>
+</figure>
+</div>
+</section>
+<section id="step-7d-add-content-to-first-blog-post" class="slide level2">
+<h2>Step 7d: Add Content to First Blog Post</h2>
+<p>In the <span class="red">quarto_website/projects/project1/index.qmd</span> file, add some content using markdown syntax</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/7d_rstudio_blog_example_qmd.png" height="450"></p>
+</figure>
+</div>
+</section>
+<section id="step-7e-render-your-website-and-view-your-blog-post" class="slide level2">
+<h2>Step 7e: Render Your Website and View Your Blog Post</h2>
+<p>Render the website and view the listing page for the blog as well as your first blog post.</p>
+<div class="columns">
+<div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/7e_rstudio_blog_render.png" height="350"></p>
+</figure>
+</div>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/7f_rstudio_blog_example_render.png" height="350"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="congrats---youve-got-a-local-website" class="slide level2">
+<h2>Congrats - You’ve Got A (local) Website!</h2>
+<p>Next, see <strong>this post</strong> on how to host your website on GitHub.</p>
+<p>To learn more, definitely check out the quarto.org website on making websites: <a href="https://quarto.org/docs/websites/" class="uri">https://quarto.org/docs/websites/</a></p>
+<p>If you found anything confusing in my tutorial, here are other excellent tutorials on developing Quarto websites and blogs that may help you troubleshoot:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Author</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>UCSB Med</td>
+<td><a href="https://ucsb-meds.github.io/creating-quarto-websites/" class="uri">https://ucsb-meds.github.io/creating-quarto-websites/</a></td>
+</tr>
+<tr class="even">
+<td>Beatriz Milz.</td>
+<td><a href="https://beamilz.com/posts/2022-06-05-creating-a-blog-with-quarto/en/" class="uri">https://beamilz.com/posts/2022-06-05-creating-a-blog-with-quarto/en/</a></td>
+</tr>
+<tr class="odd">
+<td>Marvin Schmitt</td>
+<td><a href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/" class="uri">https://www.marvinschmitt.com/blog/website-tutorial-quarto/</a></td>
+</tr>
+<tr class="even">
+<td>Albert Rapp</td>
+<td><a href="https://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html" class="uri">https://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html</a></td>
+</tr>
+<tr class="odd">
+<td>Sam Csik</td>
+<td><a href="https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/" class="uri">https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/</a></td>
+</tr>
+</tbody>
+</table>
+<p>When in doubt, visit the GitHub page of someone else’s Quarto website to see how they did it!</p>
+<ul>
+<li><p>In particular <a href="https://www.andrewheiss.com/">Andrew Heiss</a> and <a href="https://www.marvinschmitt.com/">Marvin Schmitt</a> have fully-featured Quarto-based websites</p></li>
+<li><p>The websites by <a href="https://emilhvitfeldt.com/">Emil Hvitfeldt</a>, <a href="https://meghan.rbind.io/">Meghan Hall</a>, <a href="https://www.minedogucu.com/">Mine Dogucu</a>, <a href="https://themockup.blog/about.html">Thom Mock</a>, and <a href="https://beamilz.com/about">Beatriz ZMilz</a> offer inspiration too</p></li>
+</ul>
 
 <div class="footer footer-default">
 <p><a href="https://www.danyavorsky.com/posts">www.danyavorsky.com</a></p>

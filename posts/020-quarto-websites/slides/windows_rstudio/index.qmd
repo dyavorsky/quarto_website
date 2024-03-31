@@ -109,7 +109,7 @@ Render the website by clicking the "Render Website" button in RStudio's [Build]{
 
 You should see the rendered HTML in either the [Viewer]{.red} tab or a new browser tab. The template has two pages (Home and About) and you can navigate to them via the links at the top (possibly hidden in hamburger menu, depending on your screen size).
 
-![](images/3b_rstudio_template_website_rendered_showmenu.png){width="400" fig-align="center"}
+![](images/3b_rstudio_template_website_rendered_showmenu.png){height="500" fig-align="center"}
 
 
 ------------------------------------------------------------------------
@@ -260,7 +260,9 @@ Render the website and view the listing page for the blog as well as your first 
 
 ------------------------------------------------------------------------
 
-## Congrats - You've Got A Website!
+## Congrats - You've Got A (local) Website!
+
+Next, see **this post** on how to host your website on GitHub.
 
 To learn more, definitely check out the quarto.org website on making websites: <https://quarto.org/docs/websites/>
 
@@ -269,6 +271,7 @@ If you found anything confusing in my tutorial, here are other excellent tutoria
 | Author         | Link                                                                                          |
 |----------------|-----------------------------------------------------------------------------------------------|
 | UCSB Med       | <https://ucsb-meds.github.io/creating-quarto-websites/>                                       |
+| Beatriz Milz.  | <https://beamilz.com/posts/2022-06-05-creating-a-blog-with-quarto/en/>                        |
 | Marvin Schmitt | <https://www.marvinschmitt.com/blog/website-tutorial-quarto/>                                 |
 | Albert Rapp    | <https://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html> |
 | Sam Csik       | <https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/>                               |
@@ -279,7 +282,7 @@ When in doubt, visit the GitHub page of someone else's Quarto website to see how
 
  - In particular [Andrew Heiss](https://www.andrewheiss.com/) and [Marvin Schmitt](https://www.marvinschmitt.com/) have fully-featured Quarto-based websites
  
- - The website by [Emil Hvitfeldt](https://emilhvitfeldt.com/), [Meghan Hall](https://meghan.rbind.io/), [Mine Dogucu](https://www.minedogucu.com/), and [Thom Mock](https://themockup.blog/about.html) offer inspiration too
+ - The websites by [Emil Hvitfeldt](https://emilhvitfeldt.com/), [Meghan Hall](https://meghan.rbind.io/), [Mine Dogucu](https://www.minedogucu.com/), [Thom Mock](https://themockup.blog/about.html), and [Beatriz ZMilz](https://beamilz.com/about) offer inspiration too
 
 
 
