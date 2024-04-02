@@ -12,15 +12,5 @@
       "/posts/101-gumble/index.html",
       "/posts/801-abramovich-ritov/index.html"
     ]
-  },
-  {
-    "listing": "/posts/020-quarto-websites/index.html",
-    "items": [
-      "/posts/020-quarto-websites/slides/windows_rstudio/index.html",
-      "/posts/020-quarto-websites/slides/windows_terminal/index.html",
-      "/posts/020-quarto-websites/slides/mac_rstudio/index.html",
-      "/posts/020-quarto-websites/slides/mac_terminal/index.html",
-      "/posts/020-quarto-websites/slides/host_on_github/index.html"
-    ]
   }
 ]
