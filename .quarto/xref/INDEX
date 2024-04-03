@@ -256,5 +256,8 @@
   },
   "posts/020-quarto-websites/slides/host_on_github/index.qmd": {
     "index.html": "e93f7d6a"
+  },
+  "posts/021-host-on-github/index.qmd": {
+    "index.html": "9cec9c16"
   }
 }

@@ -18,7 +18,7 @@
   </url>
   <url>
     <loc>https://www.danyavorsky.com/posts/index.html</loc>
-    <lastmod>2024-03-31T18:06:30.265Z</lastmod>
+    <lastmod>2024-04-02T22:40:44.841Z</lastmod>
   </url>
   <url>
     <loc>https://www.danyavorsky.com/posts/001-my-setup/index.html</loc>
@@ -34,7 +34,7 @@
   </url>
   <url>
     <loc>https://www.danyavorsky.com/posts/020-quarto-websites/index.html</loc>
-    <lastmod>2024-04-02T22:27:15.042Z</lastmod>
+    <lastmod>2024-04-03T03:38:00.383Z</lastmod>
   </url>
   <url>
     <loc>https://www.danyavorsky.com/links/index.html</loc>
@@ -43,5 +43,9 @@
   <url>
     <loc>https://www.danyavorsky.com/pubs/index.html</loc>
     <lastmod>2024-03-31T18:06:30.266Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/posts/021-host-on-github/index.html</loc>
+    <lastmod>2024-04-03T05:56:33.139Z</lastmod>
   </url>
 </urlset>

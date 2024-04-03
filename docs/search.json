@@ -67,14 +67,14 @@
     "href": "posts/index.html",
     "title": "Content for You or Future Me",
     "section": "",
-    "text": "How I Like Things on My Computers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFundamentals of Version Control\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDerivation of Choice Probabilities\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "How I Like Things on My Computers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFundamentals of Version Control\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDerivation of Choice Probabilities\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/index.html#posts",
     "href": "posts/index.html#posts",
     "title": "Content for You or Future Me",
     "section": "",
-    "text": "How I Like Things on My Computers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFundamentals of Version Control\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDerivation of Choice Probabilities\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "How I Like Things on My Computers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFundamentals of Version Control\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDerivation of Choice Probabilities\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/index.html#summaries",
@@ -137,7 +137,7 @@
     "href": "posts/020-quarto-websites/index.html#step-1-get-quarto",
     "title": "Build a Quarto Website",
     "section": "Step 1: Get Quarto",
-    "text": "Step 1: Get Quarto\nQuarto comes bundled with RStudio (v2022.07.1 and later). Therefore, if you are using RStudio, you should already have Quarto installed. You can check your version of RStudio by going to RStudio’s Help menu and selecting “About RStudio.”\nIf you prefer VS Code, the command line, or another IDE, you can download and install Quarto from quarto.org. VS Code users should also install the Quarto VS Code Extension.\nYou can confirm that Quarto is installed by running quarto --version at the command line in the Terminal (not the R console). If a version number is returned, you’re good to go.\n\n\nTerminal\n\n$ quarto --version"
+    "text": "Step 1: Get Quarto\nQuarto comes bundled with RStudio (v2022.07.1 and later). Therefore, if you are using RStudio, you should already have Quarto installed. You can check your version of RStudio by going to RStudio’s Help menu and selecting “About RStudio.”\nIf you prefer VS Code, the command line, or another IDE, you can download and install Quarto from quarto.org. VS Code users should also install the Quarto VS Code Extension.\nYou can confirm that Quarto is installed by running quarto --version at the command line in the Terminal (on Mac or Linux) or in the Git-Bash terminal on Windows – note that this is not the R console. If a version number is returned, you’re good to go.\n\n\nTerminal\n\n$ quarto --version"
   },
   {
     "objectID": "posts/020-quarto-websites/index.html#step-2-create-a-website-project",
@@ -250,5 +250,103 @@
     "title": "Dan Yavorsky",
     "section": "Short Form",
     "text": "Short Form\n\nGBK Employee Spotlight\nGBK Thought Leadership Blog\n\n\nSawtooth A&I Summit 2023\nGBK Thought Leadership Blog"
+  },
+  {
+    "objectID": "posts/021-host-on-github/index.html",
+    "href": "posts/021-host-on-github/index.html",
+    "title": "Host Your Quarto Website on GitHub",
+    "section": "",
+    "text": "This tutorial assumes you have a rendered website on your local machine (perhaps from following [this post] on how to create a Quarto website) and would like to host that website publicly on GitHub."
+  },
+  {
+    "objectID": "posts/021-host-on-github/index.html#step-1-get-git-and-gcm",
+    "href": "posts/021-host-on-github/index.html#step-1-get-git-and-gcm",
+    "title": "Host Your Quarto Website on GitHub",
+    "section": "Step 1: Get Git and GCM",
+    "text": "Step 1: Get Git and GCM\nGit is a free, open source, and distributed version control system. Practically, what this means is that you can use Git to track a history of your work on a project, to “back up” your project on a cloud-based Git repository service like GitHub, and/or to collaborate simultaneously but asynchronously with others on a project. It is the the most popular VCS; anyone who writes any amount of code should be familiar with the basics of Git.\nFirst, check to see if you have Git already installed. On Windows, this amounts to checking to see if you have an application called Git-Bash accessible from the Start Menu. On Mac or Linux, run git --version in the Terminal. If a version number is returned, you have Git.\nWhether or not you have Git, follow the remaining instructions to install the Git Credential Manager (GCM), which substantially improves the process of authenticating your computer with GitHub when you push local files to your remote respository.\nOn Windows, go to git.scm.com and download “Git for Windows” which is a bundle of software that includes Git, the Git-Bash Terminal, and the Git Credential Manager.\nOn Mac, I recommend using Homebrew, which is a package manager (very loosely, it’s like an App Store for your Terminal). Unlike the Windows instructions just above, this is a multi-step process.\n\nCheck to see if you have Homebrew installed by running brew --version in the Terminal. If a version number is returned, you do. If not, visit https://brew.sh, copy the line of code at the top of their webpage, and paste/run that line of code in your Terminal. It should look something like:\n\n\n\nTerminal\n\n$ /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n\nFollow along at the Terminal, as you may need to enter your computer log-in password and/or indicate you agree to various terms or licenses. Note that when you type your password at the command line in the terminal, the cursor will not move. This is for security and privacy reasons. But rest assured that your input is being received. So type out your password when/where necessary and hit enter.\n\nNext, install Git by running brew install git at the Terminal. If you receive an error like “zsh: command not found: brew” run the following line of code in the Terminal and then try again to install Git. (What’s going on here is that Homebrew makes its location known to the Bash shell but not to Zsh, which is the newer and now-default shell on MacOS, so the following line of code tells Zsh where to look for Homebrew.)\n\n\n\nTerminal\n\n$ export PATH=\"/opt/homebrew/bin:$PATH\" &gt;&gt; ~/.zshrc\n\n\nWith Git successfully installed, next install the Git Credential Manager by running the following at the terminal. As before, follow along at the Terminal, as you may need to enter your computer log-in password and/or indicate you agree to various terms or licenses.\n\n\n\nTerminal\n\n$ brew install git-credential-manager"
+  },
+  {
+    "objectID": "posts/021-host-on-github/index.html#step-3-use-git-on-your-website-directory",
+    "href": "posts/021-host-on-github/index.html#step-3-use-git-on-your-website-directory",
+    "title": "Host Your Quarto Website on GitHub",
+    "section": "Step 3: Use Git on Your Website Directory",
+    "text": "Step 3: Use Git on Your Website Directory\nAt the Terminal, use cd to navigate to your website’s directory. Then initialize the directory as a Git respository (ie, turn Git “on” for your website) by running git init:\n\n\nTerminal\n\n$ git path/to/quarto_website\n$ git init\n\nThis will create a hidden .git folder in the quarto_website directory. There’s no need to view this .git folder, but if you would like to, you may need to enable your file explorer or IDE to show hidden files.\n\nIn the Mac Finder, toggle show/hide of hidden files with Cmd+Shift+.\nOn Windows, use the search box on the Taskbar and type “show hidden files” and toggle the top result\nIn RStudio, select the gear icon in the Files tab and check the “Show Hidden Files” menu item\nIn VS Code, you need to alter the “files.exclude” setting, see this"
+  },
+  {
+    "objectID": "posts/021-host-on-github/index.html#blah",
+    "href": "posts/021-host-on-github/index.html#blah",
+    "title": "Host Your Quarto Website on GitHub",
+    "section": "blah",
+    "text": "blah"
+  },
+  {
+    "objectID": "posts/021-host-on-github/index.html#step-2-introduce-yourself-to-git",
+    "href": "posts/021-host-on-github/index.html#step-2-introduce-yourself-to-git",
+    "title": "Host Your Quarto Website on GitHub",
+    "section": "Step 2: Introduce Yourself to Git",
+    "text": "Step 2: Introduce Yourself to Git\nGit needs to know your name and email address because it records the author of each commit (ie, each “save state”). We’ll pass the --global option so you only ever need to do this once. At the Terminal, run the following but use your name and email address (not mine!).\n\n\nTerminal\n\n$ git config --global user.name \"Dan Yavorsky\"\n$ git config --global user.email \"dyavorsky@gmail.com\"\n\nYou can check your info by running git config --global --list.\nLastly for this step – and we really shouldn’t need this, but we’ll do it just in case – but we want to ensure we use the branch name “main” instead of the depreciated branch name “master”. We can specify this with the setting:\n\n\nTerminal\n\n$ git config --global init.defaultBranch main"
+  },
+  {
+    "objectID": "posts/021-host-on-github/index.html#step-3-turn-git-on-for-your-website",
+    "href": "posts/021-host-on-github/index.html#step-3-turn-git-on-for-your-website",
+    "title": "Host Your Quarto Website on GitHub",
+    "section": "Step 3: Turn Git “On” for Your Website",
+    "text": "Step 3: Turn Git “On” for Your Website\nAt the Terminal, use cd to navigate to your website’s directory. Then initialize the directory as a Git respository (ie, turn Git “on” for your website) by running git init:\n\n\nTerminal\n\n$ git path/to/quarto_website\n$ git init\n\nThis will create a hidden .git folder in the quarto_website directory. There’s no need to view this .git folder, but if you would like to, you may need to enable your file explorer or IDE to show hidden files:\n\nIn the Mac Finder, toggle show/hide of hidden files with Cmd+Shift+.\nOn Windows, use the search box on the Taskbar and type “show hidden files” and toggle the top result\nIn RStudio, select the gear icon in the Files tab and check the “Show Hidden Files” menu item\nIn VS Code, you need to alter the “files.exclude” setting, see this"
+  },
+  {
+    "objectID": "posts/021-host-on-github/index.html#step-4-save-your-website",
+    "href": "posts/021-host-on-github/index.html#step-4-save-your-website",
+    "title": "Host Your Quarto Website on GitHub",
+    "section": "Step 4: “Save” Your Website",
+    "text": "Step 4: “Save” Your Website\nAt this point, Git is now tracking your directory, but it hasn’t “saved” the history of your work. You create this history by taking snapshots of the state of your project at various times. These snapshots are called “commits”. Taking a snapshot is a two-step process: you first stage the files you want in your snapshot with git add and then you take the snapshot with git commit. All commits include a message.\nYou can take snapshots with helpful tools built into RStudio or VS Code, or you can use the command line in the Terminal.\nIn the Terminal, run the follow to stage all new or modified files and commit them:\n\n\nTerminal\n\n$ git add .\n$ git commit -m \"type a commit message in here\"\n\nIn RStudio, use the Git tab. Check the box to the left of each file to stage it, then click the little “Commit” button at the top of the tab. This pops up a window where you can enter your commit message. Then click the big “Commit” button to finalize your snapshot. Close the pop-up window.\nIn VS Code, use the third-from-top button in the Activity Bar at the far-left of the application to access the Source Control panel. There you’ll find helpful buttons like the plus-sign button to stage all files, a text box to enter your commit message, and the big blue “Commit” button.\n\n\n\n\n\n\nScreenshots\n\n\n\n\n\n\nRStudioVS Code\n\n\nadd image\n\n\nadd image\n\n\n\n\n\n\nAt this point, everything is all set locally on your machine. Next we head to GitHub."
+  },
+  {
+    "objectID": "posts/021-host-on-github/index.html#step-5-create-a-github-account",
+    "href": "posts/021-host-on-github/index.html#step-5-create-a-github-account",
+    "title": "Host Your Quarto Website on GitHub",
+    "section": "Step 5: Create a GitHub Account",
+    "text": "Step 5: Create a GitHub Account\nGo to github.com and sign up for a free account.\nPick a username that is short, lowercase, and timeless. For example, dyavorsky is a good choice while dYavorskyUCLA2024 is not."
+  },
+  {
+    "objectID": "posts/021-host-on-github/index.html#step-6-create-a-github-repository",
+    "href": "posts/021-host-on-github/index.html#step-6-create-a-github-repository",
+    "title": "Host Your Quarto Website on GitHub",
+    "section": "Step 6: Create a GitHub Repository",
+    "text": "Step 6: Create a GitHub Repository\nSelect the “Repositories” tab in GitHub (this is also accessible by clicking on your profile photo in the top-right corner).\nThe click the green “New” button on the top-right.\nIf you name your repository your_username.github.io, then your website will have the same thing as its URL. However, if you name your repository something like quarto_website, then your URL will be your_username.github.io/quarto_website. You can always purchase a domain from a provider like GoDaddy. I did this so my URL would be www.danyavorsky.com instead of dyavorsky.github.io/quarto_website.\nOnce you create your repository, GitHub will helpfully list a bunch of terminal commands for you. Copy the 3-line command under the heading “…or push an existing repository from the command line”"
+  },
+  {
+    "objectID": "posts/021-host-on-github/index.html#step-7-connect-your-local-directory-to-your-github-repo",
+    "href": "posts/021-host-on-github/index.html#step-7-connect-your-local-directory-to-your-github-repo",
+    "title": "Host Your Quarto Website on GitHub",
+    "section": "Step 7: Connect your Local Directory to your GitHub Repo",
+    "text": "Step 7: Connect your Local Directory to your GitHub Repo\nIn order to sync our local work with the new GitHub remote repository, we need to connect the two. Those 3 lines you just copied do the syncing. Paste/run those 3 lines in the Terminal:\n\n\nTerminal\n\n$ git remote add origin https://github.com/username/repo-name.git\n$ git branch -M main\n$ git push -u origin main\n\n\nThe first command indicates that we want to connect our local repository to a remote repository and use the shortname “origin” instead of the full URL going forward.\nThe second command renames the current branch to “main”. This isn’t necessary for us, but here it does no harm, so we leave it in.\nThe third command pushes the commit(s) from our local repository up to the remote repository.\n\nRefresh the webpage in your browser of your GitHub repo and you should see all the files from your computer’s website directory copied up to the GitHub repo. Exciting stuff!"
+  },
+  {
+    "objectID": "posts/021-host-on-github/index.html#tell-github-your-repo-is-a-website",
+    "href": "posts/021-host-on-github/index.html#tell-github-your-repo-is-a-website",
+    "title": "Host Your Quarto Website on GitHub",
+    "section": "Tell GitHub your Repo is a Website",
+    "text": "Tell GitHub your Repo is a Website"
+  },
+  {
+    "objectID": "posts/021-host-on-github/index.html#step-8-tell-github-your-repo-is-a-website",
+    "href": "posts/021-host-on-github/index.html#step-8-tell-github-your-repo-is-a-website",
+    "title": "Host Your Quarto Website on GitHub",
+    "section": "Step 8: Tell GitHub your Repo is a Website",
+    "text": "Step 8: Tell GitHub your Repo is a Website\nIn your website repo, click on “Settings” toward the top-right.\nIn the left-side menu, select “Pages”.\nUnder “Branch” in the middle of the page\n\nensure the branch is “main” rather than “none”\nensure the folder is “docs” rather than “(root)”\n\nHave some patience and give GitHub a moment (up to 3 minutes or so) to host your site. GitHub will report “Your site is live” at the top of the page when it’s deployed.\n\n\n\n\n\n\nScreenshots\n\n\n\n\n\n\n\n\n\n::::"
+  },
+  {
+    "objectID": "posts/021-host-on-github/index.html#step-9-confirm-your-public-website",
+    "href": "posts/021-host-on-github/index.html#step-9-confirm-your-public-website",
+    "title": "Host Your Quarto Website on GitHub",
+    "section": "Step 9: Confirm Your Public Website",
+    "text": "Step 9: Confirm Your Public Website\nEnter the URL of your website in a browser or click the “Visit Site” button in GitHub to see your public website."
+  },
+  {
+    "objectID": "posts/021-host-on-github/index.html#workflow-to-update-your-website",
+    "href": "posts/021-host-on-github/index.html#workflow-to-update-your-website",
+    "title": "Host Your Quarto Website on GitHub",
+    "section": "Workflow to Update Your Website",
+    "text": "Workflow to Update Your Website\nAs you work on your website, your workflow will look something like this:\n\nfrequently make changes to files (mostly .qmd files) or add new files (e.g. images)\nfrequently render your website to see your edits\noccassionally stage and commit those changes locally\ninfrequently push those commits to GitHub\n\nFor example, if I worked on something for 3 hours, I edit files constantly. I render every few minutes. I might make a commit once an hour or so. I may push my work just once at the end of those 3 hours.\nRemember that the workflow provided in this tutorial requires you to render locally and then push everything in its final form to GitHub. I often make a local edit, forget to render, but commit that edit and push it to GitHub. Then I look at my website and wonder why the edit isn’t there. It’s because I edited the .qmd file, but since I didn’t render, the html file was never updated. Be sure to render locally before you commit and push!"
   }
 ]

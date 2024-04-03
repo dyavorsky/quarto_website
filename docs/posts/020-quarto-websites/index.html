@@ -135,7 +135,7 @@ window.Quarto = {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -207,7 +207,24 @@ window.Quarto = {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#step-1-get-quarto" id="toc-step-1-get-quarto" class="nav-link active" data-scroll-target="#step-1-get-quarto">Step 1: Get Quarto</a></li>
+  <li><a href="#step-2-create-a-website-project" id="toc-step-2-create-a-website-project" class="nav-link" data-scroll-target="#step-2-create-a-website-project">Step 2: Create a Website Project</a></li>
+  <li><a href="#step-3-inspect-the-template" id="toc-step-3-inspect-the-template" class="nav-link" data-scroll-target="#step-3-inspect-the-template">Step 3: Inspect the Template</a></li>
+  <li><a href="#step-4-prepare-for-github" id="toc-step-4-prepare-for-github" class="nav-link" data-scroll-target="#step-4-prepare-for-github">Step 4: Prepare for GitHub</a></li>
+  <li><a href="#step-5-render-the-template" id="toc-step-5-render-the-template" class="nav-link" data-scroll-target="#step-5-render-the-template">Step 5: Render the Template</a></li>
+  <li><a href="#step-6-customize-the-home-page" id="toc-step-6-customize-the-home-page" class="nav-link" data-scroll-target="#step-6-customize-the-home-page">Step 6: Customize the Home Page</a></li>
+  <li><a href="#step-7-add-a-resume" id="toc-step-7-add-a-resume" class="nav-link" data-scroll-target="#step-7-add-a-resume">Step 7: Add a Resume</a></li>
+  <li><a href="#step-8-add-a-blog" id="toc-step-8-add-a-blog" class="nav-link" data-scroll-target="#step-8-add-a-blog">Step 8: Add a Blog</a></li>
+  <li><a href="#step-9-grab-a-beverage" id="toc-step-9-grab-a-beverage" class="nav-link" data-scroll-target="#step-9-grab-a-beverage">Step 9: Grab a Beverage</a></li>
+  <li><a href="#additional-resources" id="toc-additional-resources" class="nav-link" data-scroll-target="#additional-resources">Additional Resources</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -222,7 +239,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="step-1-get-quarto">Step 1: Get Quarto</h2>
 <p>Quarto comes bundled with RStudio (v2022.07.1 and later). Therefore, if you are using RStudio, you should already have Quarto installed. You can check your version of RStudio by going to RStudio’s Help menu and selecting “About RStudio.”</p>
 <p>If you prefer VS Code, the command line, or another IDE, you can download and install Quarto from <a href="https://quarto.org/docs/get-started/">quarto.org</a>. VS Code users should also install the <a href="https://quarto.org/docs/get-started/hello/vscode.html#:~:text=Quarto%20VS%20Code%20Extension">Quarto VS Code Extension</a>.</p>
-<p>You can confirm that Quarto is installed by running <code>quarto --version</code> at the command line in the Terminal (not the R console). If a version number is returned, you’re good to go.</p>
+<p>You can confirm that Quarto is installed by running <code>quarto --version</code> at the command line in the Terminal (on Mac or Linux) or in the Git-Bash terminal on Windows – note that this is not the R console. If a version number is returned, you’re good to go.</p>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
 <pre><strong>Terminal</strong></pre>

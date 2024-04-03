@@ -1,6 +1,6 @@
 ---
 title: "Build a Quarto Website"
-toc: false
+toc: true
 image: quartologo.png
 callout-appearance: minimal
 code-annotations: hover
@@ -20,7 +20,7 @@ Quarto comes bundled with RStudio (v2022.07.1 and later). Therefore, if you are 
 
 If you prefer VS Code, the command line, or another IDE, you can download and install Quarto from [quarto.org](https://quarto.org/docs/get-started/). VS Code users should also install the [Quarto VS Code Extension](https://quarto.org/docs/get-started/hello/vscode.html#:~:text=Quarto%20VS%20Code%20Extension).
 
-You can confirm that Quarto is installed by running `quarto --version` at the command line in the Terminal (not the R console). If a version number is returned, you're good to go.
+You can confirm that Quarto is installed by running `quarto --version` at the command line in the Terminal (on Mac or Linux) or in the Git-Bash terminal on Windows -- note that this is not the R console. If a version number is returned, you're good to go.
 
 ```{.bash filename="Terminal"}
 $ quarto --version

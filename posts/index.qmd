@@ -6,6 +6,7 @@ listing:
       - "001-my-setup/index.qmd" 
       - "010-git-basics/index.qmd" 
       - "020-quarto-websites/index.qmd" 
+      - "021-host-on-github/index.qmd"
       - "101-gumble/index.qmd"
     type: grid 
     sort: "date-desc"
