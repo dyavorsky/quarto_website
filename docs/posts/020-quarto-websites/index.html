@@ -75,6 +75,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/kbd/kbd.js"></script>
+<link href="../../site_libs/quarto-contrib/kbd/kbd.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -253,7 +255,7 @@ Screenshots
 </div>
 </div>
 </div>
-<p>In VS Code, search the Command Pallet (Ctrl+Shift+P on Windows or Cmd+Shift+P on Mac) for “Quarto: Create Project”. Select “Website Project.” Then select the directory that will hold the website files and enter a name for the project directory.</p>
+<p>In VS Code, search the Command Pallet (<kbd>Ctrl+Shift+P</kbd> on Windows or <kbd>Cmd+Shift+P</kbd> on Mac) for “Quarto: Create Project”. Select “Website Project.” Then select the directory that will hold the website files and enter a name for the project directory.</p>
 <div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -340,18 +342,18 @@ Screenshots
 <dl class="code-annotation-container-hidden code-annotation-container-grid">
 <dt data-target-cell="annotated-cell-2" data-target-annotation="1">1</dt>
 <dd>
-<span data-code-cell="annotated-cell-2" data-code-lines="1,2" data-code-annotation="1">Identify the project as a website.</span>
+<span data-code-lines="1,2" data-code-annotation="1" data-code-cell="annotated-cell-2">Identify the project as a website.</span>
 </dd>
 <dt data-target-cell="annotated-cell-2" data-target-annotation="2">2</dt>
 <dd>
-<span data-code-cell="annotated-cell-2" data-code-lines="4,5,6,7,8,9,10" data-code-annotation="2">Specify links in the Navigation Bar</span>
+<span data-code-lines="4,5,6,7,8,9,10" data-code-annotation="2" data-code-cell="annotated-cell-2">Specify links in the Navigation Bar</span>
 </dd>
 <dt data-target-cell="annotated-cell-2" data-target-annotation="3">3</dt>
 <dd>
-<span data-code-cell="annotated-cell-2" data-code-lines="12,13,14,15,16" data-code-annotation="3">Control the website’s visual theme/style</span>
+<span data-code-lines="12,13,14,15,16" data-code-annotation="3" data-code-cell="annotated-cell-2">Control the website’s visual theme/style</span>
 </dd>
 </dl>
-<p>The <strong>index.qmd</strong> file contains a bare minimum template with the document properties controlled by the YAML header sandwiched between triple dashes at the top, follwed by the document content below.</p>
+<p>The <strong>index.qmd</strong> file contains a bare minimum template with the document properties controlled by the YAML header sandwiched between triple dashes at the top, followed by the document content below.</p>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
 <pre><strong>index.qmd</strong></pre>
@@ -365,18 +367,18 @@ Screenshots
 <dl class="code-annotation-container-hidden code-annotation-container-grid">
 <dt data-target-cell="annotated-cell-3" data-target-annotation="1">1</dt>
 <dd>
-<span data-code-cell="annotated-cell-3" data-code-lines="1,2,3" data-code-annotation="1">YAML header</span>
+<span data-code-lines="1,2,3" data-code-annotation="1" data-code-cell="annotated-cell-3">YAML header</span>
 </dd>
 <dt data-target-cell="annotated-cell-3" data-target-annotation="2">2</dt>
 <dd>
-<span data-code-cell="annotated-cell-3" data-code-lines="5" data-code-annotation="2">Document content</span>
+<span data-code-lines="5" data-code-annotation="2" data-code-cell="annotated-cell-3">Document content</span>
 </dd>
 </dl>
 </section>
 <section id="step-4-prepare-for-github" class="level2">
 <h2 class="anchored" data-anchor-id="step-4-prepare-for-github">Step 4: Prepare for GitHub</h2>
 <p>Later, we will host our website on GitHub. It can be helpful to set two properties now.</p>
-<p>First, change the name of the output directory that will hold the rendered html files to “docs” by adding line 3 below to the <strong>_quarto.yml</strong> configuarion file:</p>
+<p>First, change the name of the output directory that will hold the rendered html files to “docs” by adding line 3 below to the <strong>_quarto.yml</strong> configuration file:</p>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
 <pre><strong>_quarto.yml</strong></pre>
@@ -396,7 +398,7 @@ Screenshots
 <section id="step-5-render-the-template" class="level2">
 <h2 class="anchored" data-anchor-id="step-5-render-the-template">Step 5: Render the Template</h2>
 <p>Before we make any customizations other than those in Step 4, let’s ensure we can render the “source” files that we have been working with into html output files.</p>
-<p>In Rstudio, click the “Render Website” button on the Build tab. In VS Code, clck the “preview” button at the top-right of any .qmd file. Or from the Terminal, use <code>cd</code> to navigate inside of the website directory and run <code>quarto preview</code>. The rendered website should appear in RStudio’s Viewer tab, a new VS Code tab titled “Quarto Preview,” or as a new tab in your default browser.</p>
+<p>In Rstudio, click the “Render Website” button on the Build tab. In VS Code, click the “preview” button at the top-right of any .qmd file. Or from the Terminal, use <code>cd</code> to navigate inside of the website directory and run <code>quarto preview</code>. The rendered website should appear in RStudio’s Viewer tab, a new VS Code tab titled “Quarto Preview,” or as a new tab in your default browser.</p>
 <div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -463,23 +465,23 @@ Screenshots
 <dl class="code-annotation-container-hidden code-annotation-container-grid">
 <dt data-target-cell="annotated-cell-7" data-target-annotation="1">1</dt>
 <dd>
-<span data-code-cell="annotated-cell-7" data-code-lines="3" data-code-annotation="1">add an image</span>
+<span data-code-lines="3" data-code-annotation="1" data-code-cell="annotated-cell-7">add an image</span>
 </dd>
 <dt data-target-cell="annotated-cell-7" data-target-annotation="2">2</dt>
 <dd>
-<span data-code-cell="annotated-cell-7" data-code-lines="5" data-code-annotation="2">use an “about page” template</span>
+<span data-code-lines="5" data-code-annotation="2" data-code-cell="annotated-cell-7">use an “about page” template</span>
 </dd>
 <dt data-target-cell="annotated-cell-7" data-target-annotation="3">3</dt>
 <dd>
-<span data-code-cell="annotated-cell-7" data-code-lines="6,7,8,9,10" data-code-annotation="3">create buttons with Bootstrap5 icons</span>
+<span data-code-lines="6,7,8,9,10" data-code-annotation="3" data-code-cell="annotated-cell-7">create buttons with Bootstrap5 icons</span>
 </dd>
 <dt data-target-cell="annotated-cell-7" data-target-annotation="4">4</dt>
 <dd>
-<span data-code-cell="annotated-cell-7" data-code-lines="13" data-code-annotation="4">add some information</span>
+<span data-code-lines="13" data-code-annotation="4" data-code-cell="annotated-cell-7">add some information</span>
 </dd>
 </dl>
 <ol type="1">
-<li>We’ve specified that we would like to include an image from the profile_pic.jpg file in the files sub-directory. You’ll need to createe that sub-directory indside of your website directory and add a file with a photo. To do this at the terminal, you can use <code>mkdir</code> to create a directory and <code>cp</code> to copy.</li>
+<li>We’ve specified that we would like to include an image from the profile_pic.jpg file in the files sub-directory. You’ll need to create that sub-directory inside of your website directory and add a file with a photo. To do this at the terminal, you can use <code>mkdir</code> to create a directory and <code>cp</code> to copy.</li>
 </ol>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
@@ -556,7 +558,7 @@ Screenshot
 <span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">href</span><span class="kw">:</span><span class="at"> resume.qmd</span><span class="co">  # &lt;-- add this</span></span>
 <span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">text</span><span class="kw">:</span><span class="at"> Resume</span><span class="co">      # &lt;-- add this</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>Render yet again, possibly with Ctrl+Shift+K or Cmd+Shift+K since memorizing these shortcuts is quite helpful given how often we re-render.</p>
+<p>Render yet again, possibly with <kbd>Ctrl+Shift+K</kbd> or <kbd>Cmd+Shift+K</kbd> since memorizing these shortcuts is quite helpful given how often we re-render.</p>
 <div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -657,7 +659,7 @@ Screenshots
 <span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a><span class="fu"># Header</span></span>
 <span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>Let's investigate the relationship between fuel efficiency (<span class="in">`mpg`</span>) and engine discplacement (<span class="in">`disp`</span>) from the <span class="in">`mtcars`</span> dataset. Those variables have a correlation of <span class="in">`r cor(mtcars$mpg, mtcars$disp) |&gt; format(digits=2)`</span>.</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>Let's investigate the relationship between fuel efficiency (<span class="in">`mpg`</span>) and engine displacement (<span class="in">`disp`</span>) from the <span class="in">`mtcars`</span> dataset. Those variables have a correlation of <span class="in">`r cor(mtcars$mpg, mtcars$disp) |&gt; format(digits=2)`</span>.</span>
 <span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a><span class="fu">## Sub-Header</span></span>
 <span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a></span>

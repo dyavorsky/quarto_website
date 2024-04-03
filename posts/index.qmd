@@ -19,6 +19,7 @@ listing:
       - "853-peak/index.qmd"
       - "854-stolen-focus/index.qmd"
       - "855-war-of-art/index.qmd"
+      - "856-making-of-a-manager"
     type: grid 
     sort: "date-desc"
     categories: false

@@ -56,7 +56,7 @@ In RStudio, create a new project by selecting "New Project" from the File menu o
 :::
 ::::
 
-In VS Code, search the Command Pallet (Ctrl+Shift+P on Windows or Cmd+Shift+P on Mac) for "Quarto: Create Project". Select "Website Project." Then select the directory that will hold the website files and enter a name for the project directory.
+In VS Code, search the Command Pallet ({{< kbd Ctrl+Shift+P >}} on Windows or {{< kbd Cmd+Shift+P >}} on Mac) for "Quarto: Create Project". Select "Website Project." Then select the directory that will hold the website files and enter a name for the project directory.
 
 :::: {.callout-note collapse="true"}
 ## Screenshots
@@ -126,7 +126,7 @@ format:              # <3>
 2. Specify links in the Navigation Bar
 3. Control the website's visual theme/style
 
-The **index.qmd** file contains a bare minimum template with the document properties controlled by the YAML header sandwiched between triple dashes at the top, follwed by the document content below.
+The **index.qmd** file contains a bare minimum template with the document properties controlled by the YAML header sandwiched between triple dashes at the top, followed by the document content below.
 
 ```{.r filename="index.qmd"}
 ---                        # <1>
@@ -143,7 +143,7 @@ This is a Quarto website.  # <2>
 
 Later, we will host our website on GitHub. It can be helpful to set two properties now.
 
-First, change the name of the output directory that will hold the rendered html files to "docs" by adding line 3 below to the **\_quarto.yml** configuarion file:
+First, change the name of the output directory that will hold the rendered html files to "docs" by adding line 3 below to the **\_quarto.yml** configuration file:
 
 ```{.yaml filename="_quarto.yml"}
 project:
@@ -162,7 +162,7 @@ $ touch .nojekyll
 
 Before we make any customizations other than those in Step 4, let's ensure we can render the "source" files that we have been working with into html output files.
 
-In Rstudio, click the "Render Website" button on the Build tab. In VS Code, clck the "preview" button at the top-right of any .qmd file. Or from the Terminal, use `cd` to navigate inside of the website directory and run `quarto preview`. The rendered website should appear in RStudio's Viewer tab, a new VS Code tab titled "Quarto Preview," or as a new tab in your default browser.
+In Rstudio, click the "Render Website" button on the Build tab. In VS Code, click the "preview" button at the top-right of any .qmd file. Or from the Terminal, use `cd` to navigate inside of the website directory and run `quarto preview`. The rendered website should appear in RStudio's Viewer tab, a new VS Code tab titled "Quarto Preview," or as a new tab in your default browser.
 
 :::: {.callout-note collapse="true"}
 ## Screenshots
@@ -221,7 +221,7 @@ Welcome to my website! # <4>
 3. create buttons with Bootstrap5 icons
 4. add some information
 
-(1) We've specified that we would like to include an image from the profile_pic.jpg file in the files sub-directory. You'll need to createe that sub-directory indside of your website directory and add a file with a photo. To do this at the terminal, you can use `mkdir` to create a directory and `cp` to copy.
+(1) We've specified that we would like to include an image from the profile_pic.jpg file in the files sub-directory. You'll need to create that sub-directory inside of your website directory and add a file with a photo. To do this at the terminal, you can use `mkdir` to create a directory and `cp` to copy.
 
 ```{.bash filename="Terminal"}
 $ pwd
@@ -284,7 +284,7 @@ website:
         text: Resume      # <-- add this
 ```
 
-Render yet again, possibly with Ctrl+Shift+K or Cmd+Shift+K since memorizing these shortcuts is quite helpful given how often we re-render.
+Render yet again, possibly with {{< kbd Ctrl+Shift+K >}} or {{< kbd Cmd+Shift+K >}} since memorizing these shortcuts is quite helpful given how often we re-render.
 
 :::: {.callout-note collapse="true"}
 ## Screenshot  
@@ -360,7 +360,7 @@ date: today
 
 # Header
 
-Let's investigate the relationship between fuel efficiency (`mpg`) and engine discplacement (`disp`) from the `mtcars` dataset. Those variables have a correlation of `r cor(mtcars$mpg, mtcars$disp) |> format(digits=2)`.
+Let's investigate the relationship between fuel efficiency (`mpg`) and engine displacement (`disp`) from the `mtcars` dataset. Those variables have a correlation of `r cor(mtcars$mpg, mtcars$disp) |> format(digits=2)`.
 
 ## Sub-Header
 

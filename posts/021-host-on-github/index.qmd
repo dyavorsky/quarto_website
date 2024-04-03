@@ -63,7 +63,7 @@ $ git config --global init.defaultBranch main
 
 ## Step 3: Turn Git "On" for Your Website
 
-At the Terminal, use `cd` to navigate to your website's directory. Then initialize the directory as a Git respository (ie, turn Git "on" for your website) by running `git init`:
+At the Terminal, use `cd` to navigate to your website's directory. Then initialize the directory as a Git repository (ie, turn Git "on" for your website) by running `git init`:
 
 ```{.bash filename="Terminal"}
 $ git path/to/quarto_website
@@ -72,7 +72,7 @@ $ git init
 
 This will create a hidden _.git_ folder in the *quarto_website* directory. There's no need to view this _.git_ folder, but if you would like to, you may need to enable your file explorer or IDE to show hidden files:
 
- - In the Mac Finder, toggle show/hide of hidden files with Cmd+Shift+.
+ - In the Mac Finder, toggle show/hide of hidden files with {{< kbd Cmd+Shift+. >}}
  - On Windows, use the search box on the Taskbar and type "show hidden files" and toggle the top result
  - In RStudio, select the gear icon in the Files tab and check the "Show Hidden Files" menu item
  - In VS Code, you need to alter the "files.exclude" setting, see [this](https://stackoverflow.com/questions/46779942/how-to-display-hidden-files-with-visual-studio-code)
