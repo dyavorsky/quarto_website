@@ -259,5 +259,20 @@
   },
   "posts/021-host-on-github/index.qmd": {
     "index.html": "9cec9c16"
+  },
+  "posts/851-good-habits-bad-habits/index.qmd": {
+    "index.html": "7060cba0"
+  },
+  "posts/852-how-learning-works/index.qmd": {
+    "index.html": "12327fe7"
+  },
+  "posts/853-peak/index.qmd": {
+    "index.html": "b8ad1f20"
+  },
+  "posts/854-stolen-focus/index.qmd": {
+    "index.html": "900f742f"
+  },
+  "posts/855-war-of-art/index.qmd": {
+    "index.html": "315e6789"
   }
 }

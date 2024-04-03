@@ -1,0 +1,257 @@
+---
+title: "Peak: The Secrets from the New Science of Expertise"
+description: "Anders Ericsson and Robert Pool"
+image: book_cover.png
+toc: true
+number-sections: false
+draft: false
+---
+
+
+### Intro: The Gift
+
+-   But since the 1990s brain researchers have come to realize that the brain - even the adult brain - is far more adaptable than anyone ever imagined, and this gives us a tremendous amount of control over what our brains are able to do.
+-   The brain and the body are more adaptable in young children than in adults.
+-   This book is about... the ability to create, through the right sort of training and practice, abilities that they would not otherwise possess by taking advantage of the incredible adaptability of the human brain and body. Furthermore, it is a book about how anyone can put this gift to work in order to improve in an area they choose. And finally, in the broadest sense this is a book about a fundamentally new way of thinking about human potential, one that suggests **we have far more power than we ever realized to take control of our own lives.**
+-   Over the past few years a number of books have argued that people have been overestimating the value of innate talent and underestimating the value of such things as opportunity, motivation, and effort. I cannot disagree with this, and it is certainly important to let people know that they can improve -- and improve a lot -- with practice... But sometimes these books leave the impression that heartfelt desire and hard work alone will lead to improved performance -- "Just keep working at it, and you'll get there" -- and this is wrong. The right sort of practice carried out over a sufficient period of time leads to improvement. Nothing else.
+-   The most effective approaches to improving performance all follow a single set of general principles. We named this universal approach "deliberate practice."
+
+### 1. The Power of Purposeful Practice
+
+-   But while the abilities are extraordinary, there is no mystery at all about how these people developed them. **They practiced. A lot.**
+
+-   We all follow pretty much the same pattern with any skill we learn... We start off with a general idea of what we want to do, get some instruction from a teacher or a coach or a book or a website, practice until we reach an acceptable level, and then let it become automatic. And there's nothing wrong with that. For much of what we do in life, it's perfectly fine to reach a middling level of performance and just leave it like that.
+
+-   But there is one very important thing to understand here: once you have reached this satisfactory skill level and automated your performance, you have stopped improving.
+
+-   Research has shown that, generally speaking, once a person reaches that level of "acceptable" performance and automaticity, the additional years of "practice" don't lead to improvement. If anything, the doctor or the teacher or the driver who's been at it for twenty years is likely to be a bit worse that the one who's been doing it for only five, and the reason is that these automated abilities gradually deteriorate in the absence of deliberate efforts to improve.
+
+-   Purposeful practice:
+
+    -   has well-defined, specific goals
+    -   is focused
+    -   involves feedback
+    -   requires getting out of one's comfort zone
+        -   getting out of your comfort zone means trying to do something that you couldn't do before.
+        -   generally the solution is not "try harder" but rather "try differently."
+
+-   One caveat here is that while it is always possible to keep going and keep improving, **it is not always easy.**
+
+-   There is an important lesson here: although it is generally possible to improve to a certain degree with focused practice and staying out of your comfort zone, that's not all there is to it. Trying hard isn't enough. Pushing yourself to your limits isn't enough. There are other, equally important aspects to practice and training that are often overlooked.
+
+### 2. Harnessing Adaptability
+
+-   **The human body has a preference for stability.**
+-   As long as the physical exercise is not so strenuous that it strains the body's homeostatic mechanisms, the exercise will do very little to prompt physical changes in the body. From the body's perspective, there is no reason to change; everything is working as it should.
+-   It's a different matter when you engage in sustained, vigorous physical activity that pushes the body beyond the point where the homeostatic mechanisms can compensate.
+-   This is how the body's desire for homeostasis can be harnessed to drive changes: push it hard enough and for long enough, and it will respond by changing in ways that make that push easier to do.
+-   This explains **the importance of staying just outside your comfort zone**: you need to continually push to keep the body's compensatory changes coming, but if you push too far outside your comfort zone, you risk injuring yourself and actually setting yourself back.
+-   **The brain, like the body, changes most quickly in that sweet spot where it is pushed outside -- but not too far outside -- its comfort zone.**
+-   Although the specific details vary from skill to skill, the overall pattern is consistent: regular training leads to changes in the parts of the brain that are challenged by the training. The brain adapts to these challenges by rewiring itself in ways that increase its ability to carry out the functions required by the challenges.
+-   The effects of training on the brain can vary with age.
+-   Developing certain parts of the brain through prolonged training can come at a cost: in many cases people who have developed one skill or ability to an extraordinary degree seem to have regressed in another area.
+-   The cognitive and physical changes caused by training require upkeep. Stop training, and they start to go way.
+-   **The reason that most people don't possess these extraordinary physical capabilities isn't because they don't have the capacity for them, but rather because they're satisfied to live in the comfortable rut of homeostasis and never do the work that is required to get out of it.**
+-   But it's important to remember that the option exists. If you wish to become significantly better at something, you can.
+-   And here is the key difference between the traditional approach to learning and the purposeful-practice or deliberate-practice approaches: the traditional approach is not designed to challenge homeostasis.
+-   With deliberate practice, however, the goal is not just to reach your potential but to build it, to make things possible that were not possible before. This requires challenging homeostasis -- getting out of your comfort zone -- and forcing your brain or your body to adapt.
+
+### 3. Mental Representations
+
+-   Much of deliberate practice involves developing ever more efficient mental representations that you can use in whatever activity you are practicing.
+-   These representations are preexisting patterns of information -- facts images, rules, relationships, and so on -- that are held in long-term memory and that can be used to respond quickly and effectively in certain types of situations. The thing all mental representations have in common is that they make it possible to process large amounts of information quickly, despite the limitations of short-term memory.
+-   What sets expert performers apart from everyone else is the quality and quantity of their mental representations. Through years of practice, they develop highly complex and sophisticated representations of the various situations they are likely to encounter in their fields... These representations allow them to make faster, more accurate decisions and respond more quickly and effectively in a given situation. This, more than anything else, explains the difference in performance between novices and experts.
+-   **The main thing that sets experts apart from the rest of us is that their years of practice have changed the neural circuity in their brains to produce highly specialized mental representations**, which in turn make possible the incredible memory, pattern recognition, problem solving, and other sorts of advanced abilities needed to excel in their particular specialties.
+-   For the experts we just described, the key benefit of mental representations lies in how they help us deal with information: understanding and interpreting it, holding it in memory, organizing it, analyzing it, and making decisions with it.
+-   The more you study a subject, the more detailed your mental representation of it become, and the better you get at assimilating new information.
+-   **The superior organization of information is a theme that appears over and over again in the study of expert performers.**
+-   The main practice of deliberate practice is to develop effective mental representations, and, as we will discuss shortly, mental representations in turn play a key role in deliberate practice. The key change that occurs in our adaptable brains in response to deliberate practice is the development of better mental representations, which in turn open up new possibilities for improved performance.
+-   In general, mental representations aren't just the result of learning a skill; they also can help us learn.
+-   In any area, not just musical performance, the relationship between skill and mental representations is a virtuous circle: the more skilled you become, the better your mental representations are, and the better your mental representations are, the more you can practice to hone your skill.
+-   In these areas too, the virtuous circle rules: honing the skill improves mental representation, and mental representation helps hone the skill. There is a bit of a chicken-and-egg component to this. Take figure skating: it's hard to have a clear mental representation of what a double axle feels like until you've done it, and likewise, it is difficult to do a clean double axle without a good mental representation of one. That sounds paradoxical, bit it isn't really. You work up to a double axle bit by bit, assembling the mental representations as you go.
+
+### 4. The Gold Standard
+
+-   What is missing from purposeful practice? What is required beyond simply focusing and pushing beyond one's comfort zone? Let's talk about it.
+
+-   Purposeful practice as done by different people can have very different results.
+
+-   In every area, some approaches to training are more effective that others. In this chapter, we'll explore the most effective method of all: deliberate practice. It is the gold standard., the ideal to which anyone learning a skill should aspire.
+
+-   These fields (classical music performance, mathematics, and ballet, as opposed to playing pop music, solving crossword puzzles, and folk dancing) have several characteristics in common.
+
+    -   First, there are always **objective ways to measure** performance.
+
+    -   Second, these fields tend to be **competitive** enough that performers have strong incentive to practice and improve.
+
+    -   Third, these fields are generally **well established**.
+
+    -   And fourth, these fields have a subset of performers who also serve as **teachers and coaches**.
+
+-   Everyone from the very top students to the future music teachers agreed: improvement was hard, and they didn't enjoy the work they did to improve.
+
+-   We found that the best violin students had, on average, spent significantly more time that the better violin students had spent, and that the top two groups -- better and best -- had spent much more time on solitary practice that the music-education students.
+
+-   Looking more closely, we found that the largest differences in practice time among the three groups of students had come in the preteen and teenage years.
+
+-   But two things were strikingly clear from the study: **first, to become an excellent violinist requires several thousand hours of practice**. We found no shortcuts and no "prodigies" who reached an expert level with relatively little practice. And, second, even among these gifted musicians -- all of whom had been admitted to the best music academy in Germany -- **the violinists who had spent significantly more hours practicing their craft were on average more accomplished** than those who had spent less time practicing.
+
+-   By now it is safe to conclude from many studies on a wide variety of disciplines that nobody develops extraordinary abilities without putting in tremendous amounts of practice.
+
+-   The improvement in performance generally has gone hand in hand with the development of teaching methods, and today anyone who wishes to become an expert in these fiends will need an instructor's help.
+
+-   **In short, we were saying that deliberate practice is different from other sorts of purposeful practice in two important ways: first, it requires a field of study that is already reasonably well developed... Second, deliberate practice requires a teacher who can provide practice activities designed to help a student improve...**
+
+-   With this definition we are drawing a clear distinction between purposeful practice -- in which a person tries very hard to push himself or herself to improve -- and practice that is both purposeful and *informed*... Deliberate practice is purposeful practice that knows where it is going and how to get there.
+
+-   Deliberate practice:
+
+    -   develops skills that other people have already figured out how to do and for which effective training techniques have been established
+    -   takes place outside one's comfort zone... it demands near-maximal effort, which is generally not enjoyable
+    -   requires a person's full attention and conscious actions
+    -   involves feedback and modification of efforts in response to that feedback
+    -   both produces and depends on effective mental representations.
+    -   nearly always involves building or modifying previously acquired skills.
+
+-   This is the basic blueprint for getting better in any pursuit: get as close to deliberate practice as you can... In practice this often boils down to purposeful practice with a few extra steps: **first, identify the expert performs, then figure out what they do that makes them so good, then come up with training techniques that allow you to do it, too.**
+
+-   Be careful when identifying expert performs. Ideally you want some objective measure of performance.
+
+-   Seek out persons that professionals themselves seek out when they need help with a particularly difficult situation.
+
+-   The ideal is to find objective, reproducible measures that consistently distinguish the best from the rest.
+
+-   Once you've identified the expert performs in a field, the next step is to figure out specifically what they do that separates them from other, less accomplished people in the same field, and what training methods helped them get there.
+
+-   In many fields it is the quality of mental representations that sets apart the best form the rest, and mental representations are, by their nature, not directly observable.
+
+-   **Fortunately, in some cases you can bypass figuring out what sets experts themselves apart from others and simply figure out what sets their training apart.**
+
+-   In all of this keep in mind that the idea is to inform your purposeful practice and point it in the directions that will be more effective.
+
+-   And finally remember that, whenever possible, the best approach is almost always to work with a good coach or teacher.
+
+-   A knowledgeable instructor can lead the student to develop a good foundation and then gradually build on that foundation to create the skills expected in that field.
+
+-   A good teacher can give you valuable feedback you couldn't get any other way.
+
+-   The distinction between deliberate practice aimed at a particular goal and generic practice is crucial because not every type of practice leads to the improved ability.
+
+-   Becoming accomplished in any field in which there is a well-established history of people working to become experts requires a tremendous amount of effort exerted over many years.
+
+-   In pretty much any area of human endeavor, people have a tremendous capacity to improve their performance, as long as they train in the right way.
+
+-   **There is no point at which performance maxes out.**
+
+### 5. Principles of Deliberate Practice on the Job
+
+-   His message to clients starts with a mindset. The first step toward enhancing performance in an organization is realizing that improvement is possible only if participants abandon business-as-usual practices. Doing so requires recognizing and rejecting three prevailing myths.
+
+-   The first is our old friend, the belief that one's abilities are limited by one's genetically prescribed characteristics... The right sort of practice can help pretty much anyone improve in just about any area they choose to focus on.
+
+-   The second myth holds that if you do something for long enough, you're bound to get better at it. Again, we know better. Doing the same thing over and over again in exactly the same way is not a recipe for improvement; it is a recipe for stagnation and gradual decline.
+
+-   The third myth states that all it takes to improve is effort... Unless you are using practice techniques specifically designed to improve those particular skills, trying hard will not get you very far.
+
+-   The deliberate-practice mindset offers a very different view: **anyone can improve, but it requires the right approach.** If you are not improving, it's not because you lack innate talent; it's because you're not practicing the right way. Once you understand this, improvement becomes a matter of figuring out what the "right way" is.
+
+-   For anyone in the business or professional word looking for an effective approach to improvement, my basic advice is to look for one that follows the principals of deliberate practice:
+
+    -   Does it push people to get outside their comfort zones and attempt to do things that are not easy for them?
+    -   Does it offer immediate feedback on the performance and on what can be done to improve it?
+    -   Have those who developed the approach identified the best performs in that particular area and determined what sets them apart from everyone else?
+    -   Is the practice designed to develop the particular skills that experts in the field possess?
+
+-   One of the major challenges facing anyone trying to apply the principles of deliberate practice is figure out exactly what the best performers do that sets them apart.
+
+-   Practice skills over and over again with plenty of feedback and without the usual costs of failure
+
+-   Training with immediate feedback... can be an incredibly powerful way to improve performance.
+
+-   **There is an emphasis on *doing*. The bottom line is what you are able to do, not what you know**, although it is understood that you need to know certain things in order to be able to do your job.
+
+-   This distinction between knowledge and skills lies at the heart of the difference between traditionally paths toward expertise and the deliberate-practice approach... Deliberate practice focuses solely on performance and how to improve it.
+
+-   When you look at how people are trained in the professional and business worlds, you find a tendency to focus on knowledge at the expense of skills. **The main reasons are tradition and convenience: it is much easier to present knowledge to a large group of people than it is to set up conditions under which individuals can develop skills through practice.**
+
+-   Continuing medical education can improve doctors' performance, but the effect is small, and the effects on patient outcomes are even smaller. In addition, it is mainly those education approaches with some interactive component that have an effect; lectures, seminars, and the like to little or nothing to help doctors improve their practice.
+
+-   In general, professional schools focus on knowledge rather than skills because it is much easier to teach knowledge and then create tests for it. The general argument has been that the skills can be mastered relatively easily if the knowledge is there... The assumption is that simply accumulating more experience will lead to better performance.
+
+-   The right question is, How do we improve the relevant skills? rather than, How do we teach the relevant knowledge?
+
+### 6. Principles of Deliberate Practice in Everyday Life
+
+-   When you're practicing by yourself, you have to rely upon your own mental representations to monitor your performance and determine what you might be doing wrong. This is not impossible, but it is much more difficult and less efficient that having an experienced teacher watching you and providing feedback. It is particularly difficult early in the learning process, when your mental representations are still tentative and inaccurate.
+-   **Many accomplished performers are terrible teachers because they have no idea how to teach. Just because they themselves can do it doesn't mean they can teach others how to do it.**
+-   The basic principle -- the importance of engaging in purposeful practice instead of mindless repetition without any clear plan for getting better... Remember: if your mind is wandering or you're relaxed and just having fun, you probably won't improve.
+-   And, of course, in fields where strength and endurance are not so important -- intellectual activities and so on -- there is little point at all to practicing if you don't focus.
+-   Maintaining this sort of focus is hard work, however, even for experts who have been doing it for years.
+-   Focus and concentration are crucial... so shorter training sessions with clearer goals are the best way to develop new skills faster. **It is better to train at 100 percent effort for less time that at 70 percent efforts for a longer period.**
+-   The hallmark of purposeful or deliberate practice is that you try to do something you cannot do -- that takes you out of your comfort zone -- and that you practice it over and over again, focusing on exactly how you are doing it, where you are falling short, and how you can get better. Real life seldom gives us the opportunity for this sort of focused repetition, so in order to improve, we must manufacture our own opportunities.
+-   Note that these students weren't simply doing the same thing over and over again: they were paying attention to what they got wrong each time and correcting it. This is purposeful practice. it does no good to do the same thing over and over again mindlessly; the purpose of the repetition is to figure out where your weaknesses are and focus on getting better in those areas, trying different methods to improve until you find something that works.
+-   To effectively practice a skill without a teacher, it helps to keep in mind three Fs: focus, feedback, fix it. Break the skill down into components that you can do repeatedly and analyze effectively, determine your weaknesses, and figure out ways to address them.
+-   Despite the first word in the term "mental representation," pure mental analysis is not nearly enough. We can only form effective mental representations when we try to reproduce what the expert performer can do, fail, figure out why we failed, try again, and repeat -- over and over again. Successful mental representations are inextricably tied to actions, not just thoughts, and it is the extended practice aimed at reproducing the original product that will produce the mental representations we seek.
+-   The plateau Josh encountered is common in every sort of training. When you first start learning something new, it is normal to see rapid -- or at least steady -- improvement, and when that improvement stops, it is natural to believe you've hit some sort of implacable limit. So you stop trying to move forward, and you settle down to life on that plateau. This is the major reason that people in every area stop improving.
+-   The best way to move beyond it is to challenge your brain or you body **in a new way.**
+-   Any reasonably complex skill will involve a variety of components, some of which you will be better at than others. Thus, when you reach a point at which you are having difficulty getting better, it will be just one or two of the components of that skill, not all of them that are holding you back. The question is, which ones? To figure that out, you need to find a way to push yourself a little -- not a lot -- harder than usual. This will often help you figure out where your sticking points are.
+-   When other techniques have failed, push yourself sell outside of your comfort zone and see what breaks down first.
+-   **Getting started is easy. How do you keep going?**
+-   So that's the problem in a nutshell: purposeful practice is hard work... What can you do about it.
+-   In answering that question, the first thing to note is that, despite the effort that it takes, it certainly is possible to keep going.
+-   Willpower is a very situation-specific attribute. People generally find it much easier to push themselves in some areas than in others.
+-   It is much more useful, I believe, to talk about motivation. Motivation is quite different from willpower. We all have various motivations - some stronger, some weaker -- at various times and in various situations. The most important question to answer then becomes, what factors shape motivation?
+-   A similar thing is true for those who maintain purposeful or deliberate practice over the long run. They have generally developed various habits that help them keep going.
+-   **Thus to maintain your motivation you can either strengthen the reasons to keep going or weaken the reasons to quit. Successful motivation efforts generally include both.**
+-   Good planning can help you avoid many of the things that might lead you to spend less time on practice than you wanted.
+-   Expert performers do two things - both seemingly unrelated to motivation -- that can help. The first is general physical maintenance: getting enough sleep and keeping healthy... The second thing is to limit the length of your practice sessions to about an hour.
+-   Studies of expert performs tell us that once you have practice for a while and can see the results, the skill itself can become part of your motivation. You take pride in what you do, you get pleasure from your friends' compliments, and your sense of identity changes.
+-   Another key motivational factor in deliberate practice is a belief that you can succeed.
+-   One of the strongest forms of extrinsic motivation is social motivation. This can take several forms. One of the simplest and most direct is the approval and admiration of others.
+-   Surrounding yourself with supportive people is easiest in activities that are done in groups or teams.
+-   **Of course, at its core, deliberate practice is a lonely pursuit.**
+-   One of the best bits of advice is to set things up so that you are constantly seeing concrete signs of improvement, even if it is not always major improvement.
+
+### 7. The Road to Extraordinary
+
+-   Psychologists have found that an expert's development passes through four distinct stages.
+-   In the first stage, children are introduced in a playful way to what will eventually become their field of interest.
+-   Simply by interacting strongly with their children, parents motivate their children to develop similar interests.
+-   A child who sees an older sibling performing an activity and getting attention and praise from a parent will naturally want to join in and garner some attention and praise as well.
+-   Once a future expert performer becomes interested and shows some promise in an area, the typical next step it to take lessons from a coach or teacher.
+-   During the first part of this state, the encouragement and support of parents and teachers was crucial to the child's progress, but eventually the students began to experience some of the rewards of their hard work and became increasingly self-motivated.
+-   Finally, as the students continued to improve, they started to seek out better-qualified teachers and coaches who would take them to the next level.
+-   After two to five years at this stage, the future experts began to identify themselves more in terms of the skill they were developing and less in terms of other areas of interest, such as school or social life. They saw themselves as "pianists" or "swimmers" by the age of eleven or twelve.
+-   Generally when they're in the early or mid teens, the future experts make a major commitment to becoming the best that they can be. This commitment is the third stage.
+-   Now students will often seek out the best teachers or schools for their training, even if it requires moving across country.
+-   In Bloom's study, all 120 experts had begun their climb toward that pinnacle as children, which is typical among expert performers. But people frequently ask me what the possibilities are for someone who doesn't begin training until later in life. While the specific details vary by field, there are relatively few absolute limitations on what is possible for people who begin training as adults. Indeed, the practical limitations -- such as the fact that few adults have four to five hours a day to devote to deliberate practice -- are often more of an issue than any physical or mental limitations.
+-   Beethoven, Newton, Darwin, Einstein, Tiger Woods... These are the people whose contributions leave their fields forever changed, the pathfinders who lead the way into new territory so that others can follow. This is the fourth stage of expert performance, where some people move beyond the existing knowledge in their field and make unique creative contributions. It is the least well understood of the four stages and the most intriguing.
+-   Having studied many examples of creative genius, it's clear to me that much of what expert performs do to move the boundary of their fields and create new things is very similar to what they were doing to reach that boundary in the first place.
+-   The most important lesson they gleaned form their teachers is the ability to improve on their own.
+-   There are no big leaps, only developments that look like big leaps to people from the outside because they haven't seen all of the little steps that comprise them.
+-   Creativity goes hand in hand with the ability to work hard and maintain focus over long stretches of time -- exactly the ingredients of deliberate practice that produced their expert abilities in the first place.
+-   Progress is made by those who are working on the frontiers of what is known and what is possible to do, not by those who haven't put in the effort needed to reach that frontier.
+
+### 8. But What About Natural Talent
+
+-   **Expert performers develop their extraordinary abilities through years and years of dedicated practice, improving step-by-step in a long, laborious process. There are no shortcuts.** Various sorts of practice can be effective, but the most effective of all is deliberate practice. Deliberate practice takes advantage of the natural adaptability of the human brain and body to create new abilities. Most of these abilities are created with the help of detailed mental representations, which allow us to analyze and respond to situations much more effectively than we could otherwise.
+-   I get it. People want to believe that there is magic in life, that not everything has to abide by the staid, boring rules of the real world. And what could be more magical than being born with some incredible ability that doesn't require hard work or discipline to develop? There is an entire comic-book industry build on that premise -- that sometimes something magical happens, and you suddenly acquire incredible powers.
+-   But my decades of research in the area of expertise have convinced me that there is no magic. By examining the case of someone with exceptional abilities through the lens of those two earlier questions I posed -- What is the talent? What practice led to the talent? -- you can pull back the curtain and find what is really going on.
+-   People do not stop learning and improving because they have reached some innate limits on their performance; they stop learning and improving because, for whatever reasons, they stopped practicing -- or never started. There is no evidence that any otherwise normal people are born without the innate talent to sing or do math or perform any other skill.
+-   Think back to when you were a kid and you were just starting to learn to play the piano or to throw a baseball or to draw something... In all of these cases, when you looked around you would have noticed that some of your friends or classmates or peers were doing better than others, and some were doing worse. There are always obvious difference sin how quickly different people pick something up. Some just seem to have an easier time playing a musical instrument. Some just seem to be natural athletes. Some just seem to be naturally good with numbers. And so on. And because we see such differences in beginners, it's natural to assume that those differences will persist -- that the same people who did so well in the beginning will continue to breeze through later on. These lucky people, we imagine, were born with innate talents that smooth the way and lead them to excel. This is an understandable result of observing the beginning of the journey and concluding that the rest of the journey will be similar. *It is also wrong.*
+-   **And here we find our major take away message: in the long run it is the ones who practice more who prevail, not the ones who had some initial advantage in intelligence or some other talent.**
+-   And over time these children will become better artists or better musicians than their peers -- not because they are innately more talented in the sense that they have some genes for musical or artistic ability, but because something -- perhaps genetic -- pushed them to practice and thus develop their skills to a greater degree than their peers.
+-   Some people might, for instance, be naturally able to focus more intently for longer periods of time that others.
+-   One could even imagine difference in how the brain responds to the challenges so that practice would be more effective in some people than in others in building new brain structures and mental capacity.
+-   Much of this remains speculative at this point. But since we know that practice is the single most important factor in determining a person's ultimate achievement in a given domain, it makes sense that if genes to play a role, their role would play out through shaping how likely a person is to engage in deliberate practice or how effective that practice is likely going to be. Seeing it in this way puts genetic differences in a completely different light.
+-   I've argued that while innate characteristics may influence performance among those who are just learning a new skill or ability, the degree and the effectiveness of training plays a more significant role in determining who excels among those who have worked to develop a skill.
+-   This is the dark side of believing in innate talent. it can beget a tendency to assume that some people have a talent for something and others don't and that you can tell the difference early on. If you believe that, you encourage and support the "talented" ones and discourage the rest, creating the self-fulfilling prophecy.
+
+### 9. Where Do We Go from Here?
+
+-   A major difference between the deliberate-practice approach and the traditional approach to learning lies with the emphasis placed on skills versus knowledge -- what you can do versus what you know. **Deliberate practice is all about the skills. You pick up the necessary knowledge in order to develop the skills; knowledge should never be an end in itself.** Nonetheless, deliberate practice results in students picking up quite a lot of knowledge along the way.
+-   If you teach a student facts, concepts, and rules, those things to into long-term memory as individual piece, and if a student then wishes to do something with them -- use them to solve a problems, reason with them to answer a question, or organize and analyze them to come up with a theme or a hypothesis - the limitations of attention and short-term memory kick in. The student must keep all of these different, unconnected pieces in mind while working with them toward a solution. However, if this information is assimilated as part of building mental representations aimed at doing something, the individual pieces become part of an interconnected pattern that provides context and meaning to the information, making it easier to work with.
+-   **You don't build mental representations by thinking about something; you build them by trying to do something, failing, and revising, and trying again, over and over.** When you're done, not only have you developed an effective mental representation for the skill you were developing, but you have also absorbed a great deal of information connected with that skill.
+-   The questions and tasks were also designed to push the (physics) students outside their comfort zones -- to ask them questions whose answers they'd have to struggle for -- but not so far outside their comfort zones that they wouldn't know how to start answering them.
+-   Finally, the classes were structured so that the students would have the opportunity to deal with the various concepts over and over again, getting feedback that identified their mistakes and showed how to correct them.
+-   Begin by identifying what students should learn how to do. The objectives should be skills, not knowledge. In figuring out the particular way students should learn a skill, examine how the expert do it. In particular, understand as much as possible about the mental representations that experts use, and teach the skill so as to help students develop similar mental representations. This will involve teaching the skill step by step, with each step designed to keep students out of the comfort zone but not so far out that they cannot master that step. Then give plenty of repetition and feedback; the regular cycle of try, fail, get feedback, try again, and so on is how the students will build their mental representations.

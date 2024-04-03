@@ -1,0 +1,170 @@
+---
+title: "How Learning Works"
+description: "Susan Ambrose, et al."
+image: book_cover.png
+toc: true
+number-sections: false
+draft: false
+---
+
+
+# Introduction
+
+We define learning as the process that leads to change, which occurs as a result of experience and increases the potential for improved performance and future learning.
+
+- Process not product
+
+    (Because learning occurs in the mind, we can only infer that it had occurred from students' products or performances)
+
+- The change is lasting
+
+- Not done _to_ students but rather something that _they_ do
+
+
+# 1. How Does Students' Prior Knowledge Affect Their Learning?
+
+> Student's prior knowledge can help or hinder learning.
+
+Stories:
+
+#. stats students says they learned stats last year, but couldn't do a t test 
+
+#. negatives reinforcement definition in psych class
+
+Different types of knowledge: _declarative_ (knowing what) and _procedural_ (knowing how and when).
+
+When students can connect what they are learning to accurate and relevant prior knowledge, they learn and retain more. Must avoid knowledge that is inaccurate or irrelevant for the appropriate context. Inappropriate knowledge must be addressed repeatedly; one explanation often isn't enough.
+
+Teacher needs to help students activate prior knowledge. And it must be sufficient; don't build on a shaky foundation.
+
+
+# 2. How Does the Way Students Organize Knowledge Affect Their Learning?
+
+> How students organize knowledge influences how they learn and apply what they know.
+
+Stories:
+
+#. art history presented in chronological order 
+
+#. anatomy course in major systems of the body
+
+Experts have a complex network relating facts. Students don't yet have a meaningful way of connecting facts, ands often what they put together on their own is superficial.
+
+Provide students with a structure for organizing information. Make connections explicit. Provide boundary cases and contrasting cases to highlight organizational features.
+
+
+# 3. What Factors Motivate Students to Learn?
+
+Stories: 
+
+> Students' motivation generated, directs, and sustains what they do to learn.
+
+#. teaching continental philosophy by reading from primary sources 
+
+#. introducing a tough engineering class by telling students only 2/3 will pass
+
+    Instructors are failing to recognize that the things that motivated them may not be the same things that motivated the current group of students.
+
+_Expectancies_ and _value_ influence motivation, which leads to goal-directed behavior, which supports learning and performance.
+
+Students often have multiple goals they are pursuing. They may also misconstrue learning goals into something other than learning: _performance-approach_ goals and _performance-avoidance_ goals are focus on attaining competence or avoiding incompetence. This results in students doing only what is necessary to get a good grade instead of seeking exploration and taking intellectual risks in order to develop a deep understanding.
+
+Subjective value of goals has 3 determinants: _attainment_ value, _intrinsic_ value, _instrumental_ value. Students must find value in order to be motivated.
+
+People are motivated to pursue outcomes they believe they can successfully achieve. Students must hold positive outcome expectancies (doing work will yield good grade) and efficacy expectancies (belief in personal agency -- I can do it).
+
+
+# 4. How Do Students Develop Mastery
+
+> To develop mastery, students must acquire component skills, practice integrating them, and know when to apply what they have learned.
+
+Stories: 
+
+#. management class students do worse on team assignments than individual offers 
+
+#. advanced acting class students seen to have forgotten all the fundamentals
+
+    Here, instructors may be asking more than they realize. Think about driving. It's automatic now, but first you had to learn a sequence of steps, integrate them, and then understand the appropriate contexts in which to apply them.
+
+Expertise can be a liability when it comes to teaching.
+
+- _Unconscious incompetence_: you don't know what you don't know
+
+- _Conscience incompetence_: increasingly aware of what you don't know
+
+- _Conscience competence_: considerable competence but must think and act deliberately
+
+- _Unconsciousness competence_: automatic and instinctive
+
+Component skills: The way experts chunk knowledge can maker it difficult to break down a skill so that it is clear to students.
+
+Integration: Experts can perform complex tasks and combined multiple tasks easily not because they necessarily have more cognitive resources but, because of the high level of fluency they've achieved in performing key skills, they can do more with what they have.
+
+Application: far transfer is the goal of education. Students need to understand what is not context-dependent and not just the "what" but also the "why." Flexible learning can be aided by combining experience with abstract information, and through structured comparisons.
+
+
+# 5. What Kinds of Practice and Feedback Enhance Learning
+
+> Goal-directed practice coupled with targeted feedback are critical to learning.
+
+Stories: 
+
+#. 3 diff public policy papers assigned, prof spend lots of time grading the first one 
+
+#. glitzy presentations for medical anthropology class
+
+    Theme is time being misspent. Students need more opportunities to get it right or more feedback with which to incorporate.
+
+Practice: Deliberate focus on a specific goal, at an appropriate level of challenge, with sufficient time on task. It takes much more than one trial to learn something new, especially if the goal is for that new knowledge to be retained across time and transferred to be contexts.
+
+Feedback: Like use of a map. The important aspects are _content_ and _timing_. _Formative_ feedback communicates specific aspects of performance regarding progress toward some criteria whereas _summative_ feedback is final judgement. Too much feedback and students will only focus on the detailed and easy to fix parts, and not the bigger and more substantive elements that you want them to focus on. Short delay is best; immediate opportunity for students to fix errors themselves, but not so much delay so as to be discontinuous.
+
+Suggestions: add scaffolding to assignments, show students what you do not want for comparison purposes, prioritize feedback.
+
+
+# 6. What Do Student Development and Course Climate Matter for Student Learning?
+
+> Students' current level of development interacts with the social, emotional, and intellectual climate of the course to impact learning.
+
+Stories: 
+
+#. Econ class re immegration 
+
+#. Female electrical engineering students and sexist TA
+
+    Here's we have unanticipated social ands emotional dynamics in the classroom.
+
+_Student development_: competence, emotions, autonomy, identity, interpersonal relationships, purpose, integrity.
+
+_Intellectual development_: duality, multiplicity, relativism, commitment.
+
+_Social identity development_: naive, acceprance, resistance, immersion, disintegration, redefinition and internalization.
+
+_Classroom climate_: a continuum from marginalizing to inclusive. Can be explicit or implicit. Chapter focused on stereotypes, tone, interpersonal interactions, and content.
+
+Build on student comments in a productive and validating way. Make uncertainty safe; resist a single right answer. Individuals do not speak for groups. Need to view students holistically as intellectual, social, and emotional beings.
+
+
+# 7. How Do Students Become Self-Directed Learners?
+
+> To become self-directed learners, students must learn to assess the demands of the task, evaluate their own knowledge and skills, plan their approach, monitor their progress, and adjust their strategies as needed.
+
+Stories: 
+
+#. supposedly good student doing poorly on a paper 
+
+#. ok student who works hard doing very poor in exams
+
+    Both students using approaches that worked well in high school, but aren't working well in college -- shortcomings in meta-cognition.
+
+"Want to talk to you about my _grade_" instead of "about my _paper_".
+
+Students overestimate their own skill, especially novices. Experts spend more time planning before jumping into something. Students who think that knowledge is malleable show more improvement.
+
+Show students how _you_ do it. Scaffold assignments.
+
+
+# Conclusion
+
+All of this applies to us as students of pedagogy. Use these techniques on yourself to learn how to most effectively teach.
+

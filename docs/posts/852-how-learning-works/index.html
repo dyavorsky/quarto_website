@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Susan Ambrose, et al.">
 
-<title>Dan Yavorsky - Content for You or Future Me</title>
+<title>Dan Yavorsky - How Learning Works</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +24,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="..//images/favicon.ico" rel="icon">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../..//images/favicon.ico" rel="icon">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,93 +68,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-blogposts .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-blogposts'] = new List('listing-blogposts', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-summaries .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-summaries'] = new List('listing-summaries', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -167,7 +80,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Dan Yavorsky</span>
     </a>
   </div>
@@ -178,31 +91,31 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../cv/index.html"> 
+    <a class="nav-link" href="../../cv/index.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../teaching/index.html"> 
+    <a class="nav-link" href="../../teaching/index.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../pubs/index.html"> 
+    <a class="nav-link" href="../../pubs/index.html"> 
 <span class="menu-text">Pubs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../posts/index.html" aria-current="page"> 
+    <a class="nav-link" href="../../posts/index.html"> 
 <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../dcms-r.danyavorsky.com"> 
+    <a class="nav-link" href="../../dcms-r.danyavorsky.com"> 
 <span class="menu-text">R-DCMS</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../links/index.html"> 
+    <a class="nav-link" href="../../links/index.html"> 
 <span class="menu-text">Links</span></a>
   </li>  
 </ul>
@@ -216,8 +129,13 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Content for You or Future Me</h1>
-                      </div>
+      <h1 class="title">How Learning Works</h1>
+                  <div>
+        <div class="description">
+          Susan Ambrose, et al.
+        </div>
+      </div>
+                </div>
   </div>
     
   
@@ -237,8 +155,15 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#posts" id="toc-posts" class="nav-link active" data-scroll-target="#posts">Posts</a></li>
-  <li><a href="#summaries" id="toc-summaries" class="nav-link" data-scroll-target="#summaries">Summaries</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#how-does-students-prior-knowledge-affect-their-learning" id="toc-how-does-students-prior-knowledge-affect-their-learning" class="nav-link" data-scroll-target="#how-does-students-prior-knowledge-affect-their-learning">1. How Does Students’ Prior Knowledge Affect Their Learning?</a></li>
+  <li><a href="#how-does-the-way-students-organize-knowledge-affect-their-learning" id="toc-how-does-the-way-students-organize-knowledge-affect-their-learning" class="nav-link" data-scroll-target="#how-does-the-way-students-organize-knowledge-affect-their-learning">2. How Does the Way Students Organize Knowledge Affect Their Learning?</a></li>
+  <li><a href="#what-factors-motivate-students-to-learn" id="toc-what-factors-motivate-students-to-learn" class="nav-link" data-scroll-target="#what-factors-motivate-students-to-learn">3. What Factors Motivate Students to Learn?</a></li>
+  <li><a href="#how-do-students-develop-mastery" id="toc-how-do-students-develop-mastery" class="nav-link" data-scroll-target="#how-do-students-develop-mastery">4. How Do Students Develop Mastery</a></li>
+  <li><a href="#what-kinds-of-practice-and-feedback-enhance-learning" id="toc-what-kinds-of-practice-and-feedback-enhance-learning" class="nav-link" data-scroll-target="#what-kinds-of-practice-and-feedback-enhance-learning">5. What Kinds of Practice and Feedback Enhance Learning</a></li>
+  <li><a href="#what-do-student-development-and-course-climate-matter-for-student-learning" id="toc-what-do-student-development-and-course-climate-matter-for-student-learning" class="nav-link" data-scroll-target="#what-do-student-development-and-course-climate-matter-for-student-learning">6. What Do Student Development and Course Climate Matter for Student Learning?</a></li>
+  <li><a href="#how-do-students-become-self-directed-learners" id="toc-how-do-students-become-self-directed-learners" class="nav-link" data-scroll-target="#how-do-students-become-self-directed-learners">7. How Do Students Become Self-Directed Learners?</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
   </ul>
 </nav>
     </div>
@@ -249,156 +174,131 @@ window.Quarto = {
 
 
 
-<section id="posts" class="level2">
-<h2 class="anchored" data-anchor-id="posts">Posts</h2>
-<div id="listing-blogposts" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1712126553752" data-listing-reading-time-sort="3" data-listing-word-count-sort="560">
-<a href="../posts/001-my-setup/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../posts/001-my-setup/atom-inspired.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-My Computing Environment Preferences
-</h5>
-<div class="card-text listing-description">
-How I Like Things on My Computers
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1712126295464" data-listing-reading-time-sort="4" data-listing-word-count-sort="672">
-<a href="../posts/010-git-basics/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../posts/010-git-basics/git-logo-2color.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Get Going with Git
-</h5>
-<div class="card-text listing-description">
-Abbreviated Fundamentals of Version Control
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1712127265565" data-listing-reading-time-sort="13" data-listing-word-count-sort="2552">
-<a href="../posts/020-quarto-websites/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../posts/020-quarto-websites/quartologo.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Build a Quarto Website
-</h5>
-<div class="card-text listing-description">
-A tutorial to create a website skeleton with an About page, Resume page, and blog for hosting a project portfolio
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1712127329073" data-listing-reading-time-sort="9" data-listing-word-count-sort="1677">
-<a href="../posts/021-host-on-github/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../posts/021-host-on-github/githubcat.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Host Your Quarto Website on GitHub
-</h5>
-<div class="card-text listing-description">
-A tutorial for pushing a local git repo to GitHub and deploying the website with GitHub pages
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1711908390262" data-listing-reading-time-sort="4" data-listing-word-count-sort="798">
-<a href="../posts/101-gumble/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="101-gumble/index_files/figure-html/unnamed-chunk-1-1.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Gumble Distribution in Discrete Choice Models
-</h5>
-<div class="card-text listing-description">
-Derivation of Choice Probabilities
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>We define learning as the process that leads to change, which occurs as a result of experience and increases the potential for improved performance and future learning.</p>
+<ul>
+<li><p>Process not product</p>
+<p>(Because learning occurs in the mind, we can only infer that it had occurred from students’ products or performances)</p></li>
+<li><p>The change is lasting</p></li>
+<li><p>Not done <em>to</em> students but rather something that <em>they</em> do</p></li>
+</ul>
 </section>
-<section id="summaries" class="level2">
-<h2 class="anchored" data-anchor-id="summaries">Summaries</h2>
-<div id="listing-summaries" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1712127928085" data-listing-reading-time-sort="18" data-listing-word-count-sort="3573">
-<a href="../posts/801-abramovich-ritov/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../posts/801-abramovich-ritov/thumbnail.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Quotes and Notes from <em>Statistical Theory: A Concise Introduction</em> (2ed)
-</h5>
-<div class="card-text listing-description">
-by Felix Abramovich and Ya’acov Ritov
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-
+<section id="how-does-students-prior-knowledge-affect-their-learning" class="level1">
+<h1>1. How Does Students’ Prior Knowledge Affect Their Learning?</h1>
+<blockquote class="blockquote">
+<p>Student’s prior knowledge can help or hinder learning.</p>
+</blockquote>
+<p>Stories:</p>
+<ol>
+<li><p>stats students says they learned stats last year, but couldn’t do a t test</p></li>
+<li><p>negatives reinforcement definition in psych class</p></li>
+</ol>
+<p>Different types of knowledge: <em>declarative</em> (knowing what) and <em>procedural</em> (knowing how and when).</p>
+<p>When students can connect what they are learning to accurate and relevant prior knowledge, they learn and retain more. Must avoid knowledge that is inaccurate or irrelevant for the appropriate context. Inappropriate knowledge must be addressed repeatedly; one explanation often isn’t enough.</p>
+<p>Teacher needs to help students activate prior knowledge. And it must be sufficient; don’t build on a shaky foundation.</p>
+</section>
+<section id="how-does-the-way-students-organize-knowledge-affect-their-learning" class="level1">
+<h1>2. How Does the Way Students Organize Knowledge Affect Their Learning?</h1>
+<blockquote class="blockquote">
+<p>How students organize knowledge influences how they learn and apply what they know.</p>
+</blockquote>
+<p>Stories:</p>
+<ol>
+<li><p>art history presented in chronological order</p></li>
+<li><p>anatomy course in major systems of the body</p></li>
+</ol>
+<p>Experts have a complex network relating facts. Students don’t yet have a meaningful way of connecting facts, ands often what they put together on their own is superficial.</p>
+<p>Provide students with a structure for organizing information. Make connections explicit. Provide boundary cases and contrasting cases to highlight organizational features.</p>
+</section>
+<section id="what-factors-motivate-students-to-learn" class="level1">
+<h1>3. What Factors Motivate Students to Learn?</h1>
+<p>Stories:</p>
+<blockquote class="blockquote">
+<p>Students’ motivation generated, directs, and sustains what they do to learn.</p>
+</blockquote>
+<ol>
+<li><p>teaching continental philosophy by reading from primary sources</p></li>
+<li><p>introducing a tough engineering class by telling students only 2/3 will pass</p>
+<p>Instructors are failing to recognize that the things that motivated them may not be the same things that motivated the current group of students.</p></li>
+</ol>
+<p><em>Expectancies</em> and <em>value</em> influence motivation, which leads to goal-directed behavior, which supports learning and performance.</p>
+<p>Students often have multiple goals they are pursuing. They may also misconstrue learning goals into something other than learning: <em>performance-approach</em> goals and <em>performance-avoidance</em> goals are focus on attaining competence or avoiding incompetence. This results in students doing only what is necessary to get a good grade instead of seeking exploration and taking intellectual risks in order to develop a deep understanding.</p>
+<p>Subjective value of goals has 3 determinants: <em>attainment</em> value, <em>intrinsic</em> value, <em>instrumental</em> value. Students must find value in order to be motivated.</p>
+<p>People are motivated to pursue outcomes they believe they can successfully achieve. Students must hold positive outcome expectancies (doing work will yield good grade) and efficacy expectancies (belief in personal agency – I can do it).</p>
+</section>
+<section id="how-do-students-develop-mastery" class="level1">
+<h1>4. How Do Students Develop Mastery</h1>
+<blockquote class="blockquote">
+<p>To develop mastery, students must acquire component skills, practice integrating them, and know when to apply what they have learned.</p>
+</blockquote>
+<p>Stories:</p>
+<ol>
+<li><p>management class students do worse on team assignments than individual offers</p></li>
+<li><p>advanced acting class students seen to have forgotten all the fundamentals</p>
+<p>Here, instructors may be asking more than they realize. Think about driving. It’s automatic now, but first you had to learn a sequence of steps, integrate them, and then understand the appropriate contexts in which to apply them.</p></li>
+</ol>
+<p>Expertise can be a liability when it comes to teaching.</p>
+<ul>
+<li><p><em>Unconscious incompetence</em>: you don’t know what you don’t know</p></li>
+<li><p><em>Conscience incompetence</em>: increasingly aware of what you don’t know</p></li>
+<li><p><em>Conscience competence</em>: considerable competence but must think and act deliberately</p></li>
+<li><p><em>Unconsciousness competence</em>: automatic and instinctive</p></li>
+</ul>
+<p>Component skills: The way experts chunk knowledge can maker it difficult to break down a skill so that it is clear to students.</p>
+<p>Integration: Experts can perform complex tasks and combined multiple tasks easily not because they necessarily have more cognitive resources but, because of the high level of fluency they’ve achieved in performing key skills, they can do more with what they have.</p>
+<p>Application: far transfer is the goal of education. Students need to understand what is not context-dependent and not just the “what” but also the “why.” Flexible learning can be aided by combining experience with abstract information, and through structured comparisons.</p>
+</section>
+<section id="what-kinds-of-practice-and-feedback-enhance-learning" class="level1">
+<h1>5. What Kinds of Practice and Feedback Enhance Learning</h1>
+<blockquote class="blockquote">
+<p>Goal-directed practice coupled with targeted feedback are critical to learning.</p>
+</blockquote>
+<p>Stories:</p>
+<ol>
+<li><p>3 diff public policy papers assigned, prof spend lots of time grading the first one</p></li>
+<li><p>glitzy presentations for medical anthropology class</p>
+<p>Theme is time being misspent. Students need more opportunities to get it right or more feedback with which to incorporate.</p></li>
+</ol>
+<p>Practice: Deliberate focus on a specific goal, at an appropriate level of challenge, with sufficient time on task. It takes much more than one trial to learn something new, especially if the goal is for that new knowledge to be retained across time and transferred to be contexts.</p>
+<p>Feedback: Like use of a map. The important aspects are <em>content</em> and <em>timing</em>. <em>Formative</em> feedback communicates specific aspects of performance regarding progress toward some criteria whereas <em>summative</em> feedback is final judgement. Too much feedback and students will only focus on the detailed and easy to fix parts, and not the bigger and more substantive elements that you want them to focus on. Short delay is best; immediate opportunity for students to fix errors themselves, but not so much delay so as to be discontinuous.</p>
+<p>Suggestions: add scaffolding to assignments, show students what you do not want for comparison purposes, prioritize feedback.</p>
+</section>
+<section id="what-do-student-development-and-course-climate-matter-for-student-learning" class="level1">
+<h1>6. What Do Student Development and Course Climate Matter for Student Learning?</h1>
+<blockquote class="blockquote">
+<p>Students’ current level of development interacts with the social, emotional, and intellectual climate of the course to impact learning.</p>
+</blockquote>
+<p>Stories:</p>
+<ol>
+<li><p>Econ class re immegration</p></li>
+<li><p>Female electrical engineering students and sexist TA</p>
+<p>Here’s we have unanticipated social ands emotional dynamics in the classroom.</p></li>
+</ol>
+<p><em>Student development</em>: competence, emotions, autonomy, identity, interpersonal relationships, purpose, integrity.</p>
+<p><em>Intellectual development</em>: duality, multiplicity, relativism, commitment.</p>
+<p><em>Social identity development</em>: naive, acceprance, resistance, immersion, disintegration, redefinition and internalization.</p>
+<p><em>Classroom climate</em>: a continuum from marginalizing to inclusive. Can be explicit or implicit. Chapter focused on stereotypes, tone, interpersonal interactions, and content.</p>
+<p>Build on student comments in a productive and validating way. Make uncertainty safe; resist a single right answer. Individuals do not speak for groups. Need to view students holistically as intellectual, social, and emotional beings.</p>
+</section>
+<section id="how-do-students-become-self-directed-learners" class="level1">
+<h1>7. How Do Students Become Self-Directed Learners?</h1>
+<blockquote class="blockquote">
+<p>To become self-directed learners, students must learn to assess the demands of the task, evaluate their own knowledge and skills, plan their approach, monitor their progress, and adjust their strategies as needed.</p>
+</blockquote>
+<p>Stories:</p>
+<ol>
+<li><p>supposedly good student doing poorly on a paper</p></li>
+<li><p>ok student who works hard doing very poor in exams</p>
+<p>Both students using approaches that worked well in high school, but aren’t working well in college – shortcomings in meta-cognition.</p></li>
+</ol>
+<p>“Want to talk to you about my <em>grade</em>” instead of “about my <em>paper</em>”.</p>
+<p>Students overestimate their own skill, especially novices. Experts spend more time planning before jumping into something. Students who think that knowledge is malleable show more improvement.</p>
+<p>Show students how <em>you</em> do it. Scaffold assignments.</p>
+</section>
+<section id="conclusion" class="level1">
+<h1>Conclusion</h1>
+<p>All of this applies to us as students of pedagogy. Use these techniques on yourself to learn how to most effectively teach.</p>
 
 
 </section>

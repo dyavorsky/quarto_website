@@ -1,0 +1,172 @@
+---
+title: "Good Habits, Bad Habits"
+description: "Wendy Wood"
+image: book_cover.png
+toc: true
+number-sections: true
+draft: false
+---
+
+
+
+## Part 1: How We Really Are
+
+### 1. Persistence and Change
+
+- Intelligence and motivation have little to do with getting things done on a regular basis.
+- We are not one single unified whole.
+- Our minds are composed of multiple separate but interconnected mechanisms that guide behavior.
+- Executive control functions are thoughtful cognitive processes to select and monitor actions.
+- Skip the debate chamber and get to work. That's exactly what habits are for.
+- We have little conscious experience of forming a habit or acting out of habit.
+- The purpose of this book it to show how we can use conscious understanding of our goals to orient our habitual selves.
+- For these one-off, occasional behaviors, conscious decisions ruled, and people with strong attitudes just did them.
+- With some behaviors, people's attitudes and plans had little impact on how they acted.
+- People could consciously report strong attitudes and plans, but they continued their past actions regardless.
+- Persistence mostly did not reflect strong attitudes and plans.
+- We now know that it's habit that creates persistence. 
+- **This book explains what we have learned about how to create habits.**
+- This is desire's ironic twist. Trying to suppress it undermines our best intentions and makes our goals harder to achieve. It confounds our good behavior by turning it into torture.
+- We are engaging in executive control, or top-down processing, by controlling our unwanted habits with our better intentions. 
+- This is the way many of us live. Our conscious decision-making self is pitted against our habitual, automatic responses. We are wrenched over and over by bad habits, in a sort of internal war. But there is another way.
+- When our automatic response is the desired one, our habits and goals are in harmony. We no longer have to rely on will. **This is the payoff to this book: understanding how to form good habits amid the pitfalls of daily life.**
+
+### 2. The Depths Beneath
+
+- What actually are habits?
+- They are tricky to study because they are inherently unknowable to the person performing them.
+- Just being around people is enough to turn the spotlight inward and to start to monitor what you would normally do without much scrutiny at all. This is potentially useful if you ever feel like you just aren't very aware of your habitual self (and would like to be). Go public. You'll have a better sense of self in no time.
+- You can make pretty much any behavior more habitual, as long as you do it the same way each time.
+- Habit refers to *how* you perform and action, not *what* the action is.
+- The key feature of habit: it works outside of our conscious awareness.
+- Our curiosity about ourselves has already been satisfied by the belief that we do the things we do because we "will" them. It's flattering and empowering, but it's also false.
+- If our noisy, egotistical consciousness takes all of the credit for the actions of our silent habitual self, we'll never learn how to properly exploit this hidden resource.
+
+### 3. Introducing Your Second Self
+
+- Habits are a kind of action that is relatively *insensitive* to rewards.
+- Rewards are important when you first do something.
+- That's just step one.
+- Our responses are no longer aimed at seeking outcomes; instead they are triggered automatically by the performance context.
+- For habitual runners, running was triggered quickly when first cued by the places they tipically run... Goals seemed important for the occasional runners.
+- Goals and rewards, it seems, are critical for starting to do something repeatedly. They are what lead us to form many beneficial habits in the first place.
+- A working definition of habit emerged: a *mental association between a context cue and a response that develops as we repeat an action in that context for a reward* (mature habits can operate without the ongoing presence of a reward).
+- But a shorthand definition is this: *automaticity in lieu of conscious motivation*.
+- It's not picky about what it learns. Give it repetition, rewards, and contexts.
+- Procedural memory: it's such an important repository of information that only the most frequently repeated patterns get stored like this.
+- Other habits are almost as sticky... they fade only slowly as you fail to use them.
+- Firefighters and football players (in the examples) both apparently identify a cue and have learned, through extensive practice, the right response.
+
+### 4. What About Knowledge?
+
+- Their intentions were no match for their habits. Another way to say this is: we often don't realize what our habits are doing.
+- The parts of our lives that haven't been claimed by our habitual self are indeed still receptive to our will -- and receptive to new habit formation.
+- With enough practice, all can learn habit associations between contexts and the rewarded response.
+- In humans, habit learning isn't superseded or subordinated by more thoughtful learning systems.
+- The default-interventionist system: The idea is that we're using the default mode of autopilot most of the time, unless there's a good enough reason to intervene with conscious thought.
+
+### 5. What About Self-Control?
+
+- Importance of situations.
+- Participants who scored highest in self-control seldom reported resisting desires, period. They just didn't experience many unwanted desires in the first place.
+- People high in self control are not living a life full of self-denial and deprivation. Somehow they are managing their lives better.
+- But once they get started, they don't think much about stopping or whether they are uncomfortable. They have a set pattern, and they follow it. They are not making decisions. 
+- Here's the very happy implication: the worst, most effortful run will be that first one. Or the second, perhaps.
+- High self-controllers achieved desired outcomes by streamlining, not struggling.
+- Researchers anticipated that high self-controllers would especially shine at difficult tasks that required the central executive. After all, this is what, until recently, we though the self-control scale measures -- sheer force of will. But even in these more controlled studies, the data did not support this idea. Instead, high self-control people performed better at the more habitual, automatic tasks than low self-control ones. High self-controllers were simply proficient at automating.
+- People who score high in self-control seem to be doing nothing that the scale was ever designed to assess. They do not experience many unwanted desires, almost as if they had neutralized the temptations in their environments. They also know how to form habits by repeating the same things at the same times and in the same places.
+- Habits that enable them to reliably meet goals without much struggle.
+- Self-control is simple when you understand that it involves putting yourself in the right situations to develop the right habits.
+- A habit happens when a context cue is sufficiently associated with a rewarded response to become automatic.
+
+
+
+## Part 2: The Three Bases of Habit Formation
+
+### 6. Context
+
+- Once the environment changed, so did the habit.
+- Some of the pressures that act on us come from inside ourselves, in the from of our goals, feelings, and attitudes. For Lewin, the contexts we are in (which he called "environments") also generated forces on our behavior.
+- Restraining forces are like a kind of friction.
+- Marketing: a driving force, designed to reduce friction.
+- We can use driving and restraining forces to our advantage.
+- There is perhaps no simpler context influence we can engineer in our lives than sheer proximity. Proximity determines the external forces to which we are exposed. We engage with what is near us and tend to overlook what is farther away.
+- What did you do last time you tried to change your behavior? Probably you thought about what you were doing wrong and why you wanted to change it. You focused on your desire to be successful. You acted as if your desires were in charge.
+- A belief in free will has many advantages. But is also leads us to overlook the powerful influence of the physical and social worlds we inhabit. Our strong intentions blind us to the friction in our everyday surroundings. 
+- We underestimate the impact of our environments.
+- We tend to overlook the influence of our surroundings, even as we are responding to them in our behavior and self-assessments. No surprise, then, that when we try to change, our go-to approach is will-power and motivation. We don't realize how much our actions are driven by our surroundings and the pressures on us. But our habits do.
+- Address the context.
+
+### 7. Repetition
+
+- You've arranged your context. You've recognized the restraining forces, the driving forces, and the pitfalls of your introspection illusion. You've turned your life into a clearinghouse for good... so when does the magic happen?  There are a couple more critical ingredients.
+- At first, it feels exciting. You're proud of your new sense of responsibility.
+- The first time, it's hard work.
+- The truth is, it's impossible to know.
+- You're going to keep doing it... until *you* aren't doing it anymore.
+- The magic begins silently, and you won't realize when it kicks in. You have to trust that it will happen.
+- Until we have laid down a habit in neural networks and memory systems, we must willfully decide to repeat a new action again and again, even when it's a struggle. At some point, it becomes second nature, and we can sit back and let autopilot drive.
+- A new action is difficult to sustain when the *only* driving forces are internal motivators.
+- This is the crucial point. You can miss a day or two and you will not be back to zero.
+- On average, it took participants 66 days of repeating a simple health behavior until they experienced it as automatic.
+- An implication is that you can lower your magic number by establishing forces that push you to repeat in the same way each time. With bigger, louder cues, your habit potentially matures faster.
+- A wholesome new habit has to reckon with something else, though. Very little of our lives is a black space.
+- Along with the challenges of adopting new behaviors, you still have to fight off the old ones.
+- This is where repetition of the new action becomes especially useful as a tool (and not just an inert description of what habits look like).
+- Repetition, then, should be thought of not as some kind of magical primer for habits, but rather as a way to induce speedy mental action.
+- Speed isn't the only factor at work. It goes hand in hand with another consequence of repetition: streamlined decision-making. We stop considering alternative actions.
+- Habits come from repetition. Behavior begets behavior. There isn't a further, more complicated, rare, or special ingredient. That should be wonderfully liberating. That should make you optimistic. If you just *keep* doing it, it'll start happening with more and more ease.
+- Excellence and repetition are not the same.
+- We all know that repetition is *necessary* to excel, but it's less clear that it's *sufficient*.
+- With more practice, people did better at games, music, and sports, but sill 75 percent or more of their success or failure was due to factors such as native talent, opportunity, and having great trainers.
+
+### 8. Reward
+
+- Context will smooth the way, and repetition will jump-start the engine, but if you aren't getting even a minor *reward* for your initial effort along the way, you won't get that habit to start operating on its own.
+- Rewards, to have a role in habit formation, have to be bigger and better than what you would normally experience.
+- Reward prediction error: In the brain, unexpected rewards spur the release of dopamine. 
+- It then sets up the neural bases for habit formation, as neurons, synapses, and pathways work together to record and respond to what just happened.
+- Dopamine seems to promote habit learning for less than a minute.
+- Rewards have to be experienced right after we do something in order to build habit associations (context-response) in memory.
+- Given this timing, the most effective habit-building rewards are often *intrinsic*, or part of the action itself.
+- Students who did not experience the rewards that create automaticity from repetition had to keep consciously making themselves get to the track or gym, without a helpful habit taking over.
+- They are too far removed from the behavior you are trying to change, and they are not necessarily tied to any specific repetition. Given the way that dopamine works to create habit associations in memory, immediate rewards for lots of repetitions are key.
+- There's more to the dopamine story and immediacy. As we discussed, dopamine responds to uncertainty in the form of reward prediction errors, which enable us to learn from the experience. This means that we learn from unusual or unexpected rewards.
+- Habits depend on surprise; uncertain rewards matter most.
+- For scientists, insensitivity to reward is the gold standard for identifying a habit. The only way to know for sure if an action is habitual is to test what happens when the reward changes. If we persist even when we don't value the reward as much or it's no longer as available, then it's a habit.
+
+### 9. Consistency Is for Closers
+
+- Habits, as we have seen, thrive on reward uncertainty. Beyond this, habits don't crave variety. In fact, they hate it. Variety weakens habit. This is because variety is the enemy of stable contexts, which, as we have learned, are the *sine qua non* of habits.
+- In this chapter, we're going to learn how important it is to keep your habit-promoting context as stable as possible.
+- These studies are good illustrations that "context" definitely does not just mean "physical environment." Location is important, but your context can also consist of intangible things: the time of day, for instance, or your state of mind. One of your most important possible contexts is other people.
+- Forming habits, it seems, is about establishing stable cues that support your desired actions.
+
+### 10. Total Control
+
+- *Mise en place* is French for "put in place."
+- "Harnessing friction" offers a whole new way to think about changing behavior. The promise is that, by altering contexts that create friction in our lives, we can learn to automatically repeat rewarding actions. But first, we have to identify these contexts. And they are not always obvious.
+- If this sounds like a lot of work for your executive, conscious mind, you're absolutely right.
+- The greatest source of friction is this world is other people. They are both helpful and detrimental forces on our desired selves.
+- If you leave this book with one word and one idea, I hope it's friction. It is simple and intuitive, and can be manipulated to help accomplish astounding things.
+- Habits are more likely to form when we act repeatedly without planning and deliberating.
+
+
+
+## Part 3: Special Cases, Big Opportunities, and the World Around Us
+
+[to be added]
+
+### 11. Jump Through Windows
+
+### 12. The Special Resilience of Habit
+
+### 13. Contexts of Addiction
+
+### 14. Happy with Habit
+
+### 15. You Are Not Alone
+
+
+
+## Epilogue
