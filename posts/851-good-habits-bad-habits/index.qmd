@@ -3,7 +3,7 @@ title: "Good Habits, Bad Habits"
 description: "Wendy Wood"
 image: book_cover.png
 toc: true
-number-sections: true
+number-sections: false
 draft: false
 ---
 
