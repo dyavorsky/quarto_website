@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="A tutorial for pushing a local git repo to GitHub and deploying the website with GitHub pages">
 
 <title>Dan Yavorsky - Host Your Quarto Website on GitHub</title>
 <style>
@@ -163,7 +164,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">Host Your Quarto Website on GitHub</h1>
-                      </div>
+                  <div>
+        <div class="description">
+          A tutorial for pushing a local git repo to GitHub and deploying the website with GitHub pages
+        </div>
+      </div>
+                </div>
   </div>
     
   
@@ -276,6 +282,32 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>In RStudio, select the gear icon in the Files tab and check the “Show Hidden Files” menu item</li>
 <li>In VS Code, you need to alter the “files.exclude” setting, see <a href="https://stackoverflow.com/questions/46779942/how-to-display-hidden-files-with-visual-studio-code">this</a></li>
 </ul>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Screenshots
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Mac Finder</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">RStudio</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p><img src="images/hidden_files_finder.png" class="img-fluid"></p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p><img src="images/hidden_files_rstudio.png" class="img-fluid"></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 </section>
 <section id="step-4-save-your-website" class="level2">
 <h2 class="anchored" data-anchor-id="step-4-save-your-website">Step 4: “Save” Your Website</h2>
@@ -292,7 +324,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>In <strong>RStudio</strong>, use the Git tab. Check the box to the left of each file to stage it, then click the little “Commit” button at the top of the tab. This pops up a window where you can enter your commit message. Then click the big “Commit” button to finalize your snapshot. Close the pop-up window.</p>
 <p>In <strong>VS Code</strong>, use the third-from-top button in the Activity Bar at the far-left of the application to access the Source Control panel. There you’ll find helpful buttons like the plus-sign button to stage all files, a text box to enter your commit message, and the big blue “Commit” button.</p>
 <div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -301,16 +333,19 @@ Screenshots
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">RStudio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">VS Code</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">RStudio Git Tab</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">RStudio Commit Window</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false">VS Code Source Control</a></li></ul>
 <div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p>add image</p>
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
+<p><img src="images/git_rstudio1.png" class="img-fluid"></p>
 </div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<p>add image</p>
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+<p><img src="images/git_rstudio2.png" class="img-fluid"></p>
+</div>
+<div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">
+<p><img src="images/git_vscode.png" class="img-fluid"></p>
 </div>
 </div>
 </div>
@@ -322,13 +357,13 @@ Screenshots
 <section id="step-5-create-a-github-account" class="level2">
 <h2 class="anchored" data-anchor-id="step-5-create-a-github-account">Step 5: Create a GitHub Account</h2>
 <p>Go to <a href="https://github.com/">github.com</a> and sign up for a free account.</p>
-<p>Pick a username that is short, lowercase, and timeless. For example, <em>dyavorsky</em> is a good choice while <em>dYavorskyUCLA2024</em> is not.</p>
+<p>Pick a username that is short, lowercase, professional, and timeless. For example, <em>dyavorsky</em> is a good choice while <em>cooldudeUCLA2024</em> is not.</p>
 </section>
 <section id="step-6-create-a-github-repository" class="level2">
 <h2 class="anchored" data-anchor-id="step-6-create-a-github-repository">Step 6: Create a GitHub Repository</h2>
 <p>Select the “Repositories” tab in GitHub (this is also accessible by clicking on your profile photo in the top-right corner).</p>
 <p>The click the green “New” button on the top-right.</p>
-<p>If you name your repository <code>your_username.github.io</code>, then your website will have the same thing as its URL. However, if you name your repository something like <code>quarto_website</code>, then your URL will be <code>your_username.github.io/quarto_website</code>. You can always purchase a domain from a provider like GoDaddy. I did this so my URL would be <code>www.danyavorsky.com</code> instead of <code>dyavorsky.github.io/quarto_website</code>.</p>
+<p>If you name your repository <code>your_username.github.io</code>, then your website will have the same thing as its URL, which is pretty nice. However, if you name your repository something like <code>quarto_website</code>, then your URL will be <code>your_username.github.io/quarto_website</code>. If you don’t like either of those URLs, you can always purchase a domain from a provider like GoDaddy. I did this so my URL would be <code>www.danyavorsky.com</code> instead of <code>dyavorsky.github.io/quarto_website</code>.</p>
 <p>Once you create your repository, GitHub will helpfully list a bunch of terminal commands for you. Copy the 3-line command under the heading “…or push an existing repository from the command line”</p>
 </section>
 <section id="step-7-connect-your-local-directory-to-your-github-repo" class="level2">
@@ -360,22 +395,21 @@ Screenshots
 </ul>
 <p>Have some patience and give GitHub a moment (up to 3 minutes or so) to host your site. GitHub will report “Your site is live” at the top of the page when it’s deployed.</p>
 <div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Screenshots
+Screenshot
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p><img src="images/deployed.png" class="img-fluid"></p>
 </div>
 </div>
 </div>
-<p>::::</p>
 </section>
 <section id="step-9-confirm-your-public-website" class="level2">
 <h2 class="anchored" data-anchor-id="step-9-confirm-your-public-website">Step 9: Confirm Your Public Website</h2>

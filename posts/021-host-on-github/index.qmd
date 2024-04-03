@@ -1,5 +1,6 @@
 ---
 title: "Host Your Quarto Website on GitHub"
+description: "A tutorial for pushing a local git repo to GitHub and deploying the website with GitHub pages"
 toc: true
 image: githubcat.png
 callout-appearance: minimal
@@ -76,6 +77,22 @@ This will create a hidden _.git_ folder in the *quarto_website* directory. There
  - In RStudio, select the gear icon in the Files tab and check the "Show Hidden Files" menu item
  - In VS Code, you need to alter the "files.exclude" setting, see [this](https://stackoverflow.com/questions/46779942/how-to-display-hidden-files-with-visual-studio-code)
 
+:::: {.callout-note collapse="true"}
+## Screenshots
+
+::: {.panel-tabset}
+
+## Mac Finder
+
+![](images/hidden_files_finder.png)
+
+## RStudio
+
+![](images/hidden_files_rstudio.png)
+
+:::
+::::
+
 
 ## Step 4: "Save" Your Website
 
@@ -99,13 +116,17 @@ In **VS Code**, use the third-from-top button in the Activity Bar at the far-lef
 
 ::: {.panel-tabset}
 
-## RStudio
+## RStudio Git Tab
 
-add image
+![](images/git_rstudio1.png)
 
-## VS Code
+## RStudio Commit Window
 
-add image
+![](images/git_rstudio2.png)
+
+## VS Code Source Control
+
+![](images/git_vscode.png)
 
 :::
 ::::
@@ -161,12 +182,12 @@ Under "Branch" in the middle of the page
 
 Have some patience and give GitHub a moment (up to 3 minutes or so) to host your site. GitHub will report "Your site is live" at the top of the page when it's deployed.
 
-:::: {.callout-note collapse="true"}
-## Screenshots
+::: {.callout-note collapse="true"}
+## Screenshot
 
 ![](images/deployed.png)
 
-::::
+:::
 
 
 ## Step 9: Confirm Your Public Website
@@ -186,3 +207,7 @@ As you work on your website, your workflow will look something like this:
 For example, if I worked on something for 3 hours, I edit files constantly. I render every few minutes. I might make a commit once an hour or so. I may push my work just once at the end of those 3 hours.
 
 Remember that the workflow provided in this tutorial requires you to render locally and then push everything in its final form to GitHub. I often make a local edit, forget to render, but commit that edit and push it to GitHub. Then I look at my website and wonder why the edit isn't there. It's because I edited the .qmd file, but since I didn't render, the html file was never updated. Be sure to render locally before you commit and push!
+
+
+
+

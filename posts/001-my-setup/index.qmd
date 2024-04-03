@@ -3,8 +3,7 @@ title: "My Computing Environment Preferences"
 description: "How I Like Things on My Computers"
 number-sections: false
 image: atom-inspired.png
-draft: false
-
+callout-appearance: minimal
 ---
 
 
@@ -17,6 +16,8 @@ The *Terminal* is an application on your Mac. A *Shell* is a program that runs i
 A nice installation guide is provided by [Josean Martinez](https://www.josean.com/posts/terminal-setup). It walks through installation of the **homebrew** package manager, the **iTerm2** terminal application, **Git** version control software, the **Oh My Zsh** framework for managing the Zsh configuration, the **PowerLevel10k** Oh My Zsh theme, and Josean's iTerm2 **coolnight** color scheme.
 
 My PowerLevel10k theme preferences are the following:
+
+:::: {.callout-note collapse="true"}
 
  - (y) Yes, install the Meslo Nerd Font
  - (2) Classic prompt style
@@ -34,6 +35,8 @@ My PowerLevel10k theme preferences are the following:
  - (1) Concise prompt flow
  - (y) Enable transient prompt
  - (1) Verbose instant prompt mode
+
+:::
 
 I also use the **zsh-autosuggestions** and **zsh-syntax-highlighting** plugins. A 3-step procedure downloads, installs, and enables most Zsh plug-ins:
 

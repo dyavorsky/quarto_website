@@ -1,5 +1,6 @@
 ---
 title: "Build a Quarto Website"
+description: "A tutorial to create a website skeleton with an About page, Resume page, and blog for hosting a project portfolio"
 toc: true
 image: quartologo.png
 callout-appearance: minimal
@@ -393,7 +394,7 @@ The posts themselves contain headers, text, code, and output from the code inclu
 
 ## Step 9: Grab a Beverage
 
-If you made it this far, you have a website skeloton. Now spend some time personalizing it and adding your projects, blog posts, or whatever else. Like many hobbies, working on a website can be fun and addictive. Check out the next section for additional inspiration.
+If you made it this far, you have a website skeleton. Now spend some time personalizing it and adding your projects, blog posts, or whatever else. Like many hobbies, working on a website can be fun and addictive. Check out the next section for additional inspiration.
 
 If you're ready to host your website on GitHub for the world to see, follow the steps (here).
 
@@ -420,7 +421,7 @@ When in doubt, visit the GitHub page of someone else's Quarto website to see how
 
  - In particular [Andrew Heiss](https://www.andrewheiss.com/) and [Marvin Schmitt](https://www.marvinschmitt.com/) have fully-featured Quarto-based websites.
  
- - The websites by [Emil Hvitfeldt](https://emilhvitfeldt.com/), [Meghan Hall](https://meghan.rbind.io/), [Mine Dogucu](https://www.minedogucu.com/), [Thom Mock](https://themockup.blog/about.html), and [Beatriz ZMilz](https://beamilz.com/about) offer inspiration too.
+ - The websites by [Albert Rapp](https://albert-rapp.de), [Beatriz ZMilz](https://beamilz.com/about), [Emil Hvitfeldt](https://emilhvitfeldt.com/), [Meghan Hall](https://meghan.rbind.io/), [Mine Dogucu](https://www.minedogucu.com/), [Sam Csik](https://samanthacsik.github.io), and [Thom Mock](https://themockup.blog/about.html) offer inspiration too.
 
 
 

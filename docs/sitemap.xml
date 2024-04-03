@@ -10,23 +10,27 @@
   </url>
   <url>
     <loc>https://www.danyavorsky.com/index.html</loc>
-    <lastmod>2024-03-31T18:06:30.217Z</lastmod>
+    <lastmod>2024-04-03T06:31:57.163Z</lastmod>
   </url>
   <url>
     <loc>https://www.danyavorsky.com/posts/801-abramovich-ritov/index.html</loc>
     <lastmod>2024-03-31T18:06:30.263Z</lastmod>
   </url>
   <url>
-    <loc>https://www.danyavorsky.com/posts/index.html</loc>
-    <lastmod>2024-04-02T22:40:44.841Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/posts/001-my-setup/index.html</loc>
-    <lastmod>2024-03-31T18:06:30.225Z</lastmod>
+    <loc>https://www.danyavorsky.com/posts/021-host-on-github/index.html</loc>
+    <lastmod>2024-04-03T06:44:14.827Z</lastmod>
   </url>
   <url>
     <loc>https://www.danyavorsky.com/posts/010-git-basics/index.html</loc>
-    <lastmod>2024-03-31T18:06:30.227Z</lastmod>
+    <lastmod>2024-04-03T06:38:15.464Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/posts/001-my-setup/index.html</loc>
+    <lastmod>2024-04-03T06:42:33.752Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/posts/index.html</loc>
+    <lastmod>2024-04-02T22:40:44.841Z</lastmod>
   </url>
   <url>
     <loc>https://www.danyavorsky.com/posts/101-gumble/index.html</loc>
@@ -34,7 +38,7 @@
   </url>
   <url>
     <loc>https://www.danyavorsky.com/posts/020-quarto-websites/index.html</loc>
-    <lastmod>2024-04-03T03:38:00.383Z</lastmod>
+    <lastmod>2024-04-03T06:42:28.790Z</lastmod>
   </url>
   <url>
     <loc>https://www.danyavorsky.com/links/index.html</loc>
@@ -43,9 +47,5 @@
   <url>
     <loc>https://www.danyavorsky.com/pubs/index.html</loc>
     <lastmod>2024-03-31T18:06:30.266Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/posts/021-host-on-github/index.html</loc>
-    <lastmod>2024-04-03T05:56:33.139Z</lastmod>
   </url>
 </urlset>
