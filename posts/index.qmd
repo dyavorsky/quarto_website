@@ -14,6 +14,11 @@ listing:
   - id: summaries
     contents:
       - "801-abramovich-ritov/index.qmd" 
+      - "851-good-habits-bad-habits/index.qmd"
+      - "852-how-learning-works/index.qmd"
+      - "853-peak/index.qmd"
+      - "854-stolen-focus/index.qmd"
+      - "855-war-of-art/index.qmd"
     type: grid 
     sort: "date-desc"
     categories: false
