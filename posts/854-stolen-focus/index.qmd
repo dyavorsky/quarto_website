@@ -61,13 +61,13 @@ draft: false
 
 #### Ch6-7: The Rise of Technology That Can Track and Manipulate You
 
-- Inside of Facebook's servers, inside of Google's servers, there is a little voodoo doll, [and it is] a model of you. It starts by not looking much like you.  ... They're reassempbling all that metadata you don't really think is meaningful, so that doll looks more and more like you. (p126)
+- Inside of Facebook's servers, inside of Google's servers, there is a little voodoo doll, [and it is] a model of you. It starts by not looking much like you.  ... They're reassembling all that metadata you don't really think is meaningful, so that doll looks more and more like you. (p126)
 
-- Whenever something is provided by a techn company for free, it's always to improve the voodoo doll.  Surveillance capitalism.  (p127)
+- Whenever something is provided by a tech company for free, it's always to improve the voodoo doll.  Surveillance capitalism.  (p127)
 
 - For years, I had blamed my deteriorating powers of attention simply on my own failings or on the existence of the smartphone itself as technology. ... Tristan taught me that the phones we have, and the programs that run on them, were deliberately designed by the smartest people in the world to maximally hold our attention. (p128)
 
-- Unfortunately, there's a quirtk of human behavior. On average, we will stare at something negative and outrageous for a lot longer than we will stare at something positive and calm. ... It's called "negativity bias." (p131)
+- Unfortunately, there's a quirk of human behavior. On average, we will stare at something negative and outrageous for a lot longer than we will stare at something positive and calm. ... It's called "negativity bias." (p131)
 
 - So an algorithm that prioritizes keeping you glued to the screen will -- unintentionally but inevitably -- prioritize outraging and angering you. If it's more enraging, it's more engaging. (p131)
 
@@ -78,16 +78,16 @@ draft: false
 
 #### Ch7: The Rise of Cruel Optimism
 
-- If we are going to overcome this process of becoming hooked on our apps and devices, we have to develop individual skills to resist the part inside all of us that succumbs to these distractions. He argues that to do that, we primarily have to look inward -- to the reasons why we want to use them compulsively in the first place. ... It's not your fault. I never said it's your falt.  It's your responsibility. (p144-145)
+- If we are going to overcome this process of becoming hooked on our apps and devices, we have to develop individual skills to resist the part inside all of us that succumbs to these distractions. He argues that to do that, we primarily have to look inward -- to the reasons why we want to use them compulsively in the first place. ... It's not your fault. I never said it's your fault.  It's your responsibility. (p144-145)
 
-- An internal trigger is an uncomfortable emotional state. ... It's all about avoidance. ... He believes we all need to explore our triggers nonjudgmentally, think about them, and find wayts to disrupt them. (p145)
+- An internal trigger is an uncomfortable emotional state. ... It's all about avoidance. ... He believes we all need to explore our triggers nonjudgmentally, think about them, and find ways to disrupt them. (p145)
 
 - Two-things of people with a smartphone never change their notification settings. What? Right? This is not hard stuff. (P146)
 
 - How many of us plan our day? Actually what do I want to do with my time? (p147)
 - Cruel Optimism: this is when you take a really big problem with deep causes in our culture -- like obesity, or depression, or addiction -- and you offer people, in upbeat language, a simplistic individual solution. (p150)
 
-- While at first glance, cruel optimism seems kind and optimisitic, it often has an ugle aftereffect. It ensures that when the small, cramped solution fails, as it will most of the time, the individual won't blame the syustem -- she will blame herself.  It whispers: the problem isn't in the system; the problem is in you. (p151)
+- While at first glance, cruel optimism seems kind and optimistic, it often has an ugle aftereffect. It ensures that when the small, cramped solution fails, as it will most of the time, the individual won't blame the system -- she will blame herself.  It whispers: the problem isn't in the system; the problem is in you. (p151)
 
 #### Ch9: The First Glimpse of the Deeper Solution
 
@@ -117,7 +117,7 @@ draft: false
 
 - Three broad ways in which how w2e eat now is harming our focus: (1) we currently eat a diet that causes regular energy spikes and energy crashes, (2) most of us now eat in a way that deprives us of the nutrients we need for our brands to develop and function fully, and (3) our current diets aren't just lacking in what we need -- they also actively contain chemicals that seem to act on our brains almost like drugs. (p198-201)
 
-- [Healthier countries] are leaving out the crap that's making us sick in the first place. They're all leaving out the refined carboheydrates, the processed food, the junk oils. That's the key. That's the magic bullet -- just go back to whole foods. (p202)
+- [Healthier countries] are leaving out the crap that's making us sick in the first place. They're all leaving out the refined carbohydrates, the processed food, the junk oils. That's the key. That's the magic bullet -- just go back to whole foods. (p202)
 
 - There is growing evidence that pollution is seriously damaging our ability to focus. (p204)
 

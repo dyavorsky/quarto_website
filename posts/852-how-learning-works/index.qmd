@@ -27,9 +27,9 @@ We define learning as the process that leads to change, which occurs as a result
 
 Stories:
 
-#. stats students says they learned stats last year, but couldn't do a t test 
+#. Stats students say they learned stats last year, but couldn't do a t test 
 
-#. negatives reinforcement definition in psych class
+#. Negatives reinforcement definition in psych class
 
 Different types of knowledge: _declarative_ (knowing what) and _procedural_ (knowing how and when).
 
@@ -44,24 +44,24 @@ Teacher needs to help students activate prior knowledge. And it must be sufficie
 
 Stories:
 
-#. art history presented in chronological order 
+#. Art history presented in chronological order 
 
-#. anatomy course in major systems of the body
+#. Anatomy course in major systems of the body
 
-Experts have a complex network relating facts. Students don't yet have a meaningful way of connecting facts, ands often what they put together on their own is superficial.
+Experts have a complex network related facts. Students don't yet have a meaningful way of connecting facts, and often what they put together on their own is superficial.
 
 Provide students with a structure for organizing information. Make connections explicit. Provide boundary cases and contrasting cases to highlight organizational features.
 
 
 # 3. What Factors Motivate Students to Learn?
 
+> Students' motivation generates, directs, and sustains what they do to learn.
+
 Stories: 
 
-> Students' motivation generated, directs, and sustains what they do to learn.
+#. Teaching continental philosophy by reading from primary sources 
 
-#. teaching continental philosophy by reading from primary sources 
-
-#. introducing a tough engineering class by telling students only 2/3 will pass
+#. Introducing a tough engineering class by telling students only 2/3 will pass
 
     Instructors are failing to recognize that the things that motivated them may not be the same things that motivated the current group of students.
 
@@ -80,9 +80,9 @@ People are motivated to pursue outcomes they believe they can successfully achie
 
 Stories: 
 
-#. management class students do worse on team assignments than individual offers 
+#. Management class students do worse on team assignments than individual offers 
 
-#. advanced acting class students seen to have forgotten all the fundamentals
+#. Advanced acting class students seem to have forgotten all the fundamentals
 
     Here, instructors may be asking more than they realize. Think about driving. It's automatic now, but first you had to learn a sequence of steps, integrate them, and then understand the appropriate contexts in which to apply them.
 
@@ -96,11 +96,11 @@ Expertise can be a liability when it comes to teaching.
 
 - _Unconsciousness competence_: automatic and instinctive
 
-Component skills: The way experts chunk knowledge can maker it difficult to break down a skill so that it is clear to students.
+Component skills: The way experts chunk knowledge can make it difficult to break down a skill so that it is clear to students.
 
 Integration: Experts can perform complex tasks and combined multiple tasks easily not because they necessarily have more cognitive resources but, because of the high level of fluency they've achieved in performing key skills, they can do more with what they have.
 
-Application: far transfer is the goal of education. Students need to understand what is not context-dependent and not just the "what" but also the "why." Flexible learning can be aided by combining experience with abstract information, and through structured comparisons.
+Application: far transfer is the goal of education. Students need to understand what is not context-dependent, and not just the "what" but also the "why." Flexible learning can be aided by combining experience with abstract information, and through structured comparisons.
 
 
 # 5. What Kinds of Practice and Feedback Enhance Learning
@@ -111,13 +111,13 @@ Stories:
 
 #. 3 diff public policy papers assigned, prof spend lots of time grading the first one 
 
-#. glitzy presentations for medical anthropology class
+#. Glitzy presentations for medical anthropology class
 
     Theme is time being misspent. Students need more opportunities to get it right or more feedback with which to incorporate.
 
 Practice: Deliberate focus on a specific goal, at an appropriate level of challenge, with sufficient time on task. It takes much more than one trial to learn something new, especially if the goal is for that new knowledge to be retained across time and transferred to be contexts.
 
-Feedback: Like use of a map. The important aspects are _content_ and _timing_. _Formative_ feedback communicates specific aspects of performance regarding progress toward some criteria whereas _summative_ feedback is final judgement. Too much feedback and students will only focus on the detailed and easy to fix parts, and not the bigger and more substantive elements that you want them to focus on. Short delay is best; immediate opportunity for students to fix errors themselves, but not so much delay so as to be discontinuous.
+Feedback: Like use of a map. The important aspects are _content_ and _timing_. _Formative_ feedback communicates specific aspects of performance regarding progress toward some criteria whereas _summative_ feedback is final judgement. Too much feedback and students will only focus on the detailed and easy-to-fix parts, and not the bigger and more substantive elements that you want them to focus on. Short delay is best; immediate opportunity for students to fix errors themselves, but not so much delay so as to be discontinuous.
 
 Suggestions: add scaffolding to assignments, show students what you do not want for comparison purposes, prioritize feedback.
 
@@ -128,7 +128,7 @@ Suggestions: add scaffolding to assignments, show students what you do not want 
 
 Stories: 
 
-#. Econ class re immegration 
+#. Econ class re immigration 
 
 #. Female electrical engineering students and sexist TA
 
@@ -138,7 +138,7 @@ _Student development_: competence, emotions, autonomy, identity, interpersonal r
 
 _Intellectual development_: duality, multiplicity, relativism, commitment.
 
-_Social identity development_: naive, acceprance, resistance, immersion, disintegration, redefinition and internalization.
+_Social identity development_: naive, acceptance, resistance, immersion, disintegration, redefinition and internalization.
 
 _Classroom climate_: a continuum from marginalizing to inclusive. Can be explicit or implicit. Chapter focused on stereotypes, tone, interpersonal interactions, and content.
 
@@ -151,9 +151,9 @@ Build on student comments in a productive and validating way. Make uncertainty s
 
 Stories: 
 
-#. supposedly good student doing poorly on a paper 
+#. Supposedly good student doing poorly on a paper 
 
-#. ok student who works hard doing very poor in exams
+#. OK student who works hard doing very poor in exams
 
     Both students using approaches that worked well in high school, but aren't working well in college -- shortcomings in meta-cognition.
 

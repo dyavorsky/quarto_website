@@ -9,15 +9,18 @@ callout-appearance: minimal
 
 # Terminal & Shell
 
+The *Terminal* is an application on your Mac. A *Shell* is a program that runs in the Terminal. It has a *command-line interface* (CLI) instead of the ubiquitous graphical-user interface (GUI) familiar to most computer users. To run commands in the Terminal via the Shell (or, equivalently, to execute programs on the command line) you type commands at the *prompt* and hit enter.
+
 ### On Mac
 
-The *Terminal* is an application on your Mac. A *Shell* is a program that runs in the Terminal. It has a *command-line interface* (CLI) instead of the ubiquitous graphical-user interface (GUI) familiar to most computer users. To run commands in the Terminal via the Shell (or, equivalently, to execute programs on the command line) you type commands at the *prompt* and hit enter. I use **iTerm2** terminal application with the default **zsh** shell on Mac, configured using **Oh My Zsh**.  
+I use **iTerm2** terminal application with the default **zsh** shell on Mac, configured using **Oh My Zsh**.  
 
 A nice installation guide is provided by [Josean Martinez](https://www.josean.com/posts/terminal-setup). It walks through installation of the **homebrew** package manager, the **iTerm2** terminal application, **Git** version control software, the **Oh My Zsh** framework for managing the Zsh configuration, the **PowerLevel10k** Oh My Zsh theme, and Josean's iTerm2 **coolnight** color scheme.
 
 My PowerLevel10k theme preferences are the following:
 
-:::: {.callout-note collapse="true"}
+::: {.callout-note collapse="true"}
+## Powerlevel10k Configuration
 
  - (y) Yes, install the Meslo Nerd Font
  - (2) Classic prompt style
@@ -44,6 +47,24 @@ I also use the **zsh-autosuggestions** and **zsh-syntax-highlighting** plugins. 
  1. add the plugin name to the array in the `~/.zshrc` file: `plugins=(<plugin-name> <plugin-name> ...)`
  1. reload the Zsh configuration file via `source ~/.zshrc` to enable the plugins
 
+::: {.callout-note collapse="true"}
+## Screenshot
+
+![](iterm2_on_mac.png)
+
+:::
+
+### On Windows
+
+I use the **Windows Terminal** application, downloaded from the Microsoft Store. I also use [Git-Bash](https://git-scm.com/downloads) or the Windows Subsysten for Linux (WSL) running Ubuntu with Zsh as my shell. For Zsh, I use the same **Oh My Zsh** framework with the **PowerLevel10k** theme as on my Mac (see above).
+
+::: {.callout-note collapse="true"}
+## Screenshot
+
+![](terminal_on_windows.png)
+
+:::
+
 
 -----
 
@@ -68,6 +89,13 @@ url <- "https://github.com/dyavorsky/atom-inspired-rstudio-theme/blob/main/atom_
 rstudioapi::addTheme(url, apply = TRUE, force = TRUE)
 ```
 
+::: {.callout-note collapse="true"}
+## Screenshot
+
+![](atom-inspired.png)
+
+:::
+
 
 #### Global Options
 
@@ -78,6 +106,12 @@ When installing RStudio on a new machine, ensure the following global options ar
  - Uncheck *Restore .RData into workspace at startup*
  - Set *Save workspace to .RData on exit* to "Never"
 
+::: {.callout-note collapse="true"}
+## Screenshot
+
+![](rstudio_options.png)
+
+:::
 
 #### Most-used shortcuts
 

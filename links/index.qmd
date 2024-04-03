@@ -4,7 +4,7 @@ title: "An Incomplete Collection"
 
 -----
 
-## R & Friends
+## Software Tools
 
 #### R Programming
 
@@ -41,6 +41,11 @@ title: "An Incomplete Collection"
 
  - [How to Send and Reply to email](https://matt.might.net/articles/how-to-email/) by Matt Might
  - [Publication, Publication](https://gking.harvard.edu/sites/scholar.harvard.edu/files/gking/files/paperspub.pdf) by Gary King
+
+#### On Learning How to Learn
+
+ - Andy Matuschak [Why Books Don't Work](https://andymatuschak.org/books/)
+ - Andy Matuschak [Evergreen Notes](https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX)
 
 #### On Getting a PhD (in Econ or Marketing)
 

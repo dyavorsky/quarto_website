@@ -6,7 +6,7 @@ draft: false
 
 ---
 
-This short article seeks to describe the Gumbel (or Type-1 Generalized Extreme Value) distribution and how it's use in probabilistic discrete choice models leads to a closed-form expression for choice probabilities.
+This short article seeks to describe how the Gumbel (or Type-1 Generalized Extreme Value) distribution's use in probabilistic discrete choice models leads to a closed-form expression for choice probabilities.
 
 A standard framework for a probabilistic discrete choice model (DCM) reflecting a random utility theory (RUT) is as follows: 
 
