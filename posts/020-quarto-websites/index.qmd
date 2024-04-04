@@ -373,7 +373,7 @@ library(tidyverse)
 data(mtcars)
 mtcars |>
   ggplot(aes(mpg, disp)) + 
-  geom_line()
+  geom_point(color="dodgerblue4", size=2)
 ```
 ````
 
