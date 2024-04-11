@@ -28,6 +28,7 @@ website:
         text: Posts
       - href: http://dcms-r.danyavorsky.com
         text: DCMS-R
+        target: _blank
       - href: links/index.qmd
         text: Links
   
