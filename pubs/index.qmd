@@ -8,14 +8,14 @@
 
 #### [Likert Scale Dual Response for Conjoint Analysis](https://dyavorsky.github.io/likert_dualresponse/)
 
-[Prachi Bhalerao](https://www.linkedin.com/in/prachibhalerao/)
-[Eric Bradlow](https://marketing.wharton.upenn.edu/profile/ebradlow/)
-Dan Yavorsky
+[Prachi Bhalerao](https://www.linkedin.com/in/prachibhalerao/), 
+[Eric Bradlow](https://marketing.wharton.upenn.edu/profile/ebradlow/), and
+Dan Yavorsky  
 *Working Paper (2024)*
 
 #### [Discrete Choice Methods with Simulation: an R Companion](https://dcms-r.danyavorsky.com)
 
-Dan Yavorsky
+Dan Yavorsky  
 *In Progress (2024)*
 
 

@@ -2,47 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.danyavorsky.com/teaching/index.html</loc>
-<<<<<<< HEAD
     <lastmod>2024-03-29T21:40:28.327Z</lastmod>
-=======
-    <lastmod>2024-03-31T18:06:30.287Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/index.html</loc>
-    <lastmod>2024-04-11T06:35:13.289Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/posts/856-making-of-a-manager/index.html</loc>
-    <lastmod>2024-04-04T02:19:02.278Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/posts/855-war-of-art/index.html</loc>
-    <lastmod>2024-04-03T07:24:38.846Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/posts/021-host-on-github/index.html</loc>
-    <lastmod>2024-04-04T02:19:02.271Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/posts/851-good-habits-bad-habits/index.html</loc>
-    <lastmod>2024-04-04T02:19:02.273Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/posts/854-stolen-focus/index.html</loc>
-    <lastmod>2024-04-04T02:19:02.275Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/posts/010-git-basics/index.html</loc>
-    <lastmod>2024-04-03T06:38:15.464Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/posts/001-my-setup/index.html</loc>
-    <lastmod>2024-04-04T02:19:02.265Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/posts/852-how-learning-works/index.html</loc>
-    <lastmod>2024-04-04T02:19:02.274Z</lastmod>
->>>>>>> f68d09b991df94412f3bfa2ed74911b11afc5dfd
   </url>
   <url>
     <loc>https://www.danyavorsky.com/posts/index.html</loc>
@@ -66,7 +26,6 @@
   </url>
   <url>
     <loc>https://www.danyavorsky.com/posts/020-quarto-websites/index.html</loc>
-<<<<<<< HEAD
     <lastmod>2024-04-04T22:43:51.658Z</lastmod>
   </url>
   <url>
@@ -80,9 +39,6 @@
   <url>
     <loc>https://www.danyavorsky.com/cv/index.html</loc>
     <lastmod>2024-03-25T15:15:45.354Z</lastmod>
-=======
-    <lastmod>2024-04-11T03:32:46.218Z</lastmod>
->>>>>>> f68d09b991df94412f3bfa2ed74911b11afc5dfd
   </url>
   <url>
     <loc>https://www.danyavorsky.com/links/index.html</loc>
@@ -114,6 +70,6 @@
   </url>
   <url>
     <loc>https://www.danyavorsky.com/pubs/index.html</loc>
-    <lastmod>2024-04-11T22:58:18.934Z</lastmod>
+    <lastmod>2024-04-11T23:05:40.361Z</lastmod>
   </url>
 </urlset>
