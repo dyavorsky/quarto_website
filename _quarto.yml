@@ -26,8 +26,9 @@ website:
         text: Pubs
       - href: posts/index.qmd
         text: Posts
-      - href: dcms-r.danyavorsky.com
-        text: R-DCMS
+      - href: http://dcms-r.danyavorsky.com
+        text: DCMS-R
+        target: _blank
       - href: links/index.qmd
         text: Links
   
@@ -37,7 +38,7 @@ website:
 format:
   html:
     theme: [cosmo, custom.scss]
-    css: styles.css
+    css: custom.scss
     toc: true
 
 execute:
