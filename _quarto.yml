@@ -27,7 +27,7 @@ website:
       - href: posts/index.qmd
         text: Posts
       - href: dcms-r.danyavorsky.com
-        text: R-DCMS
+        text: DCMS-R
       - href: links/index.qmd
         text: Links
   
