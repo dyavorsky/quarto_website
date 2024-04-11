@@ -26,7 +26,7 @@ website:
         text: Pubs
       - href: posts/index.qmd
         text: Posts
-      - href: http://www.dcms-r.danyavorsky.com
+      - href: http://dcms-r.danyavorsky.com
         text: DCMS-R
       - href: links/index.qmd
         text: Links
