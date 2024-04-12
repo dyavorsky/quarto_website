@@ -1,79 +1,76 @@
 ---
+toc: true
+toc-depth: 4
 ---
 
 
 -----
 
-## In-Progress
+#### In-Progress
 
-#### [Likert Scale Dual Response for Conjoint Analysis](https://dyavorsky.github.io/likert_dualresponse/)
-
-[Prachi Bhalerao](https://www.linkedin.com/in/prachibhalerao/), 
-[Eric Bradlow](https://marketing.wharton.upenn.edu/profile/ebradlow/), and
+_**Discrete Choice Methods with Simulation: an R Companion**_ [[link](https://dcms-r.danyavorsky.com)]  
 Dan Yavorsky  
-*Working Paper (2024)*
+*In Progress* (2024)
 
-#### [Discrete Choice Methods with Simulation: an R Companion](https://dcms-r.danyavorsky.com)
-
+_**Likert Scale Dual Response for Conjoint Analysis**_ [[link](https://dyavorsky.github.io/likert_dualresponse/)]  
+[Prachi Bhalerao](https://www.linkedin.com/in/prachibhalerao/){.invisilink}, 
+[Eric Bradlow](https://marketing.wharton.upenn.edu/profile/ebradlow/){.invisilink}, and
 Dan Yavorsky  
-*In Progress (2024)*
+*Working Paper* (2024)
 
 
 -----
 
 
-## Co-Author
+#### Co-Author
 
-#### [Consumer Search in the U.S. Auto Industry: The Role of Dealership Visits](https://doi.org/10.1007/s11129-020-09229-4)
-
+_**Consumer Search in the U.S. Auto Industry: The Role of Dealership Visits**_ [[link](https://doi.org/10.1007/s11129-020-09229-4)]  
 Dan Yavorsky, 
-[Elisabeth Honka](https://www.anderson.ucla.edu/faculty-and-research/marketing/faculty/honka), and 
-[Keith Chen](https://www.anderson.ucla.edu/faculty/keith.chen/index.html)  
+[Elisabeth Honka](https://www.anderson.ucla.edu/faculty-and-research/marketing/faculty/honka){.invisilink}, and 
+[Keith Chen](https://www.anderson.ucla.edu/faculty/keith.chen/index.html){.invisilink}  
 *Quantitative Marketing and Economics* (2021)
 
 
 -----
 
 
-## Contributor
+#### Contributor
 
-#### [The Sequential Search Model: A Framework for Empirical Research](https://www.anderson.ucla.edu/sites/default/files/document/2023-01/UrsuSeilerHonka_Jan2023.pdf)
+_**The Sequential Search Model: A Framework for Empirical Research**_ [[link](https://www.anderson.ucla.edu/sites/default/files/document/2023-01/UrsuSeilerHonka_Jan2023.pdf)]  
+[Raluca Ursu](https://sites.google.com/a/stern.nyu.edu/rursu/){.invisilink},
+[Stephan Seiler](https://www.seilerstephan.com/){.invisilink}, and
+[Elisabeth Honka](https://www.anderson.ucla.edu/faculty-and-research/marketing/faculty/honka){.invisilink}  
+*Working Paper* (2023)
 
-[Raluca Ursu](https://sites.google.com/a/stern.nyu.edu/rursu/),
-[Stephan Seiler](https://www.seilerstephan.com/), and
-[Elisabeth Honka](https://www.anderson.ucla.edu/faculty-and-research/marketing/faculty/honka)  
-*Working Paper (2023)*
-
-#### [The Value of Flexible Work: Evidence from Uber Drivers](https://doi.org/10.1086/702171)
-
-[Keith Chen](https://www.anderson.ucla.edu/faculty/keith.chen/index.html),
-[Judy Chevalier](https://faculty.som.yale.edu/judychevalier/), 
-[Peter Rossi](https://www.anderson.ucla.edu/faculty-and-research/marketing/faculty/rossi), and
+_**The Value of Flexible Work: Evidence from Uber Drivers**_ [[link](https://doi.org/10.1086/702171)]  
+[Keith Chen](https://www.anderson.ucla.edu/faculty/keith.chen/index.html){.invisilink},
+[Judy Chevalier](https://faculty.som.yale.edu/judychevalier/){.invisilink}, 
+[Peter Rossi](https://www.anderson.ucla.edu/faculty-and-research/marketing/faculty/rossi){.invisilink}, and
 Emily Oehlsen  
 *Journal of Political Economy* (2019) 
 
-#### [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/preface-3e.html)
-
-[Hadley Wickham](https://hadley.nz/), 
-[Danielle Navarro](https://djnavarro.net/), and 
-[Thomas Lin Pedersen](https://www.data-imaginist.com/)  
+_**ggplot2: Elegant Graphics for Data Analysis**_ [[link](https://ggplot2-book.org/preface-3e.html)]  
+[Hadley Wickham](https://hadley.nz/){.invisilink}, 
+[Danielle Navarro](https://djnavarro.net/){.invisilink}, and 
+[Thomas Lin Pedersen](https://www.data-imaginist.com/){.invisilink}  
 *Springer*
 
-#### [R Packages: Organize, Test, Document, and Share Your Code](https://r-pkgs.org/)
-
-[Hadley Wickham](https://hadley.nz/) and
-[Jennifer Bryan](https://jennybryan.org/)  
+_**R Packages: Organize, Test, Document, and Share Your Code**_ [[link](https://r-pkgs.org/)]  
+[Hadley Wickham](https://hadley.nz/){.invisilink} and
+[Jennifer Bryan](https://jennybryan.org/){.invisilink}  
 *Springer*
 
 -----
 
 
-## Short Form
+#### Short Form
 
-#### [GBK Employee Spotlight](https://www.gbkcollective.com/thoughtleadership/qandadanyavorsky)  
+**Sawtooth A&I Summit 2023** [[link](https://www.gbkcollective.com/thoughtleadership/key-learnings-sawtooth-analytics-summit)]  
 *GBK Thought Leadership Blog*
 
-#### [Sawtooth A&I Summit 2023](https://www.gbkcollective.com/thoughtleadership/key-learnings-sawtooth-analytics-summit)  
+**GBK Employee Spotlight** [[link](https://www.gbkcollective.com/thoughtleadership/qandadanyavorsky)]  
 *GBK Thought Leadership Blog*
+
+
 
 

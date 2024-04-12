@@ -75,6 +75,11 @@ $gbk-lightpink: #F9BDBC;
     color: $gbk-lightpink;
 }
 
+.invisilink {
+    text-decoration: none; 
+    color: inherit;
+}
+
 .teaching {
     .course-entry {
         display: flex;
