@@ -148,7 +148,7 @@ First, change the name of the output directory that will hold the rendered html 
 ```{.yaml filename="_quarto.yml"}
 project:
   type: website
-  output-dir: docs
+  output-dir: docs  # <-- add this
 ```
 
 Next, add an empty text file titled ".nojekyll" in the project directory. For example, at the command line you could run:
@@ -421,7 +421,7 @@ When in doubt, visit the GitHub page of someone else's Quarto website to see how
 
  - In particular [Andrew Heiss](https://www.andrewheiss.com/) and [Marvin Schmitt](https://www.marvinschmitt.com/) have fully-featured Quarto-based websites.
  
- - The websites by [Albert Rapp](https://albert-rapp.de), [Beatriz ZMilz](https://beamilz.com/about), [Emil Hvitfeldt](https://emilhvitfeldt.com/), [Meghan Hall](https://meghan.rbind.io/), [Mine Dogucu](https://www.minedogucu.com/), [Sam Csik](https://samanthacsik.github.io), and [Thom Mock](https://themockup.blog/about.html) offer inspiration too.
+ - The websites by [Albert Rapp](https://albert-rapp.de), [Beatriz ZMilz](https://beamilz.com/about), [Emil Hvitfeldt](https://emilhvitfeldt.com/), [Meghan Hall](https://meghan.rbind.io/), [Mine Dogucu](https://www.minedogucu.com/), [Sam Csik](https://samanthacsik.github.io), and [Tom Mock](https://themockup.blog/about.html) offer inspiration too.
 
 
 
