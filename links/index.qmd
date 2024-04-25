@@ -2,7 +2,26 @@
 title: "An Incomplete Collection"
 ---
 
------
+
+## Reading List
+
+#### Blogs
+
+ - [Cosma Shalizi](https://www.stat.cmu.edu/~cshalizi/)
+ - [Andrew Gelman](https://statmodeling.stat.columbia.edu/)
+ - [John Cook](https://www.johndcook.com/blog/)
+ - [Joel Cadwell](https://joelcadwell.blogspot.com/) (inactive)
+
+#### Free online books
+
+ - [Teaching Bayesian Statistics](http://talmo.uk/2024/teachingbayesian.html) by TALMO
+ - [Telling Stories with Data](https://tellingstorieswithdata.com/) by Rohan Alexander
+ - [R Packages](https://r-pkgs.org/) by Hadley Wickham and Jenny Bryan
+ - [Modern R with the Tidyverse](https://modern-rstats.eu/) by Bruno Rodrigues
+ - [Building reproducible analytical pipelines with R](https://raps-with-r.dev/) by Bruno Rodrigues
+ - [Math-Stat Course Notes](https://people.stat.sc.edu/Tebbs/) by Joshua Tebbs
+
+
 
 ## Software Tools
 
@@ -11,7 +30,7 @@ title: "An Incomplete Collection"
  - [Big Book of R](https://www.bigbookofr.com/) compiled by Oscar Baruffa
  - [R for Data Science](https://r4ds.hadley.nz/) by Hadley Wickham and Garrett Grolemund
  - [Advanced R](https://adv-r.hadley.nz/) by Hadley Wickham
- - [Adavned R Solutions](https://advanced-r-solutions.rbind.io/) by Malte Grosser and Henning Bumann
+ - [Advanced R Solutions](https://advanced-r-solutions.rbind.io/) by Malte Grosser and Henning Bumann
  - [ggplot2](https://ggplot2-book.org/) by Hadley Wickham
  - [R Packages](https://r-pkgs.org/) by Hadley Wickham and Jenny Bryan
  
@@ -27,7 +46,7 @@ title: "An Incomplete Collection"
  - [Mastering the Vim Language](https://www.youtube.com/watch?v=wlR5gYd6um0) recorded presentation by Chris Toomey
  - [Vim as Your Editor](https://www.youtube.com/watch?v=X6AR2RMB5tE&list=PLm323Lc7iSW_wuxqmKx_xxNtJC_hJbQ7R) a 6-part playist by ThePrimeagen
 
------
+
 
 ## Less Academic 
 
@@ -54,8 +73,6 @@ title: "An Incomplete Collection"
  - Jesse Shapiro: [Notes on Applying for a PhD in Economics](https://scholar.harvard.edu/files/shapiro/files/phdnotes.pdf)
 
 
------
-
 
 ## More Academic
 
@@ -75,7 +92,6 @@ title: "An Incomplete Collection"
  - Heckman and Pinto (Draft) Causality and Econometrics [[link](https://www.nber.org/papers/w29787)]
 
 
----
 
 ## Quotes
 

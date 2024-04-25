@@ -217,11 +217,25 @@
     "text": "Download current CV"
   },
   {
+    "objectID": "links/index.html",
+    "href": "links/index.html",
+    "title": "An Incomplete Collection",
+    "section": "",
+    "text": "Cosma Shalizi\nAndrew Gelman\nJohn Cook\nJoel Cadwell (inactive)\n\n\n\n\n\nTeaching Bayesian Statistics by TALMO\nTelling Stories with Data by Rohan Alexander\nR Packages by Hadley Wickham and Jenny Bryan\nModern R with the Tidyverse by Bruno Rodrigues\nBuilding reproducible analytical pipelines with R by Bruno Rodrigues\nMath-Stat Course Notes by Joshua Tebbs"
+  },
+  {
+    "objectID": "links/index.html#reading-list",
+    "href": "links/index.html#reading-list",
+    "title": "An Incomplete Collection",
+    "section": "",
+    "text": "Cosma Shalizi\nAndrew Gelman\nJohn Cook\nJoel Cadwell (inactive)\n\n\n\n\n\nTeaching Bayesian Statistics by TALMO\nTelling Stories with Data by Rohan Alexander\nR Packages by Hadley Wickham and Jenny Bryan\nModern R with the Tidyverse by Bruno Rodrigues\nBuilding reproducible analytical pipelines with R by Bruno Rodrigues\nMath-Stat Course Notes by Joshua Tebbs"
+  },
+  {
     "objectID": "links/index.html#software-tools",
     "href": "links/index.html#software-tools",
     "title": "An Incomplete Collection",
     "section": "Software Tools",
-    "text": "Software Tools\n\nR Programming\n\nBig Book of R compiled by Oscar Baruffa\nR for Data Science by Hadley Wickham and Garrett Grolemund\nAdvanced R by Hadley Wickham\nAdavned R Solutions by Malte Grosser and Henning Bumann\nggplot2 by Hadley Wickham\nR Packages by Hadley Wickham and Jenny Bryan\n\n\n\nGit\n\nPro Git by Scott Chacon and Ben Straub\nHappy Git and GitHub for the UserR by Jenny Bryan\nGit in Practice by Mike McQuaid\n\n\n\nVim\n\nOpenVim by Henrik Huttunen\nMastering the Vim Language recorded presentation by Chris Toomey\nVim as Your Editor a 6-part playist by ThePrimeagen"
+    "text": "Software Tools\n\nR Programming\n\nBig Book of R compiled by Oscar Baruffa\nR for Data Science by Hadley Wickham and Garrett Grolemund\nAdvanced R by Hadley Wickham\nAdvanced R Solutions by Malte Grosser and Henning Bumann\nggplot2 by Hadley Wickham\nR Packages by Hadley Wickham and Jenny Bryan\n\n\n\nGit\n\nPro Git by Scott Chacon and Ben Straub\nHappy Git and GitHub for the UserR by Jenny Bryan\nGit in Practice by Mike McQuaid\n\n\n\nVim\n\nOpenVim by Henrik Huttunen\nMastering the Vim Language recorded presentation by Chris Toomey\nVim as Your Editor a 6-part playist by ThePrimeagen"
   },
   {
     "objectID": "links/index.html#less-academic",
