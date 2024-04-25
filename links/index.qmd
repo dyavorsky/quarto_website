@@ -19,7 +19,12 @@ title: "An Incomplete Collection"
  - [R Packages](https://r-pkgs.org/) by Hadley Wickham and Jenny Bryan
  - [Modern R with the Tidyverse](https://modern-rstats.eu/) by Bruno Rodrigues
  - [Building reproducible analytical pipelines with R](https://raps-with-r.dev/) by Bruno Rodrigues
+ 
+#### Other docs
+
  - [Math-Stat Course Notes](https://people.stat.sc.edu/Tebbs/) by Joshua Tebbs
+ - [Notes](https://www.adamnsmith.com/notes.html) by Adam N Smith
+ - [Notes](https://www.joshuagoldford.com/notes/) by Joshua Goldford
 
 
 
