@@ -190,23 +190,21 @@ window.Quarto = {
 
 
 <p>This short article seeks to describe how the Gumbel (or Type-1 Generalized Extreme Value) distribution’s use in probabilistic discrete choice models leads to a closed-form expression for choice probabilities.</p>
-<p>A standard framework for a probabilistic discrete choice model (DCM) reflecting a random utility theory (RUT) is as follows:</p>
+<p>A standard framework for a probabilistic discrete choice model (DCM) reflecting a random utility theory (RUT) in a cross-sectional setting is as follows:</p>
 <ul>
-<li>The utility that decision maker <span class="math inline">\(i\)</span> obtains from alternative <span class="math inline">\(j\)</span> is <span class="math inline">\(U_{ij}\)</span>, for <span class="math inline">\(j = 1, \ldots, J\)</span>.</li>
-<li>The decision maker chooses the alternative that provides the greatest utility: choose alternative <span class="math inline">\(k\)</span> if and only if <span class="math inline">\(U_{ik} &gt; U_{ij} \hspace{1ex} \forall j \ne k\)</span>.</li>
-<li>Utility is decomposed to reflect the researcher’s inability to understand or observe all factors that impact choices: <span class="math inline">\(U_{ij} = V_{ij} + \varepsilon_{ij}\)</span> where the joint density of the random vector <span class="math inline">\(\mathbf{\varepsilon}_i = (\varepsilon_{i1}, \ldots, \varepsilon_{iJ})\)</span> for decision maker <span class="math inline">\(i\)</span> is <span class="math inline">\(f_{\mathbf{\varepsilon}_i}(\mathbf{\varepsilon}_i)\)</span>.</li>
+<li>The utility that a decision maker obtains from alternative <span class="math inline">\(j\)</span> is <span class="math inline">\(U_j\)</span>, for <span class="math inline">\(j = 1, \ldots, J\)</span>.</li>
+<li>The decision maker chooses the alternative that provides the greatest utility: choose alternative <span class="math inline">\(k\)</span> if and only if <span class="math inline">\(U_k &gt; U_j \hspace{1ex} \forall j \ne k\)</span>.</li>
+<li>Utility is decomposed to reflect the researcher’s inability to understand or observe all factors that impact choices: <span class="math inline">\(U_j = V_j + \varepsilon_j\)</span> where the joint density of the random vector <span class="math inline">\(\mathbf{\varepsilon} = (\varepsilon_1, \ldots, \varepsilon_J)\)</span> for the decision maker is <span class="math inline">\(f_\mathbf{\varepsilon}(\mathbf{\varepsilon})\)</span>.</li>
 </ul>
-<p>The probability that decision maker <span class="math inline">\(i\)</span> chooses alternative <span class="math inline">\(k\)</span> is:</p>
+<p>The probability that the decision maker chooses alternative <span class="math inline">\(k\)</span> is:</p>
 <p><span class="math display">\[\begin{align*}
-    P_{ik}
-    &amp;= \text{Prob}\left( U_{ik} &gt; U_{ij} \; \forall j \ne k \right)  &amp;\\
-    &amp;= \text{Prob}\left( V_{ik} + \varepsilon_{ik} &gt; V_{ij} + \varepsilon_{ij} \; \forall j \ne k \right)  &amp;\\
-    &amp;= \text{Prob}\left( \varepsilon_{ij} &lt; \varepsilon_{ik} + V_{ik} - V_{ij} \; \forall j \ne k \right)  &amp;\\
-    &amp;= \int_{\varepsilon_i} I\left( \varepsilon_{ij} &lt; \varepsilon_{ik} + V_{ik} - V_{ij} \; \forall j \ne k \right) \, f_{\mathbf{\varepsilon}_i}(\mathbf{\varepsilon}_i) \, d \mathbf{\varepsilon}_i &amp;
+    P_{k}
+    &amp;= \text{Prob}\left( U_k &gt; U_j \; \forall j \ne k \right)  &amp;\\
+    &amp;= \text{Prob}\left( V_k + \varepsilon_k &gt; V_j + \varepsilon_j \; \forall j \ne k \right)  &amp;\\
+    &amp;= \text{Prob}\left( \varepsilon_j &lt; \varepsilon_k + V_k - V_j \; \forall j \ne k \right)  &amp;\\
 \end{align*}\]</span></p>
-<p>where <span class="math inline">\(I(\cdot)\)</span> is the indicator function equaling one when the expression in parentheses is true and zero otherwise.</p>
-<p>A standard assumption about the joint distribution of vector <span class="math inline">\(\mathbf{\varepsilon}_i\)</span> is that the components are independent and identically distributed as Gumbel random variables. Specifically, the cumulative distribution function for each <span class="math inline">\(\varepsilon_{ij}\)</span> is: <span class="math display">\[
-\text{Prob}(\varepsilon_{ij} \leq x) = \exp(-\exp(-x)) = e^{-e^{-x}}
+<p>A common simplifying assumption about the joint distribution of vector <span class="math inline">\(\mathbf{\varepsilon}\)</span> is that its components are independent and identically distributed as Gumbel random variables. Specifically, the cumulative distribution function for each <span class="math inline">\(\varepsilon_{j}\)</span> is: <span class="math display">\[
+\text{Prob}(\varepsilon_j \leq x) = \exp(-\exp(-x)) = e^{-e^{-x}}
 \]</span> The Gumbel density and distribution are plotted below (in black) alongside the Normal (in dashed red) for comparison.</p>
 <div>
 
@@ -221,23 +219,24 @@ window.Quarto = {
 </div>
 </div>
 </div>
-<p>Because each <span class="math inline">\(\varepsilon_{ij}\)</span> is assumed to be independently distributed, the probability of decision maker <span class="math inline">\(i\)</span> choosing alternative <span class="math inline">\(k\)</span> for a given value of <span class="math inline">\(\varepsilon_{ik}\)</span> can be written as the product of the <span class="math inline">\(J-1\)</span> conditional distributions:</p>
+<p>Because each <span class="math inline">\(\varepsilon_j\)</span> is assumed to be independently distributed, the probability that the decision maker chooses alternative <span class="math inline">\(k\)</span> for a given value of <span class="math inline">\(\varepsilon_k\)</span> can be written as the product of the <span class="math inline">\(J-1\)</span> conditional distributions:</p>
 <p><span class="math display">\[\begin{align*}
-    P_{ik} | \varepsilon_{ik}
-    &amp;= \prod_{j \ne k} \exp(-\exp(-\varepsilon_{ik})) &amp;\\
-    &amp;= \exp \left( -\sum_{j \ne k} \exp \left( - ( \varepsilon_{ik} + V_{ik} - V_{ij}) \right) \right) &amp;\\
-    &amp;= \exp \left( - \exp(\varepsilon_{ik}) \times \sum_{j \ne k} \exp \left( V_{ij} - V_{ik}) \right) \right)
+    P_k | \varepsilon_k
+    &amp;= \prod_{j \ne k} \exp(-\exp(-\varepsilon_k)) &amp;\\
+    &amp;= \exp \left( -\sum_{j \ne k} \exp \left( - ( \varepsilon_k + V_k - V_j) \right) \right) &amp;\\
+    &amp;= \exp \left( - \exp(\varepsilon_k) \times \sum_{j \ne k} \exp \left( V_j - V_k) \right) \right)
 \end{align*}\]</span></p>
-<p>But of course <span class="math inline">\(\varepsilon_{ik}\)</span> is not given, so to obtain the desired probability <span class="math inline">\(P_{ik}\)</span>, we must integrate over all possible values of <span class="math inline">\(\varepsilon_{ik}\)</span>, weighted by its marginal density <span class="math inline">\(f_{\varepsilon_{ik}}(\varepsilon_{ik}) = \exp(-\varepsilon_{ik}) \times \exp ( -\exp(\varepsilon_{ik})\)</span>: <span class="math display">\[
-P_{ik} = \int_{-\infty}^{\infty} \exp(-\varepsilon_{ik}) \times \exp \left( - \exp(\varepsilon_{ik}) \times \sum_{j=1}^J \exp \left( V_{ij} - V_{ik}) \right) \right) \, d \varepsilon_{ik}
+<p>But of course <span class="math inline">\(\varepsilon_k\)</span> is not given, so to obtain the desired probability <span class="math inline">\(P_k\)</span>, we must integrate over all possible values of <span class="math inline">\(\varepsilon_k\)</span>, weighted by its marginal density <span class="math inline">\(f_{\varepsilon_k}(\varepsilon_k) = \exp(-\varepsilon_k) \times \exp \left( -\exp(\varepsilon_k) \right)\)</span>: <span class="math display">\[
+P_k = \int_{-\infty}^{\infty} \exp(-\varepsilon_k) \times \exp \left( - \exp(\varepsilon_k) \times \sum_{j=1}^J \exp \left( V_j - V_k) \right) \right) \, d \varepsilon_k
 \]</span></p>
-<p>For notational simplicity, denote <span class="math inline">\(a = \sum_{j=1}^J \exp ( V_{ij} - V_{ik})\)</span> and define the transformation of variables <span class="math inline">\(z = \exp(-\varepsilon_{ik})\)</span>. Then <span class="math inline">\(dz = -\exp(-\varepsilon_{ik}) \, d \varepsilon_{ik} = -z \, d \varepsilon_{ik}\)</span> and the integral becomes: <span class="math display">\[
-P_{ik} = \int_{\infty}^{0} z \times \exp ( - z \times a ) / (-z) \, dz = \int_{0}^{\infty} \exp (-z \times a ) \, dz
+<p>For notational simplicity, denote <span class="math inline">\(a = \sum_{j=1}^J \exp ( V_j - V_k)\)</span> and define the transformation of variables <span class="math inline">\(z = \exp(-\varepsilon_k)\)</span>. Then <span class="math inline">\(dz = -\exp(-\varepsilon_k) \, d \varepsilon_k = -z \, d \varepsilon_k\)</span> and the integral becomes: <span class="math display">\[
+P_k = \int_\infty^0 z \times \exp ( - z \times a ) / (-z) \, dz = \int_0^\infty \exp (-z \times a ) \, dz
 \]</span></p>
 <p>Evaluating the integral yields: <span class="math display">\[
-P_{ik} = - \left[ \frac{1}{a} \times \left( 0 - 1 \right) \right] = \frac{1}{a} = \frac{1}{\sum_{j=1}^J \exp ( V_{ij} - V_{ik})} = \frac{\exp ( V_{ik} )}{\sum_{j = 1}^{J} \exp ( V_{ij} )}
+P_k = - \left[ \frac{1}{a} \times \left( 0-1 \right) \right] = \frac{1}{a} = \frac{1}{\sum_{j=1}^J \exp(V_j-V_k)} = \frac{\exp(V_k)}{\sum_{j=1}^J \exp(V_j)}
 \]</span></p>
-<p>This is the standard multinomial logit (MNL) choice probability.</p>
+<p>This is the familiar multinomial logit (MNL) choice probability.</p>
+<p>Section 3.10 on page 74 of Kenneth Train’s book <em>Discrete Choice Methods with Simulation</em> provides a related derivation. If you are reading this post but have not yet read Train’s <a href="https://eml.berkeley.edu/books/train1201.pdf">book</a>, you should go read it now.</p>
 
 
 
