@@ -201,7 +201,7 @@ As you work on your website, your workflow will look something like this:
 
  - frequently make changes to files (mostly .qmd files) or add new files (e.g. images)
  - frequently render your website to see your edits 
- - occassionally stage and commit those changes locally
+ - occasionally stage and commit those changes locally
  - infrequently push those commits to GitHub
 
 For example, if I worked on something for 3 hours, I edit files constantly. I render every few minutes. I might make a commit once an hour or so. I may push my work just once at the end of those 3 hours.

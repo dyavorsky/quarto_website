@@ -7,10 +7,11 @@ title: "An Incomplete Collection"
 
 #### Blogs
 
- - [Cosma Shalizi](https://www.stat.cmu.edu/~cshalizi/)
- - [Andrew Gelman](https://statmodeling.stat.columbia.edu/)
- - [John Cook](https://www.johndcook.com/blog/)
  - [Joel Cadwell](https://joelcadwell.blogspot.com/) (inactive)
+ - [John Cook](https://www.johndcook.com/blog/)
+ - [Andrew Gelman](https://statmodeling.stat.columbia.edu/)
+ - [Richard McElreath](https://elevanth.org/)
+ - [Cosma Shalizi](https://www.stat.cmu.edu/~cshalizi/)
 
 #### Free online books
 
@@ -24,7 +25,6 @@ title: "An Incomplete Collection"
 
  - [Math-Stat Course Notes](https://people.stat.sc.edu/Tebbs/) by Joshua Tebbs
  - [Notes](https://www.adamnsmith.com/notes.html) by Adam N Smith
- - [Notes](https://www.joshuagoldford.com/notes/) by Joshua Goldford
 
 
 
