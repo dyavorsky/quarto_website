@@ -221,14 +221,14 @@
     "href": "links/index.html",
     "title": "An Incomplete Collection",
     "section": "",
-    "text": "Cosma Shalizi\nAndrew Gelman\nJohn Cook\nJoel Cadwell (inactive)\n\n\n\n\n\nTeaching Bayesian Statistics by TALMO\nTelling Stories with Data by Rohan Alexander\nR Packages by Hadley Wickham and Jenny Bryan\nModern R with the Tidyverse by Bruno Rodrigues\nBuilding reproducible analytical pipelines with R by Bruno Rodrigues\n\n\n\n\n\nMath-Stat Course Notes by Joshua Tebbs\nNotes by Adam N Smith\nNotes by Joshua Goldford"
+    "text": "Joel Cadwell (inactive)\nJohn Cook\nAndrew Gelman\nRichard McElreath\nCosma Shalizi\n\n\n\n\n\nTeaching Bayesian Statistics by TALMO\nTelling Stories with Data by Rohan Alexander\nR Packages by Hadley Wickham and Jenny Bryan\nModern R with the Tidyverse by Bruno Rodrigues\nBuilding reproducible analytical pipelines with R by Bruno Rodrigues\n\n\n\n\n\nMath-Stat Course Notes by Joshua Tebbs\nNotes by Adam N Smith"
   },
   {
     "objectID": "links/index.html#reading-list",
     "href": "links/index.html#reading-list",
     "title": "An Incomplete Collection",
     "section": "",
-    "text": "Cosma Shalizi\nAndrew Gelman\nJohn Cook\nJoel Cadwell (inactive)\n\n\n\n\n\nTeaching Bayesian Statistics by TALMO\nTelling Stories with Data by Rohan Alexander\nR Packages by Hadley Wickham and Jenny Bryan\nModern R with the Tidyverse by Bruno Rodrigues\nBuilding reproducible analytical pipelines with R by Bruno Rodrigues\n\n\n\n\n\nMath-Stat Course Notes by Joshua Tebbs\nNotes by Adam N Smith\nNotes by Joshua Goldford"
+    "text": "Joel Cadwell (inactive)\nJohn Cook\nAndrew Gelman\nRichard McElreath\nCosma Shalizi\n\n\n\n\n\nTeaching Bayesian Statistics by TALMO\nTelling Stories with Data by Rohan Alexander\nR Packages by Hadley Wickham and Jenny Bryan\nModern R with the Tidyverse by Bruno Rodrigues\nBuilding reproducible analytical pipelines with R by Bruno Rodrigues\n\n\n\n\n\nMath-Stat Course Notes by Joshua Tebbs\nNotes by Adam N Smith"
   },
   {
     "objectID": "links/index.html#software-tools",
@@ -361,7 +361,7 @@
     "href": "posts/021-host-on-github/index.html#workflow-to-update-your-website",
     "title": "Host Your Quarto Website on GitHub",
     "section": "Workflow to Update Your Website",
-    "text": "Workflow to Update Your Website\nAs you work on your website, your workflow will look something like this:\n\nfrequently make changes to files (mostly .qmd files) or add new files (e.g. images)\nfrequently render your website to see your edits\noccassionally stage and commit those changes locally\ninfrequently push those commits to GitHub\n\nFor example, if I worked on something for 3 hours, I edit files constantly. I render every few minutes. I might make a commit once an hour or so. I may push my work just once at the end of those 3 hours.\nRemember that the workflow provided in this tutorial requires you to render locally and then push everything in its final form to GitHub. I often make a local edit, forget to render, but commit that edit and push it to GitHub. Then I look at my website and wonder why the edit isn’t there. It’s because I edited the .qmd file, but since I didn’t render, the html file was never updated. Be sure to render locally before you commit and push!"
+    "text": "Workflow to Update Your Website\nAs you work on your website, your workflow will look something like this:\n\nfrequently make changes to files (mostly .qmd files) or add new files (e.g. images)\nfrequently render your website to see your edits\noccasionally stage and commit those changes locally\ninfrequently push those commits to GitHub\n\nFor example, if I worked on something for 3 hours, I edit files constantly. I render every few minutes. I might make a commit once an hour or so. I may push my work just once at the end of those 3 hours.\nRemember that the workflow provided in this tutorial requires you to render locally and then push everything in its final form to GitHub. I often make a local edit, forget to render, but commit that edit and push it to GitHub. Then I look at my website and wonder why the edit isn’t there. It’s because I edited the .qmd file, but since I didn’t render, the html file was never updated. Be sure to render locally before you commit and push!"
   },
   {
     "objectID": "posts/801-abramovich-ritov/index.html",
