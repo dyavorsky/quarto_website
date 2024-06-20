@@ -1,5 +1,6 @@
 ---
 title: "An Incomplete Collection"
+toc-depth: 4
 ---
 
 
@@ -9,28 +10,17 @@ title: "An Incomplete Collection"
 
  - [Joel Cadwell](https://joelcadwell.blogspot.com/) (inactive)
  - [John Cook](https://www.johndcook.com/blog/)
+ - [Marc and Jeff Dotson](https://occasionaldivergences.com/)
  - [Andrew Gelman](https://statmodeling.stat.columbia.edu/)
  - [Richard McElreath](https://elevanth.org/)
  - [Cosma Shalizi](https://www.stat.cmu.edu/~cshalizi/)
+ - [Andrew Heiss](https://www.andrewheiss.com/blog/)
+    - [Guide to understanding the intuition behind the Dirichlet distribution](https://www.andrewheiss.com/blog/2023/09/18/understanding-dirichlet-beta-intuition/) 
+    - [The ultimate practical guide to multilevel multinomial conjoint analysis with R](https://www.andrewheiss.com/blog/2023/08/12/conjoint-multilevel-multinomial-guide/)
+    - [The ultimate practical guide to conjoint analysis with R](https://www.andrewheiss.com/blog/2023/07/25/conjoint-bayesian-frequentist-guide/)
+    - [A guide to correctly calculating posterior predictions and average marginal effects with multilievel Bayesian models](https://www.andrewheiss.com/blog/2021/11/10/ame-bayes-re-guide/)
 
-#### Free online books
-
- - [Teaching Bayesian Statistics](http://talmo.uk/2024/teachingbayesian.html) by TALMO
- - [Telling Stories with Data](https://tellingstorieswithdata.com/) by Rohan Alexander
- - [R Packages](https://r-pkgs.org/) by Hadley Wickham and Jenny Bryan
- - [Modern R with the Tidyverse](https://modern-rstats.eu/) by Bruno Rodrigues
- - [Building reproducible analytical pipelines with R](https://raps-with-r.dev/) by Bruno Rodrigues
- 
-#### Other docs
-
- - [Math-Stat Course Notes](https://people.stat.sc.edu/Tebbs/) by Joshua Tebbs
- - [Notes](https://www.adamnsmith.com/notes.html) by Adam N Smith
-
-
-
-## Software Tools
-
-#### R Programming
+#### R Books
 
  - [Big Book of R](https://www.bigbookofr.com/) compiled by Oscar Baruffa
  - [R for Data Science](https://r4ds.hadley.nz/) by Hadley Wickham and Garrett Grolemund
@@ -38,18 +28,37 @@ title: "An Incomplete Collection"
  - [Advanced R Solutions](https://advanced-r-solutions.rbind.io/) by Malte Grosser and Henning Bumann
  - [ggplot2](https://ggplot2-book.org/) by Hadley Wickham
  - [R Packages](https://r-pkgs.org/) by Hadley Wickham and Jenny Bryan
+ - [Tidy Modeling with R](https://www.tmwr.org/) by Max Kuhn and Julia Silge
+ - [Modern R with the Tidyverse](https://modern-rstats.eu/) by Bruno Rodrigues
+ - [Building reproducible analytical pipelines with R](https://raps-with-r.dev/) by Bruno Rodrigues
  
-#### Git
+#### Git Books
 
  - [Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub
  - [Happy Git and GitHub for the UserR](https://happygitwithr.com/) by Jenny Bryan
  - [Git in Practice](https://www.manning.com/books/git-in-practice) by Mike McQuaid
 
-#### Vim
+#### Vim Resources
 
  - [OpenVim](https://www.openvim.com/) by Henrik Huttunen
  - [Mastering the Vim Language](https://www.youtube.com/watch?v=wlR5gYd6um0) recorded presentation by Chris Toomey
  - [Vim as Your Editor](https://www.youtube.com/watch?v=X6AR2RMB5tE&list=PLm323Lc7iSW_wuxqmKx_xxNtJC_hJbQ7R) a 6-part playist by ThePrimeagen
+
+#### Other Data/Stats Books
+
+ - [Applied Machine Learning for Tabular Data](https://aml4td.org/) by Max Kuhn and Kjell Johnson
+ - [Teaching Bayesian Statistics](http://talmo.uk/2024/teachingbayesian.html) by TALMO
+ - [Telling Stories with Data](https://tellingstorieswithdata.com/) by Rohan Alexander
+ - [Statistical Tools for Causal Inference](https://chabefer.github.io/STCI/index.html) by Sylvain Chabe-Ferret
+ - [Python 4 Data Science](https://aeturrell.github.io/python4DS/welcome.html#) by Arthur Turrell and others
+
+#### Notes
+
+ - [Hierarchical Modeling](https://betanalpha.github.io/assets/case_studies/hierarchical_modeling.html) by Michael Betancourt
+ - [Keep Calm and Learn Multilevel Logistic Modeling](https://rips-irsp.com/articles/10.5334/irsp.90#ill-show-you-a-three-step-simplified-procedure-for-multilevel-logistic-regression) by Nicolas Sommet and Davide Morselli
+ - [Math-Stat Course Notes](https://people.stat.sc.edu/Tebbs/) by Joshua Tebbs
+ - [Notes](https://www.adamnsmith.com/notes.html) by Adam N Smith
+ - [Econometrics Notes](https://tbarmstr.github.io/teaching.html) by Tim Armstrong
 
 
 
