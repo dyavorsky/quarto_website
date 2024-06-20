@@ -1,5 +1,5 @@
 - title: Econometrics
-  description: "A broad introduction to fundamental econometric models, methods of estimation, and approaches to statistical inference; implementation in R"
+  description: "A broad introduction to fundamental econometric models, methods of estimation, and approaches to statistical inference. Implementation in R."
   university: UCLA
   number: MFE 402
   logo: logos/Econometrics.png
@@ -18,7 +18,7 @@
     url: evals/ucla_mfe402_f22_2.pdf
     
 - title: Marketing Strategy and Policy
-  description: "A solid foundation for strategic marketing thinking; an introduction to a series of frameworks and tools that may be used to solve marketing problems"
+  description: "A solid foundation for strategic marketing thinking; an introduction to a series of frameworks and tools that may be used to solve marketing problems."
   university: UCLA
   number: EMBA 411
   logo: logos/MarketingStrategyPolicy.png
@@ -31,12 +31,14 @@
     url: evals/ucla_emba411_s22_2.pdf
     
 - title: Marketing Analytics
-  description: "A survey of analytically-based consumer insights methods that inform marketing strategy"
+  description: "A survey of technical methods to analyze consumer insights and inform marketing strategy: A/B testing, Best-Worst Scaling, Conjoint, Key Drivers, Segmentation."
   university: UCSD
   number: MGTA 495
   logo: logos/MarketingAnalytics.png
   semester:
   - name: Syllabus
     url: syllabi/UCSD_MGTA495_Syllabus_20240323.pdf
+  - name: Evals 2024
+    url: evals/ucsd_mgta495_s24.pdf
 
   

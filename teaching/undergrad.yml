@@ -1,5 +1,5 @@
 - title: Customer Analytics
-  description: "Combine customer data, economic theory, and statistical modeling to improve business decision-making related to segmentation, demand estimation, pricing, branding, and customer aquisition and retention; implementation in R"
+  description: "Combine customer data, economic theory, and statistical modeling to improve business decision-making related to segmentation, demand estimation, pricing, branding, and customer aquisition and retention. Implementation in R. <em>Co-created with Prof. Ken Wilbur.</em>"
   university: UCSD
   number: MGT 100
   logo: logos/CustomerAnalytics.png
@@ -19,8 +19,8 @@
 
   
     
-- title: Business Analytics
-  description: "Develope proficiency with popular software to execute common analytic techniques; Excel, Tableau, SQL, R, Python"
+- title: Information Technology in Business Analytics
+  description: "Develope proficiency with popular software to execute common analytic techniques and present graphical summaries of data: Excel, Tableau, SQL, R, Python."
   university: UCSD
   number: MGT 153
   logo: logos/BusinessAnalytics.png
