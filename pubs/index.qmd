@@ -12,9 +12,9 @@ _**Discrete Choice Methods with Simulation: an R Companion**_ [[link](https://dc
 Dan Yavorsky  
 *In Progress* (2024)
 
-_**Likert Scale Dual Response for Conjoint Analysis**_ [[link](https://dyavorsky.github.io/likert_dualresponse/)]  
+_**Outside Good Uncertainty: Ordinal Dual Response in Choice-Based Conjoint Analysis**_ [[link](https://dyavorsky.github.io/likert_dualresponse/)]  
 [Prachi Bhalerao](https://www.linkedin.com/in/prachibhalerao/){.invisilink}, 
-[Eric Bradlow](https://marketing.wharton.upenn.edu/profile/ebradlow/){.invisilink}, and
+[Geoffery Zheng](https://shanghai.nyu.edu/academics/faculty/directory/geoffery-zheng){.invisilink}, and
 Dan Yavorsky  
 *Working Paper* (2024)
 
