@@ -8,7 +8,7 @@ toc-depth: 4
 
 #### In-Progress
 
-_**Discrete Choice Methods with Simulation: an R Companion**_ [[link](https://dcms-r.danyavorsky.com)]  
+_**Discrete Choice Model Estimation with R**_ [[link](https://dcme-r.danyavorsky.com)]  
 Dan Yavorsky  
 *In Progress* (2024)
 

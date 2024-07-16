@@ -19,18 +19,18 @@ website:
       - href: index.qmd
         text: "About"
       - href: cv/index.qmd
-        text: CV
+        text: "CV"
       - href: teaching/index.qmd
-        text: Teaching
+        text: "Teaching"
       - href: pubs/index.qmd
-        text: Pubs
+        text: "Pubs"
       - href: posts/index.qmd
-        text: Posts
-      - href: http://dcms-r.danyavorsky.com
-        text: DCMS-R
+        text: "Posts"
+      - href: http://dcme-r.danyavorsky.com
+        text: "DCME-R"
         target: _blank
       - href: links/index.qmd
-        text: Links
+        text: "Links"
   
   repo-branch: main
   repo-url: "https://github.com/dyavorsky/quarto_website"
