@@ -36,11 +36,11 @@ Dan Yavorsky,
 
 #### Contributor
 
-_**The Sequential Search Model: A Framework for Empirical Research**_ [[link](https://www.anderson.ucla.edu/sites/default/files/document/2023-01/UrsuSeilerHonka_Jan2023.pdf)]  
+_**The Sequential Search Model: A Framework for Empirical Research**_ [[link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4236738)]  
 [Raluca Ursu](https://sites.google.com/a/stern.nyu.edu/rursu/){.invisilink},
 [Stephan Seiler](https://www.seilerstephan.com/){.invisilink}, and
 [Elisabeth Honka](https://www.anderson.ucla.edu/faculty-and-research/marketing/faculty/honka){.invisilink}  
-*Working Paper* (2023)
+*Working Paper* (2024)
 
 _**The Value of Flexible Work: Evidence from Uber Drivers**_ [[link](https://doi.org/10.1086/702171)]  
 [Keith Chen](https://www.anderson.ucla.edu/faculty/keith.chen/index.html){.invisilink},

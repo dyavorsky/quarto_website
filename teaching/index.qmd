@@ -17,13 +17,13 @@ toc-title: Academic year
 ---
 
 
-## Graduate Courses
+## Graduate
 
 :::{#grad}
 :::
 
 
-## Undergraduate Courses
+## Undergraduate
 
 :::{#undergrad}
 :::
