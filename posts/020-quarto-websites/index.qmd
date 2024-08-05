@@ -421,7 +421,7 @@ When in doubt, visit the GitHub page of someone else's Quarto website to see how
 
  - In particular [Andrew Heiss](https://www.andrewheiss.com/) and [Marvin Schmitt](https://www.marvinschmitt.com/) have fully-featured Quarto-based websites.
  
- - The websites by [Albert Rapp](https://albert-rapp.de), [Beatriz ZMilz](https://beamilz.com/about), [Emil Hvitfeldt](https://emilhvitfeldt.com/), [Meghan Hall](https://meghan.rbind.io/), [Mine Dogucu](https://www.minedogucu.com/), [Sam Csik](https://samanthacsik.github.io), and [Tom Mock](https://themockup.blog/about.html) offer inspiration too.
+ - The websites by [Albert Rapp](https://albert-rapp.de), [Beatriz ZMilz](https://beamilz.com/about), [Chris Kenny](https://christophertkenny.com/), [Emil Hvitfeldt](https://emilhvitfeldt.com/), [Meghan Hall](https://meghan.rbind.io/), [Mine Dogucu](https://www.minedogucu.com/), [Sam Csik](https://samanthacsik.github.io), and [Tom Mock](https://themockup.blog/about.html) offer inspiration too.
 
 
 

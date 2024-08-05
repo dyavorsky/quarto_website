@@ -11,6 +11,7 @@ toc-depth: 4
  - [Joel Cadwell](https://joelcadwell.blogspot.com/) (inactive)
  - [John Cook](https://www.johndcook.com/blog/)
  - [Marc and Jeff Dotson](https://occasionaldivergences.com/)
+ - [Chris Chapman's QuantUX](https://quantuxblog.com/)
  - [Andrew Gelman](https://statmodeling.stat.columbia.edu/)
  - [Richard McElreath](https://elevanth.org/)
  - [Cosma Shalizi](https://www.stat.cmu.edu/~cshalizi/)
@@ -19,6 +20,10 @@ toc-depth: 4
     - [The ultimate practical guide to multilevel multinomial conjoint analysis with R](https://www.andrewheiss.com/blog/2023/08/12/conjoint-multilevel-multinomial-guide/)
     - [The ultimate practical guide to conjoint analysis with R](https://www.andrewheiss.com/blog/2023/07/25/conjoint-bayesian-frequentist-guide/)
     - [A guide to correctly calculating posterior predictions and average marginal effects with multilievel Bayesian models](https://www.andrewheiss.com/blog/2021/11/10/ame-bayes-re-guide/)
+  - [InstaCart](https://tech.instacart.com/)
+  - [Netflix](https://netflixtechblog.com/)
+  - [Airbnb](https://medium.com/airbnb-engineering)
+  - [Amazon Science](https://www.amazon.science/)
 
 #### R Books
 
@@ -31,6 +36,7 @@ toc-depth: 4
  - [Tidy Modeling with R](https://www.tmwr.org/) by Max Kuhn and Julia Silge
  - [Modern R with the Tidyverse](https://modern-rstats.eu/) by Bruno Rodrigues
  - [Building reproducible analytical pipelines with R](https://raps-with-r.dev/) by Bruno Rodrigues
+ - [R for the Rest of Us: A Statistics-Free Introduction](https://book.rfortherestofus.com/) by David Keyes
  
 #### Git Books
 
@@ -51,6 +57,9 @@ toc-depth: 4
  - [Telling Stories with Data](https://tellingstorieswithdata.com/) by Rohan Alexander
  - [Statistical Tools for Causal Inference](https://chabefer.github.io/STCI/index.html) by Sylvain Chabe-Ferret
  - [Python 4 Data Science](https://aeturrell.github.io/python4DS/welcome.html#) by Arthur Turrell and others
+ - [Dev Ops for Data Science](https://do4ds.com) by Alex Gold
+ - [Applied Causal Inference Powered by ML and AI](https://causalml-book.org/) by Chernozhukov, Hansen, Kallus, Spindler, and Syrgkanis
+ - [The Data Science Handbooks: Advice and Insights from 25 Amazing Data Scientists](https://www.thedatasciencehandbook.com/) by Shan, Wang, Chen, and Song
 
 #### Notes
 
@@ -68,7 +77,8 @@ toc-depth: 4
 
  - [This is Water](https://web.ics.purdue.edu/~drkelly/DFWKenyonAddress2005.pdf) by David Foster Wallace
  - [A Mathematician's Lament](http://worrydream.com/refs/Lockhart-MathematiciansLament.pdf) by Paul Lockhart
- - [Teaching Smart People How to Learn](https://hbr.org/1991/05/teaching-smart-people-how-to-learn) by Chris Argyris
+ - [Maker's Schedule, Manager's Schedule](https://www.paulgraham.com/makersschedule.html) by Paul Graham
+ - [Lesson's from Amazon](https://www.linkedin.com/posts/scarletink_12-things-i-learned-in-big-tech-activity-7032114623050891264-liMq) by David Anderson
 
 #### On Writing
 
@@ -77,14 +87,16 @@ toc-depth: 4
 
 #### On Learning How to Learn
 
- - Andy Matuschak [Why Books Don't Work](https://andymatuschak.org/books/)
- - Andy Matuschak [Evergreen Notes](https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX)
+ - [Teaching Smart People How to Learn](https://hbr.org/1991/05/teaching-smart-people-how-to-learn) by Chris Argyris
+ - [Why Books Don't Work](https://andymatuschak.org/books/) by Andy Matuschak
+ - [Evergreen Notes](https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX) by Andy Matuschak
 
 #### On Getting a PhD (in Econ or Marketing)
 
  - Ken Wilbur: [Reasons to Get (or Not) a PhD](https://kennethcwilbur.github.io/website//#:~:text=Reasons%20to%20get%20or%20not%20get%20a%20Ph.D.) and [Choosing a field, Subfield, and PhD Program](https://kennethcwilbur.github.io/website//#:~:text=Choosing%20a%20field%2C%20subfield%20and%20Ph.D.%20program)
  - Susan Athey: [Professional Advice](https://gsb-faculty.stanford.edu/susan-athey/professional-advice/)
  - Jesse Shapiro: [Notes on Applying for a PhD in Economics](https://scholar.harvard.edu/files/shapiro/files/phdnotes.pdf)
+ - Anatoli Colicev: [The PhD Journey](https://drive.google.com/file/d/1G9VsH4hbBhrtrJ7Cp4XsxuXLKuSFRjcn/view)
 
 
 
@@ -104,6 +116,10 @@ toc-depth: 4
  - Rossi (2014) Even the Rich Can Make Themselves Poor: A Critical Examination of IV Methods in Marketing Applications [[link](https://pubsonline.informs.org/doi/10.1287/mksc.2014.0860)]
  - Angrist (2022) Empirical Strategies in Economics: Illuminating the Path From Cause to Effect [[link](https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA20640)]
  - Heckman and Pinto (Draft) Causality and Econometrics [[link](https://www.nber.org/papers/w29787)]
+
+#### Quantitative Marketing
+
+ - Stephan Seiler's Annual "Best of" lists: [link](https://www.seilerstephan.com/blog)
 
 
 
