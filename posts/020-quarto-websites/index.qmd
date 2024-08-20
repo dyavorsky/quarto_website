@@ -221,14 +221,14 @@ Welcome to my website! # <4>
 3. create buttons with Bootstrap5 icons
 4. add some information
 
-(1) We've specified that we would like to include an image from the profile_pic.jpg file in the files sub-directory. You'll need to create that sub-directory inside of your website directory and add a file with a photo. To do this at the terminal, you can use `mkdir` to create a directory and `cp` to copy.
+(1) We've specified that we would like to include an image from the profile_pic.jpg file in the _files_ sub-directory. You'll need to create that sub-directory inside of your website directory and add a file with a photo. To do this at the terminal, you can use `mkdir` to create a directory and `cp` to copy.
 
 ```{.bash filename="Terminal"}
 $ pwd
 ~/projects/quarto_website
 
 $ mkdir files
-$ cp path/to/profile_pic.jpg profile_pic.jpg
+$ cp path/to/profile_pic.jpg files/profile_pic.jpg
 ```
 
 (2) We've also requested the jolla template. There are 5 built-in templates; a preview of each is available in the [Quarto documentation](https://quarto.org/docs/websites/website-about.html#templates).
@@ -401,7 +401,7 @@ If you're ready to host your website on GitHub for the world to see, follow the 
 
 ## Additional Resources
 
-To learn more, definitely check out the quarto.org website on making websites: <https://quarto.org/docs/websites/>
+To learn more, definitely check out quarto.org's resources for making websites: <https://quarto.org/docs/websites/>
 
 If you found anything confusing in my tutorial, here are other excellent tutorials on developing Quarto websites and blogs that may help you troubleshoot:
  
@@ -421,7 +421,7 @@ When in doubt, visit the GitHub page of someone else's Quarto website to see how
 
  - In particular [Andrew Heiss](https://www.andrewheiss.com/) and [Marvin Schmitt](https://www.marvinschmitt.com/) have fully-featured Quarto-based websites.
  
- - The websites by [Albert Rapp](https://albert-rapp.de), [Beatriz ZMilz](https://beamilz.com/about), [Chris Kenny](https://christophertkenny.com/), [Emil Hvitfeldt](https://emilhvitfeldt.com/), [Meghan Hall](https://meghan.rbind.io/), [Mine Dogucu](https://www.minedogucu.com/), [Sam Csik](https://samanthacsik.github.io), and [Tom Mock](https://themockup.blog/about.html) offer inspiration too.
+ - In addition, the following websites (listed alphabetically by first name) offer inspiration too: [Albert Rapp](https://albert-rapp.de), [Beatriz ZMilz](https://beamilz.com/about), [Chris Kenny](https://christophertkenny.com/), [Emil Hvitfeldt](https://emilhvitfeldt.com/), [Meghan Hall](https://meghan.rbind.io/), [Mine Dogucu](https://www.minedogucu.com/), [Sam Csik](https://samanthacsik.github.io), and [Tom Mock](https://themockup.blog/about.html).
 
 
 
