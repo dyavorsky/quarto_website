@@ -9,8 +9,6 @@ callout-appearance: minimal
 
 # Terminal & Shell
 
-The *Terminal* is an application on your Mac. A *Shell* is a program that runs in the Terminal. It has a *command-line interface* (CLI) instead of the ubiquitous graphical-user interface (GUI) familiar to most computer users. To run commands in the Terminal via the Shell (or, equivalently, to execute programs on the command line) you type commands at the *prompt* and hit enter.
-
 ### On Mac
 
 I use **iTerm2** terminal application with the default **zsh** shell on Mac, configured using **Oh My Zsh**.  

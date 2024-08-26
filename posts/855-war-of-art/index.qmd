@@ -1,7 +1,7 @@
 ---
 title: "Scott Pressfield Books"
 description: "War of Art, Turning Pro, Do the Work, Nobody Wants to Read Your Sh*t"
-image: book_cover.png
+image: book_cover.jpeg
 toc: true
 number-sections: false
 draft: false

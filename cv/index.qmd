@@ -1,9 +1,9 @@
 ---
-title: Curriculum vitæ
-description: "Dan Yavorsky's CV"
+title: Resume
+description: "Dan Yavorsky's Resume"
 date: 2024-03-25
 title-block-banner: "#35444E"
-published-title: CV last updated
+published-title: Last updated
 engine: knitr 
 cv:
   pdf: "yavorsky_dan_cv_20240325.pdf"
@@ -38,7 +38,7 @@ cv:
 ```{=html}
 <p class="text-center">
   <a class="btn btn-primary btn-lg cv-download" href="`r rmarkdown::metadata$cv$pdf`" target="_blank">
-    <i class="fa-solid fa-file-arrow-down"></i>&ensp;Download current CV
+    <i class="fa-solid fa-file-arrow-down"></i>&ensp;Download Resume
   </a>
 </p>
 

@@ -1,7 +1,7 @@
 ---
-title: "Quotes and Notes from _Statistical Theory: A Concise Introduction_ (2ed)"
+title: "Statistical Theory: A Concise Introduction (2ed)"
 description: "by Felix Abramovich and Ya'acov Ritov"
-image: thumbnail.png
+image: book_cover.jpg
 toc: true
 number-sections: true
 draft: false

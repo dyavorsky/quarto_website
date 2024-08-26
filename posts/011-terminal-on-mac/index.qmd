@@ -1,0 +1,18 @@
+---
+title: "Shell and Terminal on Mac"
+description: "Abbreviated Fundamentals of the Command Line Interface"
+number-sections: false
+image: git-logo-2color.png
+draft: true
+
+---
+
+## What's what
+
+The **Terminal** is an application on your computer. 
+
+A **Shell** is a program that runs in the Terminal. 
+
+The Shell has a **command-line interface** (CLI) instead of the ubiquitous point-and-click graphical-user interface (GUI) familiar to most computer users. 
+
+To run commands in the Terminal via the Shell (or, equivalently, to execute programs on the command line) you type commands at the **prompt** and hit enter.

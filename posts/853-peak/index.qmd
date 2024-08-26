@@ -1,7 +1,7 @@
 ---
 title: "Peak: The Secrets from the New Science of Expertise"
 description: "Anders Ericsson and Robert Pool"
-image: book_cover.png
+image: book_cover.jpeg
 toc: true
 number-sections: false
 draft: false

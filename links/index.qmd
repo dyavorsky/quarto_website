@@ -119,7 +119,7 @@ toc-depth: 4
 
 #### Quantitative Marketing
 
- - Stephan Seiler's Annual "Best of" lists: [link](https://www.seilerstephan.com/blog)
+ - Stephan Seiler's Annual "Best of" lists [[link](https://www.seilerstephan.com/blog)]
 
 
 

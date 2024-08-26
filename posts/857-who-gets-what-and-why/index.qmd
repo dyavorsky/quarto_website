@@ -1,0 +1,89 @@
+---
+title: "Who Gets What and Why"
+description: "Alvin Roth"
+image: book_cover.jpeg
+toc: true
+number-sections: false
+draft: false
+---
+
+
+### 1. Introduction: Every Market Tells a Story
+
+Economics is about the efficient allocation of scarce resources, and about making resources less scarce.
+
+Matching is economist-speak for how we get the things we choose in life that also must choose us.
+
+Often there is a structured matchmaking environment -- some kind of application and selection process -- through which that courtship and choosing takes place.
+
+Until recently, economists often passed quickly over matching and focused primarily on commodity markets, in which prices alone determine who gets what. In a commodity, mark you decide what you want and if you can afford it, you get it.
+
+But in matching markets, prices don't work that way.
+
+Some matches don't use money at all. Kidney transplants cost a lot, but cash doesn't decide who gets a kidney.
+
+Sometimes a matching process, whether formal or ad hoc, evolves over time. But sometimes, especially recently, it is designed. The new economics of market design brings science to matchmaking and markets generally. That's what this book is about.
+
+Market design helps solve problems that existing marketplaces haven't been able to solve naturally. Our work gives us new insights into a really makes "free markets" free to work properly.
+
+The first task of a successful marketplace is bringing together many participants who want to transact, so they can seek out the best transactions. Having a lot of participants makes a market thick.
+
+Efforts to keep markets, thick often concerned the timing of transactions. When should offers be made? How long should they be left open?
+
+Congestion is a problem that marketplace can face once they've achieved thickness. It's the economic equivalent of a traffic, jam, a curse of success.
+
+Although it's great to have a marketplace that gives you an abundance of opportunities, these may be illusory if you can't evaluate them, and they can cause a market to lose much of its usefulness.
+
+While buyers like to see many sellers, and sellers like to see multitudes of buyers, sellers aren't so wild about competing with all those other sellers, nor or buyers necessarily glad to have such a crush of competition.
+
+One thing that all markets challenge participants to do is to decide what they like.
+
+Decisions that depend on what others are doing, are called strategic decisions and are the concern of the branch of economics called game theory. Strategic decision making plays a big role in determining who does well or badly in many selection processes.
+
+Stories about market design often begin with failure – failure to provide thickness, to ease congestion, or to make participation safe and simple.
+
+### 2. Markets for Breakfast and Through the Day
+
+The Chicago Board of trade made wheat into a commodity by classifying it on the basis of its quality (number 1 being the best) and type (winter or spring, hard or soft, red or white).
+
+Commodifying wheat via a reliable grading system helped make the market safe.
+
+Turning a market into a commodity market helps make it really think, beacuse any buyer can buy from any seller, and any seller can sell to any buyer.  At the same time, it also helps the market deal with one of the main sources of congestion in matching markets, since in a commodity market each offer to sell can be made to all buyers, and each offer to buy can be made to all sellers.  So unlike in the market for jobs, or houses, no one has to wait for an offer to be made to him personally; anyone who sees (or hears) a price he likes can take it.
+
+The Ethiopian Commodity Exchange was created recently, in 2008.
+
+Noticed the tension between commoditization and product differentiation – that is, between wanting to sell in a thick market to buyers, even if they don't care who you are, and trying to make your product special enough that many buyers will care enough about you to seek you out. Sellers enjoy selling in a thick market of buyers, but they don't enjoy being interchangeable with other sellers.
+
+Credit cards offer merchants, safety, but that safety came at the cost of transaction fees. Most merchants were willing to pay those fees because accepting credit cards brought in customers they might otherwise have missed, and also because credit cards make it safe for them to take non-cash payment from customers they didn't know well, since the bank guaranteed payment as a form of insurance.
+
+The bank that handles Amazon's transactions, or the one that mangaes the account of your favorite restaurant, is typically different from the bank that issued your credit card and takes your payment. So behind-the-scenes, there is an interbank market, too, through which payments flow.
+
+Instances in which consumers recoil from offers that strike them as unfair are more common than you might think.
+
+Each of these ubiquitous marketplaces has found a way to succeed, not only in making market thick, uncongested, and safe, but also in making them simple to use. Making a market simple to use, however, may not be simple.
+
+One thing we'll see is that the "magic" of the market doesn't happen by magic: Colon many marketplaces fail to work well because of poor design.
+
+### 3. Lifesaving Exchanges
+
+Markets and marketplaces come in many forms, some of which don't conform to conventional notions of markets, and some in which money may play little or no role.
+
+How can people trade indivisible goods if everyone needs just one, has one to trade, and can't use money?
+
+Shapley and Scarf showed that for any preferences that patients and their surgeons might have regarding which kidneys they would like, there was always a way to find a set of cyclical trades they called "top trading cycles" with the property that no group of patients and donors could go off on their own and find a cycle of trades that they liked better.
+
+I was able to show that top trading cycles made it possible to organize a clearing house in such a way as to guarantee to patients and their surgeons that it was safe for them to be completely candid in revealing this kind of information.
+
+Nowadays, the directors of transplant centers have become strategic players, and the biggest challenge is designing exchange clearinghouses in a way that makes it safe for hospitals to enroll all their patient-donor pairs, not just the ones that are hardest to match. At the moment, some hospitals are hanging onto their easy-to-match pairs so they can do their exchanges in-house. 
+
+Withholding easy-to-match exchanges is a common temptation in markets with middleman.
+
+It was clear from the outset that the best way to make the market thick enough to find all potential exchanges would be to organize a national kidney exchange. But two problems immediately presented themselves: one technical and computational, the other political and organizational.
+
+ Kidney exchange is very different from the markets we saw in chapter 2. But as I've tried to show, market designed for kidney exchange is still about making the market, thick, uncongested, safe and simple, and efficient.
+
+ The general lesson to keep in mind as we look at more usual markets is that not only do marketplaces half to solve the problems of creating a thick market, managing, congestion, and ensuring that participation is safe and simple, but they also have to keep solving and resolving these problems as markets evolve.
+
+
+
+

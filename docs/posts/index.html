@@ -100,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-summaries .list');
+    const listingTargetEl = window.document.querySelector('#listing-booknotes .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -113,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-summaries'] = new List('listing-summaries', options);
+    window['quarto-listings']['listing-booknotes'] = new List('listing-booknotes', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -183,7 +183,7 @@ window.Quarto = {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../cv/index.html"> 
-<span class="menu-text">CV</span></a>
+<span class="menu-text">Resume</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../teaching/index.html"> 
@@ -238,7 +238,7 @@ window.Quarto = {
    
   <ul>
   <li><a href="#posts" id="toc-posts" class="nav-link active" data-scroll-target="#posts">Posts</a></li>
-  <li><a href="#summaries" id="toc-summaries" class="nav-link" data-scroll-target="#summaries">Summaries</a></li>
+  <li><a href="#book-notes" id="toc-book-notes" class="nav-link" data-scroll-target="#book-notes">Book Notes</a></li>
   </ul>
 </nav>
     </div>
@@ -253,7 +253,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="posts">Posts</h2>
 <div id="listing-blogposts" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1712197142265" data-listing-reading-time-sort="4" data-listing-word-count-sort="623">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1724698247433" data-listing-reading-time-sort="3" data-listing-word-count-sort="561">
 <a href="../posts/001-my-setup/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -297,11 +297,11 @@ Abbreviated Fundamentals of Version Control
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1722834321964" data-listing-reading-time-sort="13" data-listing-word-count-sort="2578">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1724695886480" data-listing-reading-time-sort="13" data-listing-word-count-sort="2578">
 <a href="../posts/020-quarto-websites/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../posts/020-quarto-websites/quartologo.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../posts/020-quarto-websites/quartologo.jpeg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -319,11 +319,11 @@ A tutorial to create a website skeleton with an About page, Resume page, and blo
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1721075351638" data-listing-reading-time-sort="9" data-listing-word-count-sort="1680">
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1724695754465" data-listing-reading-time-sort="9" data-listing-word-count-sort="1680">
 <a href="../posts/021-host-on-github/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../posts/021-host-on-github/githubcat.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../posts/021-host-on-github/githubcat.jpeg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -367,19 +367,19 @@ No matching items
 </div>
 </div>
 </section>
-<section id="summaries" class="level2">
-<h2 class="anchored" data-anchor-id="summaries">Summaries</h2>
-<div id="listing-summaries" class="quarto-listing quarto-listing-container-grid">
+<section id="book-notes" class="level2">
+<h2 class="anchored" data-anchor-id="book-notes">Book Notes</h2>
+<div id="listing-booknotes" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1712127928085" data-listing-reading-time-sort="18" data-listing-word-count-sort="3573">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1724694430794" data-listing-reading-time-sort="18" data-listing-word-count-sort="3573">
 <a href="../posts/801-abramovich-ritov/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../posts/801-abramovich-ritov/thumbnail.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../posts/801-abramovich-ritov/book_cover.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Quotes and Notes from <em>Statistical Theory: A Concise Introduction</em> (2ed)
+Statistical Theory: A Concise Introduction (2ed)
 </h5>
 <div class="card-text listing-description">
 by Felix Abramovich and Ya’acov Ritov
@@ -393,11 +393,11 @@ by Felix Abramovich and Ya’acov Ritov
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1721075351639" data-listing-reading-time-sort="13" data-listing-word-count-sort="2462">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1724694530847" data-listing-reading-time-sort="13" data-listing-word-count-sort="2462">
 <a href="../posts/851-good-habits-bad-habits/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../posts/851-good-habits-bad-habits/book_cover.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../posts/851-good-habits-bad-habits/book_cover.jpeg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -415,11 +415,11 @@ Wendy Wood
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1712197142274" data-listing-reading-time-sort="6" data-listing-word-count-sort="1186">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1724694620163" data-listing-reading-time-sort="6" data-listing-word-count-sort="1186">
 <a href="../posts/852-how-learning-works/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../posts/852-how-learning-works/book_cover.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../posts/852-how-learning-works/book_cover.jpeg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -437,11 +437,11 @@ Susan Ambrose, et al.
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1712128624238" data-listing-reading-time-sort="34" data-listing-word-count-sort="6602">
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1724695027650" data-listing-reading-time-sort="34" data-listing-word-count-sort="6602">
 <a href="../posts/853-peak/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../posts/853-peak/book_cover.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../posts/853-peak/book_cover.jpeg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -459,11 +459,11 @@ Anders Ericsson and Robert Pool
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1712197142275" data-listing-reading-time-sort="11" data-listing-word-count-sort="2192">
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1724695146371" data-listing-reading-time-sort="11" data-listing-word-count-sort="2192">
 <a href="../posts/854-stolen-focus/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../posts/854-stolen-focus/book_cover.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../posts/854-stolen-focus/book_cover.jpeg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -481,11 +481,11 @@ Johann Hari
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1712129078846" data-listing-reading-time-sort="21" data-listing-word-count-sort="4133">
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1724695208845" data-listing-reading-time-sort="21" data-listing-word-count-sort="4133">
 <a href="../posts/855-war-of-art/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../posts/855-war-of-art/book_cover.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../posts/855-war-of-art/book_cover.jpeg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -503,11 +503,11 @@ War of Art, Turning Pro, Do the Work, Nobody Wants to Read Your Sh*t
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1722717621541" data-listing-reading-time-sort="5" data-listing-word-count-sort="910">
+<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1724695248745" data-listing-reading-time-sort="5" data-listing-word-count-sort="910">
 <a href="../posts/856-making-of-a-manager/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../posts/856-making-of-a-manager/book_cover.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../posts/856-making-of-a-manager/book_cover.jpeg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -515,6 +515,28 @@ The Making of a Manager
 </h5>
 <div class="card-text listing-description">
 Julie Zhou
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1724696683780" data-listing-reading-time-sort="6" data-listing-word-count-sort="1197">
+<a href="../posts/857-who-gets-what-and-why/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../posts/857-who-gets-what-and-why/book_cover.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Who Gets What and Why
+</h5>
+<div class="card-text listing-description">
+Alvin Roth
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">

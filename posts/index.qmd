@@ -3,24 +3,26 @@ title: "Content for You or Future Me"
 listing: 
   - id: blogposts
     contents: 
-      - "001-my-setup/index.qmd" 
-      - "010-git-basics/index.qmd" 
-      - "020-quarto-websites/index.qmd" 
-      - "021-host-on-github/index.qmd"
-      - "101-gumble/index.qmd"
+      - "001-my-setup" 
+      - "010-git-basics" 
+      - "011-terminal-on-mac"
+      - "020-quarto-websites" 
+      - "021-host-on-github"
+      - "101-gumble"
     type: grid 
     sort: "date-desc"
     categories: false
-  - id: summaries
+  - id: booknotes
     contents:
-      - "801-abramovich-ritov/index.qmd" 
-      - "851-good-habits-bad-habits/index.qmd"
-      - "852-how-learning-works/index.qmd"
-      - "853-peak/index.qmd"
-      - "854-stolen-focus/index.qmd"
-      - "855-war-of-art/index.qmd"
+      - "801-abramovich-ritov" 
+      - "851-good-habits-bad-habits"
+      - "852-how-learning-works"
+      - "853-peak"
+      - "854-stolen-focus"
+      - "855-war-of-art"
       - "856-making-of-a-manager"
-    type: grid 
+      - "857-who-gets-what-and-why"
+    type: grid
     sort: "date-desc"
     categories: false
 ---
@@ -30,7 +32,7 @@ listing:
 :::{#blogposts}
 :::
 
-## Summaries
+## Book Notes
 
-:::{#summaries}
+:::{#booknotes}
 :::

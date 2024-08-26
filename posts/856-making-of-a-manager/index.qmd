@@ -1,7 +1,7 @@
 ---
 title: "The Making of a Manager"
 description: "Julie Zhou"
-image: book_cover.jpg
+image: book_cover.jpeg
 toc: true
 number-sections: false
 draft: false

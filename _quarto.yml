@@ -19,7 +19,7 @@ website:
       - href: index.qmd
         text: "About"
       - href: cv/index.qmd
-        text: "CV"
+        text: "Resume"
       - href: teaching/index.qmd
         text: "Teaching"
       - href: pubs/index.qmd

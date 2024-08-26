@@ -2,7 +2,7 @@
 title: "Host Your Quarto Website on GitHub"
 description: "A tutorial for pushing a local git repo to GitHub and deploying the website with GitHub pages"
 toc: true
-image: githubcat.png
+image: githubcat.jpeg
 callout-appearance: minimal
 code-annotations: hover
 ---

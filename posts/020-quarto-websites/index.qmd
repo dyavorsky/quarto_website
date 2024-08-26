@@ -2,7 +2,7 @@
 title: "Build a Quarto Website"
 description: "A tutorial to create a website skeleton with an About page, Resume page, and blog for hosting a project portfolio"
 toc: true
-image: quartologo.png
+image: quartologo.jpeg
 callout-appearance: minimal
 code-annotations: hover
 ---
