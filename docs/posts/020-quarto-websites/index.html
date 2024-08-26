@@ -60,12 +60,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
 <link href="../..//images/favicon.ico" rel="icon">
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -78,18 +74,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../site_libs/quarto-contrib/kbd/kbd.js"></script>
 <link href="../../site_libs/quarto-contrib/kbd/kbd.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -149,7 +133,6 @@ window.Quarto = {
     <span class="navbar-title">Dan Yavorsky</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -240,6 +223,7 @@ window.Quarto = {
 
 
 
+<p><em>Updated August 2024</em></p>
 <p>Quarto is an open-source scientific and technical publishing system. It enables you to write plain text (.qmd) source files and render them into consumable (e.g., html, pdf) output files. This tutorial walks you through the steps to create a website with Quarto. This information is also available on the excellent <a href="https://quarto.org">Quarto website</a> and in <a href="#additional-resources">several other tutorials</a>. A subsequent post (<a href="../../posts/021-host-on-github/index.html">this one</a>) demonstrates how to freely host your website on GitHub.</p>
 <p>One main purpose for creating a website with Quarto is the ability to add “blog” posts written as Quarto documents. These documents can contain code (e.g., R, Python, C++, Julia, other) which – as part of the rendering process – will run the code and embed the code’s output (e.g., numeric results or plots) in the rendered html output file. As a result, a publication-ready blog post can be written as <em>one</em> Quarto source file and no copy/paste is necessary to include code or the code’s resulting numeric or graphic output.</p>
 <p>So, let’s go make that website.</p>

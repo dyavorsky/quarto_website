@@ -7,6 +7,8 @@ callout-appearance: minimal
 code-annotations: hover
 ---
 
+_Updated August 2024_
+
 This tutorial assumes you have a rendered website on your local machine (perhaps from following [this post](../020-quarto-websites/index.qmd) on how to create a Quarto website) and would like to host that website publicly on GitHub.
 
 

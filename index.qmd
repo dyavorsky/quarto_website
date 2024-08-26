@@ -8,11 +8,11 @@ about:
   links:
     - icon: envelope
       href: mailto:dyavorsky@gmail.com
-    - icon: building
+    - icon: briefcase
       href: https://www.gbkcollective.com/team-profiles/danyavorsky
     - icon: linkedin
       href: https://www.linkedin.com/in/dyavorsky/
-    - icon: twitter
+    - icon: twitter-x
       href: https://twitter.com/dyavorsky
     - icon: github
       href: https://github.com/dyavorsky

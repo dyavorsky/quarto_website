@@ -7,6 +7,7 @@ callout-appearance: minimal
 code-annotations: hover
 ---
 
+_Updated August 2024_
 
 Quarto is an open-source scientific and technical publishing system. It enables you to write plain text (.qmd) source files and render them into consumable (e.g., html, pdf) output files. This tutorial walks you through the steps to create a website with Quarto.  This information is also available on the excellent [Quarto website](https://quarto.org) and in [several other tutorials](#additional-resources). A subsequent post ([this one](../021-host-on-github/index.qmd)) demonstrates how to freely host your website on GitHub.
 
