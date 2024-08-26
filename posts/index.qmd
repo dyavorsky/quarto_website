@@ -1,5 +1,6 @@
 ---
 title: "Content for You or Future Me"
+title-block-banner: "#35444E"
 listing: 
   - id: blogposts
     contents: 
