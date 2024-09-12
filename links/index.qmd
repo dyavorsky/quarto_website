@@ -4,10 +4,43 @@ toc-depth: 4
 ---
 
 
-## Reading List
+
+## (Re-)Reading List
+
+#### On Life
+
+ - [This is Water](https://web.ics.purdue.edu/~drkelly/DFWKenyonAddress2005.pdf) by David Foster Wallace
+ - [A Mathematician's Lament](http://worrydream.com/refs/Lockhart-MathematiciansLament.pdf) by Paul Lockhart
+ - [Maker's Schedule, Manager's Schedule](https://www.paulgraham.com/makersschedule.html) by Paul Graham
+ - [Lesson's from Amazon](https://www.linkedin.com/posts/scarletink_12-things-i-learned-in-big-tech-activity-7032114623050891264-liMq) by David Anderson
+
+#### On Writing
+
+ - [How to Send and Reply to email](https://matt.might.net/articles/how-to-email/) by Matt Might
+ - [Publication, Publication](https://gking.harvard.edu/sites/scholar.harvard.edu/files/gking/files/paperspub.pdf) by Gary King
+
+#### On Learning How to Learn
+
+ - [Teaching Smart People How to Learn](https://hbr.org/1991/05/teaching-smart-people-how-to-learn) by Chris Argyris
+ - [Why Books Don't Work](https://andymatuschak.org/books/) by Andy Matuschak
+ - [Evergreen Notes](https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX) by Andy Matuschak
+
+#### On Getting a PhD (in Econ or Marketing)
+
+ - Ken Wilbur: [Reasons to Get (or Not) a PhD](https://kennethcwilbur.github.io/website//#:~:text=Reasons%20to%20get%20or%20not%20get%20a%20Ph.D.) and [Choosing a field, Subfield, and PhD Program](https://kennethcwilbur.github.io/website//#:~:text=Choosing%20a%20field%2C%20subfield%20and%20Ph.D.%20program)
+ - Susan Athey: [Professional Advice](https://gsb-faculty.stanford.edu/susan-athey/professional-advice/)
+ - Jesse Shapiro: [Notes on Applying for a PhD in Economics](https://scholar.harvard.edu/files/shapiro/files/phdnotes.pdf)
+ - Anatoli Colicev: [The PhD Journey](https://drive.google.com/file/d/1G9VsH4hbBhrtrJ7Cp4XsxuXLKuSFRjcn/view)
+ - Martin Schwartz: [The Importance of Stupidity in Scientific Research](https://web.stanford.edu/~fukamit/schwartz-2008.pdf)
+
+
+
+## Resources
+
 
 #### Blogs
 
+ - [Stephan Seiler's Annual "Best of" lists](https://www.seilerstephan.com/blog)]
  - [Joel Cadwell](https://joelcadwell.blogspot.com/) (inactive)
  - [John Cook](https://www.johndcook.com/blog/)
  - [Marc and Jeff Dotson](https://occasionaldivergences.com/)
@@ -54,6 +87,7 @@ toc-depth: 4
 
  - [Applied Machine Learning for Tabular Data](https://aml4td.org/) by Max Kuhn and Kjell Johnson
  - [Teaching Bayesian Statistics](http://talmo.uk/2024/teachingbayesian.html) by TALMO
+ - [Statistical Rethinking 2 with rstan and the tidyverse](https://solomon.quarto.pub/sr2rstan/) by Solomon Kurz
  - [Telling Stories with Data](https://tellingstorieswithdata.com/) by Rohan Alexander
  - [Statistical Tools for Causal Inference](https://chabefer.github.io/STCI/index.html) by Sylvain Chabe-Ferret
  - [Python 4 Data Science](https://aeturrell.github.io/python4DS/welcome.html#) by Arthur Turrell and others
@@ -69,38 +103,7 @@ toc-depth: 4
  - [Notes](https://www.adamnsmith.com/notes.html) by Adam N Smith
  - [Econometrics Notes](https://tbarmstr.github.io/teaching.html) by Tim Armstrong
 
-
-
-## Less Academic 
-
-#### On Life
-
- - [This is Water](https://web.ics.purdue.edu/~drkelly/DFWKenyonAddress2005.pdf) by David Foster Wallace
- - [A Mathematician's Lament](http://worrydream.com/refs/Lockhart-MathematiciansLament.pdf) by Paul Lockhart
- - [Maker's Schedule, Manager's Schedule](https://www.paulgraham.com/makersschedule.html) by Paul Graham
- - [Lesson's from Amazon](https://www.linkedin.com/posts/scarletink_12-things-i-learned-in-big-tech-activity-7032114623050891264-liMq) by David Anderson
-
-#### On Writing
-
- - [How to Send and Reply to email](https://matt.might.net/articles/how-to-email/) by Matt Might
- - [Publication, Publication](https://gking.harvard.edu/sites/scholar.harvard.edu/files/gking/files/paperspub.pdf) by Gary King
-
-#### On Learning How to Learn
-
- - [Teaching Smart People How to Learn](https://hbr.org/1991/05/teaching-smart-people-how-to-learn) by Chris Argyris
- - [Why Books Don't Work](https://andymatuschak.org/books/) by Andy Matuschak
- - [Evergreen Notes](https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX) by Andy Matuschak
-
-#### On Getting a PhD (in Econ or Marketing)
-
- - Ken Wilbur: [Reasons to Get (or Not) a PhD](https://kennethcwilbur.github.io/website//#:~:text=Reasons%20to%20get%20or%20not%20get%20a%20Ph.D.) and [Choosing a field, Subfield, and PhD Program](https://kennethcwilbur.github.io/website//#:~:text=Choosing%20a%20field%2C%20subfield%20and%20Ph.D.%20program)
- - Susan Athey: [Professional Advice](https://gsb-faculty.stanford.edu/susan-athey/professional-advice/)
- - Jesse Shapiro: [Notes on Applying for a PhD in Economics](https://scholar.harvard.edu/files/shapiro/files/phdnotes.pdf)
- - Anatoli Colicev: [The PhD Journey](https://drive.google.com/file/d/1G9VsH4hbBhrtrJ7Cp4XsxuXLKuSFRjcn/view)
-
-
-
-## More Academic
+<!--  
 
 #### Demand Estimation
 
@@ -117,9 +120,7 @@ toc-depth: 4
  - Angrist (2022) Empirical Strategies in Economics: Illuminating the Path From Cause to Effect [[link](https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA20640)]
  - Heckman and Pinto (Draft) Causality and Econometrics [[link](https://www.nber.org/papers/w29787)]
 
-#### Quantitative Marketing
-
- - Stephan Seiler's Annual "Best of" lists [[link](https://www.seilerstephan.com/blog)]
+-->
 
 
 
