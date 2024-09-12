@@ -69,6 +69,7 @@ toc-depth: 4
  - [Tidy Modeling with R](https://www.tmwr.org/) by Max Kuhn and Julia Silge
  - [Modern R with the Tidyverse](https://modern-rstats.eu/) by Bruno Rodrigues
  - [Building reproducible analytical pipelines with R](https://raps-with-r.dev/) by Bruno Rodrigues
+ - [Scaling Up with R and Arrow](https://arrowrbook.com/) by Nic Crane, Jonathan Keane, and Neal Richardson
  - [R for the Rest of Us: A Statistics-Free Introduction](https://book.rfortherestofus.com/) by David Keyes
  
 #### Git Books
@@ -85,6 +86,7 @@ toc-depth: 4
 
 #### Other Data/Stats Books
 
+ - [A Collection of Econometrics Resources](https://giuseppecavaliere.wixsite.com/giuseppe/econometrics-lecture-notes-and-books) by Giuseepe Cavaliere
  - [Applied Machine Learning for Tabular Data](https://aml4td.org/) by Max Kuhn and Kjell Johnson
  - [Teaching Bayesian Statistics](http://talmo.uk/2024/teachingbayesian.html) by TALMO
  - [Statistical Rethinking 2 with rstan and the tidyverse](https://solomon.quarto.pub/sr2rstan/) by Solomon Kurz
