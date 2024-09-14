@@ -68,6 +68,8 @@ I use the **Windows Terminal** application, downloaded from the Microsoft Store.
 
 # RStudio
 
+Positron is quickly replacing RStudio for me.
+
 #### Visual Look
 
 For the visual look of RStudio, I use the RStudio theme *Darkstudio* and my own version of Atom's *One Dark* editor theme, along with the [Fira Code](https://sourceforge.net/projects/fira-code.mirror/) font. They can be installed as follows:
@@ -159,5 +161,25 @@ Other:
 
 - **GitHub Copilot** by GitHub
 - **Error Lens** by Alexander
+
+
+-----
+
+# Other Software
+
+### All Platforms
+
+ - [Todoist](https://todoist.com/home) to track things that need to get done. There's a version for every device and, as a backup, you can always access it from a browser.
+ - [LastPass](https://www.lastpass.com/) is my password manager.  If you don't have one yet, you won't believe how much simpler and more secure authentication can be.
+ - [Zotero](https://www.zotero.org/) for tracking academic literature. While not perfect, it's substantially better than a system based on a tree of sub-directories and verbose file names.
+
+### On Mac
+
+ - [Alfred](https://www.alfredapp.com/) for quick commands and as a sometimes replacement for Mac's spotlight search. 
+ - [CleanShot X](https://cleanshot.com/) as an enhanced screenshot and screen recorder.
+ - [Rectangle](https://rectangleapp.com/) for tiling windows, which may become obsolete with MacOS 15 Sequoia.
+ - [HandMirror](https://apps.apple.com/us/app/hand-mirror/id1502839586?mt=12) for one-click checks before jumping on video meetings.
+ - [Ice](https://icemenubar.app/) to simplify the top-right menu bar.
+
 
 
