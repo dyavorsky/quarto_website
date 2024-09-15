@@ -16,6 +16,19 @@
     url: evals/ucla_mfe402_f22_1.pdf
   - name: Evals 2022.2
     url: evals/ucla_mfe402_f22_2.pdf
+
+- title: R Workshop
+  description: "A 3-session introduction to the R software and environment, emphasizing the fundamental data objects and the particularities of the language before branching into topics most relevant for data analysis and statistical computing."
+  university: UCLA
+  number: MFE
+  logo: logos/RWorkshop.png
+  semester:
+  - name: Pre-work
+    url: https://www.dropbox.com/scl/fi/saac5w3y22vgp9t50kldi/Setup-Guide.pdf?rlkey=stvz6j06y6ekoeegwn8ba8v80&st=fafoj96q&dl=0
+  - name: Slides
+    url: https://www.dropbox.com/scl/fo/ybuitrkvuzdfzob1l8ggn/AOo9yMUm-vyAdmS5fhossLU?rlkey=mnpoqwx20hbkiy3eveafw1mc9&st=3yr9iswb&dl=0
+  - name: Code
+    url: https://www.dropbox.com/scl/fo/83y6w1a5v7fwenjtlvk8r/AG362f7Tv5S75CM0ipVk8t8?rlkey=ygs0vpfi48r8u3kvtvgpvtwnx&st=9tkp85f9&dl=0
     
 - title: Marketing Strategy and Policy
   description: "A solid foundation for strategic marketing thinking; an introduction to a series of frameworks and tools that may be used to solve marketing problems."
