@@ -71,6 +71,13 @@ toc-depth: 4
  - [Building reproducible analytical pipelines with R](https://raps-with-r.dev/) by Bruno Rodrigues
  - [Scaling Up with R and Arrow](https://arrowrbook.com/) by Nic Crane, Jonathan Keane, and Neal Richardson
  - [R for the Rest of Us: A Statistics-Free Introduction](https://book.rfortherestofus.com/) by David Keyes
+
+<!--
+### Not sure if these should make the list:
+ - [R Programming for Research](https://geanders.github.io/RProgrammingForResearch/index.html) CSU ERHS course
+ - [Mastering Software Development in R](https://leanpub.com/msdr) by Roger Peng, Sean Kross, and Brooke Anderson
+ - [Developing Data Products in R](https://leanpub.com/ddp) by Brian Caffo and Sean Kross
+-->
  
 #### Git Books
 
@@ -93,6 +100,8 @@ toc-depth: 4
  - [Telling Stories with Data](https://tellingstorieswithdata.com/) by Rohan Alexander
  - [Statistical Tools for Causal Inference](https://chabefer.github.io/STCI/index.html) by Sylvain Chabe-Ferret
  - [Python 4 Data Science](https://aeturrell.github.io/python4DS/welcome.html#) by Arthur Turrell and others
+ - [Data Science at the Command Line](https://jeroenjanssens.com/dsatcl/) by Jeroen Janssens
+ - [The Unix Workbench](https://seankross.com/the-unix-workbench/) by Sean Kross
  - [Dev Ops for Data Science](https://do4ds.com) by Alex Gold
  - [Applied Causal Inference Powered by ML and AI](https://causalml-book.org/) by Chernozhukov, Hansen, Kallus, Spindler, and Syrgkanis
  - [The Data Science Handbooks: Advice and Insights from 25 Amazing Data Scientists](https://www.thedatasciencehandbook.com/) by Shan, Wang, Chen, and Song
