@@ -71,6 +71,7 @@ toc-depth: 4
  - [Building reproducible analytical pipelines with R](https://raps-with-r.dev/) by Bruno Rodrigues
  - [Scaling Up with R and Arrow](https://arrowrbook.com/) by Nic Crane, Jonathan Keane, and Neal Richardson
  - [R for the Rest of Us: A Statistics-Free Introduction](https://book.rfortherestofus.com/) by David Keyes
+ - [Data Visualization: A Practical Introduction](https://socviz.co/) by Kieran Healy
 
 <!--
 ### Not sure if these should make the list:
@@ -103,6 +104,7 @@ toc-depth: 4
  - [Data Science at the Command Line](https://jeroenjanssens.com/dsatcl/) by Jeroen Janssens
  - [The Unix Workbench](https://seankross.com/the-unix-workbench/) by Sean Kross
  - [Dev Ops for Data Science](https://do4ds.com) by Alex Gold
+ - [Stat447: Data Science Programming Methods](https://stat447.com/) by Dirk Eddelbuettel 
  - [Applied Causal Inference Powered by ML and AI](https://causalml-book.org/) by Chernozhukov, Hansen, Kallus, Spindler, and Syrgkanis
  - [The Data Science Handbooks: Advice and Insights from 25 Amazing Data Scientists](https://www.thedatasciencehandbook.com/) by Shan, Wang, Chen, and Song
 
