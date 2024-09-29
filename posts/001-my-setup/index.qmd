@@ -113,26 +113,15 @@ When installing RStudio on a new machine, ensure the following global options ar
 
 :::
 
-#### Most-used shortcuts
+#### RStudio Shortcuts
 
-Navigation
+I run a complete set of customized shortcuts in order to:
 
- - **Ctrl + 1** moves focus to the script editor
- - **Ctrl + 2** moves focus to the console
- - **Ctrl + Tab** moves focus to the next script tab
- - **Alt + Shift + M** moves focus to the terminal
-
-Editing
+ - avoid conflicts with system shortcuts and window management shortcuts
+ - use a consistent set of key bindings for both Windows and Mac
+ - remap bindings for operations I rarely use, to core part of my workflow
  
- - **Alt + Shift + Arrow** starts multi-cursor editing
- - **Alt + Arrow** moves the current line up or down
- - **Alt + Shift + Arrow** duplicates the current line up or down
- - **Ctrl + Space** brings up RStudio's path auto-completion menu (useful to avoid Co-pilot path auto-completion)
- 
-Running
- 
- - **Ctrl + Alt + B** runs an R script from beginning to current line
- - **Ctrl + Shift + K** renders a Quarto document
+See [this repo](https://github.com/dyavorsky/configs) for the config files.
  
  
 -----
@@ -143,9 +132,8 @@ Running
 
 Themes:
 
-- **Atom One Dark** by Mahmoud Ali
-- **Material** by Equinusocio 
-- **Material Icons** by Equinusocio
+- **Material** (High Contrast) by Equinusocio 
+- **Atom Material Icons** by Equinusocio
 
 Languages:
 
@@ -155,12 +143,54 @@ Languages:
 - **Jupyter** by Microsoft
 - **Julia** by julialang
 - **LaTeX Workshop** by James Yu
-
+- **Markdown All in One** by Yu Zhang
 
 Other:
 
 - **GitHub Copilot** by GitHub
 - **Error Lens** by Alexander
+- **Vim** by vscodevim
+
+
+-----
+
+# Mac Shortcuts
+
+### Rectangle
+
+Rectangle for window management, assigned all Cmd+Ctrl key bindings.
+
+::: {.callout-note collapse="true"}
+
+## Screenshot
+
+![](rectangle.png)
+
+:::
+
+### Mac Keyboard Settings
+
+:::: {.callout-note collapse="true"}
+
+## Screenshots
+
+::: {.panel-tabset}
+
+## Launchpad
+
+![](keyboard_launchpad.png)
+
+## Mission Control
+
+![](keyboard_missioncontrol.png)
+
+## App Shortcuts
+
+![](keyboard_app.png)
+
+:::
+
+::::
 
 
 -----
@@ -177,9 +207,10 @@ Other:
 
  - [Alfred](https://www.alfredapp.com/) for quick commands and as a sometimes replacement for Mac's spotlight search. 
  - [CleanShot X](https://cleanshot.com/) as an enhanced screenshot and screen recorder.
- - [Rectangle](https://rectangleapp.com/) for tiling windows, which may become obsolete with MacOS 15 Sequoia.
  - [HandMirror](https://apps.apple.com/us/app/hand-mirror/id1502839586?mt=12) for one-click checks before jumping on video meetings.
  - [Ice](https://icemenubar.app/) to simplify the top-right menu bar.
+ - [Rectangle](https://rectangleapp.com/) for tiling windows, which may become obsolete with MacOS 15 Sequoia.
+ - [Typora](https://typora.io/) for writing markdown in a minimal editor.
 
 
 
