@@ -35,76 +35,109 @@ toc-depth: 4
 
 
 
-## Resources
 
+## Blogs
 
-#### Blogs
+#### Stats
 
- - [Stephan Seiler's Annual "Best of" lists](https://www.seilerstephan.com/blog)]
- - [Joel Cadwell](https://joelcadwell.blogspot.com/) (inactive)
- - [John Cook](https://www.johndcook.com/blog/)
- - [Marc and Jeff Dotson](https://occasionaldivergences.com/)
- - [Chris Chapman's QuantUX](https://quantuxblog.com/)
  - [Andrew Gelman](https://statmodeling.stat.columbia.edu/)
  - [Richard McElreath](https://elevanth.org/)
  - [Cosma Shalizi](https://www.stat.cmu.edu/~cshalizi/)
- - [Andrew Heiss](https://www.andrewheiss.com/blog/)
-    - [Guide to understanding the intuition behind the Dirichlet distribution](https://www.andrewheiss.com/blog/2023/09/18/understanding-dirichlet-beta-intuition/) 
-    - [The ultimate practical guide to multilevel multinomial conjoint analysis with R](https://www.andrewheiss.com/blog/2023/08/12/conjoint-multilevel-multinomial-guide/)
-    - [The ultimate practical guide to conjoint analysis with R](https://www.andrewheiss.com/blog/2023/07/25/conjoint-bayesian-frequentist-guide/)
-    - [A guide to correctly calculating posterior predictions and average marginal effects with multilievel Bayesian models](https://www.andrewheiss.com/blog/2021/11/10/ame-bayes-re-guide/)
-  - [InstaCart](https://tech.instacart.com/)
-  - [Netflix](https://netflixtechblog.com/)
-  - [Airbnb](https://medium.com/airbnb-engineering)
-  - [Amazon Science](https://www.amazon.science/)
 
-#### R Books
+#### Data Science
+
+ - [InstaCart](https://tech.instacart.com/)
+ - [Netflix](https://netflixtechblog.com/)
+ - [Airbnb](https://medium.com/airbnb-engineering)
+ - [Amazon Science](https://www.amazon.science/)
+
+#### Economics, Marketing, Consulting
+
+ - [Joel Cadwell](https://joelcadwell.blogspot.com/) (inactive)
+ - [Chris Chapman's QuantUX](https://quantuxblog.com/)
+ - [John Cook](https://www.johndcook.com/blog/)
+ - [Marc and Jeff Dotson](https://occasionaldivergences.com/)
+ - [Andrew Heiss](https://www.andrewheiss.com/blog/)
+ - [Stephan Seiler's Annual Best-of](https://www.seilerstephan.com/blog)]
+
+
+
+
+## R Resources
+
+#### R-Language
 
  - [Big Book of R](https://www.bigbookofr.com/) compiled by Oscar Baruffa
- - [R for Data Science](https://r4ds.hadley.nz/) by Hadley Wickham and Garrett Grolemund
  - [Advanced R](https://adv-r.hadley.nz/) by Hadley Wickham
  - [Advanced R Solutions](https://advanced-r-solutions.rbind.io/) by Malte Grosser and Henning Bumann
- - [ggplot2](https://ggplot2-book.org/) by Hadley Wickham
  - [R Packages](https://r-pkgs.org/) by Hadley Wickham and Jenny Bryan
- - [Tidy Modeling with R](https://www.tmwr.org/) by Max Kuhn and Julia Silge
- - [Modern R with the Tidyverse](https://modern-rstats.eu/) by Bruno Rodrigues
- - [Building reproducible analytical pipelines with R](https://raps-with-r.dev/) by Bruno Rodrigues
- - [Scaling Up with R and Arrow](https://arrowrbook.com/) by Nic Crane, Jonathan Keane, and Neal Richardson
- - [R for the Rest of Us: A Statistics-Free Introduction](https://book.rfortherestofus.com/) by David Keyes
- - [Data Visualization: A Practical Introduction](https://socviz.co/) by Kieran Healy
-
-<!--
-### Not sure if these should make the list:
- - [R Programming for Research](https://geanders.github.io/RProgrammingForResearch/index.html) CSU ERHS course
+ - [R for the Rest of Us: A Stats-Free Intro](https://book.rfortherestofus.com/) by David Keyes
  - [Mastering Software Development in R](https://leanpub.com/msdr) by Roger Peng, Sean Kross, and Brooke Anderson
- - [Developing Data Products in R](https://leanpub.com/ddp) by Brian Caffo and Sean Kross
--->
+ - [Scaling Up with R and Arrow](https://arrowrbook.com/) by Nic Crane, Jonathan Keane, and Neal Richardson
+
+#### Data Viz with R
+
+ - [ggplot2](https://ggplot2-book.org/) by Hadley Wickham
+ - [Data Visualization: A Practical Introduction](https://socviz.co/) by Kieran Healy
+ - [Modern Data Visualization with R](https://rkabacoff.github.io/datavis/) by Robert Kabacoff
+
+#### Stats with R 
+
+ - [R for Data Science](https://r4ds.hadley.nz/) by Hadley Wickham and Garrett Grolemund
+ - [Modern R with the Tidyverse](https://modern-rstats.eu/) by Bruno Rodrigues
+ - [Tidy Modeling with R](https://www.tmwr.org/) by Max Kuhn and Julia Silge
+ - [Data Analysis in R](https://bookdown.org/steve_midway/DAR/) by Steve Midway
+ - [Introduction to Econometrics with R](https://www.econometrics-with-r.org/index.html) by Christoph Hanck and others
+ - [Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/) by Benjamin Baumer, Daniel Kaplan, and Nicholas Horton
+
+#### Reporting with R
+
+ - [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) by Yihui Xie, JJ Allaire, and Garrett Grolemund
+ - [Building reproducible analytical pipelines with R](https://raps-with-r.dev/) by Bruno Rodrigues
+ - [Telling Stories with Data](https://tellingstorieswithdata.com/) by Rohan Alexander
+
  
-#### Git Books
+
+
+## Technical Resources
+
+#### Git 
 
  - [Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub
  - [Happy Git and GitHub for the UserR](https://happygitwithr.com/) by Jenny Bryan
  - [Git in Practice](https://www.manning.com/books/git-in-practice) by Mike McQuaid
 
-#### Vim Resources
+#### Vim 
 
  - [OpenVim](https://www.openvim.com/) by Henrik Huttunen
  - [Mastering the Vim Language](https://www.youtube.com/watch?v=wlR5gYd6um0) recorded presentation by Chris Toomey
  - [Vim as Your Editor](https://www.youtube.com/watch?v=X6AR2RMB5tE&list=PLm323Lc7iSW_wuxqmKx_xxNtJC_hJbQ7R) a 6-part playist by ThePrimeagen
 
-#### Other Data/Stats Books
+#### Quarto
 
- - [A Collection of Econometrics Resources](https://giuseppecavaliere.wixsite.com/giuseppe/econometrics-lecture-notes-and-books) by Giuseepe Cavaliere
- - [Applied Machine Learning for Tabular Data](https://aml4td.org/) by Max Kuhn and Kjell Johnson
- - [Teaching Bayesian Statistics](http://talmo.uk/2024/teachingbayesian.html) by TALMO
- - [Statistical Rethinking 2 with rstan and the tidyverse](https://solomon.quarto.pub/sr2rstan/) by Solomon Kurz
- - [Telling Stories with Data](https://tellingstorieswithdata.com/) by Rohan Alexander
- - [Statistical Tools for Causal Inference](https://chabefer.github.io/STCI/index.html) by Sylvain Chabe-Ferret
- - [Python 4 Data Science](https://aeturrell.github.io/python4DS/welcome.html#) by Arthur Turrell and others
+ - [Quarto Docs](https://quarto.org/)
+ - [Quarto Cheatsheet](https://rstudio.github.io/cheatsheets/html/quarto.html)
+ - [Quarto Extensions](https://m.canouil.dev/quarto-extensions/)
+ - Quarto website examples: [Twitter List](https://x.com/NeuroKaiii/status/1644854726498963456) [Linkedin List](https://www.linkedin.com/feed/update/urn:li:activity:7197152805483102208/)
+
+#### Command Line / DevOps
+
  - [Data Science at the Command Line](https://jeroenjanssens.com/dsatcl/) by Jeroen Janssens
  - [The Unix Workbench](https://seankross.com/the-unix-workbench/) by Sean Kross
  - [Dev Ops for Data Science](https://do4ds.com) by Alex Gold
  - [Stat447: Data Science Programming Methods](https://stat447.com/) by Dirk Eddelbuettel 
+
+#### Python
+
+ - [Python 4 Data Science](https://aeturrell.github.io/python4DS/welcome.html#) by Arthur Turrell and others
+
+#### Econometrics, Data Science, Machine Learning, Bayesian Stats
+
+ - [Statistical Rethinking 2 with rstan and the tidyverse](https://solomon.quarto.pub/sr2rstan/) by Solomon Kurz
+ - [Teaching Bayesian Statistics](http://talmo.uk/2024/teachingbayesian.html) by TALMO
+ - [A Collection of Econometrics Resources](https://giuseppecavaliere.wixsite.com/giuseppe/econometrics-lecture-notes-and-books) by Giuseepe Cavaliere
+ - [Applied Machine Learning for Tabular Data](https://aml4td.org/) by Max Kuhn and Kjell Johnson
+ - [Statistical Tools for Causal Inference](https://chabefer.github.io/STCI/index.html) by Sylvain Chabe-Ferret
  - [Applied Causal Inference Powered by ML and AI](https://causalml-book.org/) by Chernozhukov, Hansen, Kallus, Spindler, and Syrgkanis
  - [The Data Science Handbooks: Advice and Insights from 25 Amazing Data Scientists](https://www.thedatasciencehandbook.com/) by Shan, Wang, Chen, and Song
 
