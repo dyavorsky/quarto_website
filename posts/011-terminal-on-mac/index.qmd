@@ -3,16 +3,24 @@ title: "Shell and Terminal on Mac"
 description: "Abbreviated Fundamentals of the Command Line Interface"
 number-sections: false
 image: git-logo-2color.png
-draft: true
+draft: false
 
 ---
 
 ## What's what
 
-The **Terminal** is an application on your computer. 
+Most users of personal computers today are intimately familiar with the **graphical user interface** (GUI) whereby interactions with the computer consist of using a mouse (and occasionally the keyboard) to navigate across several aethetic applications, often clicking on visual elements such as folder icons, buttons, and menus. 
 
-A **Shell** is a program that runs in the Terminal. 
+Before the development of the GUI and means of interacting with the computer through these more-visual elements, there was (and continues to be) a text-based method of interacting with the computer called a **command-line interface** (CLI). 
 
-The Shell has a **command-line interface** (CLI) instead of the ubiquitous point-and-click graphical-user interface (GUI) familiar to most computer users. 
+In the "old days," a computer would boot into the CLI, as there was no other option. Today, each major operating system has an application that provides a CLI. This type application is called a terminal emulator (or just **terminal** for short). On MacOS, the app is unceremoniously named "Terminal" and can be found in the `/Applications/Utilities` directory. But you can download other terminal applications, including iTerm2, Warp, Alacritty, Hyper, Tabby, Kitty, Rio, or others.
 
-To run commands in the Terminal via the Shell (or, equivalently, to execute programs on the command line) you type commands at the **prompt** and hit enter.
+Every terminal application has a text-based input field called the **command prompt**. When you type and submit a command at the command prompt, the Shell Command Line Intepretor (or just **Shell**) parses and interprets the text you have typed, carrying out your instructions and possibly returning information to you in the terminal. This Read-Eval-Print loop (**REPL**) is common when computer programs allow "live" interaction with between the user and computer. The default shell on MacOS at the time of writing is **zsh** (pronounced the "Z shell") which replaced **bash** (the "Bourne Again SHell") as the MacOS default starting with the release of MacOS Catalina in 2019. bash, as evidenced by its name, was an evolution of the Bourne shell (with the short name **sh**). To round out the list, the only other popular shell today is **fish** (the "friendly" shell).
+
+## Shell Basics
+
+
+
+
+
+
