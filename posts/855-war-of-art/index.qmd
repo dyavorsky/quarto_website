@@ -182,7 +182,7 @@ draft: false
  - There will be an all is lost moment. 104
  - The all is lost moment is followed almost immediately by a breakthrough insight or epiphany, an awakening for the hero, and "aha" moment. From this point, the pedal-to-the-metal-rush begins. 105
  -You don't really learn an art or a craft in school. In the real world, the process is more like an apprenticeship, multiple apprenticeships under multiple masters. It happens on the street and it happens in the studio. It happens in bed. It happens sober and it happens stoned. It happens getting up early and it happens staying up late. You kiss ass. You work for free. You do stuff that nobody else with do. **In other words, you're in the trenches, getting hosed and head-banged and dismissed and ignored. You're invisible. You're held in contempt. You're exploited. People farther up the food chain take your time, your energy, your body. You let them. You want them to take those things. It's the price you pay to learn.** 112
- - **Make it work. That's how you learn. Then there's the way you really learn. Alone at your keyboard. Trying to answer the eternal question: "why is this fucking thing now working?" We learn by increments. One word, one image, one piece of code at a time.** 113
+ - **Make it work. That's how you learn. Then there's the way you really learn. Alone at your keyboard. Trying to answer the eternal question: "why is this fucking thing not working?" We learn by increments. One word, one image, one piece of code at a time.** 113
  - **Should I? Do I have to? You do. That's how you learn.** 114
  
 ### 4. Fiction, The Second Time 
@@ -217,4 +217,4 @@ draft: false
  - I am a writer now. I have paid my dues. 185
  - Is there a white whale out there for you? There is or you wouldn't be reading this book. **You'll know that whale by these qualities: It's accomplishment will seem beyond your resources. Your pursuit of it will bear you into waters where no one before you has sailed. To hunt this beast will require everything you've got.** 187
  - It's okay. It's all part of the journey. What you learn in Wrong Career #1 will serve you in Off-Key Career #2 and in Out-Of-Kilter Career #3, and the wisdom you acquire in #1, #2, and #3 will form the foundation of Real Calling #4 (or #5 or #6 or however long it takes). 188
- -What nobody wants to read your shit means is that none of us wants to hear your self-centered, ego-driven, unrefined demands for attention. Why should we? It's boring. There's nothing in it for us. Make it beautiful. Make it fun and sexy and interesting and I'll but it. I'll wear it. I'll tell my friends about it. 
+ -What nobody wants to read your shit means is that none of us wants to hear your self-centered, ego-driven, unrefined demands for attention. Why should we? It's boring. There's nothing in it for us. Make it beautiful. Make it fun and sexy and interesting and I'll buy it. I'll wear it. I'll tell my friends about it. 
