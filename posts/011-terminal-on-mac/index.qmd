@@ -2,7 +2,7 @@
 title: "Shell and Terminal on Mac"
 description: "Abbreviated Fundamentals of the Command Line Interface"
 number-sections: false
-image: git-logo-2color.png
+image: iterm2screenshot.png
 draft: false
 
 ---
