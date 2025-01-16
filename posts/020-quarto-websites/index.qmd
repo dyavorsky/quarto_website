@@ -9,7 +9,7 @@ code-annotations: hover
 
 _Updated August 2024_
 
-Quarto is an open-source scientific and technical publishing system. It enables you to write plain text (.qmd) source files and render them into consumable (e.g., html, pdf) output files. This tutorial walks you through the steps to create a website with Quarto.  This information is also available on the excellent [Quarto website](https://quarto.org) and in [several other tutorials](#additional-resources). A subsequent post ([this one](../021-host-on-github/index.qmd)) demonstrates how to freely host your website on GitHub.
+Quarto is an open-source scientific and technical publishing system. It enables you to write plain text (.qmd) source files and render them into consumable (e.g., html, pdf) output files. This tutorial walks you through the steps to create a website with Quarto.  This information is also available on the excellent [Quarto website](https://quarto.org) and in [several other tutorials](#additional-resources). A subsequent post ([this one](../021-host-on-github/index.qmd)) demonstrates how to freely host your website on GitHub. Additionally, in December 2024, Posit posted a four-part video series detailing elements of Quarto websites on YouTube [here](https://www.youtube.com/watch?v=l7r24gTEkEY).
 
 One main purpose for creating a website with Quarto is the ability to add "blog" posts written as Quarto documents. These documents can contain code (e.g., R, Python, C++, Julia, other) which -- as part of the rendering process -- will run the code and embed the code's output (e.g., numeric results or plots) in the rendered html output file. As a result, a publication-ready blog post can be written as _one_ Quarto source file and no copy/paste is necessary to include code or the code's resulting numeric or graphic output.
 
@@ -404,7 +404,9 @@ If you're ready to host your website on GitHub for the world to see, follow the 
 
 To learn more, definitely check out quarto.org's resources for making websites: <https://quarto.org/docs/websites/>
 
-If you found anything confusing in my tutorial, here are other excellent tutorials on developing Quarto websites and blogs that may help you troubleshoot:
+Posit's four-part YouTube tutorial on Quarto Websites is another valuable resource: [part 1](https://www.youtube.com/watch?v=l7r24gTEkEY), [part 2](https://www.youtube.com/watch?v=k65E-8PXZmA), [part 3](https://www.youtube.com/watch?v=pAN2Hiq0XGs), [part 4](https://www.youtube.com/watch?v=bv_Cw-3HI1Y).
+
+Additionally, there are several other excellent tutorials on developing Quarto websites and blogs:
  
 | Author           | Link                                                                                          |
 |------------------|-----------------------------------------------------------------------------------------------|
@@ -418,11 +420,13 @@ $$
 \hspace{1em}
 $$
 
-When in doubt, visit the GitHub page of someone else's Quarto website to see how they did it! 
+Finally, if you see something you like on someone else's website, you can usually visit their GitHub page to see how they did it!
 
  - In particular [Andrew Heiss](https://www.andrewheiss.com/) and [Marvin Schmitt](https://www.marvinschmitt.com/) have fully-featured Quarto-based websites.
  
  - In addition, the following websites (listed alphabetically by first name) offer inspiration too: [Albert Rapp](https://albert-rapp.de), [Beatriz Milz](https://beamilz.com/about), [Chris Kenny](https://christophertkenny.com/), [Ella Kaye](https://ellakaye.co.uk/), [Emil Hvitfeldt](https://emilhvitfeldt.com/), [Meghan Hall](https://meghan.rbind.io/), [Mine Dogucu](https://www.minedogucu.com/), [Sam Csik](https://samanthacsik.github.io), and [Tom Mock](https://themockup.blog/about.html).
+
+ - Mine is [here](https://github.com/dyavorsky/quarto_website/).
 
 
 
