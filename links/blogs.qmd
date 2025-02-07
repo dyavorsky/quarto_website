@@ -1,0 +1,36 @@
+---
+title: "Links"
+---
+
+
+## Blogs
+
+#### Stats
+
+ - [Andrew Gelman](https://statmodeling.stat.columbia.edu/)
+ - [Richard McElreath](https://elevanth.org/)
+ - [Cosma Shalizi](https://www.stat.cmu.edu/~cshalizi/)
+
+#### Data Science
+
+ - [InstaCart](https://tech.instacart.com/)
+ - [Netflix](https://netflixtechblog.com/)
+ - [Airbnb](https://medium.com/airbnb-engineering)
+ - [Amazon Science](https://www.amazon.science/)
+
+#### Economics, Marketing, Consulting
+
+ - [Joel Cadwell](https://joelcadwell.blogspot.com/) (inactive)
+ - [Chris Chapman's QuantUX](https://quantuxblog.com/)
+ - [John Cook](https://www.johndcook.com/blog/)
+ - [Marc and Jeff Dotson](https://occasionaldivergences.com/)
+ - [Andrew Heiss](https://www.andrewheiss.com/blog/)
+ - [Stephan Seiler's Annual Best-of](https://www.seilerstephan.com/blog)]
+
+
+
+
+
+
+
+

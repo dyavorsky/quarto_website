@@ -18,20 +18,45 @@ website:
     search: false
     left:
       - href: index.qmd
+        icon: person-circle
         text: "About"
       - href: cv/index.qmd
+        icon: file-earmark-check
         text: "Resume"
       - href: teaching/index.qmd
+        icon: mortarboard
         text: "Teaching"
       - href: pubs/index.qmd
+        icon: journals
         text: "Pubs"
       - href: posts/index.qmd
+        icon: pencil-square
         text: "Posts"
-      - href: http://dcme-r.danyavorsky.com
-        text: "DCME-R"
-        target: _blank
-      - href: links/index.qmd
-        text: "Links"
+      #- href: http://dcme-r.danyavorsky.com
+      #  icon: book
+      #  text: "DCME-R"
+      #  target: _blank
+      - text: "Links"
+        icon: link-45deg
+        menu: 
+          - text: "R"
+            icon: bi-r-circle # file-earmark-code
+            href: links/r.qmd
+          - text: "Computing"
+            icon: terminal
+            href: links/compute.qmd
+          - text: "Stats"
+            icon: bar-chart
+            href: links/stats.qmd
+          - text: "Advice"
+            icon: info-square
+            href: links/advice.qmd
+          - text: "Blogs"
+            icon: file-text
+            href: links/blogs.qmd
+          - text: "Quotes"
+            icon: chat-quote
+            href: links/quotes.qmd
   
   repo-branch: main
   repo-url: "https://github.com/dyavorsky/quarto_website"

@@ -1,0 +1,41 @@
+---
+title: "Links"
+---
+
+
+## (Non-R) Computing Resources
+
+#### Git 
+
+ - [Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub
+ - [Happy Git and GitHub for the UserR](https://happygitwithr.com/) by Jenny Bryan
+ - [Git in Practice](https://www.manning.com/books/git-in-practice) by Mike McQuaid
+
+#### Vim 
+
+ - [OpenVim](https://www.openvim.com/) by Henrik Huttunen
+ - [Mastering the Vim Language](https://www.youtube.com/watch?v=wlR5gYd6um0) recorded presentation by Chris Toomey
+ - [Vim as Your Editor](https://www.youtube.com/watch?v=X6AR2RMB5tE&list=PLm323Lc7iSW_wuxqmKx_xxNtJC_hJbQ7R) a 6-part playist by ThePrimeagen
+
+#### Quarto
+
+ - [Quarto Docs](https://quarto.org/)
+ - [Quarto Cheatsheet](https://rstudio.github.io/cheatsheets/html/quarto.html)
+ - [Quarto Extensions](https://m.canouil.dev/quarto-extensions/)
+ - Quarto website examples: [Twitter List](https://x.com/NeuroKaiii/status/1644854726498963456) [Linkedin List](https://www.linkedin.com/feed/update/urn:li:activity:7197152805483102208/)
+
+#### Command Line / DevOps
+
+ - [Data Science at the Command Line](https://jeroenjanssens.com/dsatcl/) by Jeroen Janssens
+ - [The Unix Workbench](https://seankross.com/the-unix-workbench/) by Sean Kross
+ - [Dev Ops for Data Science](https://do4ds.com) by Alex Gold
+ - [Stat447: Data Science Programming Methods](https://stat447.com/) by Dirk Eddelbuettel 
+
+#### Python
+
+ - [Python 4 Data Science](https://aeturrell.github.io/python4DS/welcome.html#) by Arthur Turrell and others
+
+
+
+
+

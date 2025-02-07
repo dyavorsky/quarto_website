@@ -1,0 +1,45 @@
+---
+title: "Links"
+---
+
+
+## R Resources
+
+#### R-Language
+
+ - [Big Book of R](https://www.bigbookofr.com/) compiled by Oscar Baruffa
+ - [Advanced R](https://adv-r.hadley.nz/) by Hadley Wickham
+ - [Advanced R Solutions](https://advanced-r-solutions.rbind.io/) by Malte Grosser and Henning Bumann
+ - [R Packages](https://r-pkgs.org/) by Hadley Wickham and Jenny Bryan
+ - [R for the Rest of Us: A Stats-Free Intro](https://book.rfortherestofus.com/) by David Keyes
+ - [Mastering Software Development in R](https://leanpub.com/msdr) by Roger Peng, Sean Kross, and Brooke Anderson
+ - [Scaling Up with R and Arrow](https://arrowrbook.com/) by Nic Crane, Jonathan Keane, and Neal Richardson
+
+#### Data Viz with R
+
+ - [ggplot2](https://ggplot2-book.org/) by Hadley Wickham
+ - [Data Visualization: A Practical Introduction](https://socviz.co/) by Kieran Healy
+ - [Modern Data Visualization with R](https://rkabacoff.github.io/datavis/) by Robert Kabacoff
+
+#### Stats with R 
+
+ - [R for Data Science](https://r4ds.hadley.nz/) by Hadley Wickham and Garrett Grolemund
+ - [Modern R with the Tidyverse](https://modern-rstats.eu/) by Bruno Rodrigues
+ - [Tidy Modeling with R](https://www.tmwr.org/) by Max Kuhn and Julia Silge
+ - [Data Analysis in R](https://bookdown.org/steve_midway/DAR/) by Steve Midway
+ - [Introduction to Econometrics with R](https://www.econometrics-with-r.org/index.html) by Christoph Hanck and others
+ - [Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/) by Benjamin Baumer, Daniel Kaplan, and Nicholas Horton
+
+#### Reporting with R
+
+ - [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) by Yihui Xie, JJ Allaire, and Garrett Grolemund
+ - [Building reproducible analytical pipelines with R](https://raps-with-r.dev/) by Bruno Rodrigues
+ - [Telling Stories with Data](https://tellingstorieswithdata.com/) by Rohan Alexander
+
+ 
+
+
+
+
+
+

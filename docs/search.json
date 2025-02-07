@@ -28,6 +28,76 @@
     "text": "Undergraduate\n\n\n    \n    \n        \n            \n            \n            \n        \n        \n            \n                \n                Customer Analytics \n                \n            \n            \n                MGT 100 | \n                UCSD\n                \n            \n            Combine customer data, economic theory, and statistical modeling to improve business decision-making related to segmentation, demand estimation, pricing, branding, and customer aquisition and retention. Implementation in R. Co-created with Prof. Ken Wilbur.\n\n            \n                \n                \n                Syllabus\n                \n                \n                \n                Slides F24\n                \n                \n                \n                Recordings SS24\n                \n                \n                \n                Evals 2024.1\n                \n                \n                \n                Evals 2024.2\n                \n                \n                \n                Evals 2024.3\n                \n                \n                \n                Evals 2023.1\n                \n                \n                \n                Evals 2023.2\n                \n                \n                \n                Evals 2022\n                \n                \n                \n                KW Version\n                \n                \n            \n        \n    \n    \n    \n        \n            \n            \n            \n        \n        \n            \n                \n                Technology for Business Analytics \n                \n            \n            \n                MGT 153 | \n                UCSD\n                \n            \n            Develop proficiency with popular software to execute common analytic techniques and present graphical summaries of data: Excel, Tableau, SQL, R, Python.\n\n            \n                \n                \n                Syllabus\n                \n                \n                \n                Evals 2023\n                \n                \n            \n        \n    \n    \n\n\nNo matching items"
   },
   {
+    "objectID": "links/stats.html",
+    "href": "links/stats.html",
+    "title": "Links",
+    "section": "",
+    "text": "Statistical Rethinking 2 with rstan and the tidyverse by Solomon Kurz\nTeaching Bayesian Statistics by TALMO\nA Collection of Econometrics Resources by Giuseepe Cavaliere\nApplied Machine Learning for Tabular Data by Max Kuhn and Kjell Johnson\nStatistical Tools for Causal Inference by Sylvain Chabe-Ferret\nCausal Inference: The Mixtape by Scott Cunningham\nApplied Causal Inference Powered by ML and AI by Chernozhukov, Hansen, Kallus, Spindler, and Syrgkanis\nThe Data Science Handbooks: Advice and Insights from 25 Amazing Data Scientists by Shan, Wang, Chen, and Song\n\n\n\n\n\nHierarchical Modeling by Michael Betancourt\nKeep Calm and Learn Multilevel Logistic Modeling by Nicolas Sommet and Davide Morselli\nMath-Stat Course Notes by Joshua Tebbs\nNotes by Adam N Smith\nEconometrics Notes by Tim Armstrong"
+  },
+  {
+    "objectID": "links/stats.html#stats-and-related-fields",
+    "href": "links/stats.html#stats-and-related-fields",
+    "title": "Links",
+    "section": "",
+    "text": "Statistical Rethinking 2 with rstan and the tidyverse by Solomon Kurz\nTeaching Bayesian Statistics by TALMO\nA Collection of Econometrics Resources by Giuseepe Cavaliere\nApplied Machine Learning for Tabular Data by Max Kuhn and Kjell Johnson\nStatistical Tools for Causal Inference by Sylvain Chabe-Ferret\nCausal Inference: The Mixtape by Scott Cunningham\nApplied Causal Inference Powered by ML and AI by Chernozhukov, Hansen, Kallus, Spindler, and Syrgkanis\nThe Data Science Handbooks: Advice and Insights from 25 Amazing Data Scientists by Shan, Wang, Chen, and Song\n\n\n\n\n\nHierarchical Modeling by Michael Betancourt\nKeep Calm and Learn Multilevel Logistic Modeling by Nicolas Sommet and Davide Morselli\nMath-Stat Course Notes by Joshua Tebbs\nNotes by Adam N Smith\nEconometrics Notes by Tim Armstrong"
+  },
+  {
+    "objectID": "links/blogs.html",
+    "href": "links/blogs.html",
+    "title": "Links",
+    "section": "",
+    "text": "Andrew Gelman\nRichard McElreath\nCosma Shalizi\n\n\n\n\n\nInstaCart\nNetflix\nAirbnb\nAmazon Science\n\n\n\n\n\nJoel Cadwell (inactive)\nChris Chapman’s QuantUX\nJohn Cook\nMarc and Jeff Dotson\nAndrew Heiss\nStephan Seiler’s Annual Best-of]"
+  },
+  {
+    "objectID": "links/blogs.html#blogs",
+    "href": "links/blogs.html#blogs",
+    "title": "Links",
+    "section": "",
+    "text": "Andrew Gelman\nRichard McElreath\nCosma Shalizi\n\n\n\n\n\nInstaCart\nNetflix\nAirbnb\nAmazon Science\n\n\n\n\n\nJoel Cadwell (inactive)\nChris Chapman’s QuantUX\nJohn Cook\nMarc and Jeff Dotson\nAndrew Heiss\nStephan Seiler’s Annual Best-of]"
+  },
+  {
+    "objectID": "links/old_index.html",
+    "href": "links/old_index.html",
+    "title": "An Incomplete Collection",
+    "section": "",
+    "text": "This is Water by David Foster Wallace\nA Mathematician’s Lament by Paul Lockhart\nMaker’s Schedule, Manager’s Schedule by Paul Graham\nLesson’s from Amazon by David Anderson\n\n\n\n\n\nHow to Send and Reply to email by Matt Might\nPublication, Publication by Gary King\n\n\n\n\n\nTeaching Smart People How to Learn by Chris Argyris\nWhy Books Don’t Work by Andy Matuschak\nEvergreen Notes by Andy Matuschak\n\n\n\n\n\nKen Wilbur: Reasons to Get (or Not) a PhD and Choosing a field, Subfield, and PhD Program\nSusan Athey: Professional Advice\nJesse Shapiro: Notes on Applying for a PhD in Economics\nAnatoli Colicev: The PhD Journey\nMartin Schwartz: The Importance of Stupidity in Scientific Research"
+  },
+  {
+    "objectID": "links/old_index.html#re-reading-list",
+    "href": "links/old_index.html#re-reading-list",
+    "title": "An Incomplete Collection",
+    "section": "",
+    "text": "This is Water by David Foster Wallace\nA Mathematician’s Lament by Paul Lockhart\nMaker’s Schedule, Manager’s Schedule by Paul Graham\nLesson’s from Amazon by David Anderson\n\n\n\n\n\nHow to Send and Reply to email by Matt Might\nPublication, Publication by Gary King\n\n\n\n\n\nTeaching Smart People How to Learn by Chris Argyris\nWhy Books Don’t Work by Andy Matuschak\nEvergreen Notes by Andy Matuschak\n\n\n\n\n\nKen Wilbur: Reasons to Get (or Not) a PhD and Choosing a field, Subfield, and PhD Program\nSusan Athey: Professional Advice\nJesse Shapiro: Notes on Applying for a PhD in Economics\nAnatoli Colicev: The PhD Journey\nMartin Schwartz: The Importance of Stupidity in Scientific Research"
+  },
+  {
+    "objectID": "links/old_index.html#blogs",
+    "href": "links/old_index.html#blogs",
+    "title": "An Incomplete Collection",
+    "section": "Blogs",
+    "text": "Blogs\n\nStats\n\nAndrew Gelman\nRichard McElreath\nCosma Shalizi\n\n\n\nData Science\n\nInstaCart\nNetflix\nAirbnb\nAmazon Science\n\n\n\nEconomics, Marketing, Consulting\n\nJoel Cadwell (inactive)\nChris Chapman’s QuantUX\nJohn Cook\nMarc and Jeff Dotson\nAndrew Heiss\nStephan Seiler’s Annual Best-of]"
+  },
+  {
+    "objectID": "links/old_index.html#r-resources",
+    "href": "links/old_index.html#r-resources",
+    "title": "An Incomplete Collection",
+    "section": "R Resources",
+    "text": "R Resources\n\nR-Language\n\nBig Book of R compiled by Oscar Baruffa\nAdvanced R by Hadley Wickham\nAdvanced R Solutions by Malte Grosser and Henning Bumann\nR Packages by Hadley Wickham and Jenny Bryan\nR for the Rest of Us: A Stats-Free Intro by David Keyes\nMastering Software Development in R by Roger Peng, Sean Kross, and Brooke Anderson\nScaling Up with R and Arrow by Nic Crane, Jonathan Keane, and Neal Richardson\n\n\n\nData Viz with R\n\nggplot2 by Hadley Wickham\nData Visualization: A Practical Introduction by Kieran Healy\nModern Data Visualization with R by Robert Kabacoff\n\n\n\nStats with R\n\nR for Data Science by Hadley Wickham and Garrett Grolemund\nModern R with the Tidyverse by Bruno Rodrigues\nTidy Modeling with R by Max Kuhn and Julia Silge\nData Analysis in R by Steve Midway\nIntroduction to Econometrics with R by Christoph Hanck and others\nModern Data Science with R by Benjamin Baumer, Daniel Kaplan, and Nicholas Horton\n\n\n\nReporting with R\n\nR Markdown: The Definitive Guide by Yihui Xie, JJ Allaire, and Garrett Grolemund\nBuilding reproducible analytical pipelines with R by Bruno Rodrigues\nTelling Stories with Data by Rohan Alexander"
+  },
+  {
+    "objectID": "links/old_index.html#technical-resources",
+    "href": "links/old_index.html#technical-resources",
+    "title": "An Incomplete Collection",
+    "section": "Technical Resources",
+    "text": "Technical Resources\n\nGit\n\nPro Git by Scott Chacon and Ben Straub\nHappy Git and GitHub for the UserR by Jenny Bryan\nGit in Practice by Mike McQuaid\n\n\n\nVim\n\nOpenVim by Henrik Huttunen\nMastering the Vim Language recorded presentation by Chris Toomey\nVim as Your Editor a 6-part playist by ThePrimeagen\n\n\n\nQuarto\n\nQuarto Docs\nQuarto Cheatsheet\nQuarto Extensions\nQuarto website examples: Twitter List Linkedin List\n\n\n\nCommand Line / DevOps\n\nData Science at the Command Line by Jeroen Janssens\nThe Unix Workbench by Sean Kross\nDev Ops for Data Science by Alex Gold\nStat447: Data Science Programming Methods by Dirk Eddelbuettel\n\n\n\nPython\n\nPython 4 Data Science by Arthur Turrell and others\n\n\n\nEconometrics, Data Science, Machine Learning, Bayesian Stats\n\nStatistical Rethinking 2 with rstan and the tidyverse by Solomon Kurz\nTeaching Bayesian Statistics by TALMO\nA Collection of Econometrics Resources by Giuseepe Cavaliere\nApplied Machine Learning for Tabular Data by Max Kuhn and Kjell Johnson\nStatistical Tools for Causal Inference by Sylvain Chabe-Ferret\nCausal Inference: The Mixtape by Scott Cunningham\nApplied Causal Inference Powered by ML and AI by Chernozhukov, Hansen, Kallus, Spindler, and Syrgkanis\nThe Data Science Handbooks: Advice and Insights from 25 Amazing Data Scientists by Shan, Wang, Chen, and Song\n\n\n\nNotes\n\nHierarchical Modeling by Michael Betancourt\nKeep Calm and Learn Multilevel Logistic Modeling by Nicolas Sommet and Davide Morselli\nMath-Stat Course Notes by Joshua Tebbs\nNotes by Adam N Smith\nEconometrics Notes by Tim Armstrong"
+  },
+  {
+    "objectID": "links/old_index.html#quotes",
+    "href": "links/old_index.html#quotes",
+    "title": "An Incomplete Collection",
+    "section": "Quotes",
+    "text": "Quotes\n\nIra Glass: Good Taste & Volume of Work (link)\n\nNobody tells this to people who are beginners, I wish someone told me.\nAll of us who do creative work, we get into it because we have good taste. But there is this gap. For the first couple years you make stuff, it’s just not that good. It’s trying to be good, it has potential, but it’s not. But your taste, the thing that got you into the game, is still killer. And your taste is why your work disappoints you.\nA lot of people never get past this phase, they quit. Most people I know who do interesting, creative work went through years of this. We know our work doesn’t have this special thing that we want it to have. We all go through this. And if you are just starting out or you are still in this phase, you gotta know its normal and the most important thing you can do is do a lot of work. Put yourself on a deadline so that every week you will finish one story. It is only by going through a volume of work that you will close that gap, and your work will be as good as your ambitions. And I took longer to figure out how to do this than anyone I’ve ever met. It’s gonna take awhile. It’s normal to take awhile. You’ve just gotta fight your way through.\n\n\n\nTeddy Roosevelt: The Man in the Arena (link)\n\nIt is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better.\nThe credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows the great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Dan Yavorsky",
@@ -371,46 +441,60 @@
     "text": "Additional Resources\nTo learn more, definitely check out quarto.org’s resources for making websites: https://quarto.org/docs/websites/\nPosit’s four-part YouTube tutorial on Quarto Websites is another valuable resource: part 1, part 2, part 3, part 4.\nAdditionally, there are several other excellent tutorials on developing Quarto websites and blogs:\n\n\n\nAuthor\nLink\n\n\n\n\nUCSB Med\nhttps://ucsb-meds.github.io/creating-quarto-websites/\n\n\nBeatriz Milz\nhttps://beamilz.com/posts/2022-06-05-creating-a-blog-with-quarto/en/\n\n\nMarvin Schmitt\nhttps://www.marvinschmitt.com/blog/website-tutorial-quarto/\n\n\nAlbert Rapp\nhttps://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html\n\n\nSam Csik\nhttps://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/\n\n\nDeepsha Menghani\nhttps://www.youtube.com/watch?v=xtSFXtDf4cM\n\n\n\n\\[\n\\hspace{1em}\n\\]\nFinally, if you see something you like on someone else’s website, you can usually visit their GitHub page to see how they did it!\n\nIn particular Andrew Heiss and Marvin Schmitt have fully-featured Quarto-based websites.\nIn addition, the following websites (listed alphabetically by first name) offer inspiration too: Albert Rapp, Beatriz Milz, Chris Kenny, Ella Kaye, Emil Hvitfeldt, Meghan Hall, Mine Dogucu, Sam Csik, and Tom Mock.\nMine is here."
   },
   {
-    "objectID": "links/index.html",
-    "href": "links/index.html",
-    "title": "An Incomplete Collection",
+    "objectID": "links/advice.html",
+    "href": "links/advice.html",
+    "title": "Links",
     "section": "",
     "text": "This is Water by David Foster Wallace\nA Mathematician’s Lament by Paul Lockhart\nMaker’s Schedule, Manager’s Schedule by Paul Graham\nLesson’s from Amazon by David Anderson\n\n\n\n\n\nHow to Send and Reply to email by Matt Might\nPublication, Publication by Gary King\n\n\n\n\n\nTeaching Smart People How to Learn by Chris Argyris\nWhy Books Don’t Work by Andy Matuschak\nEvergreen Notes by Andy Matuschak\n\n\n\n\n\nKen Wilbur: Reasons to Get (or Not) a PhD and Choosing a field, Subfield, and PhD Program\nSusan Athey: Professional Advice\nJesse Shapiro: Notes on Applying for a PhD in Economics\nAnatoli Colicev: The PhD Journey\nMartin Schwartz: The Importance of Stupidity in Scientific Research"
   },
   {
-    "objectID": "links/index.html#re-reading-list",
-    "href": "links/index.html#re-reading-list",
-    "title": "An Incomplete Collection",
+    "objectID": "links/advice.html#advice",
+    "href": "links/advice.html#advice",
+    "title": "Links",
     "section": "",
     "text": "This is Water by David Foster Wallace\nA Mathematician’s Lament by Paul Lockhart\nMaker’s Schedule, Manager’s Schedule by Paul Graham\nLesson’s from Amazon by David Anderson\n\n\n\n\n\nHow to Send and Reply to email by Matt Might\nPublication, Publication by Gary King\n\n\n\n\n\nTeaching Smart People How to Learn by Chris Argyris\nWhy Books Don’t Work by Andy Matuschak\nEvergreen Notes by Andy Matuschak\n\n\n\n\n\nKen Wilbur: Reasons to Get (or Not) a PhD and Choosing a field, Subfield, and PhD Program\nSusan Athey: Professional Advice\nJesse Shapiro: Notes on Applying for a PhD in Economics\nAnatoli Colicev: The PhD Journey\nMartin Schwartz: The Importance of Stupidity in Scientific Research"
   },
   {
-    "objectID": "links/index.html#blogs",
-    "href": "links/index.html#blogs",
-    "title": "An Incomplete Collection",
-    "section": "Blogs",
-    "text": "Blogs\n\nStats\n\nAndrew Gelman\nRichard McElreath\nCosma Shalizi\n\n\n\nData Science\n\nInstaCart\nNetflix\nAirbnb\nAmazon Science\n\n\n\nEconomics, Marketing, Consulting\n\nJoel Cadwell (inactive)\nChris Chapman’s QuantUX\nJohn Cook\nMarc and Jeff Dotson\nAndrew Heiss\nStephan Seiler’s Annual Best-of]"
+    "objectID": "links/compute.html",
+    "href": "links/compute.html",
+    "title": "Links",
+    "section": "",
+    "text": "Pro Git by Scott Chacon and Ben Straub\nHappy Git and GitHub for the UserR by Jenny Bryan\nGit in Practice by Mike McQuaid\n\n\n\n\n\nOpenVim by Henrik Huttunen\nMastering the Vim Language recorded presentation by Chris Toomey\nVim as Your Editor a 6-part playist by ThePrimeagen\n\n\n\n\n\nQuarto Docs\nQuarto Cheatsheet\nQuarto Extensions\nQuarto website examples: Twitter List Linkedin List\n\n\n\n\n\nData Science at the Command Line by Jeroen Janssens\nThe Unix Workbench by Sean Kross\nDev Ops for Data Science by Alex Gold\nStat447: Data Science Programming Methods by Dirk Eddelbuettel\n\n\n\n\n\nPython 4 Data Science by Arthur Turrell and others"
   },
   {
-    "objectID": "links/index.html#r-resources",
-    "href": "links/index.html#r-resources",
-    "title": "An Incomplete Collection",
-    "section": "R Resources",
-    "text": "R Resources\n\nR-Language\n\nBig Book of R compiled by Oscar Baruffa\nAdvanced R by Hadley Wickham\nAdvanced R Solutions by Malte Grosser and Henning Bumann\nR Packages by Hadley Wickham and Jenny Bryan\nR for the Rest of Us: A Stats-Free Intro by David Keyes\nMastering Software Development in R by Roger Peng, Sean Kross, and Brooke Anderson\nScaling Up with R and Arrow by Nic Crane, Jonathan Keane, and Neal Richardson\n\n\n\nData Viz with R\n\nggplot2 by Hadley Wickham\nData Visualization: A Practical Introduction by Kieran Healy\nModern Data Visualization with R by Robert Kabacoff\n\n\n\nStats with R\n\nR for Data Science by Hadley Wickham and Garrett Grolemund\nModern R with the Tidyverse by Bruno Rodrigues\nTidy Modeling with R by Max Kuhn and Julia Silge\nData Analysis in R by Steve Midway\nIntroduction to Econometrics with R by Christoph Hanck and others\nModern Data Science with R by Benjamin Baumer, Daniel Kaplan, and Nicholas Horton\n\n\n\nReporting with R\n\nR Markdown: The Definitive Guide by Yihui Xie, JJ Allaire, and Garrett Grolemund\nBuilding reproducible analytical pipelines with R by Bruno Rodrigues\nTelling Stories with Data by Rohan Alexander"
+    "objectID": "links/compute.html#non-r-computing-resources",
+    "href": "links/compute.html#non-r-computing-resources",
+    "title": "Links",
+    "section": "",
+    "text": "Pro Git by Scott Chacon and Ben Straub\nHappy Git and GitHub for the UserR by Jenny Bryan\nGit in Practice by Mike McQuaid\n\n\n\n\n\nOpenVim by Henrik Huttunen\nMastering the Vim Language recorded presentation by Chris Toomey\nVim as Your Editor a 6-part playist by ThePrimeagen\n\n\n\n\n\nQuarto Docs\nQuarto Cheatsheet\nQuarto Extensions\nQuarto website examples: Twitter List Linkedin List\n\n\n\n\n\nData Science at the Command Line by Jeroen Janssens\nThe Unix Workbench by Sean Kross\nDev Ops for Data Science by Alex Gold\nStat447: Data Science Programming Methods by Dirk Eddelbuettel\n\n\n\n\n\nPython 4 Data Science by Arthur Turrell and others"
   },
   {
-    "objectID": "links/index.html#technical-resources",
-    "href": "links/index.html#technical-resources",
-    "title": "An Incomplete Collection",
-    "section": "Technical Resources",
-    "text": "Technical Resources\n\nGit\n\nPro Git by Scott Chacon and Ben Straub\nHappy Git and GitHub for the UserR by Jenny Bryan\nGit in Practice by Mike McQuaid\n\n\n\nVim\n\nOpenVim by Henrik Huttunen\nMastering the Vim Language recorded presentation by Chris Toomey\nVim as Your Editor a 6-part playist by ThePrimeagen\n\n\n\nQuarto\n\nQuarto Docs\nQuarto Cheatsheet\nQuarto Extensions\nQuarto website examples: Twitter List Linkedin List\n\n\n\nCommand Line / DevOps\n\nData Science at the Command Line by Jeroen Janssens\nThe Unix Workbench by Sean Kross\nDev Ops for Data Science by Alex Gold\nStat447: Data Science Programming Methods by Dirk Eddelbuettel\n\n\n\nPython\n\nPython 4 Data Science by Arthur Turrell and others\n\n\n\nEconometrics, Data Science, Machine Learning, Bayesian Stats\n\nStatistical Rethinking 2 with rstan and the tidyverse by Solomon Kurz\nTeaching Bayesian Statistics by TALMO\nA Collection of Econometrics Resources by Giuseepe Cavaliere\nApplied Machine Learning for Tabular Data by Max Kuhn and Kjell Johnson\nStatistical Tools for Causal Inference by Sylvain Chabe-Ferret\nCausal Inference: The Mixtape by Scott Cunningham\nApplied Causal Inference Powered by ML and AI by Chernozhukov, Hansen, Kallus, Spindler, and Syrgkanis\nThe Data Science Handbooks: Advice and Insights from 25 Amazing Data Scientists by Shan, Wang, Chen, and Song\n\n\n\nNotes\n\nHierarchical Modeling by Michael Betancourt\nKeep Calm and Learn Multilevel Logistic Modeling by Nicolas Sommet and Davide Morselli\nMath-Stat Course Notes by Joshua Tebbs\nNotes by Adam N Smith\nEconometrics Notes by Tim Armstrong"
+    "objectID": "links/r.html",
+    "href": "links/r.html",
+    "title": "Links",
+    "section": "",
+    "text": "Big Book of R compiled by Oscar Baruffa\nAdvanced R by Hadley Wickham\nAdvanced R Solutions by Malte Grosser and Henning Bumann\nR Packages by Hadley Wickham and Jenny Bryan\nR for the Rest of Us: A Stats-Free Intro by David Keyes\nMastering Software Development in R by Roger Peng, Sean Kross, and Brooke Anderson\nScaling Up with R and Arrow by Nic Crane, Jonathan Keane, and Neal Richardson\n\n\n\n\n\nggplot2 by Hadley Wickham\nData Visualization: A Practical Introduction by Kieran Healy\nModern Data Visualization with R by Robert Kabacoff\n\n\n\n\n\nR for Data Science by Hadley Wickham and Garrett Grolemund\nModern R with the Tidyverse by Bruno Rodrigues\nTidy Modeling with R by Max Kuhn and Julia Silge\nData Analysis in R by Steve Midway\nIntroduction to Econometrics with R by Christoph Hanck and others\nModern Data Science with R by Benjamin Baumer, Daniel Kaplan, and Nicholas Horton\n\n\n\n\n\nR Markdown: The Definitive Guide by Yihui Xie, JJ Allaire, and Garrett Grolemund\nBuilding reproducible analytical pipelines with R by Bruno Rodrigues\nTelling Stories with Data by Rohan Alexander"
   },
   {
-    "objectID": "links/index.html#quotes",
-    "href": "links/index.html#quotes",
-    "title": "An Incomplete Collection",
-    "section": "Quotes",
-    "text": "Quotes\n\nIra Glass: Good Taste & Volume of Work (link)\n\nNobody tells this to people who are beginners, I wish someone told me.\nAll of us who do creative work, we get into it because we have good taste. But there is this gap. For the first couple years you make stuff, it’s just not that good. It’s trying to be good, it has potential, but it’s not. But your taste, the thing that got you into the game, is still killer. And your taste is why your work disappoints you.\nA lot of people never get past this phase, they quit. Most people I know who do interesting, creative work went through years of this. We know our work doesn’t have this special thing that we want it to have. We all go through this. And if you are just starting out or you are still in this phase, you gotta know its normal and the most important thing you can do is do a lot of work. Put yourself on a deadline so that every week you will finish one story. It is only by going through a volume of work that you will close that gap, and your work will be as good as your ambitions. And I took longer to figure out how to do this than anyone I’ve ever met. It’s gonna take awhile. It’s normal to take awhile. You’ve just gotta fight your way through.\n\n\n\nTeddy Roosevelt: The Man in the Arena (link)\n\nIt is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better.\nThe credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows the great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat."
+    "objectID": "links/r.html#r-resources",
+    "href": "links/r.html#r-resources",
+    "title": "Links",
+    "section": "",
+    "text": "Big Book of R compiled by Oscar Baruffa\nAdvanced R by Hadley Wickham\nAdvanced R Solutions by Malte Grosser and Henning Bumann\nR Packages by Hadley Wickham and Jenny Bryan\nR for the Rest of Us: A Stats-Free Intro by David Keyes\nMastering Software Development in R by Roger Peng, Sean Kross, and Brooke Anderson\nScaling Up with R and Arrow by Nic Crane, Jonathan Keane, and Neal Richardson\n\n\n\n\n\nggplot2 by Hadley Wickham\nData Visualization: A Practical Introduction by Kieran Healy\nModern Data Visualization with R by Robert Kabacoff\n\n\n\n\n\nR for Data Science by Hadley Wickham and Garrett Grolemund\nModern R with the Tidyverse by Bruno Rodrigues\nTidy Modeling with R by Max Kuhn and Julia Silge\nData Analysis in R by Steve Midway\nIntroduction to Econometrics with R by Christoph Hanck and others\nModern Data Science with R by Benjamin Baumer, Daniel Kaplan, and Nicholas Horton\n\n\n\n\n\nR Markdown: The Definitive Guide by Yihui Xie, JJ Allaire, and Garrett Grolemund\nBuilding reproducible analytical pipelines with R by Bruno Rodrigues\nTelling Stories with Data by Rohan Alexander"
+  },
+  {
+    "objectID": "links/quotes.html",
+    "href": "links/quotes.html",
+    "title": "Links",
+    "section": "",
+    "text": "Nobody tells this to people who are beginners, I wish someone told me.\nAll of us who do creative work, we get into it because we have good taste. But there is this gap. For the first couple years you make stuff, it’s just not that good. It’s trying to be good, it has potential, but it’s not. But your taste, the thing that got you into the game, is still killer. And your taste is why your work disappoints you.\nA lot of people never get past this phase, they quit. Most people I know who do interesting, creative work went through years of this. We know our work doesn’t have this special thing that we want it to have. We all go through this. And if you are just starting out or you are still in this phase, you gotta know its normal and the most important thing you can do is do a lot of work. Put yourself on a deadline so that every week you will finish one story. It is only by going through a volume of work that you will close that gap, and your work will be as good as your ambitions. And I took longer to figure out how to do this than anyone I’ve ever met. It’s gonna take awhile. It’s normal to take awhile. You’ve just gotta fight your way through.\n\n\n\n\n\nIt is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better.\nThe credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows the great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat."
+  },
+  {
+    "objectID": "links/quotes.html#quotes",
+    "href": "links/quotes.html#quotes",
+    "title": "Links",
+    "section": "",
+    "text": "Nobody tells this to people who are beginners, I wish someone told me.\nAll of us who do creative work, we get into it because we have good taste. But there is this gap. For the first couple years you make stuff, it’s just not that good. It’s trying to be good, it has potential, but it’s not. But your taste, the thing that got you into the game, is still killer. And your taste is why your work disappoints you.\nA lot of people never get past this phase, they quit. Most people I know who do interesting, creative work went through years of this. We know our work doesn’t have this special thing that we want it to have. We all go through this. And if you are just starting out or you are still in this phase, you gotta know its normal and the most important thing you can do is do a lot of work. Put yourself on a deadline so that every week you will finish one story. It is only by going through a volume of work that you will close that gap, and your work will be as good as your ambitions. And I took longer to figure out how to do this than anyone I’ve ever met. It’s gonna take awhile. It’s normal to take awhile. You’ve just gotta fight your way through.\n\n\n\n\n\nIt is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better.\nThe credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows the great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat."
   },
   {
     "objectID": "pubs/index.html",

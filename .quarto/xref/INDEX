@@ -286,5 +286,26 @@
   },
   "posts/011-terminal-on-mac/index.qmd": {
     "index.html": "02f1000f"
+  },
+  "links/advice.qmd": {
+    "advice.html": "ece85804"
+  },
+  "links/old_index.qmd": {
+    "old_index.html": "6c222f6c"
+  },
+  "links/compute.qmd": {
+    "compute.html": "3a83cd55"
+  },
+  "links/blogs.qmd": {
+    "blogs.html": "2bacdc62"
+  },
+  "links/r.qmd": {
+    "r.html": "459aef4a"
+  },
+  "links/stats.qmd": {
+    "stats.html": "c89a7c1b"
+  },
+  "links/quotes.qmd": {
+    "quotes.html": "5dbbf61b"
   }
 }
