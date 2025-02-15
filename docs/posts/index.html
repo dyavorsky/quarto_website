@@ -109,6 +109,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-solutions .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-description","listing-image"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-solutions'] = new List('listing-solutions', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 <style>
 
@@ -264,6 +292,7 @@ window.Quarto = {
   <ul>
   <li><a href="#posts" id="toc-posts" class="nav-link active" data-scroll-target="#posts">Posts</a></li>
   <li><a href="#book-notes" id="toc-book-notes" class="nav-link" data-scroll-target="#book-notes">Book Notes</a></li>
+  <li><a href="#solutions" id="toc-solutions" class="nav-link" data-scroll-target="#solutions">Solutions</a></li>
   </ul>
 </nav>
     </div>
@@ -418,7 +447,7 @@ No matching items
 <h2 class="anchored" data-anchor-id="book-notes">Book Notes</h2>
 <div id="listing-booknotes" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1738826859073" data-listing-reading-time-sort="33" data-listing-word-count-sort="6483">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1739399347801" data-listing-reading-time-sort="33" data-listing-word-count-sort="6483">
 <a href="../posts/801-abramovich-ritov/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -589,6 +618,33 @@ Alvin Roth
 <div class="listing-author">
 
 </div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="solutions" class="level2">
+<h2 class="anchored" data-anchor-id="solutions">Solutions</h2>
+<div id="listing-solutions" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0">
+<a href="https://dyavorsky.github.io/rizzo-stat-computing/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://raw.githubusercontent.com/dyavorsky/rizzo-stat-computing/refs/heads/main/cover.webp" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Statistical Computing with R (2ed)
+</h5>
+<div class="card-text listing-description">
+Maria Rizzo
 </div>
 </div>
 </div>
