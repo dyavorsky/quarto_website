@@ -17,6 +17,7 @@ toc: false
  - [OpenVim](https://www.openvim.com/) by Henrik Huttunen
  - [Mastering the Vim Language](https://www.youtube.com/watch?v=wlR5gYd6um0) recorded presentation by Chris Toomey
  - [Vim as Your Editor](https://www.youtube.com/watch?v=X6AR2RMB5tE&list=PLm323Lc7iSW_wuxqmKx_xxNtJC_hJbQ7R) a 6-part playist by ThePrimeagen
+ - [NeoVim Setup Guide](https://www.josean.com/posts/how-to-setup-neovim-2024) by Josean Martinez
 
 #### Quarto
 

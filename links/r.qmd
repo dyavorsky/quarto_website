@@ -38,8 +38,10 @@ toc: false
  - [Telling Stories with Data](https://tellingstorieswithdata.com/) by Rohan Alexander
 
  
+#### Quant UX & Survey Research with R
 
-
+ - [Exploring Complex Survey Data Analysis](https://tidy-survey-r.github.io/tidy-survey-book/) by Stephanie Zimmer, Rebecca Powell, and Isabella Velasquez
+ - [Quant UX Resources](https://carljpearson.com/learn-quantitative-ux-research-self-study-resources/) compiled by Carl Pearson
 
 
 
