@@ -39,7 +39,7 @@ website:
       - text: "Links"
         icon: link-45deg
         menu: 
-          - text: "R"
+          - text: "R Programming"
             icon: bi-r-circle # file-earmark-code
             href: links/r.qmd
           - text: "Computing"
