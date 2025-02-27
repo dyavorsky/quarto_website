@@ -9,8 +9,13 @@ listing:
       - "011-terminal-on-mac"
       - "020-quarto-websites" 
       - "021-host-on-github"
-      - "101-gumble"
     type: grid 
+    sort: "date-desc"
+    categories: false
+  - id: dcm
+    contents: 
+      - "101-gumble"
+    type: grid
     sort: "date-desc"
     categories: false
   - id: booknotes
@@ -42,10 +47,18 @@ listing:
 :::{#blogposts}
 :::
 
+
+## Discrete Choice
+
+:::{#dcm}
+:::
+
+
 ## Book Notes
 
 :::{#booknotes}
 :::
+
 
 ## Solutions
 
