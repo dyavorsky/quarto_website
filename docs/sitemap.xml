@@ -1,103 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.danyavorsky.com/cv/index.html</loc>
-    <lastmod>2024-08-26T18:23:08.652Z</lastmod>
-  </url>
-  <url>
     <loc>https://www.danyavorsky.com/teaching/index.html</loc>
-    <lastmod>2024-08-03T20:30:55.017Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/links/stats.html</loc>
-    <lastmod>2025-02-24T00:19:37.484Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/links/blogs.html</loc>
-    <lastmod>2025-02-12T21:25:15.029Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/links/advice.html</loc>
-    <lastmod>2025-02-12T21:30:06.769Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/posts/020-quarto-websites/index.html</loc>
-    <lastmod>2025-01-22T05:51:10.747Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/posts/801-abramovich-ritov/index.html</loc>
-    <lastmod>2025-02-12T22:29:07.801Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/posts/101-gumble/index.html</loc>
-    <lastmod>2024-08-03T20:41:31.261Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/posts/021-host-on-github/index.html</loc>
-    <lastmod>2024-08-26T20:42:08.954Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/posts/851-good-habits-bad-habits/index.html</loc>
-    <lastmod>2024-08-26T17:48:50.847Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/posts/854-stolen-focus/index.html</loc>
-    <lastmod>2025-02-26T19:03:01.961Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/posts/010-git-basics/index.html</loc>
-    <lastmod>2024-04-03T06:38:15.464Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/posts/857-who-gets-what-and-why/index.html</loc>
-    <lastmod>2025-02-26T22:08:57.240Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/posts/001-my-setup/index.html</loc>
-    <lastmod>2024-09-29T06:58:57.296Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/posts/852-how-learning-works/index.html</loc>
-    <lastmod>2024-08-26T17:50:20.163Z</lastmod>
+    <lastmod>2024-08-16T03:18:06.744Z</lastmod>
   </url>
   <url>
     <loc>https://www.danyavorsky.com/posts/index.html</loc>
-    <lastmod>2025-02-15T17:54:51.503Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/posts/853-peak/index.html</loc>
-    <lastmod>2025-02-26T18:52:01.201Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/posts/011-terminal-on-mac/index.html</loc>
-    <lastmod>2025-02-06T07:46:17.059Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.danyavorsky.com/posts/855-war-of-art/index.html</loc>
-    <lastmod>2025-02-26T19:10:37.775Z</lastmod>
+    <lastmod>2025-02-24T22:19:12.734Z</lastmod>
   </url>
   <url>
     <loc>https://www.danyavorsky.com/posts/856-making-of-a-manager/index.html</loc>
-    <lastmod>2025-02-26T19:09:43.274Z</lastmod>
+    <lastmod>2025-02-27T22:50:51.645Z</lastmod>
   </url>
   <url>
-    <loc>https://www.danyavorsky.com/index.html</loc>
-    <lastmod>2025-02-12T21:25:54.741Z</lastmod>
+    <loc>https://www.danyavorsky.com/posts/854-stolen-focus/index.html</loc>
+    <lastmod>2025-02-27T22:50:51.644Z</lastmod>
   </url>
   <url>
-    <loc>https://www.danyavorsky.com/links/compute.html</loc>
-    <lastmod>2025-02-24T00:14:37.890Z</lastmod>
+    <loc>https://www.danyavorsky.com/posts/852-how-learning-works/index.html</loc>
+    <lastmod>2024-09-12T21:46:10.143Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/posts/801-abramovich-ritov/index.html</loc>
+    <lastmod>2025-02-24T22:19:12.732Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/posts/021-host-on-github/index.html</loc>
+    <lastmod>2024-09-12T21:46:10.139Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/posts/011-terminal-on-mac/index.html</loc>
+    <lastmod>2025-02-24T22:19:12.727Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/posts/001-my-setup/index.html</loc>
+    <lastmod>2024-10-07T04:33:33.911Z</lastmod>
   </url>
   <url>
     <loc>https://www.danyavorsky.com/links/r.html</loc>
-    <lastmod>2025-02-24T00:18:03.164Z</lastmod>
+    <lastmod>2025-02-24T22:19:12.724Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/links/compute.html</loc>
+    <lastmod>2025-02-24T22:19:12.723Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/links/advice.html</loc>
+    <lastmod>2025-02-24T22:19:12.723Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/cv/index.html</loc>
+    <lastmod>2024-09-12T21:46:10.104Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/index.html</loc>
+    <lastmod>2024-09-12T21:46:10.132Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/links/blogs.html</loc>
+    <lastmod>2025-02-24T22:19:12.723Z</lastmod>
   </url>
   <url>
     <loc>https://www.danyavorsky.com/links/quotes.html</loc>
-    <lastmod>2025-02-12T21:28:52.323Z</lastmod>
+    <lastmod>2025-02-24T22:19:12.724Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/links/stats.html</loc>
+    <lastmod>2025-02-24T22:19:12.725Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/posts/010-git-basics/index.html</loc>
+    <lastmod>2024-04-03T16:50:48.539Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/posts/020-quarto-websites/index.html</loc>
+    <lastmod>2025-02-24T22:19:12.732Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/posts/101-gumble/index.html</loc>
+    <lastmod>2024-04-25T17:49:26.842Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/posts/851-good-habits-bad-habits/index.html</loc>
+    <lastmod>2024-09-12T21:46:10.142Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/posts/853-peak/index.html</loc>
+    <lastmod>2025-02-27T22:50:51.644Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/posts/855-war-of-art/index.html</loc>
+    <lastmod>2025-02-24T22:19:12.733Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.danyavorsky.com/posts/857-who-gets-what-and-why/index.html</loc>
+    <lastmod>2025-02-27T22:53:24.367Z</lastmod>
   </url>
   <url>
     <loc>https://www.danyavorsky.com/pubs/index.html</loc>
-    <lastmod>2024-08-03T20:39:37.819Z</lastmod>
+    <lastmod>2024-08-16T03:18:06.740Z</lastmod>
   </url>
 </urlset>
