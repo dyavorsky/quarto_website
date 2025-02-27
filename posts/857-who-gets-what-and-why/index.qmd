@@ -7,22 +7,23 @@ number-sections: false
 draft: false
 ---
 
+## Markets are Everywhere
 
 ### 1. Introduction: Every Market Tells a Story
 
 Economics is about the efficient allocation of scarce resources, and about making resources less scarce.
 
-Matching is economist-speak for how we get the things we choose in life that also must choose us.
+**Matching is economist-speak for how we get the things we choose in life that also must choose us.**
 
-Often there is a structured matchmaking environment -- some kind of application and selection process -- through which that courtship and choosing takes place.
+Often there is a **structured matchmaking environment** -- some kind of application and selection process -- through which that courtship and choosing takes place.
 
-Until recently, economists often passed quickly over matching and focused primarily on commodity markets, in which prices alone determine who gets what. In a commodity market, you decide what you want and if you can afford it, you get it.
+Until recently, economists often passed quickly over matching and focused primarily on commodity markets, in which **prices** alone determine who gets what. In a commodity market, you decide what you want and if you can afford it, you get it.
 
 But in matching markets, prices don't work that way.
 
 Some matches don't use money at all. Kidney transplants cost a lot, but cash doesn't decide who gets a kidney.
 
-Sometimes a matching process, whether formal or ad hoc, evolves over time. But sometimes, especially recently, it is designed. The new economics of market design brings science to matchmaking and markets generally. That's what this book is about.
+Sometimes a matching process, whether formal or ad hoc, evolves over time. But sometimes, especially recently, it is designed. The new economics of market design **brings science to matchmaking and markets** generally. **That's what this book is about.**
 
 Market design helps solve problems that existing marketplaces haven't been able to solve naturally. Our work gives us new insights into a really makes "free markets" free to work properly.
 
@@ -40,27 +41,25 @@ One thing that all markets challenge participants to do is to decide what they l
 
 Decisions that depend on what others are doing, are called strategic decisions and are the concern of the branch of economics called game theory. Strategic decision making plays a big role in determining who does well or badly in many selection processes.
 
-Stories about market design often begin with failure – failure to provide thickness, to ease congestion, or to make participation safe and simple.
+**Stories about market design often begin with failure** – failure to provide thickness, to ease congestion, or to make participation safe and simple.
 
 ### 2. Markets for Breakfast and Through the Day
 
 The Chicago Board of trade made wheat into a commodity by classifying it on the basis of its quality (number 1 being the best) and type (winter or spring, hard or soft, red or white).
 
-Commodifying wheat via a reliable grading system helped make the market safe.
+**Commodifying** wheat via a reliable grading system helped make the market **safe**.
 
-Turning a market into a commodity market helps make it really thick, beacuse any buyer can buy from any seller, and any seller can sell to any buyer.  At the same time, it also helps the market deal with one of the main sources of congestion in matching markets, since in a commodity market each offer to sell can be made to all buyers, and each offer to buy can be made to all sellers.  So unlike in the market for jobs or houses, no one has to wait for an offer to be made to him personally; anyone who sees (or hears) a price he likes can take it.
+Turning a market into a commodity market helps make it really **thick**, because any buyer can buy from any seller, and any seller can sell to any buyer.  At the same time, it also helps the market deal with one of the main sources of congestion in matching markets, since in a commodity market each offer to sell can be made to all buyers, and each offer to buy can be made to all sellers.  So unlike in the market for jobs or houses, no one has to wait for an offer to be made to him personally; anyone who sees (or hears) a price he likes can take it.
 
-The Ethiopian Commodity Exchange was created recently, in 2008.
-
-Notice the tension between commoditization and product differentiation – that is, between wanting to sell in a thick market to buyers, even if they don't care who you are, and trying to make your product special enough that many buyers will care enough about you to seek you out. Sellers enjoy selling in a thick market of buyers, but they don't enjoy being interchangeable with other sellers.
+**Notice the tension between commoditization and product differentiation – that is, between wanting to sell in a thick market to buyers, even if they don't care who you are, and trying to make your product special enough that many buyers will care enough about you to seek you out. Sellers enjoy selling in a thick market of buyers, but they don't enjoy being interchangeable with other sellers.**
 
 Credit cards offer merchants safety, but that safety came at the cost of transaction fees. Most merchants were willing to pay those fees because accepting credit cards brought in customers they might otherwise have missed, and also because credit cards make it safe for them to take non-cash payment from customers they didn't know well, since the bank guaranteed payment as a form of insurance.
 
-The bank that handles Amazon's transactions, or the one that mangaes the account of your favorite restaurant, is typically different from the bank that issued your credit card and takes your payment. So behind-the-scenes, there is an interbank market, too, through which payments flow.
+The bank that handles Amazon's transactions, or the one that manages the account of your favorite restaurant, is typically different from the bank that issued your credit card and takes your payment. So behind-the-scenes, there is an interbank market, too, through which payments flow.
 
 Instances in which consumers recoil from offers that strike them as unfair are more common than you might think.
 
-Each of these ubiquitous marketplaces has found a way to succeed, not only in making markets thick, uncongested, and safe, but also in making them simple to use. Making a market simple to use, however, may not be simple.
+Each of these ubiquitous marketplaces has found a way to succeed, not only in making market **thick**, **uncongested**, and **safe**, but also in making them **simple** to use. Making a market simple to use, however, may not be simple.
 
 One thing we'll see is that the "magic" of the market doesn't happen by magic: many marketplaces fail to work well because of poor design.
 
@@ -72,7 +71,7 @@ How can people trade indivisible goods if everyone needs just one, has one to tr
 
 Shapley and Scarf showed that for any preferences that patients and their surgeons might have regarding which kidneys they would like, there was always a way to find a set of cyclical trades they called "top trading cycles" with the property that no group of patients and donors could go off on their own and find a cycle of trades that they liked better.
 
-I was able to show that top trading cycles made it possible to organize a clearinghouse in such a way as to guarantee to patients and their surgeons that it was safe for them to be completely candid in revealing this kind of information.
+I was able to show that top trading cycles made it possible to organize a clearinghouse in such a way as to **guarantee** to patients and their surgeons that it was safe for them to be completely candid in revealing this kind of information.
 
 Nowadays, the directors of transplant centers have become strategic players, and the biggest challenge is designing exchange clearinghouses in a way that makes it safe for hospitals to enroll all their patient-donor pairs, not just the ones that are hardest to match. At the moment, some hospitals are hanging onto their easy-to-match pairs so they can do their exchanges in-house. 
 
@@ -80,10 +79,84 @@ Withholding easy-to-match exchanges is a common temptation in markets with middl
 
 It was clear from the outset that the best way to make the market thick enough to find all potential exchanges would be to organize a national kidney exchange. But two problems immediately presented themselves: one technical and computational, the other political and organizational.
 
-Kidney exchange is very different from the markets we saw in chapter 2. But as I've tried to show, market designed for kidney exchange is still about making the market thick, uncongested, safe and simple, and efficient.
+ Kidney exchange is very different from the markets we saw in chapter 2. But as I've tried to show, market design for kidney exchange is still about making the market, thick, uncongested, safe and simple, and efficient.
 
-The general lesson to keep in mind as we look at more usual markets is that not only do marketplaces have to solve the problems of creating a thick market, managing congestion, and ensuring that participation is safe and simple, but they also have to keep solving and resolving these problems as markets evolve.
+ The general lesson to keep in mind as we look at more usual markets is that not only do marketplaces have to solve the problems of creating a thick market, managing congestion, and ensuring that participation is safe and simple, but they also have to keep solving and resolving these problems as markets evolve.
+
+## How Marketplaces Fail
+
+### 4. Too Soon
+
+Gaming the system when the system is "first come, first served" can mean contriving to be earlier than your competitors. That's why, for example, the recruitment of college freshmen to join fraternities and sororities is called "rush." ... It's also the reason that Oklahomans are called "Sooners." 
+
+Sometimes the problems of going too soon are subtler. Jumping the gun can cause potentially thick markets to unravel. They become thin when too many participants try to transact before their competitors are fully awake and present in the market. College football Bowl Games are one example.
+
+One of the dangers associated with early transactions: they can come well before important information is available.
+
+It's often hard to get quantitative measurement of how well a matching market is performing in some ultimate sense.
+
+Rushing to be sooner isn't just something in the history books or on the sports pages. If you know a recent college graduate who recently took a job with a big investment bank such as Goldman Sachs, there's a good chance that she'll get a call soon after beginning to work. It will be from a big private equity firm interested in signing her to a contract that would take effect after she's worked for Goldman for two years. 
+
+When a market's organization predictably leads to trouble, economists start asking whether it might be _inefficient_, meaning that a different organization might make everyone involved better off. 
+
+If making offers very early makes it hard to identify good job candidates, you might think that some firms would take a little more time and make offers to candidates who had already received at least one offer from another firm. But the firms that made early offers prevented this by making their offers _exploding_. ... Exploding offers make markets thin as well as early, and so participants are deprived of information about both the quality of matches and what kind of matches the market might offer. in that situation, _nobody_ has enough information to make an optimal decision.
+
+More than the other sources of market failure that we'll explore, unraveling is a failure of self-control. Participants just can't stop themselves from transacting early, because if they resist the urge, they'll lose out to someone else.
+
+Laws [to prevent early transactions] have proved difficult to enforce, because private and informal matchmaking arrangements have emerged.
+
+So unraveling is hard to control in a market that relies on self-control. Even if you have a lot of self-control, all you need is the suspicion that other participants might jump the gun and you will do so too. It would be irrational not to.
+
+We next asked organizations if they could pass a resolution that would empower fellowship applicants who had accepted very early offers to change their minds if, later, at the time of the clearinghouse, they regretted their early decisions. ... By freeing fellows to change their minds if they accepted an early offer, the new approach deprived program directors of the incentive to make early offers and relieved them of the fear that others would do so. Thus they could safely wait and match to a great candidate later when the clearinghouse opened. [Similarly] almost all American universities have agreed that new PhD students shouldn't havae to accept their offers before April 15. This single rule has virtually eliminated all exploding offers for PhD candidates in the United States.
+
+Another part of our evidence was theoretical. Exploding offers won't occur when everyone hs enough experience with the market to know what to expect. 
+
+Successful designs depend greatly on the details of the market, including the culture and psychology of the participants.
+
+Markets unravel despite the collective benefit of having a thick market in which lots of people are present at the same time, with many opportunities to be considered and compared. Without a good market design, individual participants may still find it profitable to go a little early and engage in a kind of claim jumping. That's why self control is not a solution: you can control only yourself, and if other jump ahead of you, it might be in your self-interest to respond in kind. As we'll see in the next chapter, making the market operate within a narrow time frame -- but without providing something, such as a clearinghouse, that brings order to the market at that time -- usually isn't a good enough solution to the problem of unraveling.
+
+### 5. Too Fast
+
+Being too early isn't the only way speed can prevent markets from achieving the thickness they need to succeed. Markets can also move too fast. ... Speed helps participants in a thick market to evaluate and process lots of potential transactions quickly. But sometimes making markets work faster also makes them work worse.
+
+Even in the ultra-fast world of finance, many milliseconds can pass with no trades taking place at all. Thus a market that looks thick on a human timescale, with hundreds of opportunities to trade in the course of a single second, can look comparatively thin to a computer.
+
+There's a similar concern [to insider trading] when competition based on speed displaces competition based on price. Researchers proposed these same financial markets run only once per second. But in the absence of sufficient pressure by regulators, a brand-new market design is seldom adopted before a market becomes so dysfunctional that its users grow desperate for something new. As the tale of these financial markets makes clear, a superior market design isn't always implemented. 
+
+Congestion: insufficient time to make and consider as many opportunities as needed to make a good decision. 
+
+Although the almost-tops [judges] could still expect to hire very good clerks, their chances of hiring clerks who might subsequently be hired by one of the nine Supreme Court justices would take a big hit. It takes a very confident (or foolish) student about to begin her third year of law school to turn down a plum job just because it isn't the plummiest job in the whole country. So it was the almost-top judges who started the unraveling.
+
+The history of this [law] market is a case study in how incremental changes in design can fail when the address only the symptoms of market failure and not the causes. It wasn't sufficient to adopt rules that stopped offers from being made early.
+
+### 6. Congestion
 
 
+
+### 7. Risky
+
+
+
+## Design Interventions 
+
+### 8. The Match: Strong Medicine for New Doctors
+
+
+
+### 9. Back to School
+
+
+
+### 10. Signaling
+
+
+
+## Forbidden Markets and Free Markets
+
+### 11. Repugnant, Forbidden, ... and Designed
+
+
+
+### 12. Free Markets and Market Design
 
 
