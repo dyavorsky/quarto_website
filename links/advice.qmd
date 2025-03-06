@@ -11,7 +11,7 @@ toc: false
  - [This is Water](https://web.ics.purdue.edu/~drkelly/DFWKenyonAddress2005.pdf) by David Foster Wallace
  - [A Mathematician's Lament](http://worrydream.com/refs/Lockhart-MathematiciansLament.pdf) by Paul Lockhart
  - [Maker's Schedule, Manager's Schedule](https://www.paulgraham.com/makersschedule.html) by Paul Graham
- - [Lessons from Amazon](https://www.linkedin.com/posts/scarletink_12-things-i-learned-in-big-tech-activity-7032114623050891264-liMq) by David Anderson
+ - [Lessons from Amazon](https://www.linkedin.com/posts/scarletink_12-things-i-learned-in-big-tech-activity-7032114623050891264-liMq) ([alt link](https://www.scarletink.com/p/12-things-i-learned-in-big-tech)) by David Anderson
 
 #### On Writing
 
