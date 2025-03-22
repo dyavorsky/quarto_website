@@ -7,7 +7,7 @@ toc: false
 ## Quotes
 
 
-#### Ira Glass: Good Taste & Volume of Work ([link](https://www.youtube.com/watch?v=X2wLP0izeJE))
+#### Ira Glass: _Good Taste & Volume of Work_ ([link](https://www.youtube.com/watch?v=X2wLP0izeJE))
 
 > Nobody tells this to people who are beginners, I wish someone told me. 
 >
@@ -16,11 +16,39 @@ toc: false
 > A lot of people never get past this phase, **they quit**. Most people I know who do interesting, creative work went through years of this. We know our work doesn’t have this special thing that we want it to have. We all go through this. And if you are just starting out or you are still in this phase, you gotta know its normal and the most important thing you can do is **do a lot of work**. Put yourself on a deadline so that every week you will finish one story. It is only by going through a volume of work that you will close that gap, and your work will be as good as your ambitions. And I took longer to figure out how to do this than anyone I’ve ever met. It’s gonna take awhile. It’s normal to take awhile. You’ve just gotta fight your way through.
 
 
-#### Teddy Roosevelt: The Man in the Arena ([link](https://www.theodorerooseveltcenter.org/Learn-About-TR/TR-Encyclopedia/Culture-and-Society/Man-in-the-Arena.aspx))
+#### Teddy Roosevelt: _The Man in the Arena_ ([link](https://www.theodorerooseveltcenter.org/Learn-About-TR/TR-Encyclopedia/Culture-and-Society/Man-in-the-Arena.aspx))
 
 > It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. 
 >
 > The credit belongs to the man who is **actually in the arena**, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows the great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat.
 
 
+#### Unknown
+
+> You don't need a reason to help people.
+
+
+#### Paul Lockhart: _The Mathematician's Lament_ ([link](https://worrydream.com/refs/Lockhart_2002_-_A_Mathematician's_Lament.pdf))
+
+> Many a graduate student has come to grief when they discover, after a decade of being told they were 'good at math' that in fact they have no real mathematical talent and are just very good at following directions.
+
+
+#### Levitt & Dubner: _Think Like a Freak_
+
+> The key to learning is feedback. And it is nearly impossible to learn anything without it.
+
+
+#### Ryan Norbauer ([link](https://ryan.norbauer.com/biography/))
+
+> I am pretty sure that everything is fairly easy. Most of what passes for intelligence is just persistence and a high tolerance for boredom (both of which may technically be the same thing).
+
+
+#### Lynne Truss: _Eats Shoots & Leaves_
+
+> Yet there will always be a problem about getting rid of the hyphen: if it's not extra-marital sex (with a hyphen), it is perhaps extra marital sex, which is quite a different bunch of coconuts.
+
+
+#### Buster from _Arrested Development_
+
+> That’s what you do when life hands you a chance to be with someone special. You just grab that brownish area by its points and you don’t let go no matter what your mom says.
 
