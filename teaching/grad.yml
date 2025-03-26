@@ -46,13 +46,13 @@
     url: evals/ucla_emba411_s22_2.pdf
     
 - title: Marketing Analytics
-  description: "A survey of analytic methods -- and a review of the statistical methods required -- to analyze survey data for consumer insights and to inform marketing strategy: A/B testing, Best-Worst Scaling, Conjoint, Key Drivers, Segmentation."
+  description: "A survey of analytic methods -- and a review of the statistical methods required -- to analyze survey data for consumer insights and to inform marketing strategy: A/B testing, Best-Worst Scaling, Conjoint Analysis, Segmentation, Key Drivers Analysis."
   university: UCSD
   number: MGTA 495
   logo: logos/MarketingAnalytics.png
   semester:
   - name: Syllabus
-    url: syllabi/UCSD_MGTA495_Syllabus_20240323.pdf
+    url: syllabi/UCSD_MGTA495_Syllabus_20250326.pdf
   - name: Slides
     url: https://www.dropbox.com/scl/fo/27nvxvrfncarer7w1rca4/AJeBhiQ_nC5fv2uxgHPY2DQ?rlkey=z602c8iogudhdetddrlg4quua&st=itzq47nn&dl=0
   - name: Evals 2024
