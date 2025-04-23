@@ -140,6 +140,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+    <a href="https://github.com/dyavorsky/quarto_website" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -252,9 +253,6 @@ ul.task-list li input[type="checkbox"] {
 <li>on Windows, GCM is included with Git for Windows</li>
 <li>on Mac, you can install GCM via Homebrew with <code>brew install --cask git-credential-manager</code></li>
 </ul></li>
-<li>Create a new repository on GitHub</li>
-<li>Clone the repository to your local machine by running <code>git clone URL</code> where URL is the https web url of the repository you just created</li>
-<li>Follow the prompts to authenticate with your GitHub credentials</li>
 </ul>
 </section>
 </section>
@@ -272,6 +270,7 @@ ul.task-list li input[type="checkbox"] {
 <li><code>git remote add origin https://github.com/your-username/your-repo.git</code> to add a remote to an existing local repository with nickname origin</li>
 <li><code>git remote --verbose</code> to check the remote was added successfully</li>
 <li><code>git remote show origin</code> to see more details about the remote</li>
+<li><code>git remote remove origin</code> or <code>git remote set-url origin _url_</code> to remove or edit the url aliased by origin</li>
 </ul>
 <p>Most common workflow commands</p>
 <ul>

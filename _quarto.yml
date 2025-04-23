@@ -57,6 +57,9 @@ website:
           - text: "Quotes"
             icon: chat-quote
             href: links/quotes.qmd
+    tools:
+      - icon: github
+        href: https://github.com/dyavorsky/quarto_website
   
   repo-branch: main
   repo-url: "https://github.com/dyavorsky/quarto_website"

@@ -50,9 +50,6 @@ This post serves as a set of notes to quickly refer to. For detailed explanation
  - Git Credential Manager is the best way to store your GitHub credentials
     - on Windows, GCM is included with Git for Windows
     - on Mac, you can install GCM via Homebrew with `brew install --cask git-credential-manager`
- - Create a new repository on GitHub
- - Clone the repository to your local machine by running `git clone URL` where URL is the https web url of the repository you just created
- - Follow the prompts to authenticate with your GitHub credentials
 
 
 ## Git Commands
@@ -69,6 +66,7 @@ To add a remote to an existing local repository
  - `git remote add origin https://github.com/your-username/your-repo.git` to add a remote to an existing local repository with nickname origin
  - `git remote --verbose` to check the remote was added successfully
  - `git remote show origin` to see more details about the remote
+ - `git remote remove origin` or `git remote set-url origin _url_` to remove or edit the url aliased by origin
  
 Most common workflow commands
  
