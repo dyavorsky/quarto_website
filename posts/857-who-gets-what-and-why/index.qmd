@@ -69,7 +69,7 @@ Markets and marketplaces come in many forms, some of which don't conform to conv
 
 How can people trade indivisible goods if everyone needs just one, has one to trade, and can't use money?
 
-Shapley and Scarf showed that for any preferences that patients and their surgeons might have regarding which kidneys they would like, there was always a way to find a set of cyclical trades they called "top trading cycles" with the property that no group of patients and donors could go off on their own and find a cycle of trades that they liked better.
+Shapley and Scarf showed that for any preferences that patients and their surgeons might have regarding which kidneys they would like, there was *always* a way to find a set of cyclical trades they called "top trading cycles" with the property that no group of patients and donors could go off on their own and find a cycle of trades that they liked better.
 
 I was able to show that top trading cycles made it possible to organize a clearinghouse in such a way as to **guarantee** to patients and their surgeons that it was safe for them to be completely candid in revealing this kind of information.
 
@@ -79,9 +79,9 @@ Withholding easy-to-match exchanges is a common temptation in markets with middl
 
 It was clear from the outset that the best way to make the market thick enough to find all potential exchanges would be to organize a national kidney exchange. But two problems immediately presented themselves: one technical and computational, the other political and organizational.
 
- Kidney exchange is very different from the markets we saw in chapter 2. But as I've tried to show, market design for kidney exchange is still about making the market, thick, uncongested, safe and simple, and efficient.
+Kidney exchange is very different from the markets we saw in chapter 2. But as I've tried to show, market design for kidney exchange is still about making the market, thick, uncongested, safe and simple, and efficient.
 
- The general lesson to keep in mind as we look at more usual markets is that not only do marketplaces have to solve the problems of creating a thick market, managing congestion, and ensuring that participation is safe and simple, but they also have to keep solving and resolving these problems as markets evolve.
+The general lesson to keep in mind as we look at more usual markets is that not only do marketplaces have to solve the problems of creating a thick market, managing congestion, and ensuring that participation is safe and simple, but they also have to keep solving and resolving these problems as markets evolve.
 
 ## How Marketplaces Fail
 
@@ -99,15 +99,15 @@ Rushing to be sooner isn't just something in the history books or on the sports 
 
 When a market's organization predictably leads to trouble, economists start asking whether it might be _inefficient_, meaning that a different organization might make everyone involved better off. 
 
-If making offers very early makes it hard to identify good job candidates, you might think that some firms would take a little more time and make offers to candidates who had already received at least one offer from another firm. But the firms that made early offers prevented this by making their offers _exploding_. ... Exploding offers make markets thin as well as early, and so participants are deprived of information about both the quality of matches and what kind of matches the market might offer. in that situation, _nobody_ has enough information to make an optimal decision.
+If making offers very early makes it hard to identify good job candidates, you might think that some firms would take a little more time and make offers to candidates who had already received at least one offer from another firm. But the firms that made early offers prevented this by making their offers _exploding_. ... Exploding offers make markets **thin** as well as **early**, and so participants are deprived of information about both the quality of matches and what kind of matches the market might offer. in that situation, _nobody_ has enough information to make an optimal decision.
 
-More than the other sources of market failure that we'll explore, unraveling is a failure of self-control. Participants just can't stop themselves from transacting early, because if they resist the urge, they'll lose out to someone else.
+More than the other sources of market failure that we'll explore, **unraveling** is a failure of self-control. Participants just can't stop themselves from transacting early, because if they resist the urge, they'll lose out to someone else.
 
 Laws [to prevent early transactions] have proved difficult to enforce, because private and informal matchmaking arrangements have emerged.
 
 So unraveling is hard to control in a market that relies on self-control. Even if you have a lot of self-control, all you need is the suspicion that other participants might jump the gun and you will do so too. It would be irrational not to.
 
-We next asked organizations if they could pass a resolution that would empower fellowship applicants who had accepted very early offers to change their minds if, later, at the time of the clearinghouse, they regretted their early decisions. ... By freeing fellows to change their minds if they accepted an early offer, the new approach deprived program directors of the incentive to make early offers and relieved them of the fear that others would do so. Thus they could safely wait and match to a great candidate later when the clearinghouse opened. [Similarly] almost all American universities have agreed that new PhD students shouldn't havae to accept their offers before April 15. This single rule has virtually eliminated all exploding offers for PhD candidates in the United States.
+We next asked organizations if they could pass a resolution that would empower fellowship applicants who had accepted very early offers to change their minds if, later, at the time of the clearinghouse, they regretted their early decisions. ... By freeing fellows to change their minds if they accepted an early offer, the new approach deprived program directors of the incentive to make early offers and relieved them of the fear that others would do so. Thus they could safely wait and match to a great candidate later when the clearinghouse opened. [Similarly] almost all American universities have agreed that new PhD students shouldn't have to accept their offers before April 15. This single rule has virtually eliminated all exploding offers for PhD candidates in the United States.
 
 Another part of our evidence was theoretical. Exploding offers won't occur when everyone hs enough experience with the market to know what to expect. 
 
@@ -117,13 +117,13 @@ Markets unravel despite the collective benefit of having a thick market in which
 
 ### 5. Too Fast
 
-Being too early isn't the only way speed can prevent markets from achieving the thickness they need to succeed. Markets can also move too fast. ... Speed helps participants in a thick market to evaluate and process lots of potential transactions quickly. But sometimes making markets work faster also makes them work worse.
+Being too early isn't the only way speed can prevent markets from achieving the thickness they need to succeed. Markets can also move too **fast**. ... Speed helps participants in a thick market to evaluate and process lots of potential transactions quickly. But sometimes making markets work faster also makes them work worse.
 
 Even in the ultra-fast world of finance, many milliseconds can pass with no trades taking place at all. Thus a market that looks thick on a human timescale, with hundreds of opportunities to trade in the course of a single second, can look comparatively thin to a computer.
 
 There's a similar concern [to insider trading] when competition based on speed displaces competition based on price. Researchers proposed these same financial markets run only once per second. But in the absence of sufficient pressure by regulators, a brand-new market design is seldom adopted before a market becomes so dysfunctional that its users grow desperate for something new. As the tale of these financial markets makes clear, a superior market design isn't always implemented. 
 
-Congestion: insufficient time to make and consider as many opportunities as needed to make a good decision. 
+*Congestion*: insufficient time to make and consider as many opportunities as needed to make a good decision. 
 
 Although the almost-tops [judges] could still expect to hire very good clerks, their chances of hiring clerks who might subsequently be hired by one of the nine Supreme Court justices would take a big hit. It takes a very confident (or foolish) student about to begin her third year of law school to turn down a plum job just because it isn't the plummiest job in the whole country. So it was the almost-top judges who started the unraveling.
 
