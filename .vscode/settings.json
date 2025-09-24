@@ -1,5 +1,30 @@
 {
     "cSpell.enableFiletypes": [
         "quarto"
-    ]
+    ],
+    "cSpell.words": [
+        "asymptotics",
+        "Bayesians",
+        "Cramer",
+        "emptyset",
+        "hypothese",
+        "infty",
+        "mathbb",
+        "mathbf",
+        "mathcal",
+        "mathscr",
+        "misspecification",
+        "multiparameter",
+        "Neyman",
+        "propto",
+        "rightarrow",
+        "stackrel",
+        "textrm",
+        "UMVUE",
+        "varepsilon",
+        "WLLN"
+    ],
+    "cSpell.enabledFileTypes": {
+        "quarto": true
+    }
 }
