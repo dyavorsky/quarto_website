@@ -166,7 +166,7 @@ $ git push -u origin main
 
  - The first command indicates that we want to connect our local repository to a remote repository and use the shortname "origin" instead of the full URL going forward. 
  - The second command renames the current branch to "main". This isn't necessary for us, but here it does no harm, so we leave it in.
-  - The third command pushes the commit(s) from our local repository up to the remote repository. 
+ - The third command pushes the commit(s) from our local repository up to the remote repository. 
 
 Refresh the webpage in your browser of your GitHub repo and you should see all the files from your computer's website directory copied up to the GitHub repo. Exciting stuff!
 
