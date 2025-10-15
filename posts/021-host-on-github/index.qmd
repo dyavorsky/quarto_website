@@ -27,7 +27,7 @@ Whether or not you have Git, follow the remaining instructions to install the Gi
  - Check to see if you have Homebrew installed by running `brew --version` in the Terminal. If a version number is returned, you do. If not, visit [https://brew.sh](https://brew.sh), copy the line of code at the top of their webpage, and paste/run that line of code in your Terminal. It should look something like:
 
  ```{.bash filename="Terminal"}
-$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
  ```
 
   Follow along at the Terminal, as you may need to enter your computer log-in password and/or indicate you agree to various terms or licenses. Note that when you type your password at the command line in the terminal, the cursor will not move. This is for security and privacy reasons. But rest assured that your input is being received. So type out your password when/where necessary and hit enter.
@@ -35,13 +35,13 @@ $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
  - Next, install Git by running `brew install git` at the Terminal. If you receive an error like "zsh: command not found: brew" run the following line of code in the Terminal and then try again to install Git. (What's going on here is that Homebrew makes its location known to the Bash shell but not to Zsh, which is the newer and now-default shell on MacOS, so the following line of code tells Zsh where to look for Homebrew.)
 
 ```{.bash filename="Terminal"}
-$ export PATH="/opt/homebrew/bin:$PATH" >> ~/.zshrc
+export PATH="/opt/homebrew/bin:$PATH" >> ~/.zshrc
  ```
  
   - With Git successfully installed, next install the Git Credential Manager by running the following at the terminal. As before, follow along at the Terminal, as you may need to enter your computer log-in password and/or indicate you agree to various terms or licenses.
 
 ```{.bash filename="Terminal"}
-$ brew install git-credential-manager
+brew install git-credential-manager
  ```
 
 
@@ -50,8 +50,8 @@ $ brew install git-credential-manager
 Git needs to know your name and email address because it records the author of each commit (ie, each "save state"). We'll pass the `--global` option so you only ever need to do this once. At the Terminal, run the following but use your name and email address (not mine!).
 
 ```{.bash filename="Terminal"}
-$ git config --global user.name "Dan Yavorsky"
-$ git config --global user.email "dyavorsky@gmail.com"
+git config --global user.name "Dan Yavorsky"
+git config --global user.email "dyavorsky@gmail.com"
 ```
 
 You can check your info by running `git config --global --list`.
@@ -59,7 +59,7 @@ You can check your info by running `git config --global --list`.
 Lastly for this step -- and we really shouldn't need this, but we'll do it just in case -- but we want to ensure we use the branch name "main" instead of the depreciated branch name "master". We can specify this with the setting:
 
 ```{.bash filename="Terminal"}
-$ git config --global init.defaultBranch main
+git config --global init.defaultBranch main
 ```
 
 
@@ -68,8 +68,8 @@ $ git config --global init.defaultBranch main
 At the Terminal, use `cd` to navigate to your website's directory. Then initialize the directory as a Git repository (ie, turn Git "on" for your website) by running `git init`:
 
 ```{.bash filename="Terminal"}
-$ git path/to/quarto_website
-$ git init
+git path/to/quarto_website
+git init
 ```
 
 This will create a hidden _.git_ folder in the *quarto_website* directory. There's no need to view this _.git_ folder, but if you would like to, you may need to enable your file explorer or IDE to show hidden files:
@@ -105,8 +105,8 @@ You can take snapshots with helpful tools built into RStudio or VS Code, or you 
 In the **Terminal**, run the follow to stage _all_ new or modified files and commit them:
 
 ```{.bash filename="Terminal"}
-$ git add .
-$ git commit -m "type a commit message in here"
+git add .
+git commit -m "type a commit message in here"
 ```
 
 In **RStudio**, use the Git tab. Check the box to the left of each file to stage it, then click the little "Commit" button at the top of the tab. This pops up a window where you can enter your commit message. Then click the big "Commit" button to finalize your snapshot. Close the pop-up window.
@@ -140,7 +140,7 @@ At this point, everything is all set locally on your machine. Next we head to Gi
 
 Go to [github.com](https://github.com/) and sign up for a free account.
 
-Pick a username that is short, lowercase, professional, and timeless. For example, _dyavorsky_ is a good choice while _cooldudeUCLA2024_ is not.
+Pick a username that is short, lowercase, professional, and timeless. For example, _dyavorsky_ is a good choice while _cooldudeUCSD2026_ is not.
 
 
 ## Step 6: Create a GitHub Repository
@@ -159,9 +159,9 @@ Once you create your repository, GitHub will helpfully list a bunch of terminal 
 In order to sync our local work with the new GitHub remote repository, we need to connect the two. Those 3 lines you just copied do the syncing. Paste/run those 3 lines in the Terminal:
 
 ```{.bash filename="Terminal"}
-$ git remote add origin https://github.com/username/repo-name.git
-$ git branch -M main
-$ git push -u origin main
+git remote add origin https://github.com/username/repo-name.git
+git branch -M main
+git push -u origin main
 ```
 
  - The first command indicates that we want to connect our local repository to a remote repository and use the shortname "origin" instead of the full URL going forward. 
@@ -182,7 +182,7 @@ Under "Branch" in the middle of the page
  - ensure the branch is "main" rather than "none"
  - ensure the folder is "docs" rather than "(root)"
 
-Have some patience and give GitHub a moment (up to 3 minutes or so) to host your site. GitHub will report "Your site is live" at the top of the page when it's deployed.
+Have some patience and give GitHub a moment (usually only a minute or so) to host your site. GitHub will report "Your site is live" at the top of the page when it's deployed. You man need to refresh the page to receive this message.
 
 ::: {.callout-note collapse="true"}
 ## Screenshot
@@ -203,7 +203,7 @@ As you work on your website, your workflow will look something like this:
 
  - frequently make changes to files (mostly .qmd files) or add new files (e.g. images)
  - frequently render your website to see your edits 
- - occasionally stage and commit those changes locally
+ - occasionally stage and commit those changes
  - infrequently push those commits to GitHub
 
 For example, if I worked on something for 3 hours, I edit files constantly. I render every few minutes. I might make a commit once an hour or so. I may push my work just once at the end of those 3 hours.

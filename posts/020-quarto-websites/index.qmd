@@ -155,7 +155,7 @@ project:
 Next, add an empty text file titled ".nojekyll" in the project directory. For example, at the command line you could run:
 
 ```{.bash filename="Terminal" eval=false}
-$ touch .nojekyll
+touch .nojekyll
 ```
 
 
@@ -225,14 +225,12 @@ Welcome to my website! # <4>
 (1) We've specified that we would like to include an image from the profile_pic.jpg file in the _files_ sub-directory. You'll need to create that sub-directory inside of your website directory and add a file with a photo. To do this at the terminal, you can use `mkdir` to create a directory and `cp` to copy.
 
 ```{.bash filename="Terminal"}
-$ pwd
-~/projects/quarto_website
-
-$ mkdir files
-$ cp path/to/profile_pic.jpg files/profile_pic.jpg
+pwd # confirm you are in your 'quarto_website' directory
+mkdir files
+cp path/to/profile_pic.jpg files/profile_pic.jpg
 ```
 
-(2) We've also requested the jolla template. There are 5 built-in templates; a preview of each is available in the [Quarto documentation](https://quarto.org/docs/websites/website-about.html#templates).
+(2) We've also requested the **jolla** template. There are 5 built-in templates; a preview of each is available in the [Quarto documentation](https://quarto.org/docs/websites/website-about.html#templates).
 
 (3) We've also added buttons that link to our email and LinkedIn profile. You can add addition buttons decorated with any of the [Bootstrap 5 icons](https://icons.getbootstrap.com/).
 
@@ -253,7 +251,7 @@ Create a new Quarto document at the top-level of your website directory (where t
 Add a PDF file of your resume to your _files_ sub-directory.
 
 ```{.bash filename="Terminal"}
-$ cp path/to/resume.pdf files/resume.pdf
+cp path/to/resume.pdf files/resume.pdf
 ```
 
 Next, at the command line in the Terminal (not the R console), install a handy Quarto extension for embedding PDFs in HTML files from user jmgirard by running the following command. Hit enter or otherwise indicate "y" when prompted twice, first about trusting the author and then about implementing changes.
@@ -264,7 +262,7 @@ quarto add jmgirard/embedpdf
 
 Next, add content to the **resume.qmd** file we created a moment ago. This should include the embed syntax `{{{< pdf path/to/resume.pdf >}}}`. I have found the displayed height and width options to work well.
 
-```{.r filename="index.qmd"}
+```{.r filename="resume.qmd"}
 ---
 title: "My Resume"
 ---
@@ -298,14 +296,14 @@ Render yet again, possibly with {{< kbd Ctrl+Shift+K >}} or {{< kbd Cmd+Shift+K 
 Create a Quarto file at the top-level of the website directory alongside index.qmd and resume.qmd.  I'll call mine **projects.qmd**. Create a sub-directory to hold the contents of the blog.  I'll call mine _projects_. In that sub-directory, make sub-sub-directories for each blog post. I call mine _project1_ and _project2_. Finally, in those sub-sub-directories, add **index.qmd** files.
 
 ```{.bash filename="Terminal"}
-$ touch projects.qmd
-$ mkdir projects
+touch projects.qmd
+mkdir projects
 
-$ mkdir projects/project1
-$ mkdir projects/project2
+mkdir projects/project1
+mkdir projects/project2
 
-$ touch projects/project1/index.qmd
-$ touch projects/project2/index.qmd
+touch projects/project1/index.qmd
+touch projects/project2/index.qmd
 ```
 
 :::: {.callout-note collapse="true"}
@@ -326,7 +324,7 @@ $ touch projects/project2/index.qmd
 
 In **projects.qmd**, we want to specify that we're making a blog. Quarto calls this a "listing" page. Fill out the Quarto file with at least the following:
 
-```{.markdown filename="index.qmd"}
+```{.markdown filename="projects.qmd"}
 ---
 title: "My Projects"
 listing:
