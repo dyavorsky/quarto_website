@@ -5,7 +5,7 @@
   logo: logos/CustomerAnalytics.png
   semester:
   - name: Syllabus
-    url: syllabi/UCSD_MGT100_Syllabus_20250108.pdf
+    url: syllabi/UCSD_MGT100_Syllabus_2025.pdf
   - name: Slides F24
     url: https://www.dropbox.com/scl/fo/07iytifito8p6dvlbapzu/APL4Phbl_fYrOw5P378jCt4?rlkey=mxuih5f1ezythvuubh1sv304z&st=ev8jxvyn&dl=0 
   - name: Recordings SS24
@@ -40,6 +40,6 @@
   logo: logos/BusinessAnalytics.png
   semester:
   - name: Syllabus
-    url: syllabi/UCSD_MGT153_Syllabus_20220628.pdf
+    url: syllabi/UCSD_MGT153_Syllabus_2022.pdf
   - name: Evals 2023
     url: evals/ucsd_mgt153_u22.pdf
