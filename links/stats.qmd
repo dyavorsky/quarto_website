@@ -16,6 +16,7 @@ toc: false
  - [Statistical Tools for Causal Inference](https://chabefer.github.io/STCI/index.html) by Sylvain Chabe-Ferret
  - [Causal Inference: The Mixtape](https://mixtape.scunning.com/) by Scott Cunningham
  - [Applied Causal Inference Powered by ML and AI](https://causalml-book.org/) by Chernozhukov, Hansen, Kallus, Spindler, and Syrgkanis
+ - [Causal Machine Learning](https://causalml-book.org/) by Chernozhukov, Hansen, Kallus, Spindler, and Syrgkanis
  - [The Data Science Handbooks: Advice and Insights from 25 Amazing Data Scientists](https://www.thedatasciencehandbook.com/) by Shan, Wang, Chen, and Song
  - [Telling Stories with Data](https://tellingstorieswithdata.com/) by Rohan Alexxander
 
