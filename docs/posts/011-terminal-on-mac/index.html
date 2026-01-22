@@ -180,7 +180,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#shell-basics" id="toc-shell-basics" class="nav-link" data-scroll-target="#shell-basics">Shell Basics</a>
   <ul class="collapse">
   <li><a href="#moving-around" id="toc-moving-around" class="nav-link" data-scroll-target="#moving-around">Moving around</a></li>
+  <li><a href="#editing-text-at-the-command-line" id="toc-editing-text-at-the-command-line" class="nav-link" data-scroll-target="#editing-text-at-the-command-line">Editing Text at the Command Line</a></li>
   <li><a href="#combining-tools" id="toc-combining-tools" class="nav-link" data-scroll-target="#combining-tools">Combining tools</a></li>
+  <li><a href="#regular-expressions" id="toc-regular-expressions" class="nav-link" data-scroll-target="#regular-expressions">Regular Expressions</a></li>
   <li><a href="#sections-to-add" id="toc-sections-to-add" class="nav-link" data-scroll-target="#sections-to-add">Sections to add</a></li>
   </ul></li>
   </ul>
@@ -195,10 +197,11 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="whats-what" class="level2">
 <h2 class="anchored" data-anchor-id="whats-what">What’s what</h2>
-<p>Most users of personal computers today are intimately familiar with the <strong>graphical user interface</strong> (GUI) whereby interactions with the computer consist of using a mouse (and occasionally the keyboard) to navigate across several aesthetic applications, often clicking on visual elements such as folder icons, buttons, and menus.</p>
-<p>Before the development of the GUI and means of interacting with the computer through these more-visual elements, there was (and continues to be) a text-based method of interacting with the computer called a <strong>command-line interface</strong> (CLI).</p>
-<p>In the “old days,” a computer would boot into the CLI, as there was no other option. Today, each major operating system has an application that provides a CLI. This type application is called a terminal emulator (or just <strong>terminal</strong> for short). On MacOS, the app is unceremoniously named “Terminal” and can be found in the <code>/Applications/Utilities</code> directory. But you can download other terminal applications, including <a href="https://iterm2.com/">iTerm2</a>, <a href="https://www.warp.dev/">Warp</a>, <a href="https://alacritty.org/">Alacritty</a>, <a href="https://hyper.is/">Hyper</a>, <a href="https://tabby.sh/">Tabby</a>, <a href="https://sw.kovidgoyal.net/kitty/">Kitty</a>, <a href="https://raphamorim.io/rio/">Rio</a>, or others.</p>
-<p>Every terminal application has a text-based input field called the <strong>command prompt</strong>. When you type and submit a command at the command prompt, the Shell Command Line Interpreter (or just <strong>Shell</strong>) parses and interprets the text you have typed, carrying out your instructions and possibly returning information to you in the terminal. This Read-Eval-Print loop (<strong>REPL</strong>) is common when computer programs allow “live” interaction between the user and computer. The default shell on MacOS at the time of writing is <strong>zsh</strong> (pronounced the “Z shell”) which replaced <strong>bash</strong> (the “Bourne Again SHell”) as the MacOS default starting with the release of MacOS Catalina in 2019. bash, as evidenced by its name, was an evolution of the Bourne shell (with the short name <strong>sh</strong>). To round out the list, the <a href="https://www.reddit.com/r/linux4noobs/comments/12wfzb8/best_shell_in_your_opinion_2023/">only</a> other popular shell today is <strong>fish</strong> (the “friendly” shell).</p>
+<p>Most users of personal computers today are intimately familiar with the <strong>graphical user interface</strong> (GUI) where interactions with the computer typically involve using a mouse (and sometimes the keyboard) to click and navigate through windows, icons, menus, and buttons.</p>
+<p>Before GUIs became common, computers were often operated through a text-based method called a <strong>command-line interface</strong> (CLI). And this approach is sill widely used today.</p>
+<p>In the “old days,” most computers would boot into the CLI because there was no graphical altnernative. Today, every major operating system still includes a way to access the command line through an application called a terminal emulator (or just <strong>terminal</strong> for short). On macOS, the app is unceremoniously named “Terminal” and can be found in the <code>/Applications/Utilities</code> directory. But you can download other terminal applications, including <a href="https://iterm2.com/">iTerm2</a>, <a href="https://www.warp.dev/">Warp</a>, <a href="https://alacritty.org/">Alacritty</a>, <a href="https://hyper.is/">Hyper</a>, <a href="https://tabby.sh/">Tabby</a>, <a href="https://sw.kovidgoyal.net/kitty/">Kitty</a>, <a href="https://raphamorim.io/rio/">Rio</a>, or others.</p>
+<p>Every terminal application has a text-based input field called the <strong>command line</strong> that begins with a <strong>prompt</strong> (usually <code>&gt;</code> or <code>$</code>). When you type and submit a command, the Shell Command Line Interpreter (or just <strong>Shell</strong>) parses and interprets the text you have typed, carrying out your instructions and possibly returning information to you in the terminal. This Read-Eval-Print loop (<strong>REPL</strong>) is common when computer programs allow “live” interaction between the user and computer.</p>
+<p>The default shell on macOS at the time of writing is <strong>zsh</strong> (pronounced the “Z shell”) which replaced <strong>bash</strong> (the “Bourne Again SHell”) as the macOS default starting with the release of macOS Catalina in 2019. bash, as evidenced by its name, was an evolution of the Bourne shell (with the short name <strong>sh</strong>). To round out the list, the <a href="https://www.reddit.com/r/linux4noobs/comments/12wfzb8/best_shell_in_your_opinion_2023/">only</a> other popular shell today is <strong>fish</strong> (the “friendly” shell).</p>
 </section>
 <section id="shell-basics" class="level2">
 <h2 class="anchored" data-anchor-id="shell-basics">Shell Basics</h2>
@@ -215,12 +218,15 @@ ul.task-list li input[type="checkbox"] {
 <li><code>ls</code> list the contents of a directory</li>
 <li><code>..</code> denote the parent directory</li>
 <li><code>.</code> denotes the current directory (useful, eg, when copying)</li>
+</ul>
+<p>Creating, moving, copying, and deleting files and directories are common operations:</p>
+<ul>
 <li><code>touch</code> updates the access and modification times of files, but also creates a file if it does not yet exist</li>
 <li><code>mv</code> move (or rename) one or more files or directories</li>
 <li><code>cp</code> copy one or more files or directories</li>
-<li><code>rm</code> remove (ie, permanently delete) file(s). A good alternative is to “trash” them with <code>mv file ~/.Trash</code></li>
+<li><code>rm</code> remove (ie, permanently delete) file(s). A good alternative is to “trash” them with <code>mv file_name ~/.Trash</code></li>
 <li><code>mkdir</code> create a new directory</li>
-<li><code>rmdir</code> removes directories (use with caution!)</li>
+<li><code>rmdir</code> removes directories (use with caution!) A good alternative is to “trash” them by installing the trash command with <code>brew install trash</code> and then running <code>trash dir_name</code></li>
 </ul>
 <p>It is often useful to use wildcards to return a “group” of files. Common wildcards include:</p>
 <ul>
@@ -229,6 +235,65 @@ ul.task-list li input[type="checkbox"] {
 <li><code>[abc]</code> a list of permited characters</li>
 <li><code>[a-z]</code> a set of characters</li>
 </ul>
+</section>
+<section id="editing-text-at-the-command-line" class="level3">
+<h3 class="anchored" data-anchor-id="editing-text-at-the-command-line">Editing Text at the Command Line</h3>
+<p>When working in a terminal, you’ll often need to edit what you’ve typed, e.g., to fix a typo, move back a few words, delete a chunk of text, or recall and modify a previous command. While you can do this with arrow keys and backspace, you’ll become dramatically faster once you learn a handful of editing shortcuts.</p>
+<p>Most shells (including zsh and bash) provide “line editing,” meaning you can edit the current command before you run it. These editing features come from a library called readline (used by bash) or a similar system called zle (the Zsh Line Editor). Both support two classic styles of keybindings: Emacs-style editing (the default in most shells) and Vi-style editing (popular among Vim users). These styles trace back to two influential text editors from the 1970s: Emacs and vi, which shaped how programmers interact with text even to this day.</p>
+<section id="emacs-style-keybindings-default" class="level4">
+<h4 class="anchored" data-anchor-id="emacs-style-keybindings-default">Emacs-style keybindings (default)</h4>
+<p>In Emacs mode, you use Control key combinations to move and edit efficiently. These are widely supported across shells and many terminal programs. Here are the most useful ones to memorize. Note that on the macOS Terminal, “Alt” is often the Option key.</p>
+<ul>
+<li><code>Ctrl-A</code> jump to the beginning of the line</li>
+<li><code>Ctrl-E</code> jump to the end of the line</li>
+<li><code>Ctrl-B</code> move back one letter</li>
+<li><code>Ctrl-F</code> move forward one letter</li>
+<li><code>Alt-B</code> or <code>Esc-B</code> move back one word</li>
+<li><code>Alt-F</code> or <code>Esc-F</code> move forward one word</li>
+<li><code>Ctrl-L</code> clear the screen</li>
+<li><code>Ctrl-U</code> delete from cursor to the beginning of the line (“undo this whole front part”)</li>
+<li><code>Ctrl-K</code> delete from cursor to the end of the line (“kill to end”)</li>
+<li><code>Ctrl-W</code> delete the word behind the cursor</li>
+<li><code>Ctrl-P</code> previous command (same as up arrow)</li>
+<li><code>Ctrl-N</code> next command (same as down arrow)</li>
+<li><code>Ctrl-R</code> reverse search through history (Start typing part of a previous command and press Ctrl-R repeatedly to cycle matches.)</li>
+</ul>
+</section>
+<section id="vi-style-keybindings-modal-editing" class="level4">
+<h4 class="anchored" data-anchor-id="vi-style-keybindings-modal-editing">Vi-style keybindings (modal editing)</h4>
+<p>Vi mode is “modal,” meaning you switch between modes: “Insert” mode where you type normally, or “Normal” mode where keys perform editing commands. This feels strange at first, but you can become extremely fast once it clicks. Vi’s reputation is that you can move mountains in a few keystrokes, but with the cost that even simple operations also require a few keystrokes.</p>
+<p>To change from the default emacs-style key binding to vi-style for the current shell session, run <code>bindkey -v</code> or <code>set -o vi</code>. To enable vi-style keybinding every time you start an interactive shell, add one of those commands to your shell configuration file (typically ~/.zshrc for zsh or ~/.bashrc for bash). Then either restart your terminal or reload the configuration with source <code>~/.zshrc</code>.</p>
+<p>Once enabled, when you’re typing a command you’re usually in insert mode. Press:</p>
+<ul>
+<li><code>Esc</code> switch to normal mode</li>
+<li><code>i</code> return to insert mode at the cursor</li>
+<li><code>a</code> return to insert mode after the cursor</li>
+</ul>
+<p>In normal mode, a typical operation folows the pattern count-operator-motion/object. For example, <code>3dw</code> deletes forward three words. Omitting the count is typica, for example <code>ci(</code> changes the text inside the current set of parentheses. Common commands include:</p>
+<p>Movement of cursor</p>
+<ul>
+<li><code>h/l</code> left/right</li>
+<li><code>0</code> beginning of line</li>
+<li><code>$</code> end of line</li>
+<li><code>w</code> forward one word</li>
+<li><code>b</code> back one word</li>
+</ul>
+<p>Editing (normal mode)</p>
+<ul>
+<li><code>x</code> delete character under cursor</li>
+<li><code>dw</code> delete a word</li>
+<li><code>dd</code> delete the entire line</li>
+<li><code>cw</code> change a word (delete word and enter insert mode)</li>
+<li><code>D</code> delete from cursor to end of line</li>
+</ul>
+<p>History search</p>
+<ul>
+<li><code>j/k</code> up/down</li>
+<li><code>/text</code> search backward in history for “text”</li>
+<li><code>n</code> repeat the last search</li>
+</ul>
+<p>A common workflow looks like: type a command; hit Esc; quickly edit with w, b, dw, etc.; press i to insert again; run.</p>
+</section>
 </section>
 <section id="combining-tools" class="level3">
 <h3 class="anchored" data-anchor-id="combining-tools">Combining tools</h3>
@@ -241,7 +306,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>Common tools for inspecting files, or for gathering and summarizing their contents include:</p>
 <ul>
-<li><code>cat</code> for concatenating files; can be used to print file contents in the terminal</li>
+<li><code>cat</code> for concatenating files; can be used to print file contents in the terminal for short files</li>
 <li><code>find</code> for recursively searching a directory hierarchy returning names of files and/or directories</li>
 <li><code>wc</code> for counting characters, words, and lines</li>
 <li><code>head</code> for obtaining the first few lines</li>
@@ -255,6 +320,9 @@ ul.task-list li input[type="checkbox"] {
 <li><code>sed</code> a stream editor for modifying data</li>
 <li><code>awk</code> a data processing language named after its creators</li>
 </ul>
+</section>
+<section id="regular-expressions" class="level3">
+<h3 class="anchored" data-anchor-id="regular-expressions">Regular Expressions</h3>
 </section>
 <section id="sections-to-add" class="level3">
 <h3 class="anchored" data-anchor-id="sections-to-add">Sections to add</h3>

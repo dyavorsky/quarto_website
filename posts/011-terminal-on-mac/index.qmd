@@ -9,13 +9,15 @@ draft: false
 
 ## What's what
 
-Most users of personal computers today are intimately familiar with the **graphical user interface** (GUI) whereby interactions with the computer consist of using a mouse (and occasionally the keyboard) to navigate across several aesthetic applications, often clicking on visual elements such as folder icons, buttons, and menus. 
+Most users of personal computers today are intimately familiar with the **graphical user interface** (GUI) where interactions with the computer typically involve using a mouse (and sometimes the keyboard) to click and navigate through windows, icons, menus, and buttons. 
 
-Before the development of the GUI and means of interacting with the computer through these more-visual elements, there was (and continues to be) a text-based method of interacting with the computer called a **command-line interface** (CLI). 
+Before GUIs became common, computers were often operated through a text-based method called a **command-line interface** (CLI). And this approach is sill widely used today. 
 
-In the "old days," a computer would boot into the CLI, as there was no other option. Today, each major operating system has an application that provides a CLI. This type application is called a terminal emulator (or just **terminal** for short). On MacOS, the app is unceremoniously named "Terminal" and can be found in the `/Applications/Utilities` directory. But you can download other terminal applications, including [iTerm2](https://iterm2.com/), [Warp](https://www.warp.dev/), [Alacritty](https://alacritty.org/), [Hyper](https://hyper.is/), [Tabby](https://tabby.sh/), [Kitty](https://sw.kovidgoyal.net/kitty/), [Rio](https://raphamorim.io/rio/), or others.
+In the "old days," most computers would boot into the CLI because there was no graphical altnernative. Today, every major operating system still includes a way to access the command line through an application called a terminal emulator (or just **terminal** for short). On macOS, the app is unceremoniously named "Terminal" and can be found in the `/Applications/Utilities` directory. But you can download other terminal applications, including [iTerm2](https://iterm2.com/), [Warp](https://www.warp.dev/), [Alacritty](https://alacritty.org/), [Hyper](https://hyper.is/), [Tabby](https://tabby.sh/), [Kitty](https://sw.kovidgoyal.net/kitty/), [Rio](https://raphamorim.io/rio/), or others.
 
-Every terminal application has a text-based input field called the **command prompt**. When you type and submit a command at the command prompt, the Shell Command Line Interpreter (or just **Shell**) parses and interprets the text you have typed, carrying out your instructions and possibly returning information to you in the terminal. This Read-Eval-Print loop (**REPL**) is common when computer programs allow "live" interaction between the user and computer. The default shell on MacOS at the time of writing is **zsh** (pronounced the "Z shell") which replaced **bash** (the "Bourne Again SHell") as the MacOS default starting with the release of MacOS Catalina in 2019. bash, as evidenced by its name, was an evolution of the Bourne shell (with the short name **sh**). To round out the list, the [only](https://www.reddit.com/r/linux4noobs/comments/12wfzb8/best_shell_in_your_opinion_2023/) other popular shell today is **fish** (the "friendly" shell).
+Every terminal application has a text-based input field called the **command line** that begins with a **prompt** (usually `>` or `$`). When you type and submit a command, the Shell Command Line Interpreter (or just **Shell**) parses and interprets the text you have typed, carrying out your instructions and possibly returning information to you in the terminal. This Read-Eval-Print loop (**REPL**) is common when computer programs allow "live" interaction between the user and computer. 
+
+The default shell on macOS at the time of writing is **zsh** (pronounced the "Z shell") which replaced **bash** (the "Bourne Again SHell") as the macOS default starting with the release of macOS Catalina in 2019. bash, as evidenced by its name, was an evolution of the Bourne shell (with the short name **sh**). To round out the list, the [only](https://www.reddit.com/r/linux4noobs/comments/12wfzb8/best_shell_in_your_opinion_2023/) other popular shell today is **fish** (the "friendly" shell).
 
 ## Shell Basics
 
@@ -38,12 +40,15 @@ Navigating the hierarchy of directories and performing simple operations on file
  - `ls` list the contents of a directory
  - `..` denote the parent directory
  - `.` denotes the current directory (useful, eg, when copying)
+
+Creating, moving, copying, and deleting files and directories are common operations:
+
  - `touch` updates the access and modification times of files, but also creates a file if it does not yet exist
  - `mv` move (or rename) one or more files or directories
  - `cp` copy one or more files or directories
- - `rm` remove (ie, permanently delete) file(s). A good alternative is to "trash" them with `mv file ~/.Trash`
+ - `rm` remove (ie, permanently delete) file(s). A good alternative is to "trash" them with `mv file_name ~/.Trash`
  - `mkdir` create a new directory
- - `rmdir` removes directories (use with caution!)
+ - `rmdir` removes directories (use with caution!) A good alternative is to "trash" them by installing the trash command with `brew install trash` and then running `trash dir_name`
  
 It is often useful to use wildcards to return a "group" of files. Common wildcards include:
  
@@ -52,7 +57,67 @@ It is often useful to use wildcards to return a "group" of files. Common wildcar
   - `[abc]` a list of permited characters
   - `[a-z]` a set of characters
 
+### Editing Text at the Command Line
 
+When working in a terminal, you’ll often need to edit what you’ve typed, e.g., to fix a typo, move back a few words, delete a chunk of text, or recall and modify a previous command. While you can do this with arrow keys and backspace, you'll become dramatically faster once you learn a handful of editing shortcuts.
+
+Most shells (including zsh and bash) provide “line editing,” meaning you can edit the current command before you run it. These editing features come from a library called readline (used by bash) or a similar system called zle (the Zsh Line Editor). Both support two classic styles of keybindings: Emacs-style editing (the default in most shells) and Vi-style editing (popular among Vim users). These styles trace back to two influential text editors from the 1970s: Emacs and vi, which shaped how programmers interact with text even to this day.
+
+#### Emacs-style keybindings (default)
+
+In Emacs mode, you use Control key combinations to move and edit efficiently. These are widely supported across shells and many terminal programs. Here are the most useful ones to memorize. Note that on the macOS Terminal, "Alt" is often the Option key.
+
+- `Ctrl-A` jump to the beginning of the line
+- `Ctrl-E` jump to the end of the line
+- `Ctrl-B` move back one letter
+- `Ctrl-F` move forward one letter
+- `Alt-B` or `Esc-B` move back one word 
+- `Alt-F` or `Esc-F` move forward one word 
+- `Ctrl-L` clear the screen
+- `Ctrl-U` delete from cursor to the beginning of the line (“undo this whole front part”)
+- `Ctrl-K` delete from cursor to the end of the line ("kill to end")
+- `Ctrl-W` delete the word behind the cursor 
+- `Ctrl-P` previous command (same as up arrow)
+- `Ctrl-N` next command (same as down arrow)
+- `Ctrl-R` reverse search through history (Start typing part of a previous command and press Ctrl-R repeatedly to cycle matches.)
+
+#### Vi-style keybindings (modal editing)
+
+Vi mode is “modal,” meaning you switch between modes: "Insert" mode where you type normally, or "Normal" mode where keys perform editing commands. This feels strange at first, but you can become extremely fast once it clicks. Vi's reputation is that you can move mountains in a few keystrokes, but with the cost that even simple operations also require a few keystrokes.
+
+To change from the default emacs-style key binding to vi-style for the current shell session, run `bindkey -v` or `set -o vi`. To enable vi-style keybinding every time you start an interactive shell, add one of those commands to your shell configuration file (typically ~/.zshrc for zsh or ~/.bashrc for bash). Then either restart your terminal or reload the configuration with source `~/.zshrc`.
+
+Once enabled, when you’re typing a command you’re usually in insert mode. Press:
+
+- `Esc` switch to normal mode
+- `i` return to insert mode at the cursor
+- `a` return to insert mode after the cursor
+
+In normal mode, a typical operation folows the pattern count-operator-motion/object. For example, `3dw` deletes forward three words. Omitting the count is typica, for example `ci(` changes the text inside the current set of parentheses. Common commands include:
+
+Movement of cursor
+
+- `h/l` left/right
+- `0` beginning of line
+- `$` end of line
+- `w` forward one word
+- `b` back one word
+
+Editing (normal mode)
+
+- `x` delete character under cursor
+- `dw` delete a word
+- `dd` delete the entire line
+- `cw` change a word (delete word and enter insert mode)
+- `D` delete from cursor to end of line
+
+History search
+
+- `j/k` up/down
+- `/text` search backward in history for “text”
+- `n` repeat the last search
+
+A common workflow looks like: type a command; hit Esc; quickly edit with w, b, dw, etc.; press i to insert again; run.
 
 ### Combining tools
 
@@ -65,7 +130,7 @@ The Unix philosophy is that command line tools are designed to do one thing and 
  
 Common tools for inspecting files, or for gathering and summarizing their contents include:
  
- - `cat` for concatenating files; can be used to print file contents in the terminal
+ - `cat` for concatenating files; can be used to print file contents in the terminal for short files
  - `find` for recursively searching a directory hierarchy returning names of files and/or directories
  - `wc` for counting characters, words, and lines
  - `head` for obtaining the first few lines
@@ -78,6 +143,10 @@ More-advanced tools that deserve their own section and explanation
  - `grep` for matching a Regular Expression pattern in one or more files
  - `sed` a stream editor for modifying data
  - `awk` a data processing language named after its creators 
+
+### Regular Expressions
+
+
  
 ### Sections to add
 
