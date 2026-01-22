@@ -6,7 +6,7 @@ title-block-banner: "#35444E"
 published-title: Last updated
 engine: knitr 
 cv:
-  pdf: "yavorsky_dan_cv_20240325.pdf"
+  pdf: "yavorsky_dan_cv_20260122.pdf"
 ---
 
 ```{css, echo=FALSE}
