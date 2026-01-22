@@ -24,6 +24,12 @@ toc: false
  - [Why Books Don't Work](https://andymatuschak.org/books/) by Andy Matuschak
  - [Evergreen Notes](https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX) by Andy Matuschak
 
+### On Motivation
+
+- [The Slight Edge](https://www.amazon.com/Slight-Edge-Turning-Disciplines-Happiness/dp/1626340463/) by Jeff Olsen [video](https://www.youtube.com/watch?v=8EO7rLAGkXg)
+- [8 Steps to UnF Your Life](https://www.youtube.com/watch?v=FkQ4iWloT_s) by Joey Schweitzer
+- [Why Most People Are Only Giving 70%](https://www.youtube.com/watch?v=KYs3M_qB6hs) by John Amaechi
+
 #### On Getting a PhD (in Econ or Marketing)
 
  - Ken Wilbur: [Reasons to Get (or Not) a PhD](https://kennethcwilbur.github.io/website//#:~:text=Reasons%20to%20get%20or%20not%20get%20a%20Ph.D.) and [Choosing a field, Subfield, and PhD Program](https://kennethcwilbur.github.io/website//#:~:text=Choosing%20a%20field%2C%20subfield%20and%20Ph.D.%20program)
