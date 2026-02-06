@@ -11,14 +11,16 @@ callout-appearance: minimal
 
 ### On Mac
 
-I use **iTerm2** terminal application with the default **zsh** shell on Mac, configured using **Oh My Zsh**.  
+I use the pre-installed **Terminal** or the **iTerm2** terminal application with the default **zsh** shell on Mac, configured using **Oh My Zsh**.  
 
 A nice installation guide is provided by [Josean Martinez](https://www.josean.com/posts/terminal-setup). It walks through installation of the **homebrew** package manager, the **iTerm2** terminal application, **Git** version control software, the **Oh My Zsh** framework for managing the Zsh configuration, the **PowerLevel10k** Oh My Zsh theme, and Josean's iTerm2 **coolnight** color scheme.
+
+I have plans to move from **Oh My Zsh** to **Zinit** as my plug-in manager, and to swap my theme from **PowerLevel10k** to **Oh My Posh**, but that day has not yet come. 
 
 My PowerLevel10k theme preferences are the following:
 
 ::: {.callout-note collapse="true"}
-## Powerlevel10k Configuration
+## PowerLevel10k Setup
 
  - (y) Yes, install the Meslo Nerd Font
  - (2) Classic prompt style
@@ -39,10 +41,10 @@ My PowerLevel10k theme preferences are the following:
 
 :::
 
-I also use the **zsh-autosuggestions** and **zsh-syntax-highlighting** plugins. A 3-step procedure downloads, installs, and enables most Zsh plug-ins:
+I also regularly use the **zsh-syntax-highlighting**, **zsh-completions**, and **zsh-autosuggestions** plug-ins; the **git** plug-in from Oh My Zsh; and when I'm in a vim mood, the **vi-mode** plug-in. A 3-step procedure downloads, installs, and enables most Zsh plug-ins:
 
  1. download the plug-in: `git clone <url> $ZSH_CUSTOM/plugins/<plugin-name>`
- 1. add the plugin name to the array in the `~/.zshrc` file: `plugins=(<plugin-name> <plugin-name> ...)`
+ 1. add the plug-in name to the array in the `~/.zshrc` file: `plugins=(<plugin-name> <plugin-name> ...)`
  1. reload the Zsh configuration file via `source ~/.zshrc` to enable the plugins
 
 ::: {.callout-note collapse="true"}
@@ -197,20 +199,23 @@ Rectangle for window management, assigned all Cmd+Ctrl key bindings.
 
 # Other Software
 
-### All Platforms
+ - [Todoist](https://todoist.com/home) to track things that need to get done. There's a version for every device and, as a backup, you can always access it from a browser
+ - [LastPass](https://www.lastpass.com/) is my password manager.  If you don't have one yet, you won't believe how much simpler and more secure authentication can be
+ - [Zotero](https://www.zotero.org/) for tracking academic literature. While not perfect, it's substantially better than a system based on a tree of sub-directories and verbose file names
+ - [Typora](https://typora.io/) for writing markdown in a minimal editor (be sure to grab the [onedark](https://theme.typora.io/theme/OneDark/) theme)
+ - [Obsidian](https://obsidian.md/) for maintaining a database of inter-linked markdown-based notes
 
- - [Todoist](https://todoist.com/home) to track things that need to get done. There's a version for every device and, as a backup, you can always access it from a browser.
- - [LastPass](https://www.lastpass.com/) is my password manager.  If you don't have one yet, you won't believe how much simpler and more secure authentication can be.
- - [Zotero](https://www.zotero.org/) for tracking academic literature. While not perfect, it's substantially better than a system based on a tree of sub-directories and verbose file names.
+<!--
 
-### On Mac
+## On My Mac
 
  - [Alfred](https://www.alfredapp.com/) for quick commands and as a sometimes replacement for Mac's spotlight search. 
  - [CleanShot X](https://cleanshot.com/) as an enhanced screenshot and screen recorder.
  - [HandMirror](https://apps.apple.com/us/app/hand-mirror/id1502839586?mt=12) for one-click checks before jumping on video meetings.
  - [Ice](https://icemenubar.app/) to simplify the top-right menu bar.
  - [Rectangle](https://rectangleapp.com/) for tiling windows, which may become obsolete with MacOS 15 Sequoia.
- - [Typora](https://typora.io/) for writing markdown in a minimal editor.
+
+-->
 
 
 
