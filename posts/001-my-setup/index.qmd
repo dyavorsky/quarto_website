@@ -11,7 +11,11 @@ callout-appearance: minimal
 
 ### On Mac
 
-I use the pre-installed **Terminal** or the **iTerm2** terminal application with the default **zsh** shell on Mac, configured using **Oh My Zsh**.  
+I want to be a person that sits on the command line, but I'm just not.  For the rare times that I do, I use the **[Ghostty](https://ghostty.org/)** terminal application with the default **zsh** shell on Mac.  
+
+My very minor set of terminal configurations is to apply the 'Catppuccin Mocha' theme by adding `theme = Catppuccin Mocha` to the file `~/.config/ghostty/config`.
+
+In addition, I configure the prompt using [Oh My Posh](https://ohmyposh.dev/) following [this](https://www.youtube.com/watch?v=9U8LCjuQzdc) tutorial.
 
 A nice installation guide is provided by [Josean Martinez](https://www.josean.com/posts/terminal-setup). It walks through installation of the **homebrew** package manager, the **iTerm2** terminal application, **Git** version control software, the **Oh My Zsh** framework for managing the Zsh configuration, the **PowerLevel10k** Oh My Zsh theme, and Josean's iTerm2 **coolnight** color scheme.
 
@@ -41,7 +45,7 @@ My PowerLevel10k theme preferences are the following:
 
 :::
 
-I also regularly use the **zsh-syntax-highlighting**, **zsh-completions**, and **zsh-autosuggestions** plug-ins; the **git** plug-in from Oh My Zsh; and when I'm in a vim mood, the **vi-mode** plug-in. A 3-step procedure downloads, installs, and enables most Zsh plug-ins:
+I also regularly use the **zsh-syntax-highlighting** and **zsh-autosuggestions** plug-ins; the **git** plug-in from Oh My Zsh; and when I'm in a vim mood, the **vi-mode** plug-in. A 3-step procedure downloads, installs, and enables most Zsh plug-ins:
 
  1. download the plug-in: `git clone <url> $ZSH_CUSTOM/plugins/<plugin-name>`
  1. add the plug-in name to the array in the `~/.zshrc` file: `plugins=(<plugin-name> <plugin-name> ...)`
@@ -56,7 +60,9 @@ I also regularly use the **zsh-syntax-highlighting**, **zsh-completions**, and *
 
 ### On Windows
 
-I use the **Windows Terminal** application, downloaded from the Microsoft Store. I also use [Git-Bash](https://git-scm.com/downloads) or the Windows Subsysten for Linux (WSL) running Ubuntu with Zsh as my shell. For Zsh, I use the same **Oh My Zsh** framework with the **PowerLevel10k** theme as on my Mac (see above).
+This section needs an update...
+
+I previously use the **Windows Terminal** application, downloaded from the Microsoft Store. I also use [Git-Bash](https://git-scm.com/downloads) or the Windows Subsysten for Linux (WSL) running Ubuntu with Zsh as my shell. For Zsh, I use the **Oh My Zsh** framework with the **PowerLevel10k** theme previously used on my Mac.
 
 ::: {.callout-note collapse="true"}
 ## Screenshot
