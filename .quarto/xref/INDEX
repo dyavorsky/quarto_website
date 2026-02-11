@@ -307,5 +307,8 @@
   },
   "links/quotes.qmd": {
     "quotes.html": "5dbbf61b"
+  },
+  "posts/012-vim-motions/index.qmd": {
+    "index.html": "3c49c6de"
   }
 }

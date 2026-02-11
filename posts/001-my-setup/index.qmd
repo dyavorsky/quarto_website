@@ -13,56 +13,22 @@ callout-appearance: minimal
 
 I want to be a person that sits on the command line, but I'm just not.  For the rare times that I do, I use the **[Ghostty](https://ghostty.org/)** terminal application with the default **zsh** shell on Mac.  
 
-My very minor set of terminal configurations is to apply the 'Catppuccin Mocha' theme by adding `theme = Catppuccin Mocha` to the file `~/.config/ghostty/config`.
+My very minor set of configurations includes:
 
-In addition, I configure the prompt using [Oh My Posh](https://ohmyposh.dev/) following [this](https://www.youtube.com/watch?v=9U8LCjuQzdc) tutorial.
-
-A nice installation guide is provided by [Josean Martinez](https://www.josean.com/posts/terminal-setup). It walks through installation of the **homebrew** package manager, the **iTerm2** terminal application, **Git** version control software, the **Oh My Zsh** framework for managing the Zsh configuration, the **PowerLevel10k** Oh My Zsh theme, and Josean's iTerm2 **coolnight** color scheme.
-
-I have plans to move from **Oh My Zsh** to **Zinit** as my plug-in manager, and to swap my theme from **PowerLevel10k** to **Oh My Posh**, but that day has not yet come. 
-
-My PowerLevel10k theme preferences are the following:
-
-::: {.callout-note collapse="true"}
-## PowerLevel10k Setup
-
- - (y) Yes, install the Meslo Nerd Font
- - (2) Classic prompt style
- - (1) Unicode character set
- - (2) Light prompt color
- - (1) 12-hour format for current time
- - (1) Angled prompt separator
- - (1) Sharp prompt heads
- - (1) Flat prompt tails
- - (2) 2-line prompt height
- - (3) Solid prompt connection
- - (1) No prompt frame
- - (2) Sparse prompt spacing
- - (2) Many icons
- - (1) Concise prompt flow
- - (y) Enable transient prompt
- - (1) Verbose instant prompt mode
-
-:::
-
-I also regularly use the **zsh-syntax-highlighting** and **zsh-autosuggestions** plug-ins; the **git** plug-in from Oh My Zsh; and when I'm in a vim mood, the **vi-mode** plug-in. A 3-step procedure downloads, installs, and enables most Zsh plug-ins:
-
- 1. download the plug-in: `git clone <url> $ZSH_CUSTOM/plugins/<plugin-name>`
- 1. add the plug-in name to the array in the `~/.zshrc` file: `plugins=(<plugin-name> <plugin-name> ...)`
- 1. reload the Zsh configuration file via `source ~/.zshrc` to enable the plugins
+ - ghostty config: I use the Catppuccin Mocha theme
+ - prompt config: I use [Oh My Posh](https://ohmyposh.dev/) following [this](https://www.youtube.com/watch?v=9U8LCjuQzdc) tutorial
+ - zsh config: I add the zsh-autosuggestions with a double-tab keybinding to accept autosuggestions, the zsh-syntax-highlighting, and vim keybindings with custom functions to change the cursor shape between normal and insert modes. It's unremarkable, but the config file can be found on my github [here](https://github.com/dyavorsky/configs)
 
 ::: {.callout-note collapse="true"}
 ## Screenshot
 
-![](iterm2_on_mac.png)
+![](ghostty_on_mac.png)
 
 :::
 
 ### On Windows
 
-This section needs an update...
-
-I previously use the **Windows Terminal** application, downloaded from the Microsoft Store. I also use [Git-Bash](https://git-scm.com/downloads) or the Windows Subsysten for Linux (WSL) running Ubuntu with Zsh as my shell. For Zsh, I use the **Oh My Zsh** framework with the **PowerLevel10k** theme previously used on my Mac.
+I use Ubuntu via the Windows Subsystem for Linux (WSL). I use Zsh as the shell, with the **Oh My Zsh** configuration framework and **PowerLevel10k** prompt theme.  I will likely change this setup in the near future.
 
 ::: {.callout-note collapse="true"}
 ## Screenshot
@@ -71,16 +37,18 @@ I previously use the **Windows Terminal** application, downloaded from the Micro
 
 :::
 
-
 -----
 
-# RStudio
+# RStudio & Positron
 
-Positron is quickly replacing RStudio for me.
+I use RStudio and Positron equally.
 
-#### Visual Look
+#### RStudio Visual Look
 
 For the visual look of RStudio, I use the RStudio theme *Darkstudio* and my own version of Atom's *One Dark* editor theme, along with the [Fira Code](https://sourceforge.net/projects/fira-code.mirror/) font. They can be installed as follows:
+
+::: {.callout-note collapse="true"}
+## RStudio Theme Installation
 
 ```{r}
 #| eval: false
@@ -97,6 +65,10 @@ url <- "https://github.com/dyavorsky/atom-inspired-rstudio-theme/blob/main/atom_
 rstudioapi::addTheme(url, apply = TRUE, force = TRUE)
 ```
 
+:::
+
+
+
 ::: {.callout-note collapse="true"}
 ## Screenshot
 
@@ -104,101 +76,32 @@ rstudioapi::addTheme(url, apply = TRUE, force = TRUE)
 
 :::
 
-
-#### Global Options
-
-When installing RStudio on a new machine, ensure the following global options are set:
-
- - Uncheck *Restore most recently opened project at startup*
- - Uncheck *Restore previously open source documents at startup*
- - Uncheck *Restore .RData into workspace at startup*
- - Set *Save workspace to .RData on exit* to "Never"
-
-::: {.callout-note collapse="true"}
-## Screenshot
-
-![](rstudio_options.png)
-
-:::
-
 #### RStudio Shortcuts
 
-I run a complete set of customized shortcuts in order to:
+I run [this](https://github.com/dyavorsky/configs) complete set of customized shortcuts in order to:
 
  - avoid conflicts with system shortcuts and window management shortcuts
  - use a consistent set of key bindings for both Windows and Mac
  - remap bindings for operations I rarely use, to core part of my workflow
  
-See [this repo](https://github.com/dyavorsky/configs) for the config files.
- 
- 
------
 
-# VS Code
- 
-#### Extensions
+#### Positron Visual Look
 
-Themes:
+I use the 'One Dark Pro Darker' theme, with minimal other customization.  I love how Positron 'just works' out of the box.
 
-- **Material** (High Contrast) by Equinusocio 
-- **Atom Material Icons** by Equinusocio
+::: {.callout-note collapse="true"}
+## Screenshot
 
-Languages:
+![](positron_on_mac.png)
 
-- **R** by REditorSupport
-- **Quarto** by quarto.org
-- **Python** by Microsoft
-- **Jupyter** by Microsoft
-- **Julia** by julialang
-- **LaTeX Workshop** by James Yu
-- **Markdown All in One** by Yu Zhang
-
-Other:
-
-- **GitHub Copilot** by GitHub
-- **Error Lens** by Alexander
-- **Vim** by vscodevim
+:::
 
 
 -----
 
 # Mac Shortcuts
 
-### Rectangle
-
-Rectangle for window management, assigned all Cmd+Ctrl key bindings.
-
-::: {.callout-note collapse="true"}
-
-## Screenshot
-
-![](rectangle.png)
-
-:::
-
-### Mac Keyboard Settings
-
-:::: {.callout-note collapse="true"}
-
-## Screenshots
-
-::: {.panel-tabset}
-
-## Launchpad
-
-![](keyboard_launchpad.png)
-
-## Mission Control
-
-![](keyboard_missioncontrol.png)
-
-## App Shortcuts
-
-![](keyboard_app.png)
-
-:::
-
-::::
+I aggressively edit keyboard shortcuts on my mac. I find most of the defaults unnecessary, which I disable. I heavily utilize spaces, speech-to-text, and screenshots, adding shortcuts for each. Some apps require their own special additions -- for example, I can't believe Command-Enter doesn't send a message in Mail. I also find the Vimium Chrome extension (which enables keyboard-only navigation within the browser) to be essential.
 
 
 -----

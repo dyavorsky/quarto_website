@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="How I Like Things on My Computers">
+<meta name="description" content="Yet another beginner’s cheat sheet">
 
-<title>My Computing Environment Preferences – Dan Yavorsky</title>
+<title>Vim Motions – Dan Yavorsky</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,41 +20,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -186,10 +151,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">My Computing Environment Preferences</h1>
+      <h1 class="title">Vim Motions</h1>
                   <div>
         <div class="description">
-          How I Like Things on My Computers
+          Yet another beginner’s cheat sheet
         </div>
       </div>
                 </div>
@@ -207,21 +172,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#terminal-shell" id="toc-terminal-shell" class="nav-link active" data-scroll-target="#terminal-shell">Terminal &amp; Shell</a>
-  <ul class="collapse">
-  <li><a href="#on-mac" id="toc-on-mac" class="nav-link" data-scroll-target="#on-mac">On Mac</a></li>
-  <li><a href="#on-windows" id="toc-on-windows" class="nav-link" data-scroll-target="#on-windows">On Windows</a></li>
-  </ul></li>
-  <li><a href="#rstudio-positron" id="toc-rstudio-positron" class="nav-link" data-scroll-target="#rstudio-positron">RStudio &amp; Positron</a></li>
-  <li><a href="#mac-shortcuts" id="toc-mac-shortcuts" class="nav-link" data-scroll-target="#mac-shortcuts">Mac Shortcuts</a></li>
-  <li><a href="#other-software" id="toc-other-software" class="nav-link" data-scroll-target="#other-software">Other Software</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -230,162 +182,110 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="terminal-shell" class="level1">
-<h1>Terminal &amp; Shell</h1>
-<section id="on-mac" class="level3">
-<h3 class="anchored" data-anchor-id="on-mac">On Mac</h3>
-<p>I want to be a person that sits on the command line, but I’m just not. For the rare times that I do, I use the <strong><a href="https://ghostty.org/">Ghostty</a></strong> terminal application with the default <strong>zsh</strong> shell on Mac.</p>
-<p>My very minor set of configurations includes:</p>
-<ul>
-<li>ghostty config: I use the Catppuccin Mocha theme</li>
-<li>prompt config: I use <a href="https://ohmyposh.dev/">Oh My Posh</a> following <a href="https://www.youtube.com/watch?v=9U8LCjuQzdc">this</a> tutorial</li>
-<li>zsh config: I add the zsh-autosuggestions with a double-tab keybinding to accept autosuggestions, the zsh-syntax-highlighting, and vim keybindings with custom functions to change the cursor shape between normal and insert modes. It’s unremarkable, but the config file can be found on my github <a href="https://github.com/dyavorsky/configs">here</a></li>
-</ul>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="vim_keyboard.jpg" class="img-fluid figure-img"></p>
+<figcaption>Image from YouTube channel <span class="citation" data-cites="sagaratytube">@sagaratytube</span></figcaption>
+</figure>
 </div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Screenshot
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p><img src="ghostty_on_mac.png" class="img-fluid"></p>
-</div>
-</div>
-</div>
+<p>Vim is a powerful, open-source text editor. It is unique in that you spend most of your time in Normal Mode where key presses execute commands that move and edit text, as opposed to Insert Mode where key presses enter text like a traditional word processor. There is also a Visual Mode and Command Mode, subjects for another post.</p>
+<section id="movement-commands" class="level4">
+<h4 class="anchored" data-anchor-id="movement-commands">Movement Commands</h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 66%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><code>h</code>, <code>j</code>, <code>k</code>, <code>l</code></td>
+<td>left, down, up, right</td>
+</tr>
+<tr class="even">
+<td><code>w</code>, <code>W</code>, <code>b</code>, <code>B</code>, <code>e</code>, <code>E</code></td>
+<td>word forward/backward, to start/end</td>
+</tr>
+<tr class="odd">
+<td><code>0</code>, <code>^</code>, <code>$</code></td>
+<td>beginning, first non-blank, or end of line</td>
+</tr>
+<tr class="even">
+<td><code>f</code>, <code>t</code>, <code>F</code>, <code>T</code></td>
+<td>find (or up to) forward/backward</td>
+</tr>
+<tr class="odd">
+<td><code>(</code>, <code>)</code>, <code>{</code>, <code>}</code></td>
+<td>sentence or paragraph, forward/backward</td>
+</tr>
+<tr class="even">
+<td><code>H</code>, <code>M</code>, <code>L</code></td>
+<td>move cursor to top, middle, bottom of screen</td>
+</tr>
+<tr class="odd">
+<td><code>zt</code>, <code>zz</code>, <code>zb</code></td>
+<td>move screen so cursor is top, middle, bottom</td>
+</tr>
+<tr class="even">
+<td><code>Ctrl</code>-<code>F</code>, <code>Ctrl</code>-<code>B</code>, <code>Ctrl</code>-<code>D</code>, <code>Ctrl</code>-<code>U</code></td>
+<td>full page, half page, up and down</td>
+</tr>
+<tr class="odd">
+<td><code>gg</code>, <code>G</code></td>
+<td>top, bottom of doc</td>
+</tr>
+<tr class="even">
+<td><code>/</code>, <code>?</code>, <code>n</code>, <code>N</code></td>
+<td>search forward/backward, next result</td>
+</tr>
+<tr class="odd">
+<td><code>*</code>, <code>#</code></td>
+<td>next/previous instance of word</td>
+</tr>
+<tr class="even">
+<td>double back tick</td>
+<td>jump to last cursor location</td>
+</tr>
+<tr class="odd">
+<td><code>%</code></td>
+<td>jump to matching enclosing (paren, bracket, brace)</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="on-windows" class="level3">
-<h3 class="anchored" data-anchor-id="on-windows">On Windows</h3>
-<p>I use Ubuntu via the Windows Subsystem for Linux (WSL). It’s currently configured to use Zsh as the shell, with the <strong>Oh My Zsh</strong> configuration framework and <strong>PowerLevel10k</strong> prompt theme. I will likely change this setup in the near future.</p>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Screenshot
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p><img src="terminal_on_windows.png" class="img-fluid"></p>
-</div>
-</div>
-</div>
-<hr>
-</section>
-</section>
-<section id="rstudio-positron" class="level1">
-<h1>RStudio &amp; Positron</h1>
-<p>I use RStudio and Positron equally.</p>
-<section id="rstudio-visual-look" class="level4">
-<h4 class="anchored" data-anchor-id="rstudio-visual-look">RStudio Visual Look</h4>
-<p>For the visual look of RStudio, I use the RStudio theme <em>Darkstudio</em> and my own version of Atom’s <em>One Dark</em> editor theme, along with the <a href="https://sourceforge.net/projects/fira-code.mirror/">Fira Code</a> font. They can be installed as follows:</p>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>RStudio Theme Installation
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># rstudio theme</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"https://github.com/rileytwo/darkstudio"</span>)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>path_to_index <span class="ot">&lt;-</span> <span class="st">"/Applications/RStudio.app/Contents/Resources/app/www/index.htm"</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>darkstudio<span class="sc">::</span><span class="fu">activate</span>(path_to_index) <span class="co"># on mac</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>darkstudio<span class="sc">::</span><span class="fu">activate</span>() <span class="co"># on windows (open rstudio with "run as admin")</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co"># editor theme</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>url <span class="ot">&lt;-</span> <span class="st">"https://github.com/dyavorsky/atom-inspired-rstudio-theme/blob/main/atom_inspired.rstheme"</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>rstudioapi<span class="sc">::</span><span class="fu">addTheme</span>(url, <span class="at">apply =</span> <span class="cn">TRUE</span>, <span class="at">force =</span> <span class="cn">TRUE</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Screenshot
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-4" class="callout-4-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p><img src="atom-inspired.png" class="img-fluid"></p>
-</div>
-</div>
-</div>
-</section>
-<section id="rstudio-shortcuts" class="level4">
-<h4 class="anchored" data-anchor-id="rstudio-shortcuts">RStudio Shortcuts</h4>
-<p>I run <a href="https://github.com/dyavorsky/configs">this</a> complete set of customized shortcuts in order to:</p>
-<ul>
-<li>avoid conflicts with system shortcuts and window management shortcuts</li>
-<li>use a consistent set of key bindings for both Windows and Mac</li>
-<li>remap bindings for operations I rarely use, to core part of my workflow</li>
-</ul>
-</section>
-<section id="positron-visual-look" class="level4">
-<h4 class="anchored" data-anchor-id="positron-visual-look">Positron Visual Look</h4>
-<p>I use the ‘One Dark Pro Darker’ theme, with minimal other customization. I love how perfectly Positron ‘just works’ out of the box.</p>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Screenshot
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-5" class="callout-5-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p><img src="positron_on_mac.png" class="img-fluid"></p>
-</div>
-</div>
-</div>
-<hr>
-</section>
-</section>
-<section id="mac-shortcuts" class="level1">
-<h1>Mac Shortcuts</h1>
-<p>I aggressively edit keyboard shortcuts on my mac. I find most of the defaults unnecessary, which I disable. I heavily utilize spaces, speech-to-text, and screenshots, adding shortcuts for each. Some apps require their own special additions – for example, I can’t believe Command-Enter doesn’t send a message in Mail. I also find the Vimium Chrome extension (which enables keyboard-only navigation within the browser) to be essential.</p>
-<hr>
-</section>
-<section id="other-software" class="level1">
-<h1>Other Software</h1>
-<ul>
-<li><a href="https://todoist.com/home">Todoist</a> to track things that need to get done. There’s a version for every device and, as a backup, you can always access it from a browser</li>
-<li><a href="https://www.lastpass.com/">LastPass</a> is my password manager. If you don’t have one yet, you won’t believe how much simpler and more secure authentication can be</li>
-<li><a href="https://www.zotero.org/">Zotero</a> for tracking academic literature. While not perfect, it’s substantially better than a system based on a tree of sub-directories and verbose file names</li>
-<li><a href="https://typora.io/">Typora</a> for writing markdown in a minimal editor (be sure to grab the <a href="https://theme.typora.io/theme/OneDark/">onedark</a> theme)</li>
-<li><a href="https://obsidian.md/">Obsidian</a> for maintaining a database of inter-linked markdown-based notes</li>
-</ul>
-<!--
-
-## On My Mac
-
- - [Alfred](https://www.alfredapp.com/) for quick commands and as a sometimes replacement for Mac's spotlight search. 
- - [CleanShot X](https://cleanshot.com/) as an enhanced screenshot and screen recorder.
- - [HandMirror](https://apps.apple.com/us/app/hand-mirror/id1502839586?mt=12) for one-click checks before jumping on video meetings.
- - [Ice](https://icemenubar.app/) to simplify the top-right menu bar.
- - [Rectangle](https://rectangleapp.com/) for tiling windows, which may become obsolete with MacOS 15 Sequoia.
-
--->
+<section id="editing-commands" class="level4">
+<h4 class="anchored" data-anchor-id="editing-commands">Editing Commands</h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 66%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><code>i</code>, <code>a</code>, <code>I</code>, <code>A</code>, <code>o</code>, <code>O</code></td>
+<td>insert before/after cursor, start/end of line, next/previous line</td>
+</tr>
+<tr class="even">
+<td><code>x</code>, <code>r</code>, <code>s</code></td>
+<td>delete/replace character and go to Normal/Insert Mode</td>
+</tr>
+<tr class="odd">
+<td><code>y</code>, <code>Y</code>, <code>yy</code>, <code>p</code></td>
+<td>copy (end of line, whole line), paste</td>
+</tr>
+<tr class="even">
+<td><code>d</code>, <code>dd</code>, <code>c</code></td>
+<td>delete (whole line), change</td>
+</tr>
+<tr class="odd">
+<td><code>u</code>, <code>.</code>, <code>Ctrl</code>-<code>r</code></td>
+<td>undo, repeat, redo</td>
+</tr>
+<tr class="even">
+<td><code>&gt;&gt;</code>, <code>&lt;&lt;</code></td>
+<td>indent, outdent</td>
+</tr>
+</tbody>
+</table>
 
 
 </section>
