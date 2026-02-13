@@ -11,13 +11,14 @@ callout-appearance: minimal
 
 ### On Mac
 
-I want to be a person that sits on the command line, but I'm just not.  For the rare times that I do, I use the **[Ghostty](https://ghostty.org/)** terminal application with the default **zsh** shell on Mac.  
+I want to be a person that sits on the command line, but I'm just not.  For the rare times that I do, I use the **[Ghostty](https://ghostty.org/)** terminal application with Mac's default **zsh** shell.
 
-My very minor set of configurations includes:
+My preferred configurations include:
 
- - ghostty config: I use the Catppuccin Mocha theme
+ - ghostty config: I use the [Catppuccin Mocha](https://catppuccin.com/) theme
  - prompt config: I use [Oh My Posh](https://ohmyposh.dev/) following [this](https://www.youtube.com/watch?v=9U8LCjuQzdc) tutorial
- - zsh config: I add the zsh-autosuggestions with a double-tab keybinding to accept autosuggestions, the zsh-syntax-highlighting, and vim keybindings with custom functions to change the cursor shape between normal and insert modes. It's unremarkable, but the config file can be found on my github [here](https://github.com/dyavorsky/configs)
+ - zsh config: [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions), [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting), [eza](https://github.com/z-shell/zsh-eza) (a modern ls replacement), [bat](https://github.com/sharkdp/bat) (cat replacement), [ripgrep](https://github.com/BurntSushi/ripgrep) (grep replacement) and the ubiquitous fuzzy finder [fzf](https://github.com/junegunn/fzf), along with vim keybindings and a shortlist of aliases. It's unremarkable, but the config file can be found on my github [here](https://github.com/dyavorsky/configs)
+ - Neovim config: As an aspiring vim user, I'm in the process of carefully configuring Neovim as if productivity is just one more plugin away. I'll update this bullet once my config file no longer requires its own readme.
 
 ::: {.callout-note collapse="true"}
 ## Screenshot
@@ -83,7 +84,7 @@ I run [this](https://github.com/dyavorsky/configs) complete set of customized sh
  - avoid conflicts with system shortcuts and window management shortcuts
  - use a consistent set of key bindings for both Windows and Mac
  - remap bindings for operations I rarely use, to core part of my workflow
- 
+
 
 #### Positron Visual Look
 
@@ -118,13 +119,10 @@ I aggressively edit keyboard shortcuts on my mac. I find most of the defaults un
 
 ## On My Mac
 
- - [Alfred](https://www.alfredapp.com/) for quick commands and as a sometimes replacement for Mac's spotlight search. 
+ - [Alfred](https://www.alfredapp.com/) for quick commands and as a sometimes replacement for Mac's spotlight search.
  - [CleanShot X](https://cleanshot.com/) as an enhanced screenshot and screen recorder.
  - [HandMirror](https://apps.apple.com/us/app/hand-mirror/id1502839586?mt=12) for one-click checks before jumping on video meetings.
  - [Ice](https://icemenubar.app/) to simplify the top-right menu bar.
  - [Rectangle](https://rectangleapp.com/) for tiling windows, which may become obsolete with MacOS 15 Sequoia.
 
 -->
-
-
-
