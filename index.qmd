@@ -3,7 +3,7 @@ title: "Dan Yavorsky"
 about:
   id: main-content
   template: trestles
-  image: images/profile_pic2.png
+  image: images/profile_pic3.png
   image-shape: round
   links:
     - icon: envelope
