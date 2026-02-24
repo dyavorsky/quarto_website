@@ -310,5 +310,8 @@
   },
   "posts/012-vim-motions/index.qmd": {
     "index.html": "3c49c6de"
+  },
+  "posts/013-regex/index.qmd": {
+    "index.html": "f1c6191e"
   }
 }

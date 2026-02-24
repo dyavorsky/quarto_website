@@ -8,6 +8,7 @@ listing:
       - "010-git-basics" 
       - "011-terminal-on-mac"
       - "012-vim-motions"
+      - "013-regex"
       - "020-quarto-websites" 
       - "021-host-on-github"
     type: grid 
