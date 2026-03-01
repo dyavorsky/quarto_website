@@ -183,7 +183,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#moving-around" id="toc-moving-around" class="nav-link" data-scroll-target="#moving-around">Moving around</a></li>
   <li><a href="#editing-text-at-the-command-line" id="toc-editing-text-at-the-command-line" class="nav-link" data-scroll-target="#editing-text-at-the-command-line">Editing Text at the Command Line</a></li>
   <li><a href="#combining-tools" id="toc-combining-tools" class="nav-link" data-scroll-target="#combining-tools">Combining tools</a></li>
-  <li><a href="#regular-expressions" id="toc-regular-expressions" class="nav-link" data-scroll-target="#regular-expressions">Regular Expressions</a></li>
   <li><a href="#sections-to-add" id="toc-sections-to-add" class="nav-link" data-scroll-target="#sections-to-add">Sections to add</a></li>
   </ul></li>
   </ul>
@@ -200,13 +199,14 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="whats-what">What’s what</h2>
 <p>Most users of personal computers today are intimately familiar with the <strong>graphical user interface</strong> (GUI) where interactions with the computer typically involve using a mouse (and sometimes the keyboard) to click and navigate through windows, icons, menus, and buttons.</p>
 <p>Before GUIs became common, computers were often operated through a text-based method called a <strong>command-line interface</strong> (CLI). And this approach is sill widely used today.</p>
-<p>In the “old days,” most computers would boot into the CLI because there was no graphical altnernative. Today, every major operating system still includes a way to access the command line through an application called a terminal emulator (or just <strong>terminal</strong> for short). On macOS, the app is unceremoniously named “Terminal” and can be found in the <code>/Applications/Utilities</code> directory. But you can download other terminal applications, including <a href="https://iterm2.com/">iTerm2</a>, <a href="https://www.warp.dev/">Warp</a>, <a href="https://alacritty.org/">Alacritty</a>, <a href="https://hyper.is/">Hyper</a>, <a href="https://tabby.sh/">Tabby</a>, <a href="https://sw.kovidgoyal.net/kitty/">Kitty</a>, <a href="https://raphamorim.io/rio/">Rio</a>, or others.</p>
-<p>Every terminal application has a text-based input field called the <strong>command line</strong> that begins with a <strong>prompt</strong> (usually <code>&gt;</code> or <code>$</code>). When you type and submit a command, the Shell Command Line Interpreter (or just <strong>Shell</strong>) parses and interprets the text you have typed, carrying out your instructions and possibly returning information to you in the terminal. This Read-Eval-Print loop (<strong>REPL</strong>) is common when computer programs allow “live” interaction between the user and computer.</p>
-<p>The default shell on macOS at the time of writing is <strong>zsh</strong> (pronounced the “Z shell”) which replaced <strong>bash</strong> (the “Bourne Again SHell”) as the macOS default starting with the release of macOS Catalina in 2019. bash, as evidenced by its name, was an evolution of the Bourne shell (with the short name <strong>sh</strong>). To round out the list, the <a href="https://www.reddit.com/r/linux4noobs/comments/12wfzb8/best_shell_in_your_opinion_2023/">only</a> other popular shell today is <strong>fish</strong> (the “friendly” shell).</p>
+<p>In the “old days,” most computers would boot into the CLI because there was no graphical alternative. Today, every major operating system still includes a way to access the command line through an application called a terminal emulator (or just <strong>terminal</strong> for short). On macOS, the app is unceremoniously named “Terminal” and can be found in the <code>/Applications/Utilities</code> directory. But you can download other terminal applications, including <a href="https://alacritty.org/">Alacritty</a>, <a href="https://ghostty.org/">Ghostty</a>, <a href="https://hyper.is/">Hyper</a>, <a href="https://iterm2.com/">iTerm2</a>, <a href="https://sw.kovidgoyal.net/kitty/">Kitty</a>, <a href="https://raphamorim.io/rio/">Rio</a>, <a href="https://tabby.sh/">Tabby</a>, <a href="https://www.warp.dev/">Warp</a>, <a href="https://wezterm.org/">WezTerm</a> or others.</p>
+<p>Every terminal application has a text-based input field called the <strong>command line</strong> that begins with a <strong>prompt</strong> (usually <code>&gt;</code> or <code>$</code>). Many users customize their prompts to include information about the username or hostname, current directory, git branch or git status, or even the execution time or exit code of the prior command. Common frameworks that assist with prompt customization include <a href="https://starship.rs/">Starship</a>, <a href="https://ohmyposh.dev/">Oh-my-posh</a>, and [(https://github.com/romkatv/powerlevel10k).</p>
+<p>When you type and submit a command, the Shell Command Line Interpreter (or just <strong>Shell</strong>) parses and interprets the text you have typed, carrying out your instructions and possibly returning information to you in the terminal. This Read-Eval-Print loop (<strong>REPL</strong>) is common when computer programs allow “live” interaction between the user and computer (as opposed to writing all your commands in a script file and executing the whole file).</p>
+<p>The default shell on macOS at the time of writing is <strong>zsh</strong> (pronounced the “Z shell”) which replaced <strong>bash</strong> (the “Bourne Again SHell”) as the macOS default starting with the release of macOS Catalina in 2019. bash, as evidenced by its name, was an evolution of another shell called the Bourne shell (with the short name <strong>sh</strong>). To round out the list, the <a href="https://www.reddit.com/r/linux4noobs/comments/12wfzb8/best_shell_in_your_opinion_2023/">only</a> other popular shells today are <strong>fish</strong> (the “friendly” shell) and <strong>nushell</strong> (which emphasizes structured tabular text when possible).</p>
 </section>
 <section id="shell-basics" class="level2">
 <h2 class="anchored" data-anchor-id="shell-basics">Shell Basics</h2>
-<p>First, let’s determine what shell you are using. Open your terminal application and type <code>echo $SHELL</code> at the command prompt. If the response is <code>/bin/zsh</code> then its zsh.</p>
+<p>To determine what shell you are using, open your terminal application and type <code>echo $SHELL</code> at the command prompt. If the response is <code>/bin/zsh</code> then its zsh.</p>
 <p>Most commands tend to have the following structure</p>
 <pre><code>[command] [options] [arguments]</code></pre>
 <p>You’ll need help. Often. The commands <code>run-help</code> and <code>man</code> (short for manual) following by a command name will bring up the command’s documentation using the terminal pager <strong>less</strong>. For navigation, arrow keys move one line at a time, page up/down and the spacebar move one page at a time, and <code>q</code> exits. For more succinct documentation, visit <a href="https://tldr.sh/">https://tldr.sh/</a> in a browser, which can be used interactively or downloaded.</p>
@@ -263,7 +263,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="vi-style-keybindings-modal-editing" class="level4">
 <h4 class="anchored" data-anchor-id="vi-style-keybindings-modal-editing">Vi-style keybindings (modal editing)</h4>
 <p>Vi mode is “modal,” meaning you switch between modes: “Insert” mode where you type normally, or “Normal” mode where keys perform editing commands. This feels strange at first, but you can become extremely fast once it clicks. Vi’s reputation is that you can move mountains in a few keystrokes, but with the cost that even simple operations also require a few keystrokes.</p>
-<p>To change from the default emacs-style key binding to vi-style for the current shell session, run <code>bindkey -v</code> or <code>set -o vi</code>. To enable vi-style keybinding every time you start an interactive shell, add one of those commands to your shell configuration file (typically ~/.zshrc for zsh or ~/.bashrc for bash). Then either restart your terminal or reload the configuration with source <code>~/.zshrc</code>.</p>
+<p>To change from the default emacs-style key binding to vi-style for the current shell session, run <code>bindkey -v</code> or <code>set -o vi</code>. To enable vi-style keybinding every time you start an interactive shell, add one of those commands to your shell configuration file (typically ~/.zshrc for zsh or ~/.bashrc for bash). Then either restart your terminal or reload the configuration with <code>source ~/.zshrc</code>.</p>
 <p>Once enabled, when you’re typing a command you’re usually in insert mode. Press:</p>
 <ul>
 <li><code>Esc</code> switch to normal mode</li>
@@ -317,13 +317,10 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>More-advanced tools that deserve their own section and explanation</p>
 <ul>
-<li><code>grep</code> for matching a Regular Expression pattern in one or more files</li>
+<li><code>grep</code> for matching a Regular Expression pattern in one or more files, see <a href="../../posts/013-regex/index.html">here</a></li>
 <li><code>sed</code> a stream editor for modifying data</li>
 <li><code>awk</code> a data processing language named after its creators</li>
 </ul>
-</section>
-<section id="regular-expressions" class="level3">
-<h3 class="anchored" data-anchor-id="regular-expressions">Regular Expressions</h3>
 </section>
 <section id="sections-to-add" class="level3">
 <h3 class="anchored" data-anchor-id="sections-to-add">Sections to add</h3>

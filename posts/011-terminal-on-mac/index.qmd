@@ -13,15 +13,17 @@ Most users of personal computers today are intimately familiar with the **graphi
 
 Before GUIs became common, computers were often operated through a text-based method called a **command-line interface** (CLI). And this approach is sill widely used today. 
 
-In the "old days," most computers would boot into the CLI because there was no graphical altnernative. Today, every major operating system still includes a way to access the command line through an application called a terminal emulator (or just **terminal** for short). On macOS, the app is unceremoniously named "Terminal" and can be found in the `/Applications/Utilities` directory. But you can download other terminal applications, including [iTerm2](https://iterm2.com/), [Warp](https://www.warp.dev/), [Alacritty](https://alacritty.org/), [Hyper](https://hyper.is/), [Tabby](https://tabby.sh/), [Kitty](https://sw.kovidgoyal.net/kitty/), [Rio](https://raphamorim.io/rio/), or others.
+In the "old days," most computers would boot into the CLI because there was no graphical alternative. Today, every major operating system still includes a way to access the command line through an application called a terminal emulator (or just **terminal** for short). On macOS, the app is unceremoniously named "Terminal" and can be found in the `/Applications/Utilities` directory. But you can download other terminal applications, including [Alacritty](https://alacritty.org/), [Ghostty](https://ghostty.org/), [Hyper](https://hyper.is/), [iTerm2](https://iterm2.com/), [Kitty](https://sw.kovidgoyal.net/kitty/), [Rio](https://raphamorim.io/rio/), [Tabby](https://tabby.sh/), [Warp](https://www.warp.dev/), [WezTerm](https://wezterm.org/) or others.
 
-Every terminal application has a text-based input field called the **command line** that begins with a **prompt** (usually `>` or `$`). When you type and submit a command, the Shell Command Line Interpreter (or just **Shell**) parses and interprets the text you have typed, carrying out your instructions and possibly returning information to you in the terminal. This Read-Eval-Print loop (**REPL**) is common when computer programs allow "live" interaction between the user and computer. 
+Every terminal application has a text-based input field called the **command line** that begins with a **prompt** (usually `>` or `$`). Many users customize their prompts to include information about the username or hostname, current directory, git branch or git status, or even the execution time or exit code of the prior command. Common frameworks that assist with prompt customization include [Starship](https://starship.rs/), [Oh-my-posh](https://ohmyposh.dev/), and [(https://github.com/romkatv/powerlevel10k). 
 
-The default shell on macOS at the time of writing is **zsh** (pronounced the "Z shell") which replaced **bash** (the "Bourne Again SHell") as the macOS default starting with the release of macOS Catalina in 2019. bash, as evidenced by its name, was an evolution of the Bourne shell (with the short name **sh**). To round out the list, the [only](https://www.reddit.com/r/linux4noobs/comments/12wfzb8/best_shell_in_your_opinion_2023/) other popular shell today is **fish** (the "friendly" shell).
+When you type and submit a command, the Shell Command Line Interpreter (or just **Shell**) parses and interprets the text you have typed, carrying out your instructions and possibly returning information to you in the terminal. This Read-Eval-Print loop (**REPL**) is common when computer programs allow "live" interaction between the user and computer (as opposed to writing all your commands in a script file and executing the whole file). 
+
+The default shell on macOS at the time of writing is **zsh** (pronounced the "Z shell") which replaced **bash** (the "Bourne Again SHell") as the macOS default starting with the release of macOS Catalina in 2019. bash, as evidenced by its name, was an evolution of another shell called the Bourne shell (with the short name **sh**). To round out the list, the [only](https://www.reddit.com/r/linux4noobs/comments/12wfzb8/best_shell_in_your_opinion_2023/) other popular shells today are **fish** (the "friendly" shell) and **nushell** (which emphasizes structured tabular text when possible).
 
 ## Shell Basics
 
-First, let's determine what shell you are using. Open your terminal application and type `echo $SHELL` at the command prompt. If the response is `/bin/zsh` then its zsh. 
+To determine what shell you are using, open your terminal application and type `echo $SHELL` at the command prompt. If the response is `/bin/zsh` then its zsh. 
 
 Most commands tend to have the following structure
 
@@ -85,7 +87,7 @@ In Emacs mode, you use Control key combinations to move and edit efficiently. Th
 
 Vi mode is “modal,” meaning you switch between modes: "Insert" mode where you type normally, or "Normal" mode where keys perform editing commands. This feels strange at first, but you can become extremely fast once it clicks. Vi's reputation is that you can move mountains in a few keystrokes, but with the cost that even simple operations also require a few keystrokes.
 
-To change from the default emacs-style key binding to vi-style for the current shell session, run `bindkey -v` or `set -o vi`. To enable vi-style keybinding every time you start an interactive shell, add one of those commands to your shell configuration file (typically ~/.zshrc for zsh or ~/.bashrc for bash). Then either restart your terminal or reload the configuration with source `~/.zshrc`.
+To change from the default emacs-style key binding to vi-style for the current shell session, run `bindkey -v` or `set -o vi`. To enable vi-style keybinding every time you start an interactive shell, add one of those commands to your shell configuration file (typically ~/.zshrc for zsh or ~/.bashrc for bash). Then either restart your terminal or reload the configuration with `source ~/.zshrc`.
 
 Once enabled, when you’re typing a command you’re usually in insert mode. Press:
 
@@ -140,13 +142,9 @@ Common tools for inspecting files, or for gathering and summarizing their conten
  
 More-advanced tools that deserve their own section and explanation
 
- - `grep` for matching a Regular Expression pattern in one or more files
+ - `grep` for matching a Regular Expression pattern in one or more files, see [here](../013-regex/index.qmd)
  - `sed` a stream editor for modifying data
  - `awk` a data processing language named after its creators 
-
-### Regular Expressions
-
-
  
 ### Sections to add
 
