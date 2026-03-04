@@ -32,26 +32,26 @@ format:
 
 ## Current
 
- - SVP, Analytics | GBK Collective
- - Lecturer, Econometrics | UCLA Anderson
- - Lecturer, Customer Analytics | UCSD Rady
+ - SVP, Analytics [|]{.yellow} [GBK Collective]{.altgreen}
+ - Lecturer, Econometrics [|]{.yellow} [UCLA Anderson]{.altgreen}
+ - Lecturer, Customer Analytics [|]{.yellow} [UCSD Rady]{.altgreen}
 
 -----
 
 ## Work History
 
- - GBK Collective [| 2022 - Present]{.gray}
- - Bain & Co [| 2020 - 2021]{.gray}
- - Cornerstone Research [| 2006 - 2014]{.gray}
+ - GBK Collective [|]{.yellow} [2022 - Present]{.altgreen}
+ - Bain & Co [|]{.yellow} [2020 - 2021]{.altgreen}
+ - Cornerstone Research [|]{.yellow} [2006 - 2014]{.altgreen}
 
 -----
 
 ## Education
 
- - PhD Quant. Marketing [| UCLA Anderson 2020]{.gray}
- - MBA Management [| UCLA Anderson 2014]{.gray}
- - CFA Charterholder (inactive) [| CFA Institute 2012]{.gray}
- - BA Economics & Mathematics [| CMC 2006]{.gray}
+ - PhD Quant. Marketing [|]{.yellow} [UCLA Anderson 2020]{.altgreen}
+ - MBA Management [|]{.yellow} [UCLA Anderson 2014]{.altgreen}
+ - CFA Charterholder (inactive) [|]{.yellow} [CFA Institute 2012]{.altgreen}
+ - BA Economics & Mathematics [|]{.yellow} [CMC 2006]{.altgreen}
 
 :::
 

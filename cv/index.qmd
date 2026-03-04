@@ -1,7 +1,7 @@
 ---
 title: Resume
 description: "Dan Yavorsky's Resume"
-date: 2024-03-25
+date: 2026-01-22
 title-block-banner: "#35444E"
 published-title: Last updated
 engine: knitr 

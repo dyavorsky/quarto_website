@@ -26,7 +26,7 @@ toc: false
  - [John Cook](https://www.johndcook.com/blog/)
  - [Marc and Jeff Dotson](https://occasionaldivergences.com/)
  - [Andrew Heiss](https://www.andrewheiss.com/blog/)
- - [Stephan Seiler's Annual Best-of](https://www.seilerstephan.com/blog)]
+ - [Stephan Seiler's Annual Best-of](https://www.seilerstephan.com/blog)
 
 
 
