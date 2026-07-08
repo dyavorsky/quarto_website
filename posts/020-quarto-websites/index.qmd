@@ -25,7 +25,7 @@ If you prefer VS Code, the command line, or another IDE, you can download and in
 You can confirm that Quarto is installed by running `quarto --version` at the command line in the Terminal (on Mac or Linux) or in the Git-Bash terminal on Windows -- note that this is not the R console. If a version number is returned, you're good to go.
 
 ```{.bash filename="Terminal"}
-$ quarto --version
+quarto --version
 ```
 
 
@@ -410,7 +410,7 @@ Additionally, there are several other excellent tutorials on developing Quarto w
 |------------------|-----------------------------------------------------------------------------------------------|
 | UCSB Med         | <https://ucsb-meds.github.io/creating-quarto-websites/>                                       |
 | Beatriz Milz     | <https://beamilz.com/posts/2022-06-05-creating-a-blog-with-quarto/en/>                        |
-| Marvin Schmitt   | <https://www.marvinschmitt.com/blog/website-tutorial-quarto/>                                 |
+| Marvin Schmitt   | <https://www.marvin-schmitt.com/blog/website-tutorial-quarto/>                                |
 | Albert Rapp      | <https://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html> |
 | Sam Csik         | <https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/>                               |
 | Deepsha Menghani | <https://www.youtube.com/watch?v=xtSFXtDf4cM>                                                 |
@@ -420,7 +420,7 @@ $$
 
 Finally, if you see something you like on someone else's website, you can usually visit their GitHub page to see how they did it!
 
- - In particular [Andrew Heiss](https://www.andrewheiss.com/) and [Marvin Schmitt](https://www.marvinschmitt.com/) have fully-featured Quarto-based websites.
+ - In particular [Andrew Heiss](https://www.andrewheiss.com/) and [Marvin Schmitt](https://www.marvin-schmitt.com/) have fully-featured Quarto-based websites.
  
  - In addition, the following websites (listed alphabetically by first name) offer inspiration too: [Albert Rapp](https://albert-rapp.de), [Beatriz Milz](https://beamilz.com/about), [Chris Kenny](https://christophertkenny.com/), [Ella Kaye](https://ellakaye.co.uk/), [Emil Hvitfeldt](https://emilhvitfeldt.com/), [Meghan Hall](https://meghan.rbind.io/), [Mine Dogucu](https://www.minedogucu.com/), [Sam Csik](https://samanthacsik.github.io), and [Tom Mock](https://themockup.blog/about.html).
 

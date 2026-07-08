@@ -14,7 +14,6 @@ website:
   search: false
   
   navbar:
-    background: "#536878"
     search: false
     left:
       - href: index.qmd
@@ -66,10 +65,11 @@ website:
   
 format:
   html:
-    theme: [cosmo, custom.scss]
+    theme: [solar, custom.scss]
     css: custom.scss
     toc: true
 
 execute:
   freeze: auto
+  cache: true
 

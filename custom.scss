@@ -1,5 +1,5 @@
 /*-- scss:defaults --*/
-$defaultblue: #536878;
+$defaultblue: #536878; // cosmo theme
 $darkblue: #35444e;
 $lightblue: #778fa1;
 
@@ -17,9 +17,20 @@ $gbk-lightblue: #C7D8E4;
 $gbk-pink: #F76362;
 $gbk-lightpink: #F9BDBC;
 
+$solar-yellow: #b58900;
+$solar-altgreen: #2aa198;
+
 
 
 /*-- scss:rules --*/
+.altgreen{
+    color: $solar-altgreen;
+}
+
+.yellow{
+    color: $solar-yellow;
+}
+
 .gray{
   color: $gray-text;
 }
@@ -111,7 +122,7 @@ $gbk-lightpink: #F9BDBC;
             font-weight: 300;
             font-size: 0.9em;
             margin-bottom: 0.5em;
-            color: $gray-800;
+            color: #b58900;
         }
 
         .course-description {
@@ -132,7 +143,7 @@ $gbk-lightpink: #F9BDBC;
             li {
                 display: inline-block;
                 white-space: nowrap;
-                background-color: $lightblue;
+                background-color: #21474d;
                 margin: 0 0.2em 0.4em 0;
                 padding: 0.2em 0.4em;
                 font-size: 0.85em;
@@ -144,7 +155,7 @@ $gbk-lightpink: #F9BDBC;
                 }
 
                 a {
-                    color: $white;
+                    color: #adb5bd;
                 }
             }
         }
@@ -153,5 +164,5 @@ $gbk-lightpink: #F9BDBC;
 
 /*-- scss:blog --*/
 .quarto-grid-item:hover {
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 10px 12px rgba(0,0,0,0.8);
 }

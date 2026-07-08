@@ -1,0 +1,67 @@
+---
+title: "Regular Expression"
+description: "Abbreviated Fundamentals of RegEx"
+number-sections: false
+image: regex.png
+draft: false
+
+---
+
+###  Core Operators & Grouping Symbols
+
+| Symbol  | Meaning                                   |
+| ------- | ----------------------------------------- |
+| `.`     | Any character except newline              |
+| `*`     | 0 or more of the previous element         |
+| `+`     | 1 or more of the previous element         |
+| `?`     | 0 or 1 of the previous element            |
+| `{n}`   | Exactly _n_ repetitions                   |
+| `{n,}`  | _n_ or more repetitions                   |
+| `{n,m}` | Between _n_ and _m_ repetitions           |
+| `()`    | Capturing group                           |
+| `(?: )` | Non-capturing group                       |
+| `[]`    | Character class (match any one inside)    |
+| `[^ ]`  | Negated character class                   |
+| `\|`    | OR operator                               |
+| `^`     | Start of string (or negation inside `[]`) |
+| `$`     | End of string                             |
+
+For example `^gr(a|e)y_*beard$` would match graybeard and grey_beard.
+
+
+### Character Ranges & POSIX Classes
+
+| Pattern         | POSIX Pattern | Meaning            | 
+| --------------- | ------------- | ------------------ |
+| `[A-Z]`         | `[[:upper:]]` | Uppercase letters  |
+| `[a-z]`         | `[[:lower:]]` | Lowercase letters  |
+| `[A-Za-z]`      | `[[:alpha:]]` | All letters        |
+| `[0-9]`         | `[[:digit:]]` | Digits             |
+| `[A-Za-z0-9]`   | `[[:alnum:]]` | Alphanumeric       |
+| `[ \t\n\r\f\v]` | `[[:space:]]` | Whitespace (POSIX) |
+
+Whitespace is space, tab, newline, carriage return, form feed, and vertical tab.
+
+For example, if you want 'file_001.txt' through 'file_099.txt' but not eg 'file_123.txt', you could use `^file_0[[:digit:]]{2}.txt$`
+
+
+### Common Shorthand Character Classes
+
+| Pattern | Meaning                                             |
+| ------- | --------------------------------------------------- |
+| `\d`    | Digit (same as `[0-9]`)                             |
+| `\D`    | Non-digit                                           |
+| `\w`    | Word character (letters, digits, underscore)        |
+| `\W`    | Non-word character                                  |
+| `\s`    | Whitespace                                          |
+| `\S`    | Non-whitespace                                      |
+| `\b`    | Word boundary                                       |
+| `\B`    | Not a word boundary                                 |
+| `\A`    | Start of string (stronger than `^` in some engines) |
+| `\Z`    | End of string                                       |
+
+For example, one or more words followed by whitespace and 4 digits with nothing else would be `\A\b\w+\b\s\d{4}\Z`
+
+
+_image from https://www.bleepingcomputer.com/news/microsoft/using-regex-to-implement-passphrases-in-your-active-directory/_
+
