@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.40">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Katy Milkman">
+
+<title>How to Change – Dan Yavorsky</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<link href="../..//images/favicon.ico" rel="icon">
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-005320388bf5d7a2f26bed4cf184bc04.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../custom.scss">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Dan Yavorsky</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> <i class="bi bi-person-circle" role="img">
+</i> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../cv/index.html"> <i class="bi bi-file-earmark-check" role="img">
+</i> 
+<span class="menu-text">Resume</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../teaching/index.html"> <i class="bi bi-mortarboard" role="img">
+</i> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../pubs/index.html"> <i class="bi bi-journals" role="img">
+</i> 
+<span class="menu-text">Pubs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts/index.html"> <i class="bi bi-pencil-square" role="img">
+</i> 
+<span class="menu-text">Posts</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-links" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-link-45deg" role="img">
+</i> 
+ <span class="menu-text">Links</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-links">    
+        <li>
+    <a class="dropdown-item" href="../../links/r.html"><i class="bi bi-r-circle" role="img">
+</i> 
+ <span class="dropdown-text">R Programming</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../links/compute.html"><i class="bi bi-terminal" role="img">
+</i> 
+ <span class="dropdown-text">Computing</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../links/stats.html"><i class="bi bi-bar-chart" role="img">
+</i> 
+ <span class="dropdown-text">Stats</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../links/advice.html"><i class="bi bi-info-square" role="img">
+</i> 
+ <span class="dropdown-text">Advice</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../links/blogs.html"><i class="bi bi-file-text" role="img">
+</i> 
+ <span class="dropdown-text">Blogs</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../links/quotes.html"><i class="bi bi-chat-quote" role="img">
+</i> 
+ <span class="dropdown-text">Quotes</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+    <a href="https://github.com/dyavorsky/quarto_website" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">How to Change</h1>
+                  <div>
+        <div class="description">
+          Katy Milkman
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#foreword" id="toc-foreword" class="nav-link active" data-scroll-target="#foreword">Foreword</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#getting-started" id="toc-getting-started" class="nav-link" data-scroll-target="#getting-started">Getting Started</a></li>
+  <li><a href="#impulsivity" id="toc-impulsivity" class="nav-link" data-scroll-target="#impulsivity">Impulsivity</a></li>
+  <li><a href="#procrastination" id="toc-procrastination" class="nav-link" data-scroll-target="#procrastination">Procrastination</a></li>
+  <li><a href="#forgetfulness" id="toc-forgetfulness" class="nav-link" data-scroll-target="#forgetfulness">Forgetfulness</a></li>
+  <li><a href="#laziness" id="toc-laziness" class="nav-link" data-scroll-target="#laziness">Laziness</a></li>
+  <li><a href="#confidence" id="toc-confidence" class="nav-link" data-scroll-target="#confidence">Confidence</a></li>
+  <li><a href="#conformity" id="toc-conformity" class="nav-link" data-scroll-target="#conformity">Conformity</a></li>
+  <li><a href="#changing-for-good" id="toc-changing-for-good" class="nav-link" data-scroll-target="#changing-for-good">Changing for Good</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<section id="foreword" class="level2">
+<h2 class="anchored" data-anchor-id="foreword">Foreword</h2>
+<ul>
+<li>Katy is not, in fact, superhuman. Instead, she is what you and I aspire to be, and what she shows us in this book all of us can be: a <em>super</em> human. By that I mean that Katy is a master of human nature. She has figured out how to line up her actions with her goals and dreams.</li>
+<li>The secret to a better life is not to eradicate the impulses that make us human but instead to understand them, outsmart them, and whenever possible, to make them work for us rather than against us.</li>
+<li>Every book is like a conversation with its author. So you have to be picky about the books you read. With your limited time, you want a conversation partner who can teach you something you didn’t know. And you want to like the person with whom you’re in dialogue. You want to enjoy your time together.</li>
+</ul>
+</section>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<ul>
+<li>Widely touted techniques don’t always help you, or others, change.</li>
+<li>One answer is that change is hard. But a more useful answer is that you haven’t found the right strategy.</li>
+<li>But to give yourself the best chance at success, it’s critical to size up your opponent and develop a strategy tailored to overcome the particular challenges you face. The surest path to success is not one-size-fits-all. Instead, you must match your approach to your opponent.</li>
+<li>It turns out that the leading cause of premature death isn’t poor health care, difficult social circumstances, bad genes, or environmental toxins. Instead, an estimated 40 percent of premature deaths are the result of personal behaviors we can change.</li>
+<li>When policy makers, organizations, or scientists applied a one-size-fits-all strategy to change behavior, the results were mixed. But when they began by asking what stood in the way of progress and then developed targeted strategies to change behavior, the results were far better.</li>
+<li>Your opponent is inside your head. Maybe it’s forgetfulness, or a lack of confidence, or laziness, or the tendency to succumb to temptation. Whatever the challenge, the best tacticians size up their opponent and play accordingly.</li>
+<li>By using these tools consistently, my hope is that you’ll see small changes accumulate into big results.</li>
+</ul>
+</section>
+<section id="getting-started" class="level2">
+<h2 class="anchored" data-anchor-id="getting-started">Getting Started</h2>
+<ul>
+<li>If we hoped to effectively promote behavior change, of course we would need to understand <em>when</em> to begin.</li>
+<li>If you want to change your behavior or someone else’s, you’re at a huge advantage if you begin with a blank slate.</li>
+<li>There’s just one problem: true blank slates are incredibly rare. But thankfully, change in the absence of a blank slate isn’t hopeless – it’s just hard. There might be a way to harness the <em>feeling</em> of a blank slate, even in moments when no true tabula rasa exists.</li>
+<li>Rather than perceiving time as a continuum, we tend to think about our lives in “episodes.”</li>
+<li>The start of a new life chapter, no matter how small, might be able to give people the impression of a clean slate. These new chapters are moments when the labels we use to describe ourselves, who we are, and what we’re living through shift, compelling us to shift with them. And labels matter to our behavior; it influences how we <em>act</em>, not just how we describe ourselves.</li>
+<li>The potential to harness fresh starts is underutilized. When we hope to change, we have an opportunity to try reshaping our environment to help us disrupt old routines and ways of thinking.</li>
+<li>Resets helped underperformers up their game but harmed people who were already doing well. This was an important and cautionary lesson: not everyone benefits from a fresh start.</li>
+<li>I like to remind cynics that if you flip the discouraging statistics about New Year’s resolutions on their head, you’ll see that 20 percent of the goals set each January <em>succeed</em>. That’s a lot of people who’ve changed their lives for the better simply because they resolved to try in the first place.</li>
+</ul>
+</section>
+<section id="impulsivity" class="level2">
+<h2 class="anchored" data-anchor-id="impulsivity">Impulsivity</h2>
+<ul>
+<li>The barrier is simple: doing the “right” thinking is often unsatisfying in the short-term.</li>
+<li>Economists call this tendency to favor instantly gratifying temptations over larger long-term rewards “present bias,” though its common name is “impulsivity,” and it’s unfortunately universal.</li>
+<li>Oddly enough, research has shown that we rarely follow this wise approach and sweeten the deal when we set out to pursue our long-term goals. Instead, we tend to pursue behavior change without thinking of the discomfort we’ll have to endure or attempting to alleviate it.</li>
+<li>In fact, in one study of the way people tackle change, more than two thirds of respondents told researchers that they typically focus on the benefits they expect to accrue in the <em>long-run</em> without regard for the short-term pain. There’s a good explanation for this: those long-term benefits are typically the impetus for pursuing a goal or making a change.</li>
+<li>But there’s reason to worry that an eyes-on-the-prize mentality could be a mistake. Lots of research shows that we tend to be overconfident about how easy it is to be self-disciplined.</li>
+<li>People have a remarkable ability to ignore their own failures. Even when we flounder again and again, many of us manage to maintain a rosy optimism about our ability to do better next time rather than learning from our past mistakes.</li>
+<li>Encouraging people to find the <em>fun</em> in healthy activities led to substantially better results. These results, while intuitive to some degree, fly squarely in the face of the way the vast majority of us report approaching our goals – with too much faith in our self control and ability to do tough things.</li>
+<li>“Temptation bundling:” what if I let myself binge-watch my favorite Netflix TV shows only while folding laundry, cooking, or completing other household chores?</li>
+<li>Temptation bundling certainly works best if you can actually restrict an indulgence to whenever you’re doing a task that requires an extra boost of motivation.</li>
+<li>Unfortunately, not all activities can be bundled with one another.</li>
+<li>It’s also not a fail-safe strategy for helping other people change, since it asks people to police themselves.</li>
+<li>“Gamification:” the act of making an activity that isn’t a game feel more engaging and less monotonous by adding gamelike features such as symbolic rewards, a sense of competition, and leaderboards. You can probably guess that Jana’s [Wikipedia gamification] experiment was a success, but what you might not guess is that it helped <em>tremendously</em>.</li>
+<li>“Enter the magic circle” is a term used to describe agreeing to be bound by a game’s rules rather than the normal rules that guide our daily interactions. If people haven’t entered the magic circle, there’s no real point to a game.</li>
+<li>Gamification is unhelpful and can even be harmful if people feel that their employer is forcing them to participate in “mandatory fun.”</li>
+<li>At its best, gamification helps people achieve goals they want to reach anyway by making the <em>process</em> more exciting.</li>
+<li>Science suggests gamification can help many of us tackle our goals, so long as we’re choosing to use it to pursue goals we <em>want</em> to achieve.</li>
+<li>How can <em>managers</em> take advantage of gamification, if they can’t assume that employees will want to buy in? One low-risk way to make work more appealing is simply to make the workplace itself more enticing and fun.</li>
+<li>Research has proven time and again that rather than relying on willpower to resist temptation, we’re better off figuring out how to make good behaviors more gratifying in the short-term. Big payoffs far down the road just aren’t enough to keep us motivated.</li>
+</ul>
+</section>
+<section id="procrastination" class="level2">
+<h2 class="anchored" data-anchor-id="procrastination">Procrastination</h2>
+<ul>
+<li>Rather than always preferring flexibility and freedom, sometimes people want just the opposite because they know it will help them avoid temptation: “commitment devices”.</li>
+<li>Whenever you do something that reduces your own freedoms in the service of a greater goal, you’re using a commitment device.</li>
+<li>Of course, restrictions designed to prevent impulsive choices are all around us. But normally these kinds of restrictions are imposed on us by a presumably benevolent third party, such as a government or a teacher. What makes commitment devices weird is that they’re self imposed – we are handcuffing ourselves!</li>
+<li>“Cash commitment device”: all you have to do is set a goal, choose someone (or some piece of technology) to accurately track your progress, and put money on the line that you’ll have to forfeit to a third party if you don’t succeed.</li>
+<li>A somewhat contradictory feature of cash commitment devices: on the one hand, when we use them, we are flouting the standard laws of economics, which say more freedom is better than less. But on the other hand, we’re also leaning heavily on standard economics, which recommends that you hike up the price of unwanted behavior or impose restrictions to discourage it.</li>
+<li>The psychology the researchers were counting on to buoy this [commitment device] tactic works like this: as soon as you sign a commitment and post it on your wall you’ve created a mental cost.</li>
+<li>The clinician pledge is a prime example of what I call a “soft commitment” – a commitment that comes with only a <em>psychological</em> price tag for failure.</li>
+<li>Being at odds with yourself, which psychologists call “cognitive dissonance,” is a surprisingly powerful force. People often go to great lengths to avoid reckoning with their internal contradictions.</li>
+<li>I was initially indignant about how few people use them [hard commitment devices such as cash]. The data proved to me that these valuable tools should be widely popular. Yet most people seem to find soft commitments more appealing than hard commitments, despite the fact that they lack the same pinch and are so substantially less effective.</li>
+<li>Everyone has self control problems, so that isn’t the distinguishing characteristic between two types of people in this world. Rather some of us have come to terms with our impulsivity and are willing to take steps to rein it in: the Sophisticates. Lots of people are instead overly optimistic about their ability to overcome their self control problems through sheer willpower: the Naifs.</li>
+<li>Self control is a key obstacle to behavior change. Commitment devices can rein in temptation.</li>
+</ul>
+</section>
+<section id="forgetfulness" class="level2">
+<h2 class="anchored" data-anchor-id="forgetfulness">Forgetfulness</h2>
+<ul>
+<li>Evidence suggests that, surprisingly, our intentions are only loosely predictive of our behaviors. Common causes include laziness, inattention, and that people simply forget.</li>
+<li>one obvious way to prevent this kind of mistake is to create reminder systems.</li>
+<li>Often when we make plans, we don’t focus on what will trigger us to act. Instead, we focus on what we intend to do. It’s vital to link that intention with a cue such as a specific time, place, or action.</li>
+<li>while any cue is better than no cue, it’s best to rely on cues that are out of the ordinary.</li>
+<li>All of this research on planning prompts has convinced me that encouraging people to make a plan is an underappreciated way to combat flaking out.</li>
+<li>Forming cue-based plans most effectively sets you up for success.</li>
+<li>In addition to reducing forgetting and short circuiting the need to think about what you’ll do in the moment, planning forces you to break big goals into bite-sized chunks.</li>
+<li>That said, there is one important caveat: you can overdo it. So it’s best to be choosy about which goals you’ll focus on at a given time and plan carefully to achieve just one or two.</li>
+<li>Another potential complication with cue-based planning is that what you need to remember to do can be so complex that a simple plan to act won’t suffice. In these cases, research shows that a formal checklist can work wonders.</li>
+<li>Setting timely reminders and planning with vivid cues are valuable tools to help you combat your own tendency to flake out. just remember to consider the how, when, and where. How will you do it? When will you do it? Where will you do it? Be strategic about the cues you select – if you can, choose cues that are out of the ordinary.</li>
+</ul>
+</section>
+<section id="laziness" class="level2">
+<h2 class="anchored" data-anchor-id="laziness">Laziness</h2>
+<ul>
+<li>The human tendency to take the path of least resistance to be passive and go with the flow has downsides. It’s a major reason behavior change can be so hard.</li>
+<li>Instead of seeing our inherent laziness as a bug, I regard it as a feature with many upsides.</li>
+<li>if defaults are set wisely, you’ll still end up making the best decision even if you don’t lift a finger.</li>
+<li>Nudging is a term bandied about a lot in the behavioral science community. Although there are many different ways to nudge behavior change, the term is often used as a synonym for setting good defaults because this type of nudge, which harnesses human laziness for good, has proven <em>so</em> valuable.</li>
+<li>Habits are the behaviors and routines we’ve repeated, consciously or subconsciously, so many times that they’ve become automatic.</li>
+<li>Monotonous as it may sound, research in humans and other animals has proved that habits come from repeated drilling.</li>
+<li>We can intentionally train ourselves to have good habits, and we can help others train, too. The recipe is simple: the more we repeat an action in response to consistent cues and receive some reward (be it praise, relief, pleasure, or even cold hard cash) the more automatic our reactions become.</li>
+<li>When a given behavior is repeated (or drilled) over and over in a consistent environment, and when positive feedback of any kind accompanies its execution, it tends to become instinctual.</li>
+<li>Positive habits are key to what we often mislabel “self control.” Those around us who seem to have tremendous willpower are not actually endowed with a preternatural ability to resist temptation. Instead, good habits come from facing temptation head on in the first place.</li>
+<li>Unfortunately, adopting new habits isn’t quite as simple as it sounds.</li>
+<li>This system operates seamlessly only in a world that’s very predictable, which, unfortunately, is not the world most of us live in.</li>
+<li>Yes, forming stable routines is key to habit formation. But if we want to form the “stickiest” possible habits, we also need to learn how to roll with the punches, so we can be flexible when life throws us a curveball. Too much rigidity is the enemy of a good habit.</li>
+<li>It’s now clear to me that to put good behavior on autopilot, we can’t cultivate it in only one, specific way. The most versatile and robust habits are formed when we train ourselves to make the best decision, no matter the circumstances.</li>
+<li>Don’t break the streak!</li>
+</ul>
+</section>
+<section id="confidence" class="level2">
+<h2 class="anchored" data-anchor-id="confidence">Confidence</h2>
+<ul>
+<li>Almost everyone knew what to do to overcome their problems; they just weren’t doing it.</li>
+<li>Failure to act wasn’t related to a lack of knowledge, but rather to self doubt. A lack of “self efficacy.” Self efficacy is a person’s confidence in their ability to control their own behavior, motivation, and social circumstances.</li>
+<li>Goal strivers are sometimes plagued by insecurity. In fact a lack of self efficacy can prevent us from setting goals in the first place.</li>
+<li>Research confirms the obvious: when we don’t believe we have the capacity to change, we don’t make as much progress changing.</li>
+<li>What if the problem isn’t ignorance but confidence?</li>
+<li>Our expectations shape our outcomes. How we <em>think</em> about something affects how it <em>is</em>.</li>
+<li>What we <em>think</em> we’re capable of is crucial when it comes to behavior change.</li>
+<li>Research on the aptly named “what-the-hell effect” has demonstrated that even small failures can lead to downward spirals in behavior. A minor mistake can tank your confidence, making you believe you’ll never succeed. Unfortunately, the more ambitious your goals, the higher the risk of a small but ultimately devastating failure.</li>
+<li>Allowing for emergencies is another way of preventing excess rigidity from torpedoing successful attempts at change. It gives your ego a means of bouncing back from the inevitable occasional failure.</li>
+<li>Having a growth mindset – the belief that abilities, including intelligence, are not fixed and that effort influences a person’s potential – predicts success.</li>
+<li>we should take care to surround ourselves with people who will buoy our own beliefs in our potential and support our growth.</li>
+</ul>
+</section>
+<section id="conformity" class="level2">
+<h2 class="anchored" data-anchor-id="conformity">Conformity</h2>
+<ul>
+<li>Findings show just how important it is to be in good company when you hope to achieve big goals and how harmful it can be to have peers who aren’t high achievers. A growing body of evidence suggests that the people you’ve spent time with have been shaping your behavior your whole life, often without your knowledge.</li>
+<li>“Copy and paste” method: watch peers who have managed to achieve a goal he wants to achieve and then deliberately imitate their methods.</li>
+<li>Many people never wake up to the opportunity to deliberately emulate their peers; it has never previously occurred to you to go looking for them.</li>
+<li>This may well be thanks to the “false consensus effect:” a general tendency humans have to incorrectly assume that other people see and react to the world the same way we do.</li>
+<li>Research shows it was more helpful if people found strategies to copy and paste <em>themselves</em> than if the strategies came from someone else.</li>
+<li>The closer we are to someone and the more their situation resembles our own, the more likely we are to be influenced by their behavior.</li>
+<li>For social influence to work, there can’t be too stark a difference between overachievers and those in need of a boost.</li>
+<li>but what if good behavior isn’t all that popular? All hope is not lost. Studies have shown that if behavior is merely trending upward, rather than widely popular, sharing information about that trend can win people over.</li>
+<li>This isn’t rocket science, but it does seem to be an underappreciated science.</li>
+</ul>
+</section>
+<section id="changing-for-good" class="level2">
+<h2 class="anchored" data-anchor-id="changing-for-good">Changing for Good</h2>
+<ul>
+<li>Achieving transformative behavior change is more like treating a chronic disease than curing a rash you can’t just slap a little ointment on it and expect it to clear up forever. The internal obstacles that stand in the way of change, which I’ve described in this book – obstacles such as temptation, forgetfulness, under confidence, and laziness – are like the symptoms of a chronic disease. They won’t just go away once you’ve started treating them. They’re human nature and require constant vigilance.</li>
+<li>I have found maintaining change in the face of internal obstacles is far easier than initiating it.</li>
+<li>I have achieved the best results when I’ve built on what Brad Gilbert taught Andre Agassi – that the key to change is understanding your opponent. One-size-fits-all strategies won’t get you nearly as far as tailored attacks on what stands in your way.</li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/www\.danyavorsky\.com");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

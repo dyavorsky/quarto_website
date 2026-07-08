@@ -307,5 +307,8 @@
   },
   "links/quotes.qmd": {
     "quotes.html": "5dbbf61b"
+  },
+  "posts/858-how-to-change/index.qmd": {
+    "index.html": "e46e1659"
   }
 }
