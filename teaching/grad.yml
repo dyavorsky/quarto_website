@@ -54,9 +54,11 @@
   logo: logos/MarketingAnalytics.png
   semester:
   - name: Syllabus
-    url: syllabi/UCSD_MGTA495_Syllabus_2025.pdf
+    url: syllabi/UCSD_MGTA495_Syllabus_2026.pdf
   - name: Slides
-    url: https://www.dropbox.com/scl/fo/trcf1bg37wdo5lzvnrk7q/AI-AViOpFYmVARV-3y0HueY?rlkey=l879fs642isex288cv7h1ih73&st=vbo6scgh&dl=0
+    url: https://www.dropbox.com/scl/fo/ydw8w5zi0gadwwg0sy3cg/ALgt5rwY0WZ0jnoSF6gDur4?rlkey=5uk6y9b6so4mb9zdxjiy8u5n7&st=915qsml4&dl=0
+  - name: Evals 2026
+    url: evals/ucsd_mgta495_s26.pdf
   - name: Evals 2025
     url: evals/ucsd_mgta495_s25.pdf
   - name: Evals 2024
