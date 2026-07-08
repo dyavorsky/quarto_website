@@ -28,6 +28,7 @@ listing:
       - "855-war-of-art"
       - "856-making-of-a-manager"
       - "857-who-gets-what-and-why"
+      - "858-how-to-change"
     type: grid
     sort: "date-desc"
     categories: false
