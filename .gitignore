@@ -10,3 +10,9 @@
 
 # Local-only working notes for Claude
 CLAUDE.md
+
+# Built site. Rendered and deployed by .github/workflows/publish.yml, so the
+# generated output no longer belongs in git. `quarto render` still writes here
+# locally -- that's fine, it just isn't tracked. Do not un-ignore this without
+# also repointing GitHub Pages away from the Actions workflow.
+/docs/
