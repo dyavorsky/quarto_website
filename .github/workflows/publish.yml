@@ -4,6 +4,17 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # Callable so sync-resume.yml can deploy the commit it just made. A push made
+  # with the built-in GITHUB_TOKEN does NOT trigger workflows (GitHub's loop
+  # prevention), so that workflow cannot rely on the `push` trigger above and
+  # calls this one directly instead.
+  workflow_call:
+    inputs:
+      ref:
+        description: "Commit or branch to render. Defaults to the triggering commit."
+        type: string
+        required: false
+        default: ""
 
 permissions:
   contents: read
@@ -20,7 +31,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # `inputs.ref` is null for push/workflow_dispatch, so this falls back to
+      # the triggering commit -- i.e. unchanged behaviour. It matters only when
+      # sync-resume.yml calls this workflow: a local `uses:` call runs at the
+      # CALLER's commit, which predates the sync commit, so without an explicit
+      # ref the site would render the previous resume.
       - uses: actions/checkout@v7
+        with:
+          ref: ${{ inputs.ref || github.sha }}
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2

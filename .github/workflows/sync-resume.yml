@@ -1,0 +1,125 @@
+name: Sync resume from resume_typst
+
+# Mirrors dyavorsky/resume_typst's rendered resume.pdf into cv/ and republishes
+# the site if it changed. Nothing needs to happen in the resume repo -- pushing a
+# new resume.pdf there is enough, and this picks it up on the next run.
+#
+# Deliberately no secrets: resume_typst is public, so the PDF is fetched
+# unauthenticated, and the commit back to this repo uses the built-in
+# GITHUB_TOKEN. The cost of that choice is latency -- up to one day. Use the
+# "Run workflow" button to sync immediately.
+
+on:
+  schedule:
+    # 03:12 Pacific. GitHub cron is UTC-only with no DST handling, so this is
+    # 10:12 UTC = 03:12 PDT in summer and drifts to 02:12 PST in winter. Add a
+    # second `- cron: "12 11 * * *"` line to cover both halves of the year -- the
+    # job is idempotent, so an extra daily run just no-ops.
+    # Odd minute on purpose: GitHub drops scheduled runs when the top of the hour
+    # is congested.
+    - cron: "12 10 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Never let two syncs race on the same branch.
+concurrency:
+  group: sync-resume
+  cancel-in-progress: false
+
+env:
+  SOURCE_REPO: dyavorsky/resume_typst
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.sync.outputs.changed }}
+      stamp: ${{ steps.sync.outputs.stamp }}
+      sha: ${{ steps.commit.outputs.sha }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Fetch resume and update cv/
+        id: sync
+        run: |
+          set -euo pipefail
+
+          curl -fsSL --retry 3 -o /tmp/resume.pdf \
+            "https://raw.githubusercontent.com/${SOURCE_REPO}/main/resume.pdf"
+
+          # Where the date comes from: Typst leaves the PDF info dict
+          # uncompressed, so /CreationDate is greppable out of the raw bytes with
+          # no pdftotext. It is `datetime.today()` at render time, which is the
+          # SAME value printed in the resume's own "Last Updated" sidebar stamp.
+          # Deriving both the filename and the page's `date:` from it means the
+          # site's "Last updated" can never disagree with the PDF it is serving.
+          stamp="$(grep -ao '/CreationDate(D:[0-9]\{8\}' /tmp/resume.pdf \
+                   | head -1 | grep -o '[0-9]\{8\}$' || true)"
+          if [ -z "$stamp" ]; then
+            echo "::error::could not read /CreationDate from resume.pdf -- did Typst start compressing the info dict?"
+            exit 1
+          fi
+
+          target="cv/yavorsky_dan_resume_${stamp}.pdf"
+          iso="${stamp:0:4}-${stamp:4:2}-${stamp:6:2}"
+          echo "Upstream resume renders as ${stamp} -> ${target}"
+
+          # Byte-identical to what is already published: nothing to do. This is
+          # the common case, since this runs daily and the resume does not.
+          if [ -f "$target" ] && cmp -s /tmp/resume.pdf "$target"; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Already up to date."
+            exit 0
+          fi
+
+          # The glob also catches $target itself on a same-day re-render, which
+          # is what makes that case an in-place update rather than a duplicate.
+          git rm -q --ignore-unmatch cv/yavorsky_dan_resume_*.pdf
+          cp /tmp/resume.pdf "$target"
+          git add "$target"
+
+          # The only two things the page needs. cv/index.qmd is deliberately NOT
+          # frozen (see CLAUDE.md), so the new filename takes effect on render.
+          # `pdf:` is nested under `cv:`, hence the two-space indent in the match.
+          sed -i -E "s|^date: .*|date: ${iso}|" cv/index.qmd
+          sed -i -E "s|^  pdf: .*|  pdf: \"yavorsky_dan_resume_${stamp}.pdf\"|" cv/index.qmd
+          git add cv/index.qmd
+
+          # Guard against a silent no-op: if the front matter did not actually
+          # change, the sed patterns have drifted from the file.
+          if ! git diff --cached --quiet -- cv/index.qmd; then
+            echo "cv/index.qmd updated:"
+            git diff --cached -- cv/index.qmd
+          elif [ ! -f "cv/yavorsky_dan_resume_${stamp}.pdf" ]; then
+            echo "::error::cv/index.qmd unchanged and no new PDF staged -- check the sed patterns"
+            exit 1
+          fi
+
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          echo "stamp=${stamp}" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push
+        id: commit
+        if: steps.sync.outputs.changed == 'true'
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "sync resume ${{ steps.sync.outputs.stamp }} from ${SOURCE_REPO}"
+          git push
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+  # Republish at the commit the sync job just pushed. See the workflow_call
+  # comment in publish.yml for why the push above cannot do this by itself.
+  publish:
+    needs: sync
+    if: needs.sync.outputs.changed == 'true'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/publish.yml
+    with:
+      ref: ${{ needs.sync.outputs.sha }}

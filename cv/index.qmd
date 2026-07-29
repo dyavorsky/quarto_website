@@ -1,11 +1,11 @@
 ---
 title: Resume
 description: "Dan Yavorsky's Resume"
-date: 2026-07-28
+date: 2026-07-29
 title-block-banner: "#35444E"
 published-title: Last updated
 cv:
-  pdf: "yavorsky_dan_resume_20260728.pdf"
+  pdf: "yavorsky_dan_resume_20260729.pdf"
 ---
 
 ```{=html}
