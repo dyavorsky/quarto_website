@@ -4,18 +4,16 @@ description: "Dan Yavorsky's Resume"
 date: 2026-07-28
 title-block-banner: "#35444E"
 published-title: Last updated
-engine: knitr 
 cv:
   pdf: "yavorsky_dan_resume_20260728.pdf"
 ---
 
-```{css, echo=FALSE}
+```{=html}
+<style>
 #title-block-header .description {
     display: none;
 }
-```
 
-```{css echo=FALSE}
 .embed-container {
     position: relative;
     padding-bottom: 129%;
@@ -33,17 +31,16 @@ cv:
     width: 100%;
     height: 100%;
 }
-```
+</style>
 
-```{=html}
 <p class="text-center">
-  <a class="btn btn-primary btn-lg cv-download" href="`r rmarkdown::metadata$cv$pdf`" target="_blank">
+  <a class="btn btn-primary btn-lg cv-download" href="{{< meta cv.pdf >}}" target="_blank">
     <i class="fa-solid fa-file-arrow-down"></i>&ensp;Download Resume
   </a>
 </p>
 
 <div class="embed-container">
-  <iframe src="`r rmarkdown::metadata$cv$pdf`" style="border: 0.5px"></iframe>
+  <iframe src="{{< meta cv.pdf >}}" style="border: 0.5px"></iframe>
 </div>
 ```
 

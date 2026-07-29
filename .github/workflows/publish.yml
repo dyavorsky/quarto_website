@@ -1,0 +1,55 @@
+name: Render and deploy site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Let an in-flight deploy finish rather than cancelling it, so a rapid
+# second push can't leave the site half-published.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          # Pinned to match Dan's local install. Bump deliberately, and
+          # re-render locally when you do, so CI and local agree.
+          version: 1.10.18
+
+      # No R / Python setup on purpose. Every executable document is frozen
+      # (`_freeze/` is committed; posts/_metadata.yml sets freeze: true), so a
+      # clean render needs no language runtime. If this step ever fails with a
+      # missing R, it means a document started executing code again -- either
+      # re-freeze it locally and commit _freeze/, or add r-lib/actions/setup-r
+      # plus the packages that document needs.
+      - name: Render site
+        run: quarto render
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
