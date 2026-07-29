@@ -1,7 +1,7 @@
 ---
 title: "How to Change"
 description: "Katy Milkman"
-image: book_cover.jpeg
+image: book_cover.png
 toc: true
 number-sections: false
 draft: false
