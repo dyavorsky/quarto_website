@@ -32,7 +32,7 @@ format:
 
 ## Current
 
- - SVP, Analytics [|]{.yellow} [GBK Collective]{.altgreen}
+ - Head of Analytics [|]{.yellow} [GBK Collective]{.altgreen}
  - Lecturer, Econometrics [|]{.yellow} [UCLA Anderson]{.altgreen}
  - Lecturer, Customer Analytics [|]{.yellow} [UCSD Rady]{.altgreen}
 

@@ -10,13 +10,13 @@ toc-depth: 4
 
 _**Discrete Choice Model Estimation with R**_ [[link](https://dcme-r.danyavorsky.com)]  
 Dan Yavorsky  
-*In Progress* (2024)
+*In Progress* 
 
 _**Outside Good Uncertainty: Ordinal Dual Response in Choice-Based Conjoint Analysis**_ [[link](https://dyavorsky.github.io/likert_dualresponse/)]  
 [Prachi Bhalerao](https://www.linkedin.com/in/prachibhalerao/){.invisilink}, 
 Dan Yavorsky, and 
 [Geoffery Zheng](https://shanghai.nyu.edu/academics/faculty/directory/geoffery-zheng){.invisilink}  
-*In Progress* (2024)
+*In Progress* 
 
 
 -----
