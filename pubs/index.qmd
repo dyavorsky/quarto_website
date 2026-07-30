@@ -1,18 +1,16 @@
 ---
+title: "Publications"
+title-block-banner: "#35444E"
 toc: true
-toc-depth: 4
 ---
 
-
------
-
-#### In-Progress
+## In-Progress
 
 _**Discrete Choice Model Estimation with R**_ [[link](https://dcme-r.danyavorsky.com)]  
 Dan Yavorsky  
 *In Progress* 
 
-_**Outside Good Uncertainty: Ordinal Dual Response in Choice-Based Conjoint Analysis**_ [[link](https://dyavorsky.github.io/likert_dualresponse/)]  
+_**Outside Good Uncertainty: Ordinal Dual Response in Choice-Based Conjoint Analysis**_ [[link](https://dyavorsky.github.io/ordinalDualresponse_paper/)]  
 [Prachi Bhalerao](https://www.linkedin.com/in/prachibhalerao/){.invisilink}, 
 Dan Yavorsky, and 
 [Geoffery Zheng](https://shanghai.nyu.edu/academics/faculty/directory/geoffery-zheng){.invisilink}  
@@ -22,7 +20,7 @@ Dan Yavorsky, and
 -----
 
 
-#### Co-Author
+## Co-Author
 
 _**Consumer Search in the U.S. Auto Industry: The Role of Dealership Visits**_ [[link](https://doi.org/10.1007/s11129-020-09229-4)]  
 Dan Yavorsky, 
@@ -34,13 +32,13 @@ Dan Yavorsky,
 -----
 
 
-#### Substantive Contributor
+## Substantive Contributor
 
-_**The Sequential Search Model: A Framework for Empirical Research**_ [[link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4236738)]  
+_**The Sequential Search Model: A Framework for Empirical Research**_ [[link](https://doi.org/10.1007/s11129-024-09291-2)]  
 [Raluca Ursu](https://sites.google.com/a/stern.nyu.edu/rursu/){.invisilink},
 [Stephan Seiler](https://www.seilerstephan.com/){.invisilink}, and
 [Elisabeth Honka](https://www.anderson.ucla.edu/faculty-and-research/marketing/faculty/honka){.invisilink}  
-*Working Paper* (2024)
+*Quantitative Marketing and Economics* (2025)
 
 _**The Value of Flexible Work: Evidence from Uber Drivers**_ [[link](https://doi.org/10.1086/702171)]  
 [Keith Chen](https://www.anderson.ucla.edu/faculty/keith.chen/index.html){.invisilink},
@@ -49,11 +47,14 @@ _**The Value of Flexible Work: Evidence from Uber Drivers**_ [[link](https://doi
 Emily Oehlsen  
 *Journal of Political Economy* (2019) 
 
+_**bayesm R Package**_ [[link](https://cran.r-project.org/package=bayesm)]
+[Peter Rossi](https://www.anderson.ucla.edu/faculty-and-research/marketing/faculty/rossi){.invisilink}
+
 
 -----
 
 
-#### Minor Contributor
+## Minor Contributor
 
 _**ggplot2: Elegant Graphics for Data Analysis**_ [[link](https://ggplot2-book.org/preface-3e.html)]  
 [Hadley Wickham](https://hadley.nz/){.invisilink}, 
@@ -70,7 +71,25 @@ _**R Packages: Organize, Test, Document, and Share Your Code**_ [[link](https://
 -----
 
 
-#### Short Form
+## R Packages
+
+_**maxdiff**_ [[link](https://github.com/dyavorsky/maxdiff)]  
+Adapting *bayesm*'s HB MNL sampler to varying choice-set sizes for Best-Worst Scaling
+
+_**shapley**_ [[link](https://github.com/dyavorsky/shapley)]  
+R-squared contribution averaged over all predictor orderings, for continuous, binary (logit), and likert (ordered logit) outcomes  
+
+_**keydrivers**_ [[link](https://github.com/dyavorsky/keydrivers)]  
+Eight complementary variable-importance methods with bootstrapped confidence intervals
+
+_**turf**_ [[link](https://github.com/dyavorsky/turf)]  
+Exhaustive bundle search made tractable with C++ and parallel computation  
+
+
+-----
+
+
+## Short Form
 
 **Sawtooth A&I Summit 2023** [[link](https://www.gbkcollective.com/thoughtleadership/key-learnings-sawtooth-analytics-summit)]  
 *GBK Thought Leadership Blog*
