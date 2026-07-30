@@ -4,8 +4,11 @@ title-block-banner: "#35444E"
 listing: 
   - id: blogposts
     contents: 
-      - "001-my-setup" 
-      - "010-git-basics" 
+      - "001-my-setup"
+      - "002-positron"
+      - "003-terminal"
+      - "004-neovim"
+      - "010-git-basics"
       - "011-terminal-on-mac"
       - "012-vim-motions"
       - "013-regex"
