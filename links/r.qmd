@@ -10,21 +10,24 @@ toc: false
 
  - [Big Book of R](https://www.bigbookofr.com/) compiled by Oscar Baruffa
  - [Advanced R](https://adv-r.hadley.nz/) by Hadley Wickham
- - [Advanced R Solutions](https://advanced-r-solutions.rbind.io/) by Malte Grosser and Henning Bumann
+ - [Advanced R Solutions](https://advanced-r-solutions.rbind.io/) by Malte Grosser, Henning Bumann, and Hadley Wickham
  - [R Packages](https://r-pkgs.org/) by Hadley Wickham and Jenny Bryan
- - [R for the Rest of Us: A Stats-Free Intro](https://book.rfortherestofus.com/) by David Keyes
+ - [R for the Rest of Us: A Statistics-Free Introduction](https://book.rfortherestofus.com/) by David Keyes
  - [Mastering Software Development in R](https://leanpub.com/msdr) by Roger Peng, Sean Kross, and Brooke Anderson
  - [Scaling Up with R and Arrow](https://arrowrbook.com/) by Nic Crane, Jonathan Keane, and Neal Richardson
+ - [Happy Git and GitHub for the useR](https://happygitwithr.com/) by Jenny Bryan, the STAT 545 TAs, and Jim Hester
+ - [What They Forgot to Teach You About R](https://rstats.wtf/) by Jenny Bryan, Jim Hester, Shannon Pileggi, and E. David Aja
+ - [Rcpp for everyone](https://teuder.github.io/rcpp4everyone_en/) by Masaki E. Tsuda
 
 #### Data Viz with R
 
- - [ggplot2](https://ggplot2-book.org/) by Hadley Wickham
+ - [ggplot2](https://ggplot2-book.org/) by Hadley Wickham, Danielle Navarro, and Thomas Lin Pedersen
  - [Data Visualization: A Practical Introduction](https://socviz.co/) by Kieran Healy
  - [Modern Data Visualization with R](https://rkabacoff.github.io/datavis/) by Robert Kabacoff
 
 #### Stats with R 
 
- - [R for Data Science](https://r4ds.hadley.nz/) by Hadley Wickham and Garrett Grolemund
+ - [R for Data Science](https://r4ds.hadley.nz/) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund
  - [Modern R with the Tidyverse](https://modern-rstats.eu/) by Bruno Rodrigues
  - [Tidy Modeling with R](https://www.tmwr.org/) by Max Kuhn and Julia Silge
  - [Data Analysis in R](https://bookdown.org/steve_midway/DAR/) by Steve Midway
@@ -40,7 +43,8 @@ toc: false
  
 #### Quant UX & Survey Research with R
 
- - [Exploring Complex Survey Data Analysis](https://tidy-survey-r.github.io/tidy-survey-book/) by Stephanie Zimmer, Rebecca Powell, and Isabella Velasquez
+ - [R for Marketing Research and Analytics](https://r-marketing.r-forge.r-project.org/) by Chris Chapman and Elea McDonnell Feit
+ - [Exploring Complex Survey Data Analysis Using R](https://tidy-survey-r.github.io/tidy-survey-book/) by Stephanie Zimmer, Rebecca Powell, and Isabella Velasquez
  - [Quant UX Resources](https://carljpearson.com/learn-quantitative-ux-research-self-study-resources/) compiled by Carl Pearson
 
 
