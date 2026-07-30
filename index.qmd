@@ -1,10 +1,12 @@
 ---
 title: "Dan Yavorsky"
+subtitle: "Quantitative Marketing Research Scientist"
 about:
   id: main-content
   template: trestles
   image: images/profile_pic3.png
   image-shape: round
+  image-alt: "Dan Yavorsky"
   links:
     - icon: envelope
       href: mailto:dyavorsky@gmail.com
