@@ -1,0 +1,122 @@
+---
+title: "Neovim"
+description: "My Neovim Configuration"
+number-sections: false
+image: neovim.png
+callout-appearance: minimal
+---
+
+
+I use [Positron](../002-positron/) as my daily IDE, but I've been learning [Neovim](https://neovim.io/) on the side for two reasons:
+
+1. I want to avoid the mouse as much as possible and use Vim motions everywhere (in Positron, the terminal, my browser) and Neovim is where those motions are native. 
+2. Curiosity. Turning Neovim from a bare terminal-based editor into a more-or-less fully-fledged IDE teaches you how an IDE works under the hood. In a pre-fabbed IDE like VS Code, features like syntax highlighting and autocompletion just exist. In Neovim, you wire them up one at a time, which requires you to understand each component and what it does.
+
+This post walks through my setup, explaining each piece and its role. My config file is on github [here](https://github.com/dyavorsky/configs).
+
+![](neovim.png)
+
+
+## Getting Started
+
+Install Neovim with [Homebrew](https://brew.sh/) (if you don't have Homebrew yet, see my [terminal setup post](../003-terminal/)):
+
+```bash
+brew install neovim
+```
+
+Type `nvim` in your terminal to open it. What you'll see is... not much. A mostly blank screen with tildes (`~`) down the left side and a status line at the bottom. There's no file explorer, no syntax highlighting, no tabs --- just a lonely blinking cursor dutifully waiting for your commands. It doesn't even tell you how to quit (it's `:q`, by the way). This is Neovim out of the box: a powerful text editor with almost no visual frills. Everything you'd expect from a modern editor or IDE has to be configured or added.
+
+<!-- TODO: screenshot of bare nvim right after launch — tildes, blank screen, no color -->
+![](nvim-bare.png)
+
+Most graphical applications have a settings menu with toggles and checkboxes. Behind the scenes, flipping one of those switches writes a line of text to a configuration file somewhere, but you never see it and the set of things you can change is limited to what the developers put in that menu. Other programs skip the visual menu entirely and let you configure them by editing a text file directly. The `.zshrc` file for the zsh shell is a well-known example; your shell's entire behavior is defined by what you write in that file. 
+
+Neovim works the same way, except the configuration language is Lua. The config file lives at `~/.config/nvim/init.lua` and gives you enormous control over Neovim: keybindings, appearance, editor behavior, and --- through plugins as I'll discuss next --- entire new features. You can write this file from scratch, but I started with [kickstart.nvim](https://github.com/nvim-kickstart/kickstart.nvim) which provides a single, well-commented `init.lua` file that you can copy and change to your liking. I haven't yet customized it much, so as you'll see, my config is essentially Kickstart with a few additions for R.
+
+
+## Plugin Manager
+
+Beyond the built-in customizations in your `init.lua`, there's a lot more you'll probably want to add. Neovim doesn't ship with many features out of the box. Instead, you install plugins --- small packages of Lua code --- that add whatever you're missing. Think of it like a new smartphone: out of the box it can make calls and store contacts, but most people immediately install apps to make it actually do what they want. Neovim is the same: the humble core editor handles text and plugins supply everything else.
+
+To manage these plugins, I use [Lazy](https://github.com/folke/lazy.nvim), a plugin manager that handles downloading, updating, and loading your plugins. (To keep the analogy going, the plugin manager is like the App Store on your smartphone.) Kickstart's `init.lua` includes a "bootstrap snippet" that automatically installs Lazy the first time you open Neovim, so there's nothing extra to set up: just `brew install neovim`, copy the contents of Kickstart into your `init.lua` file, and launch Neovim by running `nvim` in your terminal. If you aren't using Kickstart, the Lazy [docs](https://lazy.folke.io/installation) have the same bootstrap snippet.
+
+So you've got Neovim installed and Lazy ready to manage plugins. But how do you find the right ones? There's no central registry like CRAN for R. Instead, most people discover plugins through GitHub, Reddit ([r/neovim](https://www.reddit.com/r/neovim/)), or curated lists like [awesome-neovim](https://github.com/rockerBOO/awesome-neovim). Once you find a plugin you want, you add a few lines to your `init.lua` declaring it, and Lazy (hence the name!) handles downloading and loading it. Kickstart comes with a solid set of plugins already declared, which is what I started with. After you've added some plugins (via Kickstart or manually), you can type `:Lazy` in Neovim to see, manage, and update them.
+
+<!-- TODO: screenshot of the :Lazy plugin manager UI -->
+![](lazy-ui.png)
+
+Here's the list of plugins in my config. Each one is explained in more detail in the sections that follow.
+
+| Plugin | What it does |
+|--------|-------------|
+| [catppuccin](https://github.com/catppuccin/nvim) | Color theme  |
+| [treesitter](https://github.com/nvim-treesitter/nvim-treesitter) | Syntax highlighting (makes different parts of your code different colors) |
+| [lspconfig](https://github.com/neovim/nvim-lspconfig) | Connects Neovim to language servers (programs that understand your code and offer smart suggestions) |
+| [R.nvim](https://github.com/R-nvim/R.nvim) | R console integration (send code from your script to a running R session) |
+| [telescope](https://github.com/nvim-telescope/telescope.nvim) | Fuzzy finder (the Neovim version of a file explorer) |
+
+
+## Appearance: Catppuccin & Treesitter
+
+Out of the box, Neovim is brutally bare. Two plugins get you on the way to making it look good.
+
+[Catppuccin](https://github.com/catppuccin/nvim) is a deliciously tasteful color scheme. I use the Mocha variant, matching my [terminal theme](../003-terminal/). It defines the palette: what color a keyword is, what color a string is, what the background looks like.
+
+But a colorscheme can only color things the editor knows about, and Neovim's built-in syntax highlighting uses simple regular expressions that can get things wrong. [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter) replaces that with real parsing. It actually parses your code --- understanding its structure, not just pattern-matching on text --- so it can distinguish a function name from a variable from a keyword with much higher accuracy. The result is more granular and more accurate highlighting.
+
+Treesitter works on a per-language basis: you install a "parser" for each language you want it to understand. You can install them from within Neovim with `:TSInstall <language>` (e.g., `:TSInstall r`), or add them to an `ensure_installed` list in your Neovom config so they're installed automatically (which is what I did). I have parsers for R, Markdown, YAML, LaTeX, and a couple of others.
+
+<!-- TODO: screenshot of an R file with Catppuccin + Treesitter highlighting -->
+![](treesitter-highlighting.png)
+
+
+## Language Server Protocol (LSP)
+
+Neovim doesn't have code intelligence built in. It can't autocomplete your function names, warn you about errors, or show you a function's arguments --- at least not on its own. For that, it needs help from a **language server**, a separate program that runs alongside your editor, analyzes your code, and provides:
+
+ - **Autocompletion** --- context-aware suggestions as you type
+ - **Diagnostics** --- errors and warnings without leaving the editor
+ - **Signature help** --- see function arguments while typing
+ - And other niceties, such as jumping to where a function or variable is defined, seeing everywhere a symbol is used, or renaming a variable across the entire project
+
+But how does the editor talk to the language server? That's where the **Language Server Protocol** (LSP) comes in. The LSP is an open standard created by Microsoft for VS Code that defines the communication between the two. Before it existed, every editor had to build its own code intelligence for every language. The clever part was separating the two jobs: the editor handles the UI, the language server handles understanding the code, and the LSP is the common language between them. Because it's an open protocol, any editor can use it, not just VS Code. This is what makes Neovim viable as an IDE --- it taps into the same language intelligence that powers VS Code and Positron.
+
+For R, the language server is the [R Language Server](https://github.com/REditorSupport/languageserver), which you install as an R package (`install.packages("languageserver")`). This might seem odd --- why is it an R package instead of a Neovim plugin? Because a language server needs to deeply understand the language it serves. It has to parse code, inspect objects, read documentation, resolve package namespaces. The most natural way to do all that for R is to just use R itself. It's literally R code analyzing other R code. This is actually a common pattern --- Python's language servers are written in Python, Lua's in Lua, TypeScript's in TypeScript.
+
+On the Neovim side, the [lspconfig](https://github.com/neovim/nvim-lspconfig) plugin tells Neovim how to find and start language servers. It needs two supporting plugins:
+
+1. [Mason](https://github.com/mason-org/mason.nvim) handles installing and updating most (but not all) language servers from within Neovim (for example, the Lua language server which helps me edit Neovim's config file since it's written in Lua). The R language server is an exception --- since it's an R package, you install it from R itself, not from Mason.
+2. [blink.cmp](https://github.com/Saghen/blink.cmp) is the completion engine --- the part you actually see. It collects suggestions from the language server and displays them in a popup menu as you type. Without it, the language server would be running but you'd have no way to interact with its suggestions. I use the default keymap: `Ctrl-n` and `Ctrl-p` to navigate the list of suggestions, and `Ctrl-y` to accept.
+
+<!-- TODO: screenshot of blink.cmp autocompletion popup on an R file -->
+![](blink-completion.png)
+
+
+## Running R Code with R.nvim
+
+At this point you've got a respectable code _editor_. To turn it into a proper IDE for R, I use [R.nvim](https://github.com/R-nvim/R.nvim), which opens an R console inside a Neovim-embedded terminal, and lets you send code to it.
+
+ 1. Open an `.R` file in Neovim
+ 2. R.nvim starts an R console in a split pane
+ 3. Press `Enter` on any line (when in Vim's Normal mode) to send it to the R console
+ 4. Or select lines in Visual mode and press `Enter` to send the block
+
+This is the same send-to-console workflow I use in RStudio and Positron, just inside the terminal. R.nvim also provides an object browser for inspecting your workspace, just like the Global Environment panes in RStudio and Positron.
+
+<!-- TODO: screenshot of R.nvim — split pane with R script on left, R console with output on right -->
+![](rnvim-console.png)
+
+Combined with the R Language Server (for completion and diagnostics) and Treesitter (for syntax highlighting), you end up with a surprisingly complete R development environment.
+
+
+## File Navigation with Telescope
+
+Every IDE needs a way to jump between files. In VS Code, that's the file explorer panel on the left. Neovim doesn't have one by default. Instead, [Telescope](https://github.com/nvim-telescope/telescope.nvim) provides a fuzzy finder that lets you quickly search for files, text within files, help documentation, keymaps, open buffers, LSP symbols, and more.
+
+It uses [fzf-native](https://github.com/nvim-telescope/telescope-fzf-native.nvim) under the hood for fast sorting. [`fzf`](https://github.com/junegunn/fzf) is a general-purpose and community-beloved fuzzy finder that I also use in my [terminal setup](../003-terminal/), and fzf-native brings its sorting algorithm into Telescope.
+
+![](telescope.png)
+
+
+
