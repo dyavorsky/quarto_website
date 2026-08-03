@@ -52,3 +52,23 @@ toc: false
 
 > That's what you do when life hands you a chance to be with someone special. You just grab that brownish area by its points and you don’t let go no matter what your mom says.
 
+
+#### Richard Hamming: _You and Your Research_ ([link](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html))
+
+> And I started asking, "What are the important problems of your field?" And after a week or so, "What important problems are you working on?" And after some more time I came in one day and said, "If what you are doing is not important, and if you don’t think it is going to lead to something important, why are you at Bell Labs working on it?" I wasn’t welcomed after that; I had to find somebody else to eat with!
+>
+> **If you do not work on an important problem, it’s unlikely you’ll do important work.** It’s perfectly obvious. Great scientists have thought through, in a careful way, a number of important problems in their field, and they keep an eye on wondering how to attack them.
+
+
+#### Anne Lamott: _Bird by Bird_ ([link](https://wrd.as.uky.edu/sites/default/files/1-Shitty%20First%20Drafts.pdf))
+
+> Now, practically even better news than that of short assignments is the idea of shitty first drafts. All good writers write them. This is how they end up with good second drafts and terrific third drafts.
+>
+> For me and most of the other writers I know, writing is not rapturous. In fact, **the only way I can get anything written at all is to write really, really shitty first drafts.**
+>
+> The first draft is the child’s draft, where you let it all pour out and then let it romp all over the place, knowing that no one is going to see it and that you can shape it later.
+
+
+#### Richard Feynman: _Cargo Cult Science_ ([link](https://calteches.library.caltech.edu/51/2/CargoCult.htm))
+
+> The first principle is that you **must not fool yourself—and you are the easiest person to fool.** So you have to be very careful about that. After you’ve not fooled yourself, it’s easy not to fool other scientists. You just have to be honest in a conventional way after that.

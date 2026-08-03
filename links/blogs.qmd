@@ -8,30 +8,29 @@ toc: false
 
 #### Stats
 
- - [Andrew Gelman](https://statmodeling.stat.columbia.edu/)
- - [Richard McElreath](https://elevanth.org/)
- - [Cosma Shalizi](https://www.stat.cmu.edu/~cshalizi/)
+ - [Andrew Gelman](https://statmodeling.stat.columbia.edu/) — daily posts on Bayesian modeling, causal inference, and how research goes wrong
+ - [Richard McElreath](https://elevanth.org/) — Bayesian modeling and cultural evolution, from the author of *Statistical Rethinking*
+ - [Cosma Shalizi](https://www.stat.cmu.edu/~cshalizi/) — dense, funny notebooks and book reviews on statistics and machine learning
+ - [Rob Hyndman](https://robjhyndman.com/hyndsight/) — forecasting, time series, and the craft of academic statistics
 
 #### Data Science
 
- - [InstaCart](https://tech.instacart.com/)
- - [Netflix](https://netflixtechblog.com/)
- - [Airbnb](https://medium.com/airbnb-engineering)
- - [Amazon Science](https://www.amazon.science/)
+ - [InstaCart](https://tech.instacart.com/) — engineering and machine learning behind grocery delivery
+ - [Netflix](https://netflixtechblog.com/) — experimentation, recommendation, and infrastructure at scale
+ - [Airbnb](https://medium.com/airbnb-engineering) — data science and engineering from the marketplace side
+ - [Amazon Science](https://www.amazon.science/) — research across machine learning, economics, and operations
+ - [Spotify Research](https://research.atspotify.com/) — recommendation, experimentation, and causal inference
+ - [Uber Engineering](https://www.uber.com/blog/engineering/) — marketplace experimentation and large-scale data systems
+ - [DoorDash Engineering](https://careersatdoordash.com/engineering-blog/) — logistics, forecasting, and experimentation
 
 #### Economics, Marketing, Consulting
 
- - [Joel Cadwell](https://joelcadwell.blogspot.com/) (inactive)
- - [Chris Chapman's QuantUX](https://quantuxblog.com/)
- - [John Cook](https://www.johndcook.com/blog/)
- - [Marc and Jeff Dotson](https://occasionaldivergences.com/)
- - [Andrew Heiss](https://www.andrewheiss.com/blog/)
- - [Stephan Seiler's Annual Best-of](https://www.seilerstephan.com/blog)
-
-
-
-
-
-
-
-
+ - [Joel Cadwell](https://joelcadwell.blogspot.com/) (inactive) — R-driven marketing research and choice modeling
+ - [Chris Chapman's QuantUX](https://quantuxblog.com/) — quantitative UX research, surveys, and conjoint
+ - [John Cook](https://www.johndcook.com/blog/) — short posts on applied math, probability, and numerical computing
+ - [Marc and Jeff Dotson](https://occasionaldivergences.com/) — Bayesian marketing analytics in R
+ - [Andrew Heiss](https://www.andrewheiss.com/blog/) — long, generous tutorials on causal inference and Bayesian methods in R
+ - [Stephan Seiler's Annual Best-of](https://www.seilerstephan.com/blog) — yearly roundup of quantitative marketing papers worth reading
+ - [Paul Goldsmith-Pinkham's A Causal Affair](https://paulgp.substack.com/) — causal inference, coding, and consumer finance
+ - [Kevin Bryan's A Fine Theorem](https://afinetheorem.wordpress.com/) — long-form reviews of new economics papers
+ - [John Cochrane's The Grumpy Economist](https://www.grumpy-economist.com/) — macro, finance, and policy, plus writing advice for PhD students

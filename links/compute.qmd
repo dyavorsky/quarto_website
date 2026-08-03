@@ -33,9 +33,6 @@ toc: false
  - [Dev Ops for Data Science](https://do4ds.com) by Alex Gold
  - [Stat447: Data Science Programming Methods](https://stat447.com/) by Dirk Eddelbuettel 
 
-#### Python
-
- - [Python 4 Data Science](https://aeturrell.github.io/python4DS/welcome.html#) by Arthur Turrell and others
 
 
 

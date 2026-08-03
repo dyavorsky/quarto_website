@@ -1,0 +1,66 @@
+---
+title: "Links"
+toc: false
+---
+
+
+## Demand Estimation
+
+Structural models of what consumers choose, and what those choices imply about preferences, substitution patterns, and counterfactual prices. Roughly the reading list for a PhD course on the subject.
+
+#### Textbooks & Surveys
+
+ - [Discrete Choice Methods with Simulation](https://eml.berkeley.edu/books/choice2.html) by Kenneth Train (2009)
+ - McFadden (1984) Chapter 24 Econometric analysis of qualitative response models [[link](https://doi.org/10.1016/S1573-4412(84)02016-X)]
+ - Ackerberg et al. (2007) Chapter 63 Econometric Tools for Analyzing Market Outcomes [[link](https://doi.org/10.1016/S1573-4412(07)06063-1)]
+ - Chintagunta & Nair (2011) Discrete Choice Models of Consumer Demand in Marketing [[link](https://doi.org/10.1287/mksc.1110.0674)]
+ - Dubé (2019) Chapter 1 - Microeconometric models of consumer demand [[link](https://doi.org/10.1016/bs.hem.2019.04.001)]
+ - Berry & Haile (2021) Foundations of Demand Estimation [[link](https://doi.org/10.1016/bs.hesind.2021.11.001)]
+ - Gandhi & Nevo (2021) Chapter 2 - Empirical models of demand and supply in differentiated products industries [[link](https://doi.org/10.1016/bs.hesind.2021.11.002)]
+ - Hortaçsu & Joo (2023) Structural Econometric Modeling in Industrial Organization and Quantitative Marketing [[link](https://doi.org/10.1515/9780691251004)]
+
+#### Foundations
+
+ - McFadden (1973) Conditional Logit Analysis of Qualitative Choice Behavior [[link](https://eml.berkeley.edu/reprints/mcfadden/zarembka.pdf)]
+ - Hausman & Wise (1978) A Conditional Probit Model for Qualitative Choice: Discrete Decisions Recognizing Interdependence and Heterogeneous Preferences [[link](https://doi.org/10.2307/1913909)]
+ - Small & Rosen (1981) Applied Welfare Economics with Discrete Choice Models [[link](https://doi.org/10.2307/1911129)]
+ - Guadagni & Little (1983) A Logit Model of Brand Choice Calibrated on Scanner Data [[link](http://www.jstor.org/stable/184043)]
+ - Dubin & McFadden (1984) An Econometric Analysis of Residential Electric Appliance Holdings and Consumption [[link](https://doi.org/10.2307/1911493)]
+ - Hanemann (1984) Discrete/Continuous Models of Consumer Demand [[link](https://doi.org/10.2307/1913464)]
+
+#### Individual-Level Data: Heterogeneity & Bayesian Methods
+
+ - Kamakura & Russell (1989) A Probabilistic Choice Model for Market Segmentation and Elasticity Structure [[link](https://doi.org/10.2307/3172759)]
+ - Rossi & Allenby (1993) A Bayesian Approach to Estimating Household Parameters [[link](https://doi.org/10.2307/3172826)]
+ - McCulloch & Rossi (1994) An Exact Likelihood Analysis of the Multinomial Probit Model [[link](https://doi.org/10.1016/0304-4076(94)90064-7)]
+ - Jain et al. (1994) A Random-Coefficients Logit Brand-Choice Model Applied to Panel Data [[link](https://doi.org/10.2307/1392088)]
+ - Allenby & Rossi (1998) Marketing Models of Consumer Heterogeneity [[link](https://doi.org/10.1016/S0304-4076(98)00055-4)]
+ - Revelt & Train (1998) Mixed Logit with Repeated Choices: Households' Choices of Appliance Efficiency Level [[link](https://doi.org/10.1162/003465398557735)]
+ - McFadden & Train (2000) Mixed MNL models for discrete response [[link](https://doi.org/10.1002/1099-1255(200009/10)15:5<447::AID-JAE570>3.0.CO;2-1)]
+ - Erdem & Keane (1996) Decision-Making Under Uncertainty: Capturing Dynamic Brand Choice Processes in Turbulent Consumer Goods Markets [[link](https://doi.org/10.1287/mksc.15.1.1)]
+
+#### Aggregate / Market-Share Data
+
+ - Berry (1994) Estimating Discrete-Choice Models of Product Differentiation [[link](https://doi.org/10.2307/2555829)]
+ - Berry et al. (1995) Automobile Prices in Market Equilibrium [[link](https://doi.org/10.2307/2171802)]
+ - Cardell (1997) Variance Components Structures for the Extreme-Value and Logistic Distributions with Application to Models of Heterogeneity [[link](https://doi.org/10.1017/s0266466600005727)]
+ - Goldberg (1995) Product Differentiation and Oligopoly in International Markets: The Case of the U.S. Automobile Industry [[link](https://doi.org/10.2307/2171803)]
+ - Nevo (2000) A Practitioner's Guide to Estimation of Random-Coefficients Logit Models of Demand [[link](https://doi.org/10.1111/j.1430-9134.2000.00513.x)]
+ - Nevo (2001) Measuring Market Power in the Ready-to-Eat Cereal Industry [[link](https://doi.org/10.1111/1468-0262.00194)]
+ - Nevo (2000) Mergers with Differentiated Products: The Case of the Ready-to-Eat Cereal Industry [[link](https://doi.org/10.2307/2600994)]
+ - Petrin (2002) Quantifying the Benefits of New Products: The Case of the Minivan [[link](https://doi.org/10.1086/340779)]
+ - Berry et al. (2004) Differentiated Products Demand Systems from a Combination of Micro and Macro Data: The New Car Market [[link](https://doi.org/10.1086/379939)]
+ - Jiang et al. (2009) Bayesian Analysis of Random Coefficient Logit Models Using Aggregate Data [[link](https://doi.org/10.1016/j.jeconom.2008.12.010)]
+ - Anon. (2012) Improving the Numerical Performance of Static and Dynamic Aggregate Discrete Choice Random Coefficients Demand Estimation [[link](https://doi.org/10.3982/ecta8585)]
+ - Conlon & Gortmaker (2020) Best practices for differentiated products demand estimation with PyBLP [[link](https://doi.org/10.1111/1756-2171.12352)]
+ - Conlon & Gortmaker (2023) Incorporating Micro Data into Differentiated Products Demand Estimation with PyBLP [[link](https://doi.org/10.3386/w31605)]
+
+#### Endogeneity, Dynamics & State Dependence
+
+ - Villas-Boas & Winer (1999) Endogeneity in Brand Choice Models [[link](https://doi.org/10.1287/mnsc.45.10.1324)]
+ - Dubé et al. (2009) Do Switching Costs Make Markets Less Competitive? [[link](https://doi.org/10.1509/jmkr.46.4.435)]
+ - Dubé et al. (2010) State Dependence and Alternative Explanations for Consumer Inertia [[link](https://doi.org/10.1111/j.1756-2171.2010.00106.x)]
+ - Hendel (1999) Estimating Multiple-Discrete Choice Models: An Application to Computerization Returns [[link](https://doi.org/10.1111/1467-937x.00093)]
+ - Hendel & Nevo (2006) Measuring the Implications of Sales and Consumer Inventory Behavior [[link](https://doi.org/10.1111/j.1468-0262.2006.00721.x)]
+ - Erdem et al. (2003) Brand and Quantity Choice Dynamics Under Price Uncertainty [[link](https://doi.org/10.1023/a:1023536326497)]
+

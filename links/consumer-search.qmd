@@ -1,0 +1,73 @@
+---
+title: "Links"
+toc: false
+---
+
+
+## Consumer Search
+
+Structural demand models that treat consumers’ information as incomplete, and so model the shopping process itself — which alternatives a consumer learns about, in what order, and when they stop — as part of demand rather than assuming full information over the choice set.
+
+#### Surveys & Frameworks
+
+ - Roberts & Lattin (1997) Consideration: Review of Research and Prospects for Future Insights [[link](https://doi.org/10.2307/3151902)]
+ - Honka et al. (2019) Chapter 4 - Empirical search and consideration sets [[link](https://doi.org/10.1016/bs.hem.2019.05.002)]
+ - Gavazza & Lizzeri (2021) Chapter 6 - Frictions in product markets☆☆We thank three anonymous reviewers for insightful suggestions. Alessandro Gavazza gratefully acknowledges support from the European Research Council (ERC-Consolidator grant award no.771004) [[link](https://doi.org/10.1016/bs.hesind.2021.11.006)]
+ - Ursu et al. (2024) The sequential search model: A framework for empirical research [[link](https://doi.org/10.1007/s11129-024-09291-2)]
+ - Honka et al. (2024) Consumer search: What can we learn from pre-purchase data? [[link](https://doi.org/10.1016/j.jretai.2024.02.003)]
+ - Hauser & Wernerfelt (1990) An Evaluation Cost Model of Consideration Sets [[link](https://doi.org/10.1086/209225)]
+ - Roberts & Lattin (1991) Development and Testing of a Model of Consideration Set Composition [[link](https://doi.org/10.1177/002224379102800405)]
+
+#### Theory Foundations
+
+ - Stigler (1961) The Economics of Information [[link](https://doi.org/10.1086/258464)]
+ - McCall (1970) Economics of Information and Job Search [[link](https://doi.org/10.2307/1879403)]
+ - Diamond (1971) A model of price adjustment [[link](https://doi.org/10.1016/0022-0531(71)90013-5)]
+ - Salop & Stiglitz (1977) Bargains and Ripoffs: A Model of Monopolistically Competitive Price Dispersion [[link](https://doi.org/10.2307/2296903)]
+ - Weitzman (1979) Optimal Search for the Best Alternative [[link](https://doi.org/10.2307/1910412)]
+ - Sorensen (2000) Equilibrium Price Dispersion in Retail Markets for Prescription Drugs [[link](https://doi.org/10.1086/316103)]
+ - Wolinsky (1986) True Monopolistic Competition as a Result of Imperfect Information [[link](https://doi.org/10.2307/1885694)]
+ - Armstrong (2017) Ordered Consumer Search [[link](https://doi.org/10.1093/jeea/jvx017)]
+ - Haan et al. (2018) A model of directed consumer search [[link](https://doi.org/10.1016/j.ijindorg.2018.09.001)]
+ - Choi et al. (2018) Consumer Search and Price Competition [[link](https://doi.org/10.3982/ECTA14837)]
+
+#### Simultaneous / Fixed-Sample Search
+
+ - Hong & Shum (2006) Using price distributions to estimate search costs [[link](https://doi.org/10.1111/j.1756-2171.2006.tb00015.x)]
+ - Honka (2014) Quantifying search and switching costs in the US auto insurance industry [[link](https://doi.org/10.1111/1756-2171.12073)]
+ - Wildenbeest (2011) An empirical model of search with vertically differentiated products [[link](https://doi.org/10.1111/j.1756-2171.2011.00152.x)]
+
+#### Sequential Search
+
+ - Kim et al. (2010) Online Demand Under Limited Consumer Search [[link](https://doi.org/10.1287/mksc.1100.0574)]
+ - Koulayev (2014) Search for differentiated products: identification and estimation [[link](https://doi.org/10.1111/1756-2171.12062)]
+ - Chen & Yao (2017) Sequential Search with Refinement: Model and Application with Click-Stream Data [[link](https://doi.org/10.1287/mnsc.2016.2557)]
+ - Kim et al. (2017) The Probit Choice Model Under Sequential Search with an Application to Online Retailing [[link](https://doi.org/10.1287/mnsc.2016.2545)]
+ - Ursu et al. (2020) Search Duration [[link](https://doi.org/10.1287/mksc.2020.1225)]
+ - Morozov et al. (2021) Estimation of Preference Heterogeneity in Markets with Costly Search [[link](https://doi.org/10.1287/mksc.2021.1287)]
+ - Ursu et al. (2023) Search Gaps and Consumer Fatigue [[link](https://doi.org/10.1287/mksc.2022.1359)]
+
+#### Which Protocol? Identifying the Search Method
+
+ - Honka & Chintagunta (2017) Simultaneous or Sequential? Search Strategies in the U.S. Auto Insurance Industry [[link](https://doi.org/10.1287/mksc.2016.0995)]
+ - Bronnenberg et al. (2016) Zooming In on Choice: How Do Consumers Search for Cameras Online? [[link](https://doi.org/10.1287/mksc.2016.0977)]
+ - De Los Santos et al. (2012) Testing Models of Consumer Search Using Data on Web Browsing and Purchasing Behavior [[link](https://doi.org/10.1257/aer.102.6.2955)]
+
+#### Rankings & Platform Design
+
+ - Ursu (2018) The Power of Rankings: Quantifying the Effect of Rankings on Online Consumer Search and Purchase Decisions [[link](https://doi.org/10.1287/mksc.2017.1072)]
+ - De Los Santos & Koulayev (2017) Optimizing Click-Through in Online Rankings with Endogenous Search Refinement [[link](https://doi.org/10.1287/mksc.2017.1036)]
+
+#### Applications & Measurement
+
+ - Mehta et al. (2003) Price Uncertainty and Consumer Search: A Structural Model of Consideration Set Formation [[link](https://doi.org/10.1287/mksc.22.1.58.12849)]
+ - Goeree (2008) Limited Information and Advertising in the U.S. Personal Computer Industry [[link](https://doi.org/10.3982/ECTA4158)]
+ - Seiler (2013) The impact of search costs on consumer behavior: A dynamic approach [[link](https://doi.org/10.1007/s11129-012-9126-7)]
+ - Honka et al. (2017) Advertising, consumer awareness, and choice: evidence from the U.S. banking industry [[link](https://doi.org/10.1111/1756-2171.12188)]
+ - Yavorsky et al. (2021) Consumer search in the U.S. auto industry: The role of dealership visits [[link](https://doi.org/10.1007/s11129-020-09229-4)]
+ - Moraga-González et al. (2023) Consumer Search and Prices in the Automobile Market [[link](https://doi.org/10.1093/restud/rdac047)]
+ - Zettelmeyer et al. (2006) How the Internet Lowers Prices: Evidence from Matched Survey and Automobile Transaction Data [[link](http://www.jstor.org/stable/30163384)]
+ - Sorensen (2000) Equilibrium Price Dispersion in Retail Markets for Prescription Drugs [[link](https://doi.org/10.1086/316103)]
+ - Hortacsu & Syverson (2004) Product Differentiation, Search Costs, and Competition in the Mutual Fund Industry: A Case Study of S&amp;P 500 Index Funds [[link](https://doi.org/10.1162/0033553041382184)]
+ - Brown & Goolsbee (2002) Does the Internet Make Markets More Competitive? Evidence from the Life Insurance Industry [[link](https://doi.org/10.1086/339714)]
+

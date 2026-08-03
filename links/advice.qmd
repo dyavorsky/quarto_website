@@ -8,15 +8,16 @@ toc: false
 
 #### On Life
 
- - [This is Water](https://web.ics.purdue.edu/~drkelly/DFWKenyonAddress2005.pdf) by David Foster Wallace
+ - [This is Water](https://fs.blog/david-foster-wallace-this-is-water/) by David Foster Wallace
  - [A Mathematician's Lament](http://worrydream.com/refs/Lockhart-MathematiciansLament.pdf) by Paul Lockhart
  - [Maker's Schedule, Manager's Schedule](https://www.paulgraham.com/makersschedule.html) by Paul Graham
  - [Lessons from Amazon](https://www.linkedin.com/posts/scarletink_12-things-i-learned-in-big-tech-activity-7032114623050891264-liMq) ([alt link](https://www.scarletink.com/p/12-things-i-learned-in-big-tech)) by David Anderson
+ - [Some Thoughts on the Real World by One Who Glimpsed It and Fled](https://web.mit.edu/jmorzins/www/C-H-speech.html) by Bill Watterson
 
 #### On Writing
 
  - [How to Send and Reply to email](https://matt.might.net/articles/how-to-email/) by Matt Might
- - [Publication, Publication](https://gking.harvard.edu/sites/scholar.harvard.edu/files/gking/files/paperspub.pdf) by Gary King
+ - [Publication, Publication](https://gking.harvard.edu/files/paperspub.pdf) by Gary King
 
 #### On Learning How to Learn
 
@@ -24,19 +25,22 @@ toc: false
  - [Why Books Don't Work](https://andymatuschak.org/books/) by Andy Matuschak
  - [Evergreen Notes](https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX) by Andy Matuschak
 
-### On Motivation
+#### On Motivation
 
-- [The Slight Edge](https://www.amazon.com/Slight-Edge-Turning-Disciplines-Happiness/dp/1626340463/) by Jeff Olsen [video](https://www.youtube.com/watch?v=8EO7rLAGkXg)
+- [The Slight Edge](https://www.amazon.com/Slight-Edge-Turning-Disciplines-Happiness/dp/1626340463/) by Jeff Olson [video](https://www.youtube.com/watch?v=8EO7rLAGkXg)
 - [8 Steps to UnF Your Life](https://www.youtube.com/watch?v=FkQ4iWloT_s) by Joey Schweitzer
 - [Why Most People Are Only Giving 70%](https://www.youtube.com/watch?v=KYs3M_qB6hs) by John Amaechi
+- [The Last Lecture](https://www.cmu.edu/randyslecture/) by Randy Pausch
 
 #### On Getting a PhD (in Econ or Marketing)
 
  - Ken Wilbur: [Reasons to Get (or Not) a PhD](https://kennethcwilbur.github.io/website//#:~:text=Reasons%20to%20get%20or%20not%20get%20a%20Ph.D.) and [Choosing a field, Subfield, and PhD Program](https://kennethcwilbur.github.io/website//#:~:text=Choosing%20a%20field%2C%20subfield%20and%20Ph.D.%20program)
  - Susan Athey: [Professional Advice](https://gsb-faculty.stanford.edu/susan-athey/professional-advice/)
  - Jesse Shapiro: [Notes on Applying for a PhD in Economics](https://scholar.harvard.edu/files/shapiro/files/phdnotes.pdf)
- - Anatoli Colicev: [The PhD Journey](https://drive.google.com/file/d/1G9VsH4hbBhrtrJ7Cp4XsxuXLKuSFRjcn/view)
+ - Anatoli Colicev: [The PhD Journey](https://www.ama.org/2022/03/18/anatoli-colicev-the-phd-journey-and-beyond/)
  - Martin Schwartz: [The Importance of Stupidity in Scientific Research](https://web.stanford.edu/~fukamit/schwartz-2008.pdf)
+ - Steven Weinberg: [Four Golden Lessons](https://www.nature.com/articles/426389a)
+ - Terence Tao: [Career Advice](https://terrytao.wordpress.com/career-advice/)
 
 
 

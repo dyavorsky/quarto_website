@@ -15,7 +15,6 @@ toc: false
  - [R for the Rest of Us: A Statistics-Free Introduction](https://book.rfortherestofus.com/) by David Keyes
  - [Mastering Software Development in R](https://leanpub.com/msdr) by Roger Peng, Sean Kross, and Brooke Anderson
  - [Scaling Up with R and Arrow](https://arrowrbook.com/) by Nic Crane, Jonathan Keane, and Neal Richardson
- - [Happy Git and GitHub for the useR](https://happygitwithr.com/) by Jenny Bryan, the STAT 545 TAs, and Jim Hester
  - [What They Forgot to Teach You About R](https://rstats.wtf/) by Jenny Bryan, Jim Hester, Shannon Pileggi, and E. David Aja
  - [Rcpp for everyone](https://teuder.github.io/rcpp4everyone_en/) by Masaki E. Tsuda
 
@@ -38,7 +37,6 @@ toc: false
 
  - [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) by Yihui Xie, JJ Allaire, and Garrett Grolemund
  - [Building reproducible analytical pipelines with R](https://raps-with-r.dev/) by Bruno Rodrigues
- - [Telling Stories with Data](https://tellingstorieswithdata.com/) by Rohan Alexander
 
  
 #### Quant UX & Survey Research with R

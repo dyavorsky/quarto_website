@@ -1,0 +1,11 @@
+---
+title: "Links"
+toc: false
+---
+
+
+## Python Resources
+
+ - [Python 4 Data Science](https://aeturrell.github.io/python4DS/welcome.html#) by Arthur Turrell and others
+ - [Python for Marketing Research and Analytics](https://link.springer.com/book/10.1007/978-3-030-49720-0) by Jason Schwarz, Chris Chapman, and Elea McDonnell Feit
+ - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) by Jake VanderPlas

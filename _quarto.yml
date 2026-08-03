@@ -41,12 +41,24 @@ website:
           - text: "R Programming"
             icon: bi-r-circle # file-earmark-code
             href: links/r.qmd
+          - text: "Python"
+            icon: filetype-py
+            href: links/python.qmd
           - text: "Computing"
             icon: terminal
             href: links/compute.qmd
           - text: "Stats"
             icon: bar-chart
             href: links/stats.qmd
+          - text: "Demand Estimation"
+            icon: graph-up
+            href: links/demand-estimation.qmd
+          - text: "Conjoint Analysis"
+            icon: ui-checks
+            href: links/conjoint.qmd
+          - text: "Consumer Search"
+            icon: search
+            href: links/consumer-search.qmd
           - text: "Advice"
             icon: info-square
             href: links/advice.qmd

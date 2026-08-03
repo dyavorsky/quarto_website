@@ -1,0 +1,50 @@
+---
+title: "Links"
+toc: false
+---
+
+
+## Conjoint Analysis
+
+Stated-preference measurement of demand — designing choice experiments, estimating preferences from them, and turning the results into economic quantities.
+
+#### Reviews & Foundations
+
+ - Agarwal et al. (2015) An Interdisciplinary Review of Research in Conjoint Analysis: Recent Developments and Directions for Future Research [[link](https://doi.org/10.1007/s40547-014-0029-5)]
+ - Ben-Akiva et al. (2019) Foundations of Stated Preference Elicitation: Consumer Behavior and Choice-based Conjoint Analysis [[link](https://doi.org/10.1561/0800000036)]
+ - Chandukala et al. (2007) Choice Models in Marketing: Economic Assumptions, Challenges and Trends [[link](https://doi.org/10.1561/1700000008)]
+
+#### Estimation
+
+ - Allenby et al. (1995) Incorporating Prior Knowledge into the Analysis of Conjoint Studies [[link](https://doi.org/10.2307/3152044)]
+ - McFadden & Train (2000) Mixed MNL models for discrete response [[link](https://doi.org/10.1002/1099-1255(200009/10)15:5<447::AID-JAE570>3.0.CO;2-1)]
+ - Revelt & Train (1998) Mixed Logit with Repeated Choices: Households' Choices of Appliance Efficiency Level [[link](https://doi.org/10.1162/003465398557735)]
+ - Marshall & Bradlow (2002) A Unified Approach to Conjoint Analysis Models [[link](https://doi.org/10.1198/016214502388618410)]
+ - Fiebig et al. (2010) The Generalized Multinomial Logit Model: Accounting for Scale and Coefficient Heterogeneity [[link](https://doi.org/10.1287/mksc.1090.0508)]
+ - Train (2016) Mixed logit with a flexible mixing distribution [[link](https://doi.org/10.1016/j.jocm.2016.07.004)]
+ - Pachali et al. (2020) How to generalize from a hierarchical model? [[link](https://doi.org/10.1007/s11129-020-09226-7)]
+
+#### Design & Response Format
+
+ - Swait & Louviere (1993) The Role of the Scale Parameter in the Estimation and Comparison of Multinomial Logit Models [[link](https://doi.org/10.2307/3172883)]
+ - Dhar (1997) Consumer Preference for a No-Choice Option [[link](https://doi.org/10.1086/209506)]
+ - Brazell et al. (2006) The No-Choice Option and Dual Response Choice Designs [[link](https://doi.org/10.1007/s11002-006-7943-8)]
+ - Campbell & Erdem (2019) Including Opt-Out Options in Discrete Choice Experiments: Issues to Consider [[link](https://doi.org/10.1007/s40271-018-0324-6)]
+ - Ding (2007) An Incentive-Aligned Mechanism for Conjoint Analysis [[link](https://doi.org/10.1509/jmkr.44.2.214)]
+ - Liu et al. (2009) Studying the level-effect in conjoint analysis: An application of efficient experimental designs for hyper-parameter estimation [[link](https://doi.org/10.1007/s11129-008-9045-9)]
+
+#### Willingness to Pay & Economic Valuation
+
+ - Allenby et al. (2005) Adjusting Choice Models to Better Predict Market Behavior [[link](https://doi.org/10.1007/s11002-005-5885-1)]
+ - Allenby et al. (2014) Economic Valuation of Product Features [[link](https://doi.org/10.1007/s11129-014-9150-x)]
+ - Iyengar et al. (2008) A Conjoint Approach to Multipart Pricing [[link](https://doi.org/10.1509/jmkr.45.2.195)]
+ - Pachali et al. (2022) Omitted Budget Constraint Bias and Implications for Competitive Pricing [[link](https://doi.org/10.1177/00222437221145283)]
+ - He et al. (2024) Measuring Willingness to Pay: A Comparative Method of Valuation [[link](https://doi.org/10.1177/00222429231195564)]
+
+#### Conjoint Beyond Marketing
+
+ - Hainmueller et al. (2014) Causal Inference in Conjoint Analysis: Understanding Multidimensional Choices via Stated Preference Experiments [[link](https://doi.org/10.1093/pan/mpt024)]
+ - Leeper et al. (2020) Measuring Subgroup Preferences in Conjoint Experiments [[link](https://doi.org/10.1017/pan.2019.30)]
+ - Bridges et al. (2011) Conjoint Analysis Applications in Health—a Checklist: A Report of the ISPOR Good Research Practices for Conjoint Analysis Task Force [[link](https://doi.org/10.1016/j.jval.2010.11.013)]
+ - Hauber et al. (2016) Statistical Methods for the Analysis of Discrete Choice Experiments: A Report of the ISPOR Conjoint Analysis Good Research Practices Task Force [[link](https://doi.org/10.1016/j.jval.2016.04.004)]
+
