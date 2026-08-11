@@ -3,6 +3,7 @@ title: "Links"
 toc: false
 ---
 
+_This is very much a work in progress as I work to develop my familiarity with the language._ 
 
 ## Python Resources
 

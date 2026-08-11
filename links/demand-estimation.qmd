@@ -1,66 +1,220 @@
 ---
 title: "Links"
-toc: false
+toc: true
 ---
 
 
 ## Demand Estimation
 
-Structural models of what consumers choose, and what those choices imply about preferences, substitution patterns, and counterfactual prices. Roughly the reading list for a PhD course on the subject.
+Models of what consumers choose, and what those choices imply about preferences, substitution patterns, welfare, and counterfactual prices. Covers revealed-preference demand estimation from individual and aggregate data, and stated-preference measurement through choice experiments. Roughly the reading list for a PhD course on the subject.
 
-#### Textbooks & Surveys
+### Textbooks, Surveys & Handbooks
 
+#### Books
+
+ - Ben-Akiva & Lerman (1985) Discrete Choice Analysis: Theory and Application to Travel Demand [[link](https://mitpress.mit.edu/9780262536400/discrete-choice-analysis/)]
+ - Anderson et al. (1992) Discrete Choice Theory of Product Differentiation [[link](https://doi.org/10.7551/mitpress/2450.001.0001)]
+ - Rossi et al. (2005) Bayesian Statistics and Marketing [[link](https://doi.org/10.1002/0470863692)]
  - [Discrete Choice Methods with Simulation](https://eml.berkeley.edu/books/choice2.html) by Kenneth Train (2009)
- - McFadden (1984) Chapter 24 Econometric analysis of qualitative response models [[link](https://doi.org/10.1016/S1573-4412(84)02016-X)]
- - Ackerberg et al. (2007) Chapter 63 Econometric Tools for Analyzing Market Outcomes [[link](https://doi.org/10.1016/S1573-4412(07)06063-1)]
+ - Hortaçsu & Joo (2023) Structural Econometric Modeling in Industrial Organization and Quantitative Marketing [[link](https://doi.org/10.1515/9780691251004)]
+
+#### Handbook Chapters & Review Articles
+
+ - McFadden (1984) Chapter 24 - Econometric analysis of qualitative response models [[link](https://doi.org/10.1016/S1573-4412(84)02016-X)]
+ - Rossi & Allenby (2003) Bayesian Statistics and Marketing [[link](https://doi.org/10.1287/mksc.22.3.304.17739)]
+ - Ackerberg et al. (2007) Chapter 63 - Econometric Tools for Analyzing Market Outcomes [[link](https://doi.org/10.1016/S1573-4412(07)06063-1)]
+ - Reiss & Wolak (2007) Chapter 64 - Structural Econometric Modeling: Rationales and Examples from Industrial Organization [[link](https://doi.org/10.1016/S1573-4412(07)06064-3)]
+ - Chandukala et al. (2007) Choice Models in Marketing: Economic Assumptions, Challenges and Trends [[link](https://doi.org/10.1561/1700000008)]
  - Chintagunta & Nair (2011) Discrete Choice Models of Consumer Demand in Marketing [[link](https://doi.org/10.1287/mksc.1110.0674)]
+ - Nevo (2011) Empirical Models of Consumer Behavior [[link](https://doi.org/10.1146/annurev-economics-061109-080402)]
  - Dubé (2019) Chapter 1 - Microeconometric models of consumer demand [[link](https://doi.org/10.1016/bs.hem.2019.04.001)]
  - Berry & Haile (2021) Foundations of Demand Estimation [[link](https://doi.org/10.1016/bs.hesind.2021.11.001)]
  - Gandhi & Nevo (2021) Chapter 2 - Empirical models of demand and supply in differentiated products industries [[link](https://doi.org/10.1016/bs.hesind.2021.11.002)]
- - Hortaçsu & Joo (2023) Structural Econometric Modeling in Industrial Organization and Quantitative Marketing [[link](https://doi.org/10.1515/9780691251004)]
 
-#### Foundations
+### Foundations
 
+#### Random Utility & Early Discrete Choice Models
+
+ - Lancaster (1966) A New Approach to Consumer Theory [[link](https://doi.org/10.1086/259131)]
  - McFadden (1973) Conditional Logit Analysis of Qualitative Choice Behavior [[link](https://eml.berkeley.edu/reprints/mcfadden/zarembka.pdf)]
+ - Manski (1977) The Structure of Random Utility Models [[link](https://doi.org/10.1007/BF00133443)]
+ - McFadden (1978) Modelling the Choice of Residential Location [[link](https://ideas.repec.org/p/cwl/cwldpp/477.html)]
  - Hausman & Wise (1978) A Conditional Probit Model for Qualitative Choice: Discrete Decisions Recognizing Interdependence and Heterogeneous Preferences [[link](https://doi.org/10.2307/1913909)]
- - Small & Rosen (1981) Applied Welfare Economics with Discrete Choice Models [[link](https://doi.org/10.2307/1911129)]
  - Guadagni & Little (1983) A Logit Model of Brand Choice Calibrated on Scanner Data [[link](http://www.jstor.org/stable/184043)]
  - Dubin & McFadden (1984) An Econometric Analysis of Residential Electric Appliance Holdings and Consumption [[link](https://doi.org/10.2307/1911493)]
  - Hanemann (1984) Discrete/Continuous Models of Consumer Demand [[link](https://doi.org/10.2307/1913464)]
 
-#### Individual-Level Data: Heterogeneity & Bayesian Methods
+#### Simulation & Computation of Choice Probabilities
+
+ - McFadden (1989) A Method of Simulated Moments for Estimation of Discrete Response Models Without Numerical Integration [[link](https://doi.org/10.2307/1913621)]
+ - Pakes & Pollard (1989) Simulation and the Asymptotics of Optimization Estimators [[link](https://doi.org/10.2307/1913622)]
+ - Hajivassiliou et al. (1996) Simulation of multivariate normal rectangle probabilities and their derivatives [[link](https://www.sciencedirect.com/science/article/pii/0304407694017166)]
+ - Brownstone & Train (1998) Forecasting new product penetration with flexible substitution patterns [[link](https://doi.org/10.1016/S0304-4076(98)00057-8)]
+
+### Individual-Level Data
+
+#### Heterogeneity & Bayesian Methods
 
  - Kamakura & Russell (1989) A Probabilistic Choice Model for Market Segmentation and Elasticity Structure [[link](https://doi.org/10.2307/3172759)]
+ - Chintagunta et al. (1991) Investigating Heterogeneity in Brand Preferences in Logit Models for Panel Data [[link](https://doi.org/10.2307/3172782)]
  - Rossi & Allenby (1993) A Bayesian Approach to Estimating Household Parameters [[link](https://doi.org/10.2307/3172826)]
  - McCulloch & Rossi (1994) An Exact Likelihood Analysis of the Multinomial Probit Model [[link](https://doi.org/10.1016/0304-4076(94)90064-7)]
  - Jain et al. (1994) A Random-Coefficients Logit Brand-Choice Model Applied to Panel Data [[link](https://doi.org/10.2307/1392088)]
+ - Rossi et al. (1996) The Value of Purchase History Data in Target Marketing [[link](https://doi.org/10.1287/mksc.15.4.321)]
  - Allenby & Rossi (1998) Marketing Models of Consumer Heterogeneity [[link](https://doi.org/10.1016/S0304-4076(98)00055-4)]
  - Revelt & Train (1998) Mixed Logit with Repeated Choices: Households' Choices of Appliance Efficiency Level [[link](https://doi.org/10.1162/003465398557735)]
  - McFadden & Train (2000) Mixed MNL models for discrete response [[link](https://doi.org/10.1002/1099-1255(200009/10)15:5<447::AID-JAE570>3.0.CO;2-1)]
- - Erdem & Keane (1996) Decision-Making Under Uncertainty: Capturing Dynamic Brand Choice Processes in Turbulent Consumer Goods Markets [[link](https://doi.org/10.1287/mksc.15.1.1)]
 
-#### Aggregate / Market-Share Data
+#### State Dependence, Inertia & Endogeneity
 
- - Berry (1994) Estimating Discrete-Choice Models of Product Differentiation [[link](https://doi.org/10.2307/2555829)]
- - Berry et al. (1995) Automobile Prices in Market Equilibrium [[link](https://doi.org/10.2307/2171802)]
- - Cardell (1997) Variance Components Structures for the Extreme-Value and Logistic Distributions with Application to Models of Heterogeneity [[link](https://doi.org/10.1017/s0266466600005727)]
- - Goldberg (1995) Product Differentiation and Oligopoly in International Markets: The Case of the U.S. Automobile Industry [[link](https://doi.org/10.2307/2171803)]
- - Nevo (2000) A Practitioner's Guide to Estimation of Random-Coefficients Logit Models of Demand [[link](https://doi.org/10.1111/j.1430-9134.2000.00513.x)]
- - Nevo (2001) Measuring Market Power in the Ready-to-Eat Cereal Industry [[link](https://doi.org/10.1111/1468-0262.00194)]
- - Nevo (2000) Mergers with Differentiated Products: The Case of the Ready-to-Eat Cereal Industry [[link](https://doi.org/10.2307/2600994)]
- - Petrin (2002) Quantifying the Benefits of New Products: The Case of the Minivan [[link](https://doi.org/10.1086/340779)]
- - Berry et al. (2004) Differentiated Products Demand Systems from a Combination of Micro and Macro Data: The New Car Market [[link](https://doi.org/10.1086/379939)]
- - Jiang et al. (2009) Bayesian Analysis of Random Coefficient Logit Models Using Aggregate Data [[link](https://doi.org/10.1016/j.jeconom.2008.12.010)]
- - Anon. (2012) Improving the Numerical Performance of Static and Dynamic Aggregate Discrete Choice Random Coefficients Demand Estimation [[link](https://doi.org/10.3982/ecta8585)]
- - Conlon & Gortmaker (2020) Best practices for differentiated products demand estimation with PyBLP [[link](https://doi.org/10.1111/1756-2171.12352)]
- - Conlon & Gortmaker (2023) Incorporating Micro Data into Differentiated Products Demand Estimation with PyBLP [[link](https://doi.org/10.3386/w31605)]
-
-#### Endogeneity, Dynamics & State Dependence
-
+ - Heckman (1981) Heterogeneity and State Dependence [[link](https://www.nber.org/books-and-chapters/studies-labor-markets/heterogeneity-and-state-dependence)]
+ - Keane (1997) Modeling Heterogeneity and State Dependence in Consumer Choice Behavior — *Journal of Business & Economic Statistics* 15(3), 310–327
  - Villas-Boas & Winer (1999) Endogeneity in Brand Choice Models [[link](https://doi.org/10.1287/mnsc.45.10.1324)]
  - Dubé et al. (2009) Do Switching Costs Make Markets Less Competitive? [[link](https://doi.org/10.1509/jmkr.46.4.435)]
  - Dubé et al. (2010) State Dependence and Alternative Explanations for Consumer Inertia [[link](https://doi.org/10.1111/j.1756-2171.2010.00106.x)]
- - Hendel (1999) Estimating Multiple-Discrete Choice Models: An Application to Computerization Returns [[link](https://doi.org/10.1111/1467-937x.00093)]
- - Hendel & Nevo (2006) Measuring the Implications of Sales and Consumer Inventory Behavior [[link](https://doi.org/10.1111/j.1468-0262.2006.00721.x)]
- - Erdem et al. (2003) Brand and Quantity Choice Dynamics Under Price Uncertainty [[link](https://doi.org/10.1023/a:1023536326497)]
+ - Petrin & Train (2010) A Control Function Approach to Endogeneity in Consumer Choice Models [[link](https://doi.org/10.1509/jmkr.47.1.3)]
 
+### Aggregate Data: Differentiated Products
+
+#### The BLP Framework
+
+ - Bresnahan (1987) Competition and Collusion in the American Automobile Industry: The 1955 Price War [[link](https://doi.org/10.2307/2098583)]
+ - Berry (1994) Estimating Discrete-Choice Models of Product Differentiation [[link](https://doi.org/10.2307/2555829)]
+ - Berry et al. (1995) Automobile Prices in Market Equilibrium [[link](https://doi.org/10.2307/2171802)]
+ - Goldberg (1995) Product Differentiation and Oligopoly in International Markets: The Case of the U.S. Automobile Industry [[link](https://doi.org/10.2307/2171803)]
+ - Feenstra & Levinsohn (1995) Estimating Markups and Market Conduct with Multidimensional Product Attributes [[link](https://doi.org/10.2307/2297840)]
+ - Cardell (1997) Variance Components Structures for the Extreme-Value and Logistic Distributions with Application to Models of Heterogeneity [[link](https://doi.org/10.1017/s0266466600005727)]
+ - Nevo (2000) A Practitioner's Guide to Estimation of Random-Coefficients Logit Models of Demand [[link](https://doi.org/10.1111/j.1430-9134.2000.00513.x)]
+ - Nevo (2000) Mergers with Differentiated Products: The Case of the Ready-to-Eat Cereal Industry [[link](https://doi.org/10.2307/2600994)]
+ - Nevo (2001) Measuring Market Power in the Ready-to-Eat Cereal Industry [[link](https://doi.org/10.1111/1468-0262.00194)]
+ - Berry et al. (2004) Differentiated Products Demand Systems from a Combination of Micro and Macro Data: The New Car Market [[link](https://doi.org/10.1086/379939)]
+
+#### Computation, Inference & Software
+
+ - Berry et al. (2004) Limit Theorems for Estimating the Parameters of Differentiated Product Demand Systems [[link](https://doi.org/10.1111/j.1467-937X.2004.00298.x)]
+ - Jiang et al. (2009) Bayesian Analysis of Random Coefficient Logit Models Using Aggregate Data [[link](https://doi.org/10.1016/j.jeconom.2008.12.010)]
+ - Dubé et al. (2012) Improving the Numerical Performance of Static and Dynamic Aggregate Discrete Choice Random Coefficients Demand Estimation [[link](https://doi.org/10.3982/ecta8585)]
+ - Knittel & Metaxoglou (2014) Estimation of Random-Coefficient Demand Models: Two Empiricists' Perspective [[link](https://doi.org/10.1162/REST_a_00394)]
+ - Salanié & Wolak (2019) Fast, "Robust", and Approximately Correct: Estimating Mixed Demand Systems [[link](https://www.nber.org/papers/w25726)]
+ - Conlon & Gortmaker (2020) Best practices for differentiated products demand estimation with PyBLP [[link](https://doi.org/10.1111/1756-2171.12352)]
+ - Gandhi et al. (2023) Estimating demand for differentiated products with zeroes in market share data [[link](https://doi.org/10.3982/QE1593)]
+ - Conlon & Gortmaker (2023) Incorporating Micro Data into Differentiated Products Demand Estimation with PyBLP [[link](https://doi.org/10.3386/w31605)]
+
+### Identification & Instruments
+
+#### Nonparametric Identification
+
+ - Berry et al. (2013) Connected Substitutes and Invertibility of Demand [[link](https://doi.org/10.3982/ECTA10135)]
+ - Berry & Haile (2014) Identification in Differentiated Products Markets Using Market Level Data [[link](https://doi.org/10.3982/ECTA9027)]
+ - Compiani (2022) Market counterfactuals and the specification of multiproduct demand: A nonparametric approach [[link](https://doi.org/10.3982/QE1653)]
+ - Berry & Haile (2024) Nonparametric Identification of Differentiated Products Demand Using Micro Data [[link](https://doi.org/10.3982/ECTA20731)]
+
+#### Instruments & Identifying Variation
+
+ - Hausman et al. (1994) Competitive Analysis with Differentiated Products [[link](https://econpapers.repec.org/RePEc:adr:anecst:y:1994:i:34:p:143-157)]
+ - Nevo & Rosen (2012) Identification with Imperfect Instruments [[link](https://doi.org/10.1162/REST_a_00171)]
+ - Reynaert & Verboven (2014) Improving the performance of random coefficients demand models: The role of optimal instruments [[link](https://doi.org/10.1016/j.jeconom.2013.12.001)]
+ - Armstrong (2016) Large Market Asymptotics for Differentiated Product Demand Estimators with Economic Models of Supply [[link](https://doi.org/10.3982/ECTA10600)]
+ - Gandhi & Houde (2019) Measuring Substitution Patterns in Differentiated-Products Industries [[link](https://www.nber.org/papers/w26375)]
+
+### Beyond the Standard Discrete Choice Model
+
+#### Continuous & Flexible Demand Systems
+
+ - Christensen et al. (1975) Transcendental Logarithmic Utility Functions [[link](https://www.jstor.org/stable/1804840)]
+ - Deaton & Muellbauer (1980) An Almost Ideal Demand System [[link](https://ideas.repec.org/a/aea/aecrev/v70y1980i3p312-26.html)]
+ - Bajari & Benkard (2005) Demand Estimation with Heterogeneous Consumers and Unobserved Product Characteristics: A Hedonic Approach [[link](https://web.stanford.edu/~lanierb/research/Demand_Estimation_JPE.pdf)]
+ - Berry & Pakes (2007) The Pure Characteristics Demand Model [[link](https://doi.org/10.1111/j.1468-2354.2007.00459.x)]
+
+#### Purchase Incidence, Quantity & Assortment
+
+ - Gupta (1988) Impact of Sales Promotions on When, What, and How Much to Buy [[link](https://doi.org/10.1177/002224378802500402)]
+ - Chintagunta (1993) Investigating Purchase Incidence, Brand Choice and Purchase Quantity Decisions of Households [[link](https://doi.org/10.1287/mksc.12.2.184)]
+ - Fader & Hardie (1996) Modeling Consumer Choice Among SKUs [[link](https://doi.org/10.2307/3152215)]
+
+#### Multiple Discreteness & Complementarity
+
+ - Hendel (1999) Estimating Multiple-Discrete Choice Models: An Application to Computerization Returns [[link](https://doi.org/10.1111/1467-937x.00093)]
+ - Dubé (2004) Multiple Discreteness and Product Differentiation: Demand for Carbonated Soft Drinks [[link](https://doi.org/10.1287/mksc.1030.0041)]
+ - Gentzkow (2007) Valuing New Goods in a Model with Complementarity: Online Newspapers [[link](https://doi.org/10.1257/aer.97.3.713)]
+
+#### Consideration Sets & Limited Information
+
+ - Siddarth et al. (1995) Making the Cut: Modeling and Analyzing Choice Set Restriction in Scanner Panel Data [[link](https://doi.org/10.1177/002224379503200302)]
+ - Goeree (2008) Limited Information and Advertising in the U.S. Personal Computer Industry [[link](https://doi.org/10.3982/ECTA4158)]
+ - Honka et al. (2017) Advertising, consumer awareness, and choice: Evidence from the U.S. banking industry [[link](https://doi.org/10.1111/1756-2171.12188)]
+ - Abaluck & Adams-Prassl (2021) What Do Consumers Consider Before They Choose? Identification from Asymmetric Demand Responses [[link](https://doi.org/10.1093/qje/qjab008)]
+
+### Dynamics
+
+#### Storable & Durable Goods
+
+ - Rust (1987) Optimal Replacement of GMC Bus Engines: An Empirical Model of Harold Zurcher [[link](https://doi.org/10.2307/1911259)]
+ - Song & Chintagunta (2003) A micromodel of new product adoption with heterogeneous and forward-looking consumers: Application to the digital camera category [[link](https://doi.org/10.1023/B:QMEC.0000004843.41279.f3)]
+ - Hendel & Nevo (2006) Measuring the Implications of Sales and Consumer Inventory Behavior [[link](https://doi.org/10.1111/j.1468-0262.2006.00721.x)]
+ - Gowrisankaran & Rysman (2012) Dynamics of Consumer Demand for New Durable Goods [[link](https://doi.org/10.1086/669540)]
+ - Hendel & Nevo (2013) Intertemporal Price Discrimination in Storable Goods Markets [[link](https://doi.org/10.1257/aer.103.7.2722)]
+ - Melnikov (2013) Demand for Differentiated Durable Products: The Case of the U.S. Computer Printer Market [[link](https://doi.org/10.1111/j.1465-7295.2012.00501.x)]
+ - Ching & Osborne (2020) Identification and Estimation of Forward-Looking Behavior: The Case of Consumer Stockpiling [[link](https://doi.org/10.1287/mksc.2019.1193)]
+
+#### Learning & Price Uncertainty
+
+ - Erdem & Keane (1996) Decision-Making Under Uncertainty: Capturing Dynamic Brand Choice Processes in Turbulent Consumer Goods Markets [[link](https://doi.org/10.1287/mksc.15.1.1)]
+ - Ackerberg (2003) Advertising, learning, and consumer choice in experience good markets: An empirical examination [[link](https://doi.org/10.1111/1468-2354.t01-2-00098)]
+ - Erdem et al. (2003) Brand and Quantity Choice Dynamics Under Price Uncertainty [[link](https://doi.org/10.1023/a:1023536326497)]
+ - Crawford & Shum (2005) Uncertainty and Learning in Pharmaceutical Demand [[link](https://doi.org/10.1111/j.1468-0262.2005.00612.x)]
+ - Erdem et al. (2008) A Dynamic Model of Brand Choice When Price and Advertising Signal Product Quality [[link](https://doi.org/10.1287/mksc.1080.0362)]
+ - Ching et al. (2013) Learning Models: An Assessment of Progress, Challenges, and New Developments [[link](https://doi.org/10.1287/mksc.2013.0805)]
+
+### Welfare, Valuation & Willingness to Pay
+
+#### Welfare & New Goods
+
+ - Small & Rosen (1981) Applied Welfare Economics with Discrete Choice Models [[link](https://doi.org/10.2307/1911129)]
+ - Hausman (1996) Valuation of New Goods under Perfect and Imperfect Competition [[link](https://www.nber.org/books-and-chapters/economics-new-goods/valuation-new-goods-under-perfect-and-imperfect-competition)]
+ - Bresnahan (1997) Comment on Hausman's Valuation of New Goods [[link](https://www.nber.org/system/files/chapters/c6068/c6068.pdf)]
+ - Petrin (2002) Quantifying the Benefits of New Products: The Case of the Minivan [[link](https://doi.org/10.1086/340779)]
+
+#### Willingness to Pay from Choice Data
+
+ - Allenby et al. (2005) Adjusting Choice Models to Better Predict Market Behavior [[link](https://doi.org/10.1007/s11002-005-5885-1)]
+ - Iyengar et al. (2008) A Conjoint Approach to Multipart Pricing [[link](https://doi.org/10.1509/jmkr.45.2.195)]
+ - Allenby et al. (2014) Economic Valuation of Product Features [[link](https://doi.org/10.1007/s11129-014-9150-x)]
+ - Pachali et al. (2022) Omitted Budget Constraint Bias and Implications for Competitive Pricing [[link](https://doi.org/10.1177/00222437221145283)]
+ - He et al. (2024) Measuring Willingness to Pay: A Comparative Method of Valuation [[link](https://doi.org/10.1177/00222429231195564)]
+
+### Stated Preference & Conjoint Analysis
+
+#### Reviews & Foundations
+
+ - Green & Srinivasan (1990) Conjoint Analysis in Marketing: New Developments with Implications for Research and Practice [[link](https://doi.org/10.2307/1251756)]
+ - Green et al. (2001) Thirty Years of Conjoint Analysis: Reflections and Prospects [[link](https://doi.org/10.1287/inte.31.3s.56.9676)]
+ - Agarwal et al. (2015) An Interdisciplinary Review of Research in Conjoint Analysis: Recent Developments and Directions for Future Research [[link](https://doi.org/10.1007/s40547-014-0029-5)]
+ - Allenby et al. (2019) Chapter 3 - Economic foundations of conjoint analysis [[link](https://doi.org/10.1016/bs.hem.2019.04.002)]
+ - Ben-Akiva et al. (2019) Foundations of Stated Preference Elicitation: Consumer Behavior and Choice-based Conjoint Analysis [[link](https://doi.org/10.1561/0800000036)]
+
+#### Experimental Design & Response Format
+
+ - Louviere & Woodworth (1983) Design and Analysis of Simulated Consumer Choice or Allocation Experiments: An Approach Based on Aggregate Data [[link](https://doi.org/10.2307/3151440)]
+ - Swait & Louviere (1993) The Role of the Scale Parameter in the Estimation and Comparison of Multinomial Logit Models [[link](https://doi.org/10.2307/3172883)]
+ - Dhar (1997) Consumer Preference for a No-Choice Option [[link](https://doi.org/10.1086/209506)]
+ - Toubia et al. (2003) Fast Polyhedral Adaptive Conjoint Estimation [[link](https://doi.org/10.1287/mksc.22.3.273.17743)]
+ - Brazell et al. (2006) The No-Choice Option and Dual Response Choice Designs [[link](https://doi.org/10.1007/s11002-006-7943-8)]
+ - Ding (2007) An Incentive-Aligned Mechanism for Conjoint Analysis [[link](https://doi.org/10.1509/jmkr.44.2.214)]
+ - Liu et al. (2009) Studying the level-effect in conjoint analysis: An application of efficient experimental designs for hyper-parameter estimation [[link](https://doi.org/10.1007/s11129-008-9045-9)]
+ - Campbell & Erdem (2019) Including Opt-Out Options in Discrete Choice Experiments: Issues to Consider [[link](https://doi.org/10.1007/s40271-018-0324-6)]
+
+#### Estimation with Conjoint Data
+
+ - Allenby et al. (1995) Incorporating Prior Knowledge into the Analysis of Conjoint Studies [[link](https://doi.org/10.2307/3152044)]
+ - Marshall & Bradlow (2002) A Unified Approach to Conjoint Analysis Models [[link](https://doi.org/10.1198/016214502388618410)]
+ - Fiebig et al. (2010) The Generalized Multinomial Logit Model: Accounting for Scale and Coefficient Heterogeneity [[link](https://doi.org/10.1287/mksc.1090.0508)]
+ - Train (2016) Mixed logit with a flexible mixing distribution [[link](https://doi.org/10.1016/j.jocm.2016.07.004)]
+ - Pachali et al. (2020) How to generalize from a hierarchical model? [[link](https://doi.org/10.1007/s11129-020-09226-7)]
+
+#### Conjoint Beyond Marketing
+
+ - Bridges et al. (2011) Conjoint Analysis Applications in Health—a Checklist: A Report of the ISPOR Good Research Practices for Conjoint Analysis Task Force [[link](https://doi.org/10.1016/j.jval.2010.11.013)]
+ - Hainmueller et al. (2014) Causal Inference in Conjoint Analysis: Understanding Multidimensional Choices via Stated Preference Experiments [[link](https://doi.org/10.1093/pan/mpt024)]
+ - Hauber et al. (2016) Statistical Methods for the Analysis of Discrete Choice Experiments: A Report of the ISPOR Conjoint Analysis Good Research Practices Task Force [[link](https://doi.org/10.1016/j.jval.2016.04.004)]
+ - Leeper et al. (2020) Measuring Subgroup Preferences in Conjoint Experiments [[link](https://doi.org/10.1017/pan.2019.30)]

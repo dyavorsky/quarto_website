@@ -53,9 +53,6 @@ website:
           - text: "Demand Estimation"
             icon: graph-up
             href: links/demand-estimation.qmd
-          - text: "Conjoint Analysis"
-            icon: ui-checks
-            href: links/conjoint.qmd
           - text: "Consumer Search"
             icon: search
             href: links/consumer-search.qmd
