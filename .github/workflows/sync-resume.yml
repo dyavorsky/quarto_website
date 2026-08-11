@@ -55,10 +55,16 @@ jobs:
           # SAME value printed in the resume's own "Last Updated" sidebar stamp.
           # Deriving both the filename and the page's `date:` from it means the
           # site's "Last updated" can never disagree with the PDF it is serving.
-          stamp="$(grep -ao '/CreationDate(D:[0-9]\{8\}' /tmp/resume.pdf \
-                   | head -1 | grep -o '[0-9]\{8\}$' || true)"
+          #
+          # The optional whitespace is load-bearing: Typst writes the info dict
+          # key differently across versions -- the standalone 0.15 CLI emits
+          # `/CreationDate(D:...)` while 0.13 (the build Quarto bundles) emits
+          # `/CreationDate (D:...)`. Matching only the unspaced form broke this
+          # job the day the resume's render path changed.
+          stamp="$(grep -aoE '/CreationDate[[:space:]]*\(D:[0-9]{8}' /tmp/resume.pdf \
+                   | head -1 | grep -oE '[0-9]{8}$' || true)"
           if [ -z "$stamp" ]; then
-            echo "::error::could not read /CreationDate from resume.pdf -- did Typst start compressing the info dict?"
+            echo "::error::could not read /CreationDate from resume.pdf -- the info dict format changed (compressed, or new key spacing). Diagnose with: grep -aoE '/CreationDate.{0,24}' resume.pdf"
             exit 1
           fi
 
