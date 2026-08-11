@@ -6,7 +6,7 @@ toc: false
 
 ## Consumer Search
 
-Structural demand models that treat consumers’ information as incomplete, and so model the shopping process itself — which alternatives a consumer learns about, in what order, and when they stop — as part of demand rather than assuming full information over the choice set.
+Structural search models are models of consumer demand that treat consumers’ information as incomplete; they model the shopping process in addition to the choice process.
 
 #### Surveys & Frameworks
 

@@ -7,51 +7,61 @@ toc: false
 
 ## Stats and Related Fields
 
-#### Books
+### Causal Inference
 
- - [Statistical Rethinking 2 with rstan and the tidyverse](https://solomon.quarto.pub/sr2rstan/) by Solomon Kurz
- - [Teaching Bayesian Statistics](http://talmo.uk/2024/teachingbayesian.html) by TALMO
- - [A Collection of Econometrics Resources](https://giuseppecavaliere.wixsite.com/giuseppe/econometrics-lecture-notes-and-books) by Giuseepe Cavaliere
- - [Applied Machine Learning for Tabular Data](https://aml4td.org/) by Max Kuhn and Kjell Johnson
- - [Statistical Tools for Causal Inference](https://chabefer.github.io/STCI/index.html) by Sylvain Chabe-Ferret
  - [Causal Inference: The Mixtape](https://mixtape.scunning.com/) by Scott Cunningham
- - [Applied Causal Inference Powered by ML and AI](https://causalml-book.org/) by Chernozhukov, Hansen, Kallus, Spindler, and Syrgkanis
- - [The Data Science Handbooks: Advice and Insights from 25 Amazing Data Scientists](https://www.thedatasciencehandbook.com/) by Shan, Wang, Chen, and Song
- - [Telling Stories with Data](https://tellingstorieswithdata.com/) by Rohan Alexander
- - [Causal Inference: What If](https://miguelhernan.org/whatifbook) by Miguel Hernán and James Robins
  - [The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/) by Nick Huntington-Klein
+ - [Causal Inference: What If](https://miguelhernan.org/whatifbook) by Miguel Hernán and James Robins
+ - [Statistical Tools for Causal Inference](https://chabefer.github.io/STCI/index.html) by Sylvain Chabe-Ferret
+ - [Applied Causal Inference Powered by ML and AI](https://causalml-book.org/) by Chernozhukov, Hansen, Kallus, Spindler, and Syrgkanis
+ - [Even the Rich Can Make Themselves Poor: A Critical Examination of IV Methods in Marketing Applications](https://doi.org/10.1287/mksc.2014.0860) by Peter Rossi (2014)
+ - [Empirical Strategies in Economics: Illuminating the Path From Cause to Effect](https://doi.org/10.3982/ECTA20640) by Joshua Angrist (2022)
+ - [Causality in Econometrics: Choice vs Chance](https://doi.org/10.3982/ECTA21204) by Guido Imbens (2022)
+ - [Causality and Econometrics](https://www.nber.org/papers/w29787) by James Heckman and Rodrigo Pinto (2022 working paper)
+
+### Bayesian Statistics
+
+ - [Statistical Rethinking Course](https://github.com/rmcelreath/stat_rethinking_2026) by Richard McElreath
+ - [Statistical Rethinking 2 with rstan and the tidyverse](https://solomon.quarto.pub/sr2rstan/) by Solomon Kurz
  - [Bayesian Data Analysis](https://sites.stat.columbia.edu/gelman/book/) by Gelman, Carlin, Stern, Dunson, Vehtari, and Rubin
- - [Regression and Other Stories](https://avehtari.github.io/ROS-Examples/) by Andrew Gelman, Jennifer Hill, and Aki Vehtari
+ - [Bayesian Workflow](https://arxiv.org/abs/2011.01808) by Gelman, Vehtari, Simpson, Margossian, Carpenter, Yao, Kennedy, Gabry, Bürkner, and Modrák
  - [Bayes Rules! An Introduction to Applied Bayesian Modeling](https://www.bayesrulesbook.com/) by Alicia Johnson, Miles Ott, and Mine Dogucu
- - [Discrete Choice Methods with Simulation](https://eml.berkeley.edu/books/choice2.html) by Kenneth Train
- - [Computer Age Statistical Inference](https://hastie.su.domains/CASI/) by Bradley Efron and Trevor Hastie
- - [An Introduction to Statistical Learning](https://www.statlearning.com/) by James, Witten, Hastie, and Tibshirani
-
-#### Notes
-
- - [Hierarchical Modeling](https://betanalpha.github.io/assets/case_studies/hierarchical_modeling.html) by Michael Betancourt
- - [Keep Calm and Learn Multilevel Logistic Modeling](https://rips-irsp.com/articles/10.5334/irsp.90#ill-show-you-a-three-step-simplified-procedure-for-multilevel-logistic-regression) by Nicolas Sommet and Davide Morselli
- - [Math-Stat Course Notes](https://people.stat.sc.edu/Tebbs/) by Joshua Tebbs
- - [Notes](https://www.adamnsmith.com/notes.html) by Adam N Smith
- - [Econometrics Notes](https://tbarmstr.github.io/teaching.html) by Tim Armstrong
- - [Machine Learning](https://www.ariclabarr.com/machine-learning/) by Aric LaBarr
+ - [Teaching Bayesian Statistics](http://talmo.uk/2024/teachingbayesian.html) by TALMO
  - [Bayesian Data Analysis Course](https://avehtari.github.io/BDA_course_Aalto/) by Aki Vehtari
  - [Bayesian Statistics Readings](https://bayesf22.classes.andrewheiss.com/) by Andrew Heiss
 
-#### Other
+### Machine Learning
 
- - [Caret Package Practical Guide](https://www.machinelearningplus.com/machine-learning/caret-package/) from machinelearningplus.com
- 
+ - [Computer Age Statistical Inference](https://hastie.su.domains/CASI/) by Bradley Efron and Trevor Hastie
+ - [An Introduction to Statistical Learning](https://www.statlearning.com/) by James, Witten, Hastie, and Tibshirani
+ - [The Elements of Statistical Learning](https://hastie.su.domains/ElemStatLearn/) by Hastie, Tibshirani, and Friedman
+ - [Probabilistic Machine Learning](https://probml.github.io/pml-book/) by Kevin Murphy
+ - [Applied Machine Learning for Tabular Data](https://aml4td.org/) by Max Kuhn and Kjell Johnson
+ - [Tidy Modeling with R](https://www.tmwr.org/) by Max Kuhn and Julia Silge
 
-<!--  
+### Multilevel Models
 
-#### Causal Inference
+ - [Regression and Other Stories](https://avehtari.github.io/ROS-Examples/) by Andrew Gelman, Jennifer Hill, and Aki Vehtari
+ - [Hierarchical Modeling Notes](https://betanalpha.github.io/assets/case_studies/hierarchical_modeling.html) by Michael Betancourt
+ - [Keep Calm and Learn Multilevel Logistic Modeling](https://rips-irsp.com/articles/10.5334/irsp.90#ill-show-you-a-three-step-simplified-procedure-for-multilevel-logistic-regression) by Nicolas Sommet and Davide Morselli
 
- - Rossi (2014) Even the Rich Can Make Themselves Poor: A Critical Examination of IV Methods in Marketing Applications [[link](https://pubsonline.informs.org/doi/10.1287/mksc.2014.0860)]
- - Angrist (2022) Empirical Strategies in Economics: Illuminating the Path From Cause to Effect [[link](https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA20640)]
- - Heckman and Pinto (Draft) Causality and Econometrics [[link](https://www.nber.org/papers/w29787)]
+### Course Notes & Lecture Collections
 
--->
+ - [A Collection of Econometrics Resources](https://giuseppecavaliere.wixsite.com/giuseppe/econometrics-lecture-notes-and-books) by Giuseppe Cavaliere
+ - [Math-Stat Course Notes](https://people.stat.sc.edu/Tebbs/) by Joshua Tebbs
+ - [Econometrics Notes](https://tbarmstr.github.io/teaching.html) by Tim Armstrong
+ - [Notes](https://www.adamnsmith.com/notes.html) by Adam N Smith
+ - [Machine Learning Notes](https://www.ariclabarr.com/machine-learning/) by Aric LaBarr
+
+### Data Science Practice & Communication
+
+ - [Telling Stories with Data](https://tellingstorieswithdata.com/) by Rohan Alexander
+ - [The Data Science Handbook: Advice and Insights from 25 Amazing Data Scientists](https://www.thedatasciencehandbook.com/) by Shan, Wang, Chen, and Song
+
+
+
+
+
 
 
 

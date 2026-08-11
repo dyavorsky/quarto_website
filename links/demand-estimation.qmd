@@ -6,7 +6,7 @@ toc: true
 
 ## Demand Estimation
 
-Models of what consumers choose, and what those choices imply about preferences, substitution patterns, welfare, and counterfactual prices. Covers revealed-preference demand estimation from individual and aggregate data, and stated-preference measurement through choice experiments. Roughly the reading list for a PhD course on the subject.
+Demand models are models of what consumers choose, and what those choices imply about preferences, substitution patterns, welfare, and counterfactual prices. 
 
 ### Textbooks, Surveys & Handbooks
 

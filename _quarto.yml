@@ -54,7 +54,7 @@ website:
             icon: graph-up
             href: links/demand-estimation.qmd
           - text: "Consumer Search"
-            icon: search
+            icon: signpost-split
             href: links/consumer-search.qmd
           - text: "Advice"
             icon: info-square
