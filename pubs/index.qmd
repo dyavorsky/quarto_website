@@ -16,6 +16,11 @@ Dan Yavorsky, and
 [Geoffery Zheng](https://shanghai.nyu.edu/academics/faculty/directory/geoffery-zheng){.invisilink}  
 *In Progress* 
 
+_**SIFT: Search Conjoint — Measuring Preferences and Search Costs in a Single Survey Instrument**_ [[link](https://dyavorsky.github.io/sift_paper/)]  
+Dan Yavorsky and 
+[Eric T. Bradlow](https://marketing.wharton.upenn.edu/profile/ebradlow/){.invisilink}  
+*In Progress* 
+
 
 -----
 

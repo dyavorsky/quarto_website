@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="The git logo: a branch inside an orange diamond">
   <title>Git</title>
   <rect width="1200" height="675" fill="#35444E"/>
+  <g transform="translate(600,337.5) scale(1.29) translate(-600.0,-275.0)">
   <polygon points="600,120 780,275 600,430 420,275" fill="#F05033"/>
   <g stroke="#fff" stroke-width="16" stroke-linecap="round">
     <line x1="530" y1="340" x2="650" y2="220"/>
@@ -9,5 +10,5 @@
   <circle cx="530" cy="340" r="20" fill="#fff"/>
   <circle cx="650" cy="220" r="20" fill="#fff"/>
   <circle cx="655" cy="341" r="20" fill="#fff"/>
-  <text x="600" y="530" text-anchor="middle" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="82" font-weight="600" fill="#C7D8E4">git</text>
+  </g>
 </svg>

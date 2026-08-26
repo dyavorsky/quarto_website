@@ -10,9 +10,9 @@ callout-appearance: minimal
 
 These each have their own posts:
 
- - [Positron & RStudio](../002-positron/) -- my IDEs
- - [Terminal & Shell](../003-terminal/) -- Ghostty, zsh, and CLI tools
- - [Neovim](../004-neovim/) -- a work in progress
+ - [Positron & RStudio](../802-positron/) -- my IDEs
+ - [Terminal & Shell](../803-terminal/) -- Ghostty, zsh, and CLI tools
+ - [Neovim](../804-neovim/) -- a work in progress
 
 I'm an **R** guy, but an aspiring user of Python and Julia.
 

@@ -4,41 +4,35 @@ title-block-banner: "#35444E"
 listing: 
   - id: blogposts
     contents: 
-      - "010-quarto-websites"
-      - "011-host-on-github"
-      - "012-terminal-on-mac"
-      - "013-git-basics"
-      - "014-vim-motions"
-      - "015-regex"
+      - "001-quarto-websites"
+      - "002-host-on-github"
+      - "003-terminal-on-mac"
+      - "004-git-basics"
+      - "005-vim-motions"
+      - "006-regex"
     type: grid 
-    sort: false
-    categories: false
-  - id: preferences
-    contents:
-      - "001-my-setup"
-      - "002-positron"
-      - "003-terminal"
-      - "004-neovim"
-    type: grid
-    sort: false
-    categories: false
-  - id: dcm
-    contents: 
-      - "101-gumble"
-    type: grid
     sort: false
     categories: false
   - id: booknotes
     contents:
-      - "801-abramovich-ritov" 
-      - "851-good-habits-bad-habits"
-      - "852-how-learning-works"
-      - "853-peak"
-      - "854-stolen-focus"
-      - "855-war-of-art"
-      - "856-making-of-a-manager"
-      - "857-who-gets-what-and-why"
-      - "858-how-to-change"
+      - "401-abramovich-ritov" 
+      - "451-good-habits-bad-habits"
+      - "452-how-learning-works"
+      - "453-peak"
+      - "454-stolen-focus"
+      - "455-war-of-art"
+      - "456-making-of-a-manager"
+      - "457-who-gets-what-and-why"
+      - "458-how-to-change"
+    type: grid
+    sort: false
+    categories: false
+  - id: preferences
+    contents:
+      - "801-my-setup"
+      - "802-positron"
+      - "803-terminal"
+      - "804-neovim"
     type: grid
     sort: false
     categories: false
@@ -59,21 +53,15 @@ listing:
 :::
 
 
-## My Preferences
-
-:::{#preferences}
-:::
-
-
-## Discrete Choice
-
-:::{#dcm}
-:::
-
-
 ## Book Notes
 
 :::{#booknotes}
+:::
+
+
+## My Preferences
+
+:::{#preferences}
 :::
 
 

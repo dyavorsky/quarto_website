@@ -7,7 +7,7 @@ callout-appearance: minimal
 ---
 
 
-I use [Positron](../002-positron/) as my daily IDE, but I've been learning [Neovim](https://neovim.io/) on the side for two reasons:
+I use [Positron](../802-positron/) as my daily IDE, but I've been learning [Neovim](https://neovim.io/) on the side for two reasons:
 
 1. I want to avoid the mouse as much as possible and use Vim motions everywhere (in Positron, the terminal, my browser) and Neovim is where those motions are native. 
 2. Curiosity. Turning Neovim from a bare terminal-based editor into a more-or-less fully-fledged IDE teaches you how an IDE works under the hood. In a pre-fabbed IDE like VS Code, features like syntax highlighting and autocompletion just exist. In Neovim, you wire them up one at a time, which requires you to understand each component and what it does.
@@ -19,7 +19,7 @@ This post walks through my setup, explaining each piece and its role. My config 
 
 ## Getting Started
 
-Install Neovim with [Homebrew](https://brew.sh/) (if you don't have Homebrew yet, see my [terminal setup post](../003-terminal/)):
+Install Neovim with [Homebrew](https://brew.sh/) (if you don't have Homebrew yet, see my [terminal setup post](../803-terminal/)):
 
 ```bash
 brew install neovim
@@ -59,7 +59,7 @@ Here's the list of plugins in my config. Each one is explained in more detail in
 
 Out of the box, Neovim is brutally bare. Two plugins get you on the way to making it look good.
 
-[Catppuccin](https://github.com/catppuccin/nvim) is a deliciously tasteful color scheme. I use the Mocha variant, matching my [terminal theme](../003-terminal/). It defines the palette: what color a keyword is, what color a string is, what the background looks like.
+[Catppuccin](https://github.com/catppuccin/nvim) is a deliciously tasteful color scheme. I use the Mocha variant, matching my [terminal theme](../803-terminal/). It defines the palette: what color a keyword is, what color a string is, what the background looks like.
 
 But a colorscheme can only color things the editor knows about, and Neovim's built-in syntax highlighting uses simple regular expressions that can get things wrong. [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter) replaces that with real parsing. It actually parses your code --- understanding its structure, not just pattern-matching on text --- so it can distinguish a function name from a variable from a keyword with much higher accuracy. The result is more granular and more accurate highlighting.
 
@@ -109,7 +109,7 @@ Combined with the R Language Server (for completion and diagnostics) and Treesit
 
 Every IDE needs a way to jump between files. In VS Code, that's the file explorer panel on the left. Neovim doesn't have one by default. Instead, [Telescope](https://github.com/nvim-telescope/telescope.nvim) provides a fuzzy finder that lets you quickly search for files, text within files, help documentation, keymaps, open buffers, LSP symbols, and more.
 
-It uses [fzf-native](https://github.com/nvim-telescope/telescope-fzf-native.nvim) under the hood for fast sorting. [`fzf`](https://github.com/junegunn/fzf) is a general-purpose and community-beloved fuzzy finder that I also use in my [terminal setup](../003-terminal/), and fzf-native brings its sorting algorithm into Telescope.
+It uses [fzf-native](https://github.com/nvim-telescope/telescope-fzf-native.nvim) under the hood for fast sorting. [`fzf`](https://github.com/junegunn/fzf) is a general-purpose and community-beloved fuzzy finder that I also use in my [terminal setup](../803-terminal/), and fzf-native brings its sorting algorithm into Telescope.
 
 ![](telescope.png)
 

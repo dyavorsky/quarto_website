@@ -4,11 +4,12 @@
     <clipPath id="qr"><circle cx="600" cy="270" r="62"/></clipPath>
   </defs>
   <rect width="1200" height="675" fill="#35444E"/>
+  <g transform="translate(600,337.5) scale(1.33) translate(-600.0,-270.0)">
   <polygon points="600,120 729.9,195 729.9,345 600,420 470.1,345 470.1,195" fill="#42709B"/>
   <circle cx="600" cy="270" r="62" fill="#FFFFFF"/>
   <g clip-path="url(#qr)" fill="#42709B">
     <rect x="538" y="262" width="124" height="16"/>
     <rect x="592" y="208" width="16" height="124"/>
   </g>
-  <text x="600" y="530" text-anchor="middle" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="72" font-weight="600" fill="#C7D8E4">Quarto Websites</text>
+  </g>
 </svg>

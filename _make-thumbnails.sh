@@ -6,7 +6,7 @@
 # Why: Quarto's grid thumbnail is a fluid-width / fixed-height box, so the crop
 # window widens as the viewport narrows and object-fit: cover eats ~30% of the
 # image height on a phone. Centring the subject with generous padding makes any
-# residual crop harmless -- this is why 853-peak always looked right.
+# residual crop harmless -- this is why 453-peak always looked right.
 #
 # Originals are never modified; output is thumb.png next to each source.
 # Re-run after dropping in higher-resolution jacket art.
@@ -26,6 +26,17 @@ solid() {  # dir src bg
   printf '  %-30s solid %s\n' "$1" "$3"
 }
 
+# Same as solid(), but trims the jacket's own uniform border first. Use when the
+# source has asymmetric white margin, which otherwise pads off-centre.
+solid_trim() {  # dir src bg
+  magick "$1/$2" -background "$3" -alpha remove -alpha off \
+    -fuzz 3% -trim +repage \
+    -filter Lanczos -resize "x${INNER}" \
+    -gravity center -background "$3" -extent "${W}x${H}" \
+    -strip "$1/thumb.png"
+  printf '  %-30s solid %s (trimmed)\n' "$1" "$3"
+}
+
 # Cover sits on a blurred, zoomed copy of itself, with a soft shadow so the
 # inset reads as a deliberate card rather than a pasted rectangle. For jackets
 # whose background is a gradient or two-tone, where a flat extend shows a seam.
@@ -41,15 +52,15 @@ blurred() {  # dir src
 }
 
 echo "Book Notes thumbnails -> ${W}x${H}, cover ${INNER}px tall:"
-blurred 801-abramovich-ritov       book_cover.jpg
-solid   851-good-habits-bad-habits book_cover.jpeg '#FCF8F9'
-blurred 852-how-learning-works     book_cover.jpeg
-solid   853-peak                   book_cover.jpeg '#FFFFFF'
-solid   854-stolen-focus           book_cover.jpeg '#020005'
-solid   855-war-of-art             book_cover.jpeg '#FFFFFF'
-solid   856-making-of-a-manager    book_cover.jpeg '#81C7D1'
-solid   857-who-gets-what-and-why  book_cover.jpeg '#FEFEFE'
-solid   858-how-to-change          book_cover.png  '#FFFFFF'
+blurred 401-abramovich-ritov       book_cover.jpg
+solid   451-good-habits-bad-habits book_cover.jpeg '#FCF8F9'
+blurred 452-how-learning-works     book_cover.jpeg
+solid   453-peak                   book_cover.jpeg '#FFFFFF'
+solid   454-stolen-focus           book_cover.jpeg '#020005'
+solid   455-war-of-art             book_cover.jpeg '#FFFFFF'
+solid   456-making-of-a-manager    book_cover.jpeg '#81C7D1'
+solid   457-who-gets-what-and-why  book_cover.jpeg '#FEFEFE'
+solid_trim 458-how-to-change       book_cover.png  '#FFFFFF'
 
 # --- Solutions listing (defined inline in posts/index.qmd) ---
 # A portrait jacket cannot be cropped to 16:9 without losing almost everything,

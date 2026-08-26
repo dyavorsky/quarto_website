@@ -1,8 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="A circular read-eval-print loop around a shell prompt">
   <title>Shell</title>
   <rect width="1200" height="675" fill="#35444E"/>
+  <g transform="translate(600,337.5) scale(1.38) translate(-600.0,-270.0)">
   <path d="M 703.4 356.8 L 697.1 363.8 L 690.3 370.3 L 683.1 376.4 L 675.5 381.9 L 667.5 386.9 L 659.2 391.3 L 650.6 395.2 L 641.7 398.4 L 632.7 401.0 L 623.4 402.9 L 614.1 404.3 L 604.7 404.9 L 595.3 404.9 L 585.9 404.3 L 576.6 402.9 L 567.3 401.0 L 558.3 398.4 L 549.4 395.2 L 540.8 391.3 L 532.5 386.9 L 524.5 381.9 L 516.9 376.4 L 509.7 370.3 L 502.9 363.8 L 496.6 356.8 L 490.8 349.4 L 485.5 341.5 L 480.8 333.4 L 476.7 324.9 L 473.1 316.2 L 470.2 307.2 L 468.0 298.1 L 466.3 288.8 L 465.3 279.4 L 465.0 270.0 L 465.3 260.6 L 466.3 251.2 L 468.0 241.9 L 470.2 232.8 L 473.1 223.8 L 476.7 215.1 L 480.8 206.6 L 485.5 198.5 L 490.8 190.6 L 496.6 183.2 L 502.9 176.2 L 509.7 169.7 L 516.9 163.6 L 524.5 158.1 L 532.5 153.1 L 540.8 148.7 L 549.4 144.8 L 558.3 141.6 L 567.3 139.0 L 576.6 137.1 L 585.9 135.7 L 595.3 135.1 L 604.7 135.1 L 614.1 135.7 L 623.4 137.1 L 632.7 139.0 L 641.7 141.6 L 650.6 144.8 L 659.2 148.7 L 667.5 153.1 L 675.5 158.1 L 683.1 163.6 L 690.3 169.7 L 697.1 176.2 L 703.4 183.2" fill="none" stroke="#789FC0" stroke-width="20" stroke-linecap="round"/>
   <polygon points="703,232 675,180 731,180" fill="#789FC0"/>
   <text x="600" y="318" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="140" font-weight="700" fill="#2aa198">$</text>
-  <text x="600" y="530" text-anchor="middle" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="82" font-weight="600" fill="#C7D8E4">Shell</text>
+  </g>
 </svg>
