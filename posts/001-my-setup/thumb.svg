@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="A laptop, for computing environment preferences">
+  <title>My computing environment</title>
+  <rect width="1200" height="675" fill="#35444E"/>
+  <rect x="440" y="140" width="320" height="215" rx="12" fill="#22303A" stroke="#789FC0" stroke-width="9"/>
+  <rect x="475" y="180" width="170" height="18" rx="9" fill="#F76362"/>
+  <rect x="475" y="218" width="120" height="18" rx="9" fill="#b58900"/>
+  <rect x="475" y="256" width="205" height="18" rx="9" fill="#2aa198"/>
+  <rect x="475" y="294" width="90"  height="18" rx="9" fill="#789FC0"/>
+  <path d="M408 362 H792 L828 402 H372 Z" fill="#789FC0"/>
+  <rect x="560" y="371" width="80" height="11" rx="5" fill="#35444E"/>
+  <text x="600" y="530" text-anchor="middle" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="82" font-weight="600" fill="#C7D8E4">my setup</text>
+</svg>

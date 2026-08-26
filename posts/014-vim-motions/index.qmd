@@ -2,7 +2,7 @@
 title: "Vim Motions"
 description: "Yet another beginner's cheat sheet"
 number-sections: false
-image: vim_logo.png
+image: thumb.svg
 draft: false
 ---
 

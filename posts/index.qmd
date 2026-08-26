@@ -4,24 +4,29 @@ title-block-banner: "#35444E"
 listing: 
   - id: blogposts
     contents: 
+      - "010-quarto-websites"
+      - "011-host-on-github"
+      - "012-terminal-on-mac"
+      - "013-git-basics"
+      - "014-vim-motions"
+      - "015-regex"
+    type: grid 
+    sort: false
+    categories: false
+  - id: preferences
+    contents:
       - "001-my-setup"
       - "002-positron"
       - "003-terminal"
       - "004-neovim"
-      - "010-git-basics"
-      - "011-terminal-on-mac"
-      - "012-vim-motions"
-      - "013-regex"
-      - "020-quarto-websites" 
-      - "021-host-on-github"
-    type: grid 
-    sort: "date-desc"
+    type: grid
+    sort: false
     categories: false
   - id: dcm
     contents: 
       - "101-gumble"
     type: grid
-    sort: "date-desc"
+    sort: false
     categories: false
   - id: booknotes
     contents:
@@ -35,22 +40,28 @@ listing:
       - "857-who-gets-what-and-why"
       - "858-how-to-change"
     type: grid
-    sort: "date-desc"
+    sort: false
     categories: false
   - id: solutions
     contents:
       - title: Statistical Computing with R (2ed)
         description: Maria Rizzo
         path: https://dyavorsky.github.io/rizzo-stat-computing/
-        image: https://raw.githubusercontent.com/dyavorsky/rizzo-stat-computing/refs/heads/main/cover.webp
+        image: /images/rizzo-thumb.png
     type: grid
-    sort: "date-desc"
+    sort: false
     categories: false
 ---
 
 ## Posts
 
 :::{#blogposts}
+:::
+
+
+## My Preferences
+
+:::{#preferences}
 :::
 
 

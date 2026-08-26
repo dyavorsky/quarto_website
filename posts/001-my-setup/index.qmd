@@ -2,7 +2,7 @@
 title: "My Computing Environment Preferences"
 description: "Things I Like on My Mac"
 number-sections: false
-image: macbook.png
+image: thumb.svg
 callout-appearance: minimal
 ---
 
@@ -95,6 +95,7 @@ I aggressively edit keyboard shortcuts on my mac. I find most of the defaults un
 
  - **[Todoist](https://todoist.com/home)** to track things that need to get done. There's a version for every device and as backup it's accessable from a browser
  - **[LastPass](https://www.lastpass.com/)** is my password manager. If you don't have one yet, you won't believe how much simpler and more secure authentication can be
+ - **[Dropbox](https://www.dropbox.com)** for storing everything that's not on **[github](https://www.github.com/dyavorsky)**
 
 Don't let their position at the bottom of this post deminish their utility. I use these hourly.
 

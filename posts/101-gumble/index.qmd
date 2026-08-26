@@ -1,6 +1,7 @@
 ---
 title: "Gumbel Distribution in Discrete Choice Models"
 description: "Derivation of Choice Probabilities"
+image: thumb.svg
 number-sections: true
 draft: false
 

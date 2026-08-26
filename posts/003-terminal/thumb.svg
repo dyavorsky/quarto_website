@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="A terminal window with a shell prompt">
+  <title>Terminal and shell</title>
+  <rect width="1200" height="675" fill="#35444E"/>
+  <rect x="340" y="135" width="520" height="285" rx="20" fill="#22303A" stroke="#789FC0" stroke-width="8"/>
+  <circle cx="378" cy="170" r="10" fill="#F76362"/>
+  <circle cx="410" cy="170" r="10" fill="#b58900"/>
+  <circle cx="442" cy="170" r="10" fill="#2aa198"/>
+  <line x1="344" y1="200" x2="856" y2="200" stroke="#789FC0" stroke-width="4" opacity="0.5"/>
+  <path d="M385 250 L425 285 L385 320" fill="none" stroke="#2aa198" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="450" y="262" width="28" height="48" fill="#C7D8E4"/>
+  <rect x="385" y="352" width="210" height="14" rx="7" fill="#789FC0" opacity="0.45"/>
+  <text x="600" y="530" text-anchor="middle" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="82" font-weight="600" fill="#C7D8E4">Terminal</text>
+</svg>

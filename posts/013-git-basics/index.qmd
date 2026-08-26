@@ -2,7 +2,7 @@
 title: "Get Going with Git"
 description: "Abbreviated Fundamentals of Version Control"
 number-sections: false
-image: git-logo.png
+image: thumb.svg
 draft: false
 
 ---

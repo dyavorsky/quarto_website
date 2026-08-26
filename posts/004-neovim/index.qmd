@@ -2,7 +2,7 @@
 title: "Neovim"
 description: "My Neovim Configuration"
 number-sections: false
-image: neovim.png
+image: thumb.svg
 callout-appearance: minimal
 ---
 
@@ -27,7 +27,6 @@ brew install neovim
 
 Type `nvim` in your terminal to open it. What you'll see is... not much. A mostly blank screen with tildes (`~`) down the left side and a status line at the bottom. There's no file explorer, no syntax highlighting, no tabs --- just a lonely blinking cursor dutifully waiting for your commands. It doesn't even tell you how to quit (it's `:q`, by the way). This is Neovim out of the box: a powerful text editor with almost no visual frills. Everything you'd expect from a modern editor or IDE has to be configured or added.
 
-<!-- TODO: screenshot of bare nvim right after launch — tildes, blank screen, no color -->
 ![](nvim-bare.png)
 
 Most graphical applications have a settings menu with toggles and checkboxes. Behind the scenes, flipping one of those switches writes a line of text to a configuration file somewhere, but you never see it and the set of things you can change is limited to what the developers put in that menu. Other programs skip the visual menu entirely and let you configure them by editing a text file directly. The `.zshrc` file for the zsh shell is a well-known example; your shell's entire behavior is defined by what you write in that file. 
@@ -43,7 +42,6 @@ To manage these plugins, I use [Lazy](https://github.com/folke/lazy.nvim), a plu
 
 So you've got Neovim installed and Lazy ready to manage plugins. But how do you find the right ones? There's no central registry like CRAN for R. Instead, most people discover plugins through GitHub, Reddit ([r/neovim](https://www.reddit.com/r/neovim/)), or curated lists like [awesome-neovim](https://github.com/rockerBOO/awesome-neovim). Once you find a plugin you want, you add a few lines to your `init.lua` declaring it, and Lazy (hence the name!) handles downloading and loading it. Kickstart comes with a solid set of plugins already declared, which is what I started with. After you've added some plugins (via Kickstart or manually), you can type `:Lazy` in Neovim to see, manage, and update them.
 
-<!-- TODO: screenshot of the :Lazy plugin manager UI -->
 ![](lazy-ui.png)
 
 Here's the list of plugins in my config. Each one is explained in more detail in the sections that follow.
@@ -67,7 +65,6 @@ But a colorscheme can only color things the editor knows about, and Neovim's bui
 
 Treesitter works on a per-language basis: you install a "parser" for each language you want it to understand. You can install them from within Neovim with `:TSInstall <language>` (e.g., `:TSInstall r`), or add them to an `ensure_installed` list in your Neovom config so they're installed automatically (which is what I did). I have parsers for R, Markdown, YAML, LaTeX, and a couple of others.
 
-<!-- TODO: screenshot of an R file with Catppuccin + Treesitter highlighting -->
 ![](treesitter-highlighting.png)
 
 
@@ -89,7 +86,6 @@ On the Neovim side, the [lspconfig](https://github.com/neovim/nvim-lspconfig) pl
 1. [Mason](https://github.com/mason-org/mason.nvim) handles installing and updating most (but not all) language servers from within Neovim (for example, the Lua language server which helps me edit Neovim's config file since it's written in Lua). The R language server is an exception --- since it's an R package, you install it from R itself, not from Mason.
 2. [blink.cmp](https://github.com/Saghen/blink.cmp) is the completion engine --- the part you actually see. It collects suggestions from the language server and displays them in a popup menu as you type. Without it, the language server would be running but you'd have no way to interact with its suggestions. I use the default keymap: `Ctrl-n` and `Ctrl-p` to navigate the list of suggestions, and `Ctrl-y` to accept.
 
-<!-- TODO: screenshot of blink.cmp autocompletion popup on an R file -->
 ![](blink-completion.png)
 
 
@@ -104,7 +100,6 @@ At this point you've got a respectable code _editor_. To turn it into a proper I
 
 This is the same send-to-console workflow I use in RStudio and Positron, just inside the terminal. R.nvim also provides an object browser for inspecting your workspace, just like the Global Environment panes in RStudio and Positron.
 
-<!-- TODO: screenshot of R.nvim — split pane with R script on left, R console with output on right -->
 ![](rnvim-console.png)
 
 Combined with the R Language Server (for completion and diagnostics) and Treesitter (for syntax highlighting), you end up with a surprisingly complete R development environment.

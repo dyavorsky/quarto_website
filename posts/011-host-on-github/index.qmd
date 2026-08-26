@@ -2,14 +2,14 @@
 title: "Host Your Quarto Website on GitHub"
 description: "A tutorial for pushing a local git repo to GitHub and deploying the website with GitHub pages"
 toc: true
-image: githubcat.jpeg
+image: thumb.svg
 callout-appearance: minimal
 code-annotations: hover
 ---
 
 _Updated August 2024_
 
-This tutorial assumes you have a rendered website on your local machine (perhaps from following [this post](../020-quarto-websites/index.qmd) on how to create a Quarto website) and would like to host that website publicly on GitHub.
+This tutorial assumes you have a rendered website on your local machine (perhaps from following [this post](../010-quarto-websites/index.qmd) on how to create a Quarto website) and would like to host that website publicly on GitHub.
 
 
 ## Step 1: Get Git and GCM

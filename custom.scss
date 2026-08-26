@@ -166,3 +166,18 @@ $solar-altgreen: #2aa198;
 .quarto-grid-item:hover {
     box-shadow: 0 10px 12px rgba(0,0,0,0.8);
 }
+/* Listing thumbnails.
+   Quarto emits every grid thumbnail with an inline style="height: 150px" while
+   the width stays fluid, so the crop window's aspect ratio changes with the
+   viewport and object-fit: cover discards the overflow. On a 1-column phone
+   that window is ~358x150 (AR 2.39) against a 1.67 source, throwing away ~30%
+   of the image height -- the thumbnail is not a smaller version of the desktop
+   one, it is a much wider slice cropped top and bottom.
+   Pinning the aspect ratio gives one identical crop window at every breakpoint:
+   desktop stays ~unchanged (~154px tall) and mobile gets taller (~201px)
+   instead of more cropped. */
+.quarto-grid-item img.thumbnail-image {
+    height: auto !important; /* must beat Quarto's inline height */
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}

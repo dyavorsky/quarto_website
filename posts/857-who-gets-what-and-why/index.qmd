@@ -1,7 +1,7 @@
 ---
 title: "Who Gets What and Why"
 description: "Alvin Roth"
-image: book_cover.jpeg
+image: thumb.png
 toc: true
 number-sections: false
 draft: false

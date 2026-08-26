@@ -2,7 +2,7 @@
 title: "Regular Expression"
 description: "Abbreviated Fundamentals of RegEx"
 number-sections: false
-image: regex.png
+image: thumb.svg
 draft: false
 
 ---

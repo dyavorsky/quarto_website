@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="A bold letter N, the Neovim mark">
+  <title>Neovim</title>
+  <defs><linearGradient id="nv" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6FCF56"/><stop offset="1" stop-color="#2F9E58"/></linearGradient></defs>
+  <rect width="1200" height="675" fill="#35444E"/>
+  <polygon points="470,150 560,150 715,300 715,150 805,150 805,400 715,400 560,250 560,400 470,400" fill="url(#nv)"/>
+  <text x="600" y="530" text-anchor="middle" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="82" font-weight="600" fill="#C7D8E4">neovim</text>
+</svg>

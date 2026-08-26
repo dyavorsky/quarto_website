@@ -2,7 +2,7 @@
 title: "Shell and Terminal on Mac"
 description: "Abbreviated Fundamentals of the Command Line Interface"
 number-sections: false
-image: iterm2screenshot.png
+image: thumb.svg
 draft: false
 
 ---
@@ -142,7 +142,7 @@ Common tools for inspecting files, or for gathering and summarizing their conten
  
 More-advanced tools that deserve their own section and explanation
 
- - `grep` for matching a Regular Expression pattern in one or more files, see [here](../013-regex/index.qmd)
+ - `grep` for matching a Regular Expression pattern in one or more files, see [here](../015-regex/index.qmd)
  - `sed` a stream editor for modifying data
  - `awk` a data processing language named after its creators 
  

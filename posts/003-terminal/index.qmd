@@ -2,7 +2,7 @@
 title: "Terminal & Shell"
 description: "My Terminal Setup on Mac"
 number-sections: false
-image: ghostty.png
+image: thumb.svg
 callout-appearance: minimal
 ---
 
