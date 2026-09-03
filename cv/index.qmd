@@ -1,56 +1,30 @@
 ---
-title: Resume
-description: "Dan Yavorsky's Resume"
-date: 2026-08-25
+title: Resume & CV
+description: "Dan Yavorsky's resume and academic CV"
 title-block-banner: "#35444E"
-published-title: Last updated
+body-classes: doc-listing
 toc: false
-cv:
-  pdf: "yavorsky_dan_resume_20260825.pdf"
+listing:
+  contents:
+    - resume/index.qmd
+    - vita/index.qmd
+  type: grid
+  grid-columns: 2
+  fields: [title, description, date]
+  date-format: "MMMM D, YYYY"
+  sort: false
+  filter-ui: false
+  sort-ui: false
+  categories: false
+  feed: false
 ---
 
-```{=html}
-<style>
-#title-block-header .description {
-    display: none;
-}
+<!-- Title, description and "Last updated" on each card are read out of the two
+     child pages' front matter, so the nightly sync only has to touch those --
+     nothing here needs updating when a document changes. Styling lives in
+     custom.scss under `.doc-listing`. -->
 
-.embed-container {
-    position: relative;
-    padding-bottom: 129%;
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-}
-
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-/* Mobile browsers largely refuse to scroll a PDF inside an iframe -- it
-   renders as a blank or single-page box. Hide the embed on small screens and
-   let the download button above it do the work. */
-@media (max-width: 768px) {
-    .embed-container {
-        display: none;
-    }
-}
-</style>
-
-<p class="text-center">
-  <a class="btn btn-primary btn-lg cv-download" href="{{< meta cv.pdf >}}" target="_blank">
-    <i class="bi bi-file-earmark-arrow-down"></i>&ensp;Download Resume
-  </a>
-</p>
-
-<div class="embed-container">
-  <iframe src="{{< meta cv.pdf >}}" title="Dan Yavorsky's resume" style="border: 0"></iframe>
-</div>
-```
-
+Two documents, kept current automatically — the resume from
+[resume_typst](https://github.com/dyavorsky/resume_typst) and the CV from
+[cv_typst](https://github.com/dyavorsky/cv_typst). Click either to read it in the
+browser or download the PDF.

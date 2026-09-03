@@ -19,9 +19,11 @@ website:
       - href: index.qmd
         icon: person-circle
         text: "About"
+      # Landing page is a listing of both documents; the resume itself moved
+      # from /cv/ to /cv/resume/ on 2026-09-03. Old /cv/ links still land here.
       - href: cv/index.qmd
         icon: file-earmark-check
-        text: "Resume"
+        text: "Resume/CV"
       - href: teaching/index.qmd
         icon: mortarboard
         text: "Teaching"

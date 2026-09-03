@@ -1,0 +1,29 @@
+---
+title: Curriculum Vitae
+description: "Full academic CV — research, teaching, publications, and service."
+date: 2026-08-28
+title-block-banner: "#35444E"
+published-title: Last updated
+body-classes: pdf-doc
+toc: false
+cv:
+  pdf: "yavorsky_dan_cv_20260828.pdf"
+  label: "CV"
+---
+
+<!-- `date:` and `cv: pdf:` are rewritten nightly by
+     .github/workflows/sync-docs.yml from dyavorsky/cv_typst. Don't hand-edit
+     them, and don't reformat the `cv:` block -- the workflow matches `^  pdf: `
+     with a two-space indent. Styling lives in custom.scss under `.pdf-doc`. -->
+
+```{=html}
+<p class="text-center">
+  <a class="btn btn-primary btn-lg cv-download" href="{{< meta cv.pdf >}}" target="_blank">
+    <i class="bi bi-file-earmark-arrow-down"></i>&ensp;Download {{< meta cv.label >}}
+  </a>
+</p>
+
+<div class="embed-container">
+  <iframe src="{{< meta cv.pdf >}}" title="Dan Yavorsky's {{< meta cv.label >}}" style="border: 0"></iframe>
+</div>
+```

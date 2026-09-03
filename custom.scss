@@ -162,6 +162,79 @@ $solar-altgreen: #2aa198;
     }
 }
 
+// --- PDF document pages: cv/resume/ and cv/vita/ -----------------------------
+// Opt in with `body-classes: pdf-doc` in the page's front matter. Both pages
+// carry a `description:` purely to feed the cards on cv/index.qmd, so it is
+// hidden here rather than printed a second time under the title.
+//
+// This lives in the stylesheet rather than a shared .qmd partial on purpose:
+// the embed markup needs `{{< meta cv.pdf >}}`, and a `meta` shortcode inside a
+// raw HTML block does NOT survive `{{< include >}}` -- it fails the Lua filter
+// with "Cannot get Attr from TypeNil". So the CSS is shared here and only the
+// nine lines of markup that name the PDF are repeated in each page.
+.pdf-doc {
+    #title-block-header .description {
+        display: none;
+    }
+
+    .embed-container {
+        position: relative;
+        // 11/8.5 = US Letter. The browser's built-in PDF viewer scrolls inside
+        // the frame, so the multi-page CV wants the same single-page box as the
+        // one-page resume -- don't scale this by page count.
+        padding-bottom: 129%;
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+
+        iframe,
+        object,
+        embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    // Mobile browsers largely refuse to scroll a PDF inside an iframe -- it
+    // renders as a blank or single-page box. Hide the embed on small screens
+    // and let the download button above it do the work.
+    @media (max-width: 768px) {
+        .embed-container {
+            display: none;
+        }
+    }
+}
+
+// --- The listing that links to them: cv/index.qmd ----------------------------
+// Opt in with `body-classes: doc-listing`.
+.doc-listing {
+    #title-block-header .description {
+        display: none;
+    }
+
+    // These two cards have no cover image, and none is wanted: Quarto omits the
+    // thumbnail slot entirely when an item has no image, so there is no
+    // placeholder gap to suppress and the `img.thumbnail-image` aspect-ratio
+    // rule further down never applies here.
+    .quarto-grid-item {
+        // Pull the date up under the description instead of leaving it in the
+        // footer's default right-hand slot, where it reads as unrelated.
+        .card-footer {
+            justify-content: flex-start;
+            border-top: none;
+            padding-top: 0;
+        }
+
+        .listing-date {
+            font-size: 0.85em;
+            opacity: 0.75;
+        }
+    }
+}
+
 /*-- scss:blog --*/
 .quarto-grid-item:hover {
     box-shadow: 0 10px 12px rgba(0,0,0,0.8);
