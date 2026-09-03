@@ -19,11 +19,19 @@ website:
       - href: index.qmd
         icon: person-circle
         text: "About"
-      # Landing page is a listing of both documents; the resume itself moved
-      # from /cv/ to /cv/resume/ on 2026-09-03. Old /cv/ links still land here.
-      - href: cv/index.qmd
+      # No landing page at /cv/ on purpose -- the dropdown goes straight to a
+      # document. Old /cv/ links are kept alive by an `aliases:` redirect
+      # declared in cv/resume/index.qmd, which is why nothing here points at
+      # cv/index.qmd (that file is gone).
+      - text: "Resume/CV"
         icon: file-earmark-check
-        text: "Resume/CV"
+        menu:
+          - text: "Resume"
+            icon: file-earmark-person
+            href: cv/resume/index.qmd
+          - text: "Vita"
+            icon: file-earmark-text
+            href: cv/vita/index.qmd
       - href: teaching/index.qmd
         icon: mortarboard
         text: "Teaching"

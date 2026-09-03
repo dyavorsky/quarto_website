@@ -6,6 +6,11 @@ title-block-banner: "#35444E"
 published-title: Last updated
 body-classes: pdf-doc
 toc: false
+# /cv/ was this page's URL until 2026-09-03, and is printed on job applications
+# and linked from LinkedIn. There is no page there any more, so Quarto generates
+# a redirect stub to here instead of letting those links 404.
+aliases:
+  - /cv/
 cv:
   pdf: "yavorsky_dan_resume_20260825.pdf"
   label: "Resume"

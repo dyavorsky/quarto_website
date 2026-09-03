@@ -164,8 +164,10 @@ $solar-altgreen: #2aa198;
 
 // --- PDF document pages: cv/resume/ and cv/vita/ -----------------------------
 // Opt in with `body-classes: pdf-doc` in the page's front matter. Both pages
-// carry a `description:` purely to feed the cards on cv/index.qmd, so it is
-// hidden here rather than printed a second time under the title.
+// carry a `description:` for the <meta name="description"> / og:description tag,
+// not for display -- so it is hidden here rather than printed under the title.
+// (It used to feed the cards on a listing at cv/index.qmd; that page is gone,
+// but the tag is still worth having, so the key and this rule both stay.)
 //
 // This lives in the stylesheet rather than a shared .qmd partial on purpose:
 // the embed markup needs `{{< meta cv.pdf >}}`, and a `meta` shortcode inside a
@@ -204,33 +206,6 @@ $solar-altgreen: #2aa198;
     @media (max-width: 768px) {
         .embed-container {
             display: none;
-        }
-    }
-}
-
-// --- The listing that links to them: cv/index.qmd ----------------------------
-// Opt in with `body-classes: doc-listing`.
-.doc-listing {
-    #title-block-header .description {
-        display: none;
-    }
-
-    // These two cards have no cover image, and none is wanted: Quarto omits the
-    // thumbnail slot entirely when an item has no image, so there is no
-    // placeholder gap to suppress and the `img.thumbnail-image` aspect-ratio
-    // rule further down never applies here.
-    .quarto-grid-item {
-        // Pull the date up under the description instead of leaving it in the
-        // footer's default right-hand slot, where it reads as unrelated.
-        .card-footer {
-            justify-content: flex-start;
-            border-top: none;
-            padding-top: 0;
-        }
-
-        .listing-date {
-            font-size: 0.85em;
-            opacity: 0.75;
         }
     }
 }

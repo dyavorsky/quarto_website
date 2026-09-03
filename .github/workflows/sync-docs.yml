@@ -52,7 +52,9 @@ jobs:
           # label | source repo | file in that repo | dir here | filename prefix
           #
           # `dir` also locates the page: each document's front matter is at
-          # <dir>/index.qmd. Keep these in step with cv/index.qmd's listing.
+          # <dir>/index.qmd. Adding a document here also means adding a page and
+          # a navbar menu entry in _quarto.yml -- there is no listing page that
+          # would pick it up on its own.
           DOCS=(
             "resume|dyavorsky/resume_typst|resume.pdf|cv/resume|yavorsky_dan_resume"
             "CV|dyavorsky/cv_typst|cv.pdf|cv/vita|yavorsky_dan_cv"
