@@ -11,8 +11,7 @@ Dan Yavorsky
 *In Progress* 
 
 _**Outside Good Uncertainty: Ordinal Dual Response in Choice-Based Conjoint Analysis**_ [[link](https://dyavorsky.github.io/ordinalDualresponse_paper/)]  
-[Prachi Bhalerao](https://www.linkedin.com/in/prachibhalerao/){.invisilink}, 
-Dan Yavorsky, and 
+Dan Yavorsky and 
 [Geoffery Zheng](https://shanghai.nyu.edu/academics/faculty/directory/geoffery-zheng){.invisilink}  
 *In Progress* 
 
