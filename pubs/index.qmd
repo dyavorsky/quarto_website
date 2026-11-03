@@ -16,8 +16,11 @@ Dan Yavorsky and
 *In Progress* 
 
 _**SIFT: Search Conjoint — Measuring Preferences and Search Costs in a Single Survey Instrument**_ [[link](https://dyavorsky.github.io/sift_paper/)]  
-Dan Yavorsky and 
-[Eric T. Bradlow](https://marketing.wharton.upenn.edu/profile/ebradlow/){.invisilink}  
+Dan Yavorsky  
+*In Progress* 
+
+_**Learning by Design: Estimating Consumer Learning Models from a Survey Panel with Known Signals**_  
+Dan Yavorsky  
 *In Progress* 
 
 
