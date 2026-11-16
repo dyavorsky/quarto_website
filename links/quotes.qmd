@@ -28,6 +28,10 @@ toc: false
 > You don't need a reason to help people.
 
 
+#### Unknown
+
+> Ready is not a feeling; ready is a decision.
+
 #### Paul Lockhart: _The Mathematician's Lament_ ([link](https://worrydream.com/refs/Lockhart_2002_-_A_Mathematician's_Lament.pdf))
 
 > Many a graduate student has come to grief when they discover, after a decade of being told they were 'good at math' that in fact they have no real mathematical talent and are just very good at following directions.
