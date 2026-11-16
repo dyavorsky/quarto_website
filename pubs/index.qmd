@@ -6,23 +6,22 @@ toc: true
 
 ## In-Progress
 
-_**Discrete Choice Model Estimation with R**_ [[link](https://dcme-r.danyavorsky.com)]  
-Dan Yavorsky  
-*In Progress* 
-
 _**Outside Good Uncertainty: Ordinal Dual Response in Choice-Based Conjoint Analysis**_ [[link](https://dyavorsky.github.io/ordinalDualresponse_paper/)]  
 Dan Yavorsky and 
 [Geoffery Zheng](https://shanghai.nyu.edu/academics/faculty/directory/geoffery-zheng){.invisilink}  
 *In Progress* 
 
 _**SIFT: Search Conjoint — Measuring Preferences and Search Costs in a Single Survey Instrument**_ [[link](https://dyavorsky.github.io/sift_paper/)]  
-Dan Yavorsky  
+Dan Yavorsky and Tinghan Zhang  
 *In Progress* 
 
 _**Learning by Design: Estimating Consumer Learning Models from a Survey Panel with Known Signals**_  
-Dan Yavorsky  
+Dan Yavorsky and Mahsa Paridar  
 *In Progress* 
 
+_**Discrete Choice Model Estimation with R**_ [[link](https://dcme-r.danyavorsky.com)]  
+Dan Yavorsky  
+*In Progress* 
 
 -----
 
@@ -93,16 +92,7 @@ _**turf**_ [[link](https://github.com/dyavorsky/turf)]
 Exhaustive bundle search made tractable with C++ and parallel computation  
 
 
------
 
-
-## Short Form
-
-**Sawtooth A&I Summit 2023** [[link](https://www.gbkcollective.com/thoughtleadership/key-learnings-sawtooth-analytics-summit)]  
-*GBK Thought Leadership Blog*
-
-**GBK Employee Spotlight** [[link](https://www.gbkcollective.com/thoughtleadership/qandadanyavorsky)]  
-*GBK Thought Leadership Blog*
 
 
 
