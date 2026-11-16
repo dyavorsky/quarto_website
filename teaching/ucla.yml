@@ -1,6 +1,6 @@
 - title: Econometrics
   description: "A broad introduction to fundamental econometric models, methods of estimation, and approaches to statistical inference. Implementation in R."
-  university: UCLA
+  program: MFE
   number: MFE 402
   logo: logos/Econometrics.png
   semester:
@@ -25,8 +25,7 @@
 
 - title: R Workshop
   description: "A 3-session introduction to the R software and environment, emphasizing the fundamental data objects and the particularities of the language before branching into topics most relevant for data analysis and statistical computing."
-  university: UCLA
-  number: MFE
+  program: MFE
   logo: logos/RWorkshop.png
   semester:
   - name: Website
@@ -36,7 +35,7 @@
     
 - title: Marketing Strategy and Policy
   description: "A solid foundation for strategic marketing thinking; an introduction to a series of frameworks and tools that may be used to solve marketing problems."
-  university: UCLA
+  program: Executive MBA
   number: EMBA 411
   logo: logos/MarketingStrategyPolicy.png
   semester:
@@ -47,21 +46,6 @@
   - name: Evals 2022.2
     url: evals/ucla_emba411_s22_2.pdf
     
-- title: Marketing Analytics
-  description: "A survey of analytic methods — and a review of the statistical methods required — to analyze survey data for consumer insights and to inform marketing strategy: A/B testing, Best-Worst Scaling, Conjoint Analysis, Segmentation, Key Drivers Analysis."
-  university: UCSD
-  number: MGTA 495
-  logo: logos/MarketingAnalytics.png
-  semester:
-  - name: Syllabus
-    url: syllabi/UCSD_MGTA495_Syllabus_2026.pdf
-  - name: Slides
-    url: https://www.dropbox.com/scl/fo/ydw8w5zi0gadwwg0sy3cg/ALgt5rwY0WZ0jnoSF6gDur4?rlkey=5uk6y9b6so4mb9zdxjiy8u5n7&st=915qsml4&dl=0
-  - name: Evals 2026
-    url: evals/ucsd_mgta495_s26.pdf
-  - name: Evals 2025
-    url: evals/ucsd_mgta495_s25.pdf
-  - name: Evals 2024
-    url: evals/ucsd_mgta495_s24.pdf
+
 
   

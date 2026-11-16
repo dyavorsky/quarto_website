@@ -1,6 +1,6 @@
 - title: Customer Analytics
   description: "Combine customer data, economic theory, and statistical modeling to improve business decision-making related to segmentation, demand estimation, pricing, branding, and customer aquisition and retention. Implementation in R. <em>Co-created with Prof. Ken Wilbur.</em>"
-  university: UCSD
+  program: Undergraduate
   number: MGT 100
   logo: logos/CustomerAnalytics.png
   semester:
@@ -39,11 +39,28 @@
   - name: KW Version
     url: https://kennethcwilbur.github.io/mgt100/
 
-  
+
+- title: Marketing Analytics
+  description: "A survey of analytic methods — and a review of the statistical methods required — to analyze survey data for consumer insights and to inform marketing strategy: A/B testing, Best-Worst Scaling, Conjoint Analysis, Segmentation, Key Drivers Analysis."
+  program: MSBA
+  number: MGTA 495
+  logo: logos/MarketingAnalytics.png
+  semester:
+  - name: Syllabus
+    url: syllabi/UCSD_MGTA495_Syllabus_2026.pdf
+  - name: Slides
+    url: https://www.dropbox.com/scl/fo/ydw8w5zi0gadwwg0sy3cg/ALgt5rwY0WZ0jnoSF6gDur4?rlkey=5uk6y9b6so4mb9zdxjiy8u5n7&st=915qsml4&dl=0
+  - name: Evals 2026
+    url: evals/ucsd_mgta495_s26.pdf
+  - name: Evals 2025
+    url: evals/ucsd_mgta495_s25.pdf
+  - name: Evals 2024
+    url: evals/ucsd_mgta495_s24.pdf
+
     
 - title: Technology for Business Analytics
   description: "Develop proficiency with popular software to execute common analytic techniques and present graphical summaries of data: Excel, Tableau, SQL, R, Python."
-  university: UCSD
+  program: Undergraduate
   number: MGT 153
   logo: logos/BusinessAnalytics.png
   semester:

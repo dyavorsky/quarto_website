@@ -1,11 +1,11 @@
 ---
 title: "Teaching"
 listing:
-  - id: grad
-    contents: grad.yml
+  - id: ucla
+    contents: ucla.yml
     template: formatting_template/listing.ejs
-  - id: undergrad
-    contents: undergrad.yml
+  - id: ucsd
+    contents: ucsd.yml
     template: formatting_template/listing.ejs
 title-block-banner: "#35444E"
 page-layout: full
@@ -15,15 +15,20 @@ toc-title: Courses
 ---
 
 
-## Graduate
+## SDSU
 
-:::{#grad}
+_Forthcoming_
+
+
+## UCSD
+
+:::{#ucsd}
 :::
 
 
-## Undergraduate
+## UCLA
 
-:::{#undergrad}
+:::{#ucla}
 :::
 
 
