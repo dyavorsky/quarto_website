@@ -13,20 +13,6 @@ listing:
     type: grid 
     sort: false
     categories: false
-  - id: booknotes
-    contents:
-      - "401-abramovich-ritov" 
-      - "451-good-habits-bad-habits"
-      - "452-how-learning-works"
-      - "453-peak"
-      - "454-stolen-focus"
-      - "455-war-of-art"
-      - "456-making-of-a-manager"
-      - "457-who-gets-what-and-why"
-      - "458-how-to-change"
-    type: grid
-    sort: false
-    categories: false
   - id: preferences
     contents:
       - "801-my-setup"
@@ -41,12 +27,6 @@ listing:
 ## Posts
 
 :::{#blogposts}
-:::
-
-
-## Book Notes
-
-:::{#booknotes}
 :::
 
 
