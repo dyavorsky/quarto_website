@@ -1,13 +1,13 @@
 ---
 title: Curriculum Vitae
 description: "Full academic CV — research, teaching, publications, and service."
-date: 2026-08-28
+date: 2026-11-16
 title-block-banner: "#35444E"
 published-title: Last updated
 body-classes: pdf-doc
 toc: false
 cv:
-  pdf: "yavorsky_dan_cv_20260828.pdf"
+  pdf: "yavorsky_dan_cv_20261116.pdf"
   label: "CV"
 ---
 
