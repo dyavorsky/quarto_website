@@ -47,25 +47,7 @@ website:
       #  target: _blank
       - text: "Links"
         icon: link-45deg
-        menu: 
-          - text: "R Programming"
-            icon: bi-r-circle # file-earmark-code
-            href: links/r.qmd
-          - text: "Python"
-            icon: filetype-py
-            href: links/python.qmd
-          - text: "Computing"
-            icon: terminal
-            href: links/compute.qmd
-          - text: "Stats"
-            icon: bar-chart
-            href: links/stats.qmd
-          - text: "Demand Estimation"
-            icon: graph-up
-            href: links/demand-estimation.qmd
-          - text: "Consumer Search"
-            icon: signpost-split
-            href: links/consumer-search.qmd
+        menu:
           - text: "Advice"
             icon: info-square
             href: links/advice.qmd

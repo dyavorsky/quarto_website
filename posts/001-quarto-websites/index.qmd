@@ -424,6 +424,8 @@ Finally, if you see something you like on someone else's website, you can usuall
  
  - In addition, the following websites (listed alphabetically by first name) offer inspiration too: [Albert Rapp](https://albert-rapp.de), [Beatriz Milz](https://beamilz.com/about), [Chris Kenny](https://christophertkenny.com/), [Ella Kaye](https://ellakaye.co.uk/), [Emil Hvitfeldt](https://emilhvitfeldt.com/), [Meghan Hall](https://meghan.rbind.io/), [Mine Dogucu](https://www.minedogucu.com/), [Sam Csik](https://samanthacsik.github.io), and [Tom Mock](https://themockup.blog/about.html).
 
+ - For even more examples, see these crowd-sourced lists of Quarto websites on [Twitter](https://x.com/NeuroKaiii/status/1644854726498963456) and [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7197152805483102208/).
+
  - Mine is [here](https://github.com/dyavorsky/quarto_website/).
 
 

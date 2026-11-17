@@ -36,15 +36,6 @@ listing:
     type: grid
     sort: false
     categories: false
-  - id: solutions
-    contents:
-      - title: Statistical Computing with R (2ed)
-        description: Maria Rizzo
-        path: https://dyavorsky.github.io/rizzo-stat-computing/
-        image: /images/rizzo-thumb.png
-    type: grid
-    sort: false
-    categories: false
 ---
 
 ## Posts
@@ -62,10 +53,4 @@ listing:
 ## My Preferences
 
 :::{#preferences}
-:::
-
-
-## Solutions
-
-:::{#solutions}
 :::
